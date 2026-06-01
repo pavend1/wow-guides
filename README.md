@@ -44,15 +44,22 @@ python scripts/wowhead/fetch_wowhead_ru.py
 
 ## Тултипы Wowhead при наведении
 
-В **`.md` в редакторе** всплывающих подсказок нет — это ограничение превью Markdown.
+| Где открываете | Тултипы |
+|----------------|---------|
+| Файлы `guides/*.md` на **github.com** (просмотр Markdown) | **Нет** — GitHub не запускает JavaScript |
+| **GitHub Pages** (`site/*.html`) | **Да** — см. ниже |
+| Локально: `python scripts/serve_guides.py --build --open` | **Да** |
+| IntelliJ: **Guides: сервер (HTML + тултипы)** | **Да** |
 
-Чтобы получить тултипы как на Icy Veins / Wowhead, соберите HTML и откройте в браузере:
+### GitHub Pages (рекомендуется для браузера)
 
-```bash
-python scripts/build_guide_site.py
-python scripts/serve_guides.py --build --open
-```
+1. Запушьте изменения в `main`.
+2. На GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. Дождитесь зелёного workflow **Deploy guides (GitHub Pages)**.
+4. Откройте сайт: `https://pavend1.github.io/wow-guides/` (не `.md` в репозитории).
 
-**IntelliJ IDEA:** Run → **Guides: сервер (HTML + тултипы)**.
+**Приватный репозиторий:** GitHub Pages на бесплатном тарифе для private repo **недоступен** (нужен GitHub Pro) — тогда только локальный сервер или сделайте репозиторий public.
+
+Тултипы идут через API `nether.wowhead.com` (без `power.js` / `wow.zamimg.com`, который часто блокируют в РФ).
 
 Подробности: [site/README.md](site/README.md).

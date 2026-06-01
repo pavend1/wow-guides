@@ -113,3 +113,31 @@ body {
 .index-list a {
   font-size: 1.1rem;
 }
+
+/* Wowhead tooltips (nether API) */
+.wh-fallback-tooltip {
+  position: fixed;
+  z-index: 100000;
+  display: none;
+  max-width: 22rem;
+  padding: 0.35rem 0.5rem;
+  background: #171717;
+  color: #f0f0f0;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.wh-fallback-tooltip table {
+  border-collapse: collapse;
+}
+
+.wh-fallback-tooltip .q0 { color: #9d9d9d; }
+.wh-fallback-tooltip .q1 { color: #fff; }
+.wh-fallback-tooltip .q2 { color: #1eff00; }
+.wh-fallback-tooltip .q3 { color: #0070dd; }
+.wh-fallback-tooltip .q4 { color: #a335ee; }
+.wh-fallback-tooltip .q5 { color: #ff8000; }
