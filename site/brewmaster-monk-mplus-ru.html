@@ -379,6 +379,23 @@ ilvl &gt; Крит &gt; Мастерство &gt; Универсальность
 <li><a href="https://www.raidbots.com/">Raidbots</a></li>
 </ul>
   </article>
-  <script src="tooltips-fallback.js"></script>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
 </body>
 </html>

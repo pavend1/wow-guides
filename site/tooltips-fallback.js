@@ -1,8 +1,12 @@
 /**
- * Fallback Wowhead tooltips (nether API + universal.css) when power.js CDN is blocked.
+ * Wowhead tooltips via nether API — only loaded when power.js is unavailable.
  */
 (function () {
   "use strict";
+
+  if (typeof window.WH !== "undefined") {
+    return;
+  }
 
   var LOCALE = 7;
   var CSS_CDN = "https://wow.zamimg.com/css/universal.css?19";
@@ -10,11 +14,6 @@
   var tipEl = null;
   var activeLink = null;
   var hideTimer = null;
-  var enabled = false;
-
-  function powerReady() {
-    return typeof window.WH !== "undefined";
-  }
 
   function parseWowheadLink(href) {
     if (!href || href.indexOf("wowhead.com") === -1) return null;
@@ -104,6 +103,7 @@
   }
 
   function showTip(link, html, ev) {
+    if (typeof window.WH !== "undefined") return;
     ensureWowheadCss();
     var el = ensureTipEl();
     el.innerHTML = html;
@@ -112,15 +112,10 @@
     positionTip(ev);
   }
 
-  function enable() {
-    if (enabled || powerReady()) return;
-    enabled = true;
-  }
-
   document.addEventListener(
     "mouseover",
     function (ev) {
-      if (!enabled || powerReady()) return;
+      if (typeof window.WH !== "undefined") return;
       var link = ev.target.closest && ev.target.closest('a[href*="wowhead.com"]');
       if (!link || link === activeLink) return;
       var parsed = parseWowheadLink(link.href);
@@ -133,7 +128,7 @@
 
       fetchTooltip(parsed.kind, parsed.id)
         .then(function (html) {
-          if (!enabled || powerReady() || !html) return;
+          if (typeof window.WH !== "undefined" || !html) return;
           var still = ev.target.closest && ev.target.closest('a[href*="wowhead.com"]');
           if (still !== link) return;
           showTip(link, html, ev);
@@ -146,7 +141,7 @@
   document.addEventListener(
     "mousemove",
     function (ev) {
-      if (!enabled || !tipEl || tipEl.style.display === "none") return;
+      if (!tipEl || tipEl.style.display === "none") return;
       var link = ev.target.closest && ev.target.closest('a[href*="wowhead.com"]');
       if (link && link === activeLink) positionTip(ev);
     },
@@ -156,7 +151,6 @@
   document.addEventListener(
     "mouseout",
     function (ev) {
-      if (!enabled) return;
       var link = ev.target.closest && ev.target.closest('a[href*="wowhead.com"]');
       if (!link || link !== activeLink) return;
       var rel = ev.relatedTarget;
@@ -165,10 +159,4 @@
     },
     true
   );
-
-  function tryEnableFallback() {
-    if (!powerReady()) enable();
-  }
-
-  window.setTimeout(tryEnableFallback, 2000);
 })();
