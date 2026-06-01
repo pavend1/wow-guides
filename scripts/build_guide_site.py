@@ -10,6 +10,7 @@ GUIDES = [
     ("guides/mplus/prot-paladin-mplus-ru.md", "Прот-паладин — M+"),
     ("guides/mplus/guardian-druid-mplus-ru.md", "Страж (медведь) — M+"),
     ("guides/mplus/brewmaster-monk-mplus-ru.md", "Пивовар — M+"),
+    ("guides/mplus/shadow-priest-mplus-ru.md", "Теневой жрец (ШП) — M+"),
     ("guides/rotation/devourer-dh-rotation-ru.md", "Пожиратель DH"),
 ]
 SITE = ROOT / "site"

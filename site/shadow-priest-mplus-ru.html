@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Теневой жрец (ШП) — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="теневой-жрец-шп-гайд-для-mythic-ключи">Теневой жрец (ШП) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/shadow-priest-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/shadow-priest-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/shadow-priest-pve-dps-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>01.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#ресурс-безумие">Ресурс «Безумие»</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-aoe-ключи">Первый пул — опенер (AoE, ключи)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-ткач-бездны-vs-архонт">Герой-талант: Ткач Бездны vs Архонт</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>ШП</strong></td><td><strong>Теневой жрец</strong> (*Shadow Priest*)</td></tr>
+<tr><td><strong>СТ:Боль</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></strong></td></tr>
+<tr><td><strong>ПВ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=34914">Прикосновение вампира</a></strong></td></tr>
+<tr><td><strong>СТ:Безумие</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=335467">Слово Тьмы: Безумие</a></strong> — трата <strong>Безумия</strong></td></tr>
+<tr><td><strong>ВР</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=8092">Взрыв разума</a></strong></td></tr>
+<tr><td><strong>ПР</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=15407">Пытка разума</a></strong> — заполнитель</td></tr>
+<tr><td><strong>СТ:Смерть</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=32379">Слово Тьмы: Смерть</a></strong></td></tr>
+<tr><td><strong>ПС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></strong></td></tr>
+<tr><td><strong>Облик Б.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=194249">Облик Бездны</a></strong></td></tr>
+<tr><td><strong>Залп Б.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1242173">Залп Бездны</a></strong> (в <strong>Облике Бездны</strong>)</td></tr>
+<tr><td><strong>Поток Б.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=263165">Поток Бездны</a></strong></td></tr>
+<tr><td><strong>Удар щуп.</strong></td><td><strong>Удар щупалиц</strong> (*Tentacle Slam*) — AoE-доты, до <strong>6</strong> целей</td></tr>
+<tr><td><strong>Безумие</strong></td><td>ресурс урона (не копите — тратьте на <strong>СТ:Безумие</strong>)</td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Держите на цели <strong><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=34914">Прикосновение вампира</a></strong> (с талантом <strong>Мучение</strong> — <strong>ПВ</strong> вешает оба дота).</p>
+<p>2. Генерируете <strong>Безумие</strong> (<strong>ВР</strong>, <strong>Поток Б.</strong>, <strong>Залп Б.</strong> и др.).</p>
+<p>3. Тратите <strong>Безумие</strong> на <strong><a href="https://www.wowhead.com/ru/spell=335467">Слово Тьмы: Безумие</a></strong> — не копите, обновляйте, когда остаётся <strong>~1 сек</strong> или вы близки к капу.</p>
+<p>4. В бурст: <strong><a href="https://www.wowhead.com/ru/spell=194249">Облик Бездны</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=120644">Сияние</a></strong> + тринкеты.</p>
+<p>5. В AoE: <strong>Удар щуп.</strong> и ручные <strong>ПВ</strong> на пак — без дотов урон в cleave сильно падает.</p>
+<h2 id="ресурс-безумие">Ресурс «Безумие»</h2>
+<table><tbody>
+<tr><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>Не копите</strong> выше ~80–90</td><td>потеря генерации и DPS</td></tr>
+<tr><td><strong>СТ:Безумие</strong> при <strong>~1 сек</strong> до падения дота или при <strong>дефиците Безумия &amp;lt; 35</strong></td><td>максимум аптайма и мастерства</td></tr>
+<tr><td>Можно <strong>обновлять СТ:Безумие раньше</strong></td><td>урон <strong>переносится</strong> на новый дот — ничего не теряется</td></tr>
+<tr><td><strong>Пандемик</strong> для <strong>СТ:Боль</strong> / <strong>ПВ</strong>: обновляйте при <strong>≤30%</strong> оставшегося времени (с <strong>Мучением</strong> порог <strong>~6,3 сек</strong>)</td><td>время <strong>добавляется</strong> к полной длительности</td></tr>
+</tbody></table>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=34914">Прикосновение вампира</a></td><td>главный дот, генерирует Безумие</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></td><td>второй дот</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=335467">Слово Тьмы: Безумие</a></td><td>трата Безумия, ключевой урон</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=8092">Взрыв разума</a></td><td>короткий КД, генератор</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1242173">Залп Бездны</a></td><td>в <strong>Облике Бездны</strong>, не теряйте КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=263165">Поток Бездны</a></td><td>открывает <strong>Энтропический разлом</strong> (Ткач Бездны)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=15407">Пытка разума</a></td><td>заполнитель — <strong>прерывайте</strong> на более важное</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=391403">Пытка разума: безумие</a></td><td>мгновенный прок</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=32379">Слово Тьмы: Смерть</a></td><td>&amp;lt;35% HP или под питомцем; для движения</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=194249">Облик Бездны</a></td><td>главный бурст, КД <strong>2 мин</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></td><td>бурст; с <strong>Близнецами солнца</strong> — отдайте союзнику</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=120644">Сияние</a></td><td>AoE-урон/хил, в бурст</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=34433">Исчадие Тьмы</a> / <a href="https://www.wowhead.com/ru/spell=200174">Подчинитель разума</a></td><td>питомец на КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47585">Слияние с Тьмой</a></td><td>иммунитет + сейв</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=586">Уход в тень</a></td><td>сброс агра, с талантом — снижение урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=15487">Безмолвие</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=8122">Ментальный крик</a></td><td>AoE-«стоп» кастов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=21562">Слово силы: Стойкость</a></td><td>бафф группы (+5% выносливости)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=232698">Облик Тьмы</a></td><td>включите <strong>до</strong> боя</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Всегда</td><td><strong>СТ:Боль</strong>, <strong>ПВ</strong></td><td>на всех целях, что живут <strong>≥18 сек</strong></td></tr>
+<tr><td>Высокий</td><td><strong>СТ:Безумие</strong></td><td>не капать Безумие, держать дот</td></tr>
+<tr><td>Высокий</td><td><strong>ВР</strong>, <strong>Залп Б.</strong></td><td>по КД, не «протухать»</td></tr>
+<tr><td>Бурст</td><td><strong>Облик Б.</strong>, <strong>ПС</strong>, <strong>Сияние</strong>, тринкеты</td><td>вместе на приоритетной цели / паке</td></tr>
+<tr><td>AoE</td><td><strong>Удар щуп.</strong></td><td>до <strong>6</strong> целей с <strong>ПВ</strong>; не капить заряды</td></tr>
+<tr><td>Заполнитель</td><td><strong>ПР</strong></td><td>только если нечего важнее; прерывайте</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-aoe-ключи">Первый пул — опенер (AoE, ключи)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=232698">Облик Тьмы</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=21562">Слово силы: Стойкость</a></strong>.</p>
+<p>1. Прекаст <strong><a href="https://www.wowhead.com/ru/spell=34914">Прикосновение вампира</a></strong> (если есть время).</p>
+<p>2. Прекаст <strong>Удар щуп.</strong> (если талант в билде).</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></strong> на приоритетную цель.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=120644">Сияние</a></strong>.</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=194249">Облик Бездны</a></strong> + тринкеты + <strong><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></strong> (+ расовые).</p>
+<p>6. <strong><a href="https://www.wowhead.com/ru/spell=335467">Слово Тьмы: Безумие</a></strong>.</p>
+<p>7. <strong><a href="https://www.wowhead.com/ru/spell=1242173">Залп Бездны</a></strong>.</p>
+<p>8. <strong><a href="https://www.wowhead.com/ru/spell=263165">Поток Бездны</a></strong>.</p>
+<p>9. <strong>Удар щуп.</strong> по сгруппированному паку (второй заряд — если <strong>≥6</strong> целей).</p>
+<p>10. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<blockquote>
+<p>Если пак <strong>&amp;gt;6</strong> целей или они разбросаны — дотайте <strong>ПВ</strong> вручную, пока танк собирает (можно <strong><a href="https://www.wowhead.com/ru/spell=586">Уход в тень</a></strong>). Не дотайте цели, которые умрут быстрее <strong>18 сек</strong>.</p>
+</blockquote>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. Есть ли цель <strong>без</strong> <strong>СТ:Боль</strong> / <strong>ПВ</strong>? → повесьте (или <strong>Удар щуп.</strong>).</p>
+<p>2. <strong>СТ:Безумие</strong> скоро спадёт или <strong>Безумие</strong> почти полное? → <strong>СТ:Безумие</strong>.</p>
+<p>3. <strong>Облик Б.</strong> / <strong>ПС</strong> / <strong>Сияние</strong> готовы и танк держит пак? → бурст.</p>
+<p>4. <strong>ВР</strong> / <strong>Залп Б.</strong> готовы? → жмите (не теряйте КД).</p>
+<p>5. Иначе → <strong>ПР</strong>, но <strong>обрывайте</strong> на пункты 1–4.</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-ткач-бездны-vs-архонт">Герой-талант: Ткач Бездны vs Архонт</h2>
+<table><tbody>
+<tr><th></th><th><strong>Ткач Бездны</strong> (*Voidweaver*)</th><th><strong>Архонт</strong> (*Archon*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — пак за паком, бурст каждые <strong>~30 сек</strong> (<strong>Энтропический разлом</strong>)</td><td>если группа <strong>склеивает</strong> пулы под ваш <strong>60-сек</strong> бурст</td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>Сияние</strong>, <strong>Поток Б.</strong>, <strong>Залп Б.</strong></td><td>больше <strong>ПР</strong>, <strong>Сияние</strong> — центр билда</td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>стабильный урон, <strong>Devour Matter</strong> на щитах</td><td>сильнее <strong>одна цель</strong></td></tr>
+<tr><td><strong>Слабости</strong></td><td>паки, которые постоянно <strong>убегают</strong> из разлома</td><td>нужна <strong>координация</strong> с танком</td></tr>
+</tbody></table>
+<p><strong>Импорт (Voidweaver, M+, Misery):</strong></p>
+<p>`CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZWmZYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYkxMzMmtxMYmBzED`</p>
+<p><strong>Импорт (Archon, M+, Misery):</strong></p>
+<p>`CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAghZxMGLzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MDzmBgMGLAYGgxMzMmtxMbLDwMYA`</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/priest/shadow">Wowhead RU — жрец, тьма</a>.</p>
+<p><strong>Частые замены в M+:</strong></p>
+<ul>
+<li><strong>Вместо Мучения</strong> — *Invoked Nightmare* (больше дотов, другой стиль).</li>
+<li>Много <strong>магического</strong> урона → <strong>Объятие Тьмы</strong> вместо *Void Leech*.</li>
+<li>Нужен контроль → *No Escape* (согласуйте с танком).</li>
+</ul>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Выше уровень предмета почти всегда лучше, даже с «не тем» статом.</p>
+<h3 id="приоритет-m-ткач-бездны-aoe">Приоритет (M+, <strong>Ткач Бездны</strong>, AoE)</h3>
+<p>1. <strong>Интеллект</strong></p>
+<p>2. <strong>Скорость</strong> — <strong>25–35%</strong> (без капа; после <strong>~30%</strong> — убывающая отдача)</p>
+<p>3. <strong>Искусность</strong> — <strong>11–14%</strong></p>
+<p>4. <strong>Критический удар</strong> — <strong>7–14%</strong></p>
+<p>5. <strong>Универсальность</strong> — <strong>1–3%</strong></p>
+<h3 id="приоритет-m-архонт-aoe">Приоритет (M+, <strong>Архонт</strong>, AoE)</h3>
+<p>1. <strong>Интеллект</strong></p>
+<p>2. <strong>Скорость</strong> — <strong>25–35%</strong></p>
+<p>3. <strong>Искусность</strong> — <strong>13–17%</strong></p>
+<p>4. <strong>Критический удар</strong> — <strong>7–14%</strong></p>
+<p>5. <strong>Универсальность</strong> — <strong>1–3%</strong></p>
+<p><strong>Искусность (*Плетение Тьмы*):</strong> чем больше ваших дотов на цели, тем сильнее заклинания. В <strong>Облике Б.</strong> считается, что на всех целях висят все три дота.</p>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td>тринкет <a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a>, оружие</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>сильный тринкет сезона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td>оружие (2h / off-hand)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>пояс, наручи, кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>тринкеты, слоты</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1986">Бремя слепых клятв</a></strong> (4 предмета для бонуса):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250051">Крылатый шлем слепых клятв</a></td></tr>
+<tr><td>Плечи</td><td><a href="https://www.wowhead.com/ru/item=250049">Наплечники серафима слепых клятв</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250054">Убранство слепых клятв</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=250050">Поножи слепых клятв</a></td></tr>
+</tbody></table>
+<p>Перчатки — <strong>офф-сет</strong> (рейд/катализатор). <strong>2/4 и 4/4 важнее</strong> «идеальных» слотов: лучше любой тир, чем ждать идеал.</p>
+<h3 id="чары-и-камни-12-0-5">Чары и камни (12.0.5)</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td>Кольца</td><td><strong>+ мастерство</strong> или <strong>+ скорость</strong> (под сим)</td></tr>
+<tr><td>Оружие</td><td><strong>+ скорость</strong> / <strong>+ мастерство</strong></td></tr>
+<tr><td>Ноги</td><td><strong>+ интеллект</strong> + вторичка</td></tr>
+<tr><td>Обувь</td><td><strong>+ скорость</strong></td></tr>
+<tr><td>Накидка</td><td><strong>+ скорость</strong></td></tr>
+<tr><td>Грудь</td><td><strong>+ все характеристики</strong></td></tr>
+<tr><td>Запястья</td><td><strong>+ мастерство</strong></td></tr>
+<tr><td>Камни</td><td><strong>+ мастерство</strong>, <strong>+ скорость</strong>, <strong>+ крит</strong> — под сим</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use / статы</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><strong>Шпили Ветрокрылых</strong></td></tr>
+<tr><td><strong>Сильный вариант</strong></td><td>тринкет из <strong>Пещер Маисара</strong></td><td>фарм по таблице лута</td></tr>
+<tr><td><strong>Пассивный</strong></td><td><a href="https://www.wowhead.com/ru/item=250257"><strong>Око зияющей Бездны</strong></a></td><td>под сим</td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong><a href="https://www.wowhead.com/ru/spell=194249">Обликом Бездны</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=10060">Приданием сил</a></strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=232698">Облик Тьмы</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=21562">Слово силы: Стойкость</a></strong></li>
+<li>[ ] Герой: <strong>Ткач Бездны</strong> (или <strong>Архонт</strong> под вашу группу)</li>
+<li>[ ] Талант <strong>Удар щуп.</strong> для M+ (AoE)</li>
+<li>[ ] Макрос <strong><a href="https://www.wowhead.com/ru/spell=15487">Безмолвия</a></strong> на `@focus` / `@mouseover`</li>
+<li>[ ] <strong>Снятие магии</strong> / <strong>Болезней</strong> под аффикс недели</li>
+<li>[ ] Фарм: <strong>Шпили Ветрокрылых</strong>, <strong>Пещеры Маисара</strong>, <strong>Академия Алгет'ар</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=15487">Безмолвие</a></td><td>прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=8122">Ментальный крик</a></td><td>AoE-«стоп» кастов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47585">Слияние с Тьмой</a></td><td>сейв от механик</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=586">Уход в тень</a></td><td>сброс агра, с <strong><a href="https://www.wowhead.com/ru/spell=108968">Фантasm</a></strong> — снижение урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=528">Рассеивание заклинаний</a></td><td>снимать <strong>магические</strong> баффы с мобов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td><td>паковое снятие (КД <strong>2 мин</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=213634">Очищение болезни</a></td><td><strong>Devour</strong> и болезни в данжах</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></td><td>с <strong>Близнецами солнца</strong> — отдайте <strong>ДК / магу / локу / эвoker / шаману</strong> на 2-мин КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=15286">Вампирическое объятие</a></td><td>экстренный хил группы (урон → лечение)</td></tr>
+</tbody></table>
+<p><strong>Макрос Безмолвия:</strong></p>
+<pre><code>
+#showtooltip Безмолвие
+
+/stopcasting
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Безмолвие
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать ШП</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><a href="https://www.wowhead.com/ru/spell=528">Рассеивание заклинаний</a> / <a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td></tr>
+<tr><td><strong>Voidbound</strong> (щиты)</td><td><strong>Ткач Бездны</strong> + *Devour Matter* — <a href="https://www.wowhead.com/ru/spell=32379">СТ:Смерть</a> по щитам</td></tr>
+<tr><td><strong>Devour</strong> (болезнь)</td><td><a href="https://www.wowhead.com/ru/spell=213634">Очищение болезни</a>, <a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td></tr>
+<tr><td><strong>Pulsar</strong></td><td>стандартная ротация + не теряйте доты при движении</td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<p><strong>Single target / приоритетная цель в M+:</strong></p>
+<p>1. <strong>СТ:Боль</strong> + <strong>ПВ</strong> (пандемик <strong>≤30%</strong> длительности).</p>
+<p>2. <strong>Сияние</strong> → <strong>Облик Б.</strong> → <strong>ПС</strong> → тринкеты.</p>
+<p>3. <strong>СТ:Смерть</strong> по щитам (*Devour Matter*) или &amp;lt;35% HP.</p>
+<p>4. <strong>СТ:Безумие</strong> (аптайм / анти-кап Безумия).</p>
+<p>5. <strong>Залп Б.</strong>, <strong>Взрыв Бездны</strong> (если <strong>СТ:Безумие</strong> на цели / разлом).</p>
+<p>6. <strong>Удар щуп.</strong> (не кап зарядов, <strong>ПВ</strong> на цели).</p>
+<p>7. <strong>Поток Б.</strong></p>
+<p>8. <strong>ВР</strong></p>
+<p>9. <strong>ПР: безумие</strong> → <strong>ПР</strong> (с прерыванием).</p>
+<p><strong>AoE (M+):</strong></p>
+<p>Держите доты на <strong>до ~12</strong> целей (<strong>6</strong> от <strong>Удар щуп.</strong> + ручные <strong>ПВ</strong>). <strong>СТ:Безумие</strong> — в <strong>приоритетную</strong> цель (больше HP / опасный моб), не размазывайте в высоких ключах без <strong>Искажённой реальности</strong>.</p>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/shadow-priest-pve-dps-mythic-plus-tips">Icy Veins — Shadow Priest M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/shadow-priest-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/priest/shadow">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/shadow-priest-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>
