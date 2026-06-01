@@ -94,6 +94,7 @@
 | [Придание сил](https://www.wowhead.com/ru/spell=10060) | бурст; с **Близнецами солнца** — отдайте союзнику |
 | [Сияние](https://www.wowhead.com/ru/spell=120644) | AoE-урон/хил, в бурст |
 | [Мощный удар щупальцем](https://www.wowhead.com/ru/spell=1227621) | AoE: **ПВ** на до **6** целей |
+| [Исчадие Тьмы](https://www.wowhead.com/ru/spell=34433) / [Подчинитель разума](https://www.wowhead.com/ru/spell=200174) | питомец на КД |
 | [Слияние с Тьмой](https://www.wowhead.com/ru/spell=47585) | иммунитет + сейв |
 | [Уход в тень](https://www.wowhead.com/ru/spell=586) | сброс агра, с талантом — снижение урона |
 | [Безмолвие](https://www.wowhead.com/ru/spell=15487) | прерывание |
