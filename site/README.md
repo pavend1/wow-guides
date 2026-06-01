@@ -6,17 +6,15 @@
 
 Нужна **HTML-версия**:
 
-- **GitHub Pages:** https://pavend1.github.io/wow-guides/ (после включения Actions в Settings → Pages)
+- **GitHub Pages:** https://pavend1.github.io/wow-guides/
 - **Локально:** `python scripts/serve_guides.py --build --open`
 
 ## Как работают тултипы
 
-Скрипт `tooltips-fallback.js` при наведении на ссылку вида  
-`https://www.wowhead.com/ru/spell=53600` запрашивает  
-`https://nether.wowhead.com/tooltip/spell/53600?locale=7`  
-и показывает HTML-тултип (как в игре, на русском).
+1. **Основной режим:** официальный виджет [Wowhead power.js](https://www.wowhead.com/tooltips) — те же всплывающие подсказки, что на Icy Veins / Wowhead.
+2. **Запасной режим:** если `wow.zamimg.com` не открывается (часто в РФ), через 2 с включается fallback: API `nether.wowhead.com` + стили Wowhead.
 
-Старый виджет `wow.zamimg.com/widgets/power.js` **не используется** — он часто не грузится из РФ и на GitHub Pages.
+Ссылки в гайдах: `https://www.wowhead.com/ru/spell=53600` — тултип на русском.
 
 ## Сборка
 
@@ -24,20 +22,15 @@
 python scripts/build_guide_site.py
 ```
 
-Файлы в `site/`: `index.html` + страница на каждый гайд.
-
 ## IntelliJ IDEA
 
-**Run → Guides: сервер (HTML + тултипы)** — сборка, http://127.0.0.1:8080/, браузер.
+**Run → Guides: сервер (HTML + тултипы)**
 
 ## GitHub Pages
 
-Workflow: `.github/workflows/pages.yml` (сборка + деплой `site/`).
-
-1. **Settings → Pages → Source: GitHub Actions**
-2. Push в `main` → Actions → **Deploy guides (GitHub Pages)**
+Workflow `.github/workflows/pages.yml` — push в `main` → деплой `site/`.
 
 ## Ограничения
 
-- Нужен интернет и доступ к `nether.wowhead.com`.
-- После правки `.md` пересоберите HTML (`build_guide_site.py` или push в `main` с workflow).
+- Нужен интернет; для power.js — доступ к `wow.zamimg.com` (VPN / [WowTool.tips](https://wowtool.tips/) в РФ).
+- После правки `.md` пересоберите HTML или сделайте push в `main`.

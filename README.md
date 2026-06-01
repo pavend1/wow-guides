@@ -58,8 +58,8 @@ python scripts/wowhead/fetch_wowhead_ru.py
 3. Дождитесь зелёного workflow **Deploy guides (GitHub Pages)**.
 4. Откройте сайт: `https://pavend1.github.io/wow-guides/` (не `.md` в репозитории).
 
-**Приватный репозиторий:** GitHub Pages на бесплатном тарифе для private repo **недоступен** (нужен GitHub Pro) — тогда только локальный сервер или сделайте репозиторий public.
+**Приватный репозиторий:** GitHub Pages на бесплатном тарифе для private repo недоступен — сделайте репозиторий **public** и включите **Settings → Pages → GitHub Actions**, затем дождитесь зелёного workflow.
 
-Тултипы идут через API `nether.wowhead.com` (без `power.js` / `wow.zamimg.com`, который часто блокируют в РФ).
+Тултипы: официальный **power.js** (как на Icy Veins). Если CDN Wowhead недоступен — запасной вариант через `nether.wowhead.com` + CSS Wowhead.
 
 Подробности: [site/README.md](site/README.md).
