@@ -1,0 +1,318 @@
+{
+  "report": "R47AwfNhdXpgD38c",
+  "player": "Анпавал",
+  "source_id": 3,
+  "spec": "Devourer DH",
+  "fight": {
+    "name": "Pit of Saron Last Run",
+    "key_level": 7,
+    "label_duration": "41:11",
+    "wcl_active_seconds": 2400,
+    "wcl_active_time": "40:00"
+  },
+  "performance": {
+    "dps": 37586.5,
+    "damage_total": "90.21m",
+    "damage_pct": "23.70%",
+    "active_pct": "75.00%",
+    "ilvl": 249,
+    "parse_percentile": 6,
+    "dps_rank_in_party": 3,
+    "party_dps_order": [
+      {
+        "name": "Orgralin",
+        "dps": 45445.5
+      },
+      {
+        "name": "Culosudao",
+        "dps": 43479.9
+      },
+      {
+        "name": "Анпавал",
+        "dps": 37586.5
+      },
+      {
+        "name": "Uholly",
+        "dps": 23607.1
+      },
+      {
+        "name": "Horandriel",
+        "dps": 8480.4
+      }
+    ]
+  },
+  "casts": [
+    {
+      "name": "Consume",
+      "pct": "39.30%",
+      "parts": [
+        "384",
+        "-",
+        "9.6",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Devour",
+      "pct": "26.51%",
+      "parts": [
+        "259",
+        "-",
+        "6.5",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Void Ray",
+      "pct": "14.53%",
+      "parts": [
+        "142",
+        "13.52%",
+        "3.6",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Collapsing Star",
+      "pct": "5.12%",
+      "parts": [
+        "50",
+        "-",
+        "1.3",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Cull",
+      "pct": "3.58%",
+      "parts": [
+        "35",
+        "1.47%",
+        "0.9",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Soul Immolation",
+      "pct": "2.76%",
+      "parts": [
+        "27",
+        "4.17%",
+        "0.7",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Reap",
+      "pct": "2.56%",
+      "parts": [
+        "25",
+        "1.05%",
+        "0.6",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Disrupt",
+      "pct": "1.74%",
+      "parts": [
+        "17",
+        "-",
+        "0.4",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Glide",
+      "pct": "1.43%",
+      "parts": [
+        "14",
+        "-",
+        "0.4",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Blur",
+      "pct": "1.23%",
+      "parts": [
+        "12",
+        "-",
+        "0.3",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Potion of Recklessness",
+      "pct": "0.41%",
+      "parts": [
+        "4",
+        "5.00%",
+        "0.1",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Void-Touched",
+      "pct": "0.20%",
+      "parts": [
+        "2",
+        "93.26%",
+        "0.1",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Darkness",
+      "pct": "0.20%",
+      "parts": [
+        "2",
+        "-",
+        "0.1",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Potent Healing Potion",
+      "pct": "0.20%",
+      "parts": [
+        "2",
+        "-",
+        "0.1",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Silvermoon Parade",
+      "pct": "0.10%",
+      "parts": [
+        "1",
+        "-",
+        "0.0",
+        "Teach Me!"
+      ]
+    },
+    {
+      "name": "Emberwing Heatwave",
+      "pct": "0.10%",
+      "parts": [
+        "1",
+        "0.63%",
+        "0.0",
+        "Teach Me!"
+      ]
+    }
+  ],
+  "damage_by_castcount_map": [
+    {
+      "name": "310",
+      "pct": "21.49%",
+      "amount": "19.39m",
+      "dps": "8,077.6",
+      "ability_guess": "unknown_310"
+    },
+    {
+      "name": "800",
+      "pct": "11.83%",
+      "amount": "10.67m",
+      "dps": "4,447.4",
+      "ability_guess": "unknown_800"
+    },
+    {
+      "name": "195",
+      "pct": "10.94%",
+      "amount": "9.86m",
+      "dps": "4,110.5",
+      "ability_guess": "unknown_195"
+    },
+    {
+      "name": "115",
+      "pct": "10.55%",
+      "amount": "9.52m",
+      "dps": "3,967.2",
+      "ability_guess": "unknown_115"
+    },
+    {
+      "name": "259",
+      "pct": "10.34%",
+      "amount": "9.33m",
+      "dps": "3,886.9",
+      "ability_guess": "Devour"
+    },
+    {
+      "name": "142",
+      "pct": "9.40%",
+      "amount": "8.48m",
+      "dps": "3,532.8",
+      "ability_guess": "Void Ray"
+    },
+    {
+      "name": "526",
+      "pct": "6.71%",
+      "amount": "6.06m",
+      "dps": "2,523.3",
+      "ability_guess": "unknown_526"
+    },
+    {
+      "name": "384",
+      "pct": "6.55%",
+      "amount": "5.91m",
+      "dps": "2,463.1",
+      "ability_guess": "Consume"
+    },
+    {
+      "name": "274",
+      "pct": "5.12%",
+      "amount": "4.62m",
+      "dps": "1,924.0",
+      "ability_guess": "unknown_274"
+    },
+    {
+      "name": "35",
+      "pct": "2.97%",
+      "amount": "2.68m",
+      "dps": "1,115.6",
+      "ability_guess": "Cull"
+    },
+    {
+      "name": "1,140",
+      "pct": "2.62%",
+      "amount": "2.36m",
+      "dps": "984.3",
+      "ability_guess": "unknown_1140"
+    },
+    {
+      "name": "50",
+      "pct": "2.51%",
+      "amount": "2.27m",
+      "dps": "945.0",
+      "ability_guess": "Collapsing Star"
+    },
+    {
+      "name": "25",
+      "pct": "1.21%",
+      "amount": "1.09m",
+      "dps": "455.3",
+      "ability_guess": "Reap"
+    },
+    {
+      "name": "111",
+      "pct": "0.03%",
+      "amount": "22.6k",
+      "dps": "9.4",
+      "ability_guess": "unknown_111"
+    }
+  ],
+  "cooldown_notes": {
+    "fight_minutes": 40,
+    "reap_casts": 25,
+    "reap_theoretical_max_8s_cd": 300,
+    "soul_immolation_casts": 27,
+    "soul_immolation_theoretical_90s_cd": 27,
+    "void_ray_casts": 142,
+    "consume_casts": 384,
+    "devour_casts": 259,
+    "collapsing_star_casts": 50,
+    "cull_casts": 35
+  }
+}

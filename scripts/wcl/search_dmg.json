@@ -1,0 +1,46 @@
+{
+  "Void Ray": {
+    "idx": 15453,
+    "ctx": "Void Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nHits\n\t\nAvg Hit\n\t\nCrit %\n\t\nUptime %\n\t\nMiss %\n\t\nDPS\n\t\n\n\n\t\nVo"
+  },
+  "Collapsing Star": {
+    "idx": 15396,
+    "ctx": "Collapsing Star\nConsume\nCull\nDevour\nEradicate\nMelee\nReap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nH"
+  },
+  "Soul Immolation": {
+    "idx": -1,
+    "ctx": null
+  },
+  "Eradicate": {
+    "idx": 15432,
+    "ctx": "Eradicate\nMelee\nReap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nHits\n\t\nAvg Hit\n\t\nCrit %\n\t\nUptime %\n\t\n"
+  },
+  "Void Metamorphosis": {
+    "idx": -1,
+    "ctx": null
+  },
+  "Devour": {
+    "idx": 15425,
+    "ctx": "Devour\nEradicate\nMelee\nReap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nHits\n\t\nAvg Hit\n\t\nCrit %\n\t\nUpti"
+  },
+  "Consume": {
+    "idx": 15412,
+    "ctx": "Consume\nCull\nDevour\nEradicate\nMelee\nReap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nHits\n\t\nAvg Hit\n\t\n"
+  },
+  "Reap": {
+    "idx": 15448,
+    "ctx": "Reap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nHits\n\t\nAvg Hit\n\t\nCrit %\n\t\nUptime %\n\t\nMiss %\n\t\nDPS\n\t\n\n"
+  },
+  "Cull": {
+    "idx": 15420,
+    "ctx": "Cull\nDevour\nEradicate\nMelee\nReap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\nAvg Cast\n\t\nHits\n\t\nAvg Hit\n\t\nCrit %\n\t"
+  },
+  "Catastrophe": {
+    "idx": 15384,
+    "ctx": "Catastrophe\nCollapsing Star\nConsume\nCull\nDevour\nEradicate\nMelee\nReap\nVoid Ray\nVoidfall Meteor\n00:00\n02:00\n04:00\n06:00\n08:00\n10:00\n12:00\n14:00\n16:00\n18:00\n20:00\n22:00\n24:00\n26:00\n28:00\n30:00\n32:00\n34:00\n36:00\n38:00\n0k\n100k\n25k\n50k\n75k\nSource Auras Filter:\nTarget Auras Filter:\nName\n\t\nAmount\n\t\nCasts\n\t\n"
+  },
+  "Total": {
+    "idx": 16381,
+    "ctx": "Total\t\n100%\n90.21m\n\t\t\t\t\t\t\t-\t37,586.5\t\nCSV\nHEY THERE.\nWe all want Warcraft Logs to remain free.\nWe work hard to offer you the best possible experience.\nHelp us by disabling your Adblock or supporting us on Patreon.\nThank you for your help and support!\nView All Subscriber Perks\nClose Ad\nHEY THERE.We a"
+  }
+}

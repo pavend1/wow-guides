@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Java (IntelliJ launcher)
+out/
+
+# IDE — личные настройки, не shared configs
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+# Секреты (Telegram и др.)
+.env
+.env.*
+*.session
+*.session-journal
+
+# ОС
+Thumbs.db
+Desktop.ini
+.DS_Store

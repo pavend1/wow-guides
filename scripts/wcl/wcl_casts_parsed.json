@@ -1,0 +1,213 @@
+{
+  "parsed_ctx": [
+    {
+      "name": "Melee",
+      "ctx": [
+        "Cast By Spell",
+        "Summons",
+        "Melee",
+        "NPCs",
+        "Pets",
+        "+",
+        "Ignore Events After Player Deaths",
+        "Ignore Events After Player Deaths"
+      ]
+    },
+    {
+      "name": "Consume",
+      "ctx": [
+        "Blur",
+        "Collapsing Star",
+        "Consume",
+        "Cull",
+        "Darkness",
+        "Devour",
+        "Disrupt",
+        "Emberwing Heatwave"
+      ]
+    },
+    {
+      "name": "Cull",
+      "ctx": [
+        "Collapsing Star",
+        "Consume",
+        "Cull",
+        "Darkness",
+        "Devour",
+        "Disrupt",
+        "Emberwing Heatwave",
+        "Glide"
+      ]
+    },
+    {
+      "name": "Devour",
+      "ctx": [
+        "Cull",
+        "Darkness",
+        "Devour",
+        "Disrupt",
+        "Emberwing Heatwave",
+        "Glide",
+        "Potent Healing Potion",
+        "Potion of Recklessness"
+      ]
+    },
+    {
+      "name": "Reap",
+      "ctx": [
+        "Potent Healing Potion",
+        "Potion of Recklessness",
+        "Reap",
+        "Silvermoon Parade",
+        "Soul Immolation",
+        "Void Ray",
+        "Void-Touched",
+        "00:00"
+      ]
+    },
+    {
+      "name": "Soul Immolation",
+      "ctx": [
+        "Reap",
+        "Silvermoon Parade",
+        "Soul Immolation",
+        "Void Ray",
+        "Void-Touched",
+        "00:00",
+        "02:00",
+        "04:00"
+      ]
+    },
+    {
+      "name": "Void Ray",
+      "ctx": [
+        "Silvermoon Parade",
+        "Soul Immolation",
+        "Void Ray",
+        "Void-Touched",
+        "00:00",
+        "02:00",
+        "04:00",
+        "06:00"
+      ]
+    },
+    {
+      "name": "Consume",
+      "ctx": [
+        "",
+        "",
+        "\tConsume",
+        "\t",
+        "39.30%",
+        "384\t-\t9.6\tTeach Me!\t",
+        "",
+        "\tDevour"
+      ]
+    },
+    {
+      "name": "Devour",
+      "ctx": [
+        "384\t-\t9.6\tTeach Me!\t",
+        "",
+        "\tDevour",
+        "\t",
+        "26.51%",
+        "259\t-\t6.5\tTeach Me!\t",
+        "",
+        "\tVoid Ray"
+      ]
+    },
+    {
+      "name": "Void Ray",
+      "ctx": [
+        "259\t-\t6.5\tTeach Me!\t",
+        "",
+        "\tVoid Ray",
+        "\t",
+        "14.53%",
+        "142\t13.52%\t3.6\tTeach Me!\t",
+        "",
+        "\tCollapsing Star"
+      ]
+    },
+    {
+      "name": "Cull",
+      "ctx": [
+        "50\t-\t1.3\tTeach Me!\t",
+        "",
+        "\tCull",
+        "\t",
+        "3.58%",
+        "35\t1.47%\t0.9\tTeach Me!\t",
+        "",
+        "\tSoul Immolation"
+      ]
+    },
+    {
+      "name": "Soul Immolation",
+      "ctx": [
+        "35\t1.47%\t0.9\tTeach Me!\t",
+        "",
+        "\tSoul Immolation",
+        "\t",
+        "2.76%",
+        "27\t4.17%\t0.7\tTeach Me!\t",
+        "",
+        "\tReap"
+      ]
+    },
+    {
+      "name": "Reap",
+      "ctx": [
+        "27\t4.17%\t0.7\tTeach Me!\t",
+        "",
+        "\tReap",
+        "\t",
+        "2.56%",
+        "25\t1.05%\t0.6\tTeach Me!\t",
+        "",
+        "\tDisrupt"
+      ]
+    }
+  ],
+  "html_rows": [],
+  "all_rows": [
+    {
+      "name": "Teach Me!",
+      "casts": 6
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 1
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 0
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 0
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 0
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 0
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 0
+    },
+    {
+      "name": "Teach Me!",
+      "casts": 0
+    }
+  ],
+  "fight": [
+    "Pit of Saron",
+    "Last Run - Level 7  (41:11) 11:47 PM"
+  ],
+  "title_snip": "Casts\n+\nAll Targets\n+\nCulosudao\n+\nAbomination\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\t\n6\n\t\n7\n\t\n8\n\t\n9\n\t\n10\n\n\n11\n\t\n12\n\t\n13\n\t\n14\n\t\n15\n\t\n16\n\t\n17\n\t\nID: 149555\n\n\nGlaciercatcher\n\n\n+\nHigh Inquisitor Whitemane\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\t\n"
+}

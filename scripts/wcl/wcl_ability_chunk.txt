@@ -1,0 +1,40 @@
+0: Done By Ability
+1: Done By Source
+2: Done To Enemy
+3: Done By Ability
+4: Augmented Damage
+5: Weighted Damage
+6: Include Overkill
+7: NPCs
+8: Pets
+9: +
+10: Ignore Events After Player Deaths
+11: Ignore Events After Player Deaths
+12: Ignore Events After A Called Wipe
+13: Filter Expression: 
+14: +
+15:  
+16: Heroism
+17: Downtime
+18: Player Deaths
+19: Player Resurrections
+20: Boss Deaths
+21: NPC Deaths
+22: Show All Entries
+23: Hide All Entries
+24:  
+25: 
+26: Error: Unable to generate a chart.
+27: 
+28: Error: Unable to fetch data.
+29: 
+30: HEY THERE.
+31: We all want Warcraft Logs to remain free.
+32: We work hard to offer you the best possible experience.
+33: Help us by disabling your Adblock or supporting us on Patreon.
+34: Thank you for your help and support!
+35: View All Subscriber Perks
+36: Close Ad
+37: HEY THERE.We all want Warcraft Logs to remain free.
+38: We work hard to offer you the best possible experience.
+39: Help us by disabling your Adblock or supporting us on Patreon.

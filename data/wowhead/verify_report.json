@@ -1,0 +1,194 @@
+[
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 184662,
+    "label": "Ревностный защитник",
+    "api": "Щит возмездия",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 182104,
+    "label": "spell=182104",
+    "api": "Яркий Свет",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 26573,
+    "label": "spell=26573",
+    "api": "Освящение",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 31935,
+    "label": "spell=31935",
+    "api": "Щит мстителя",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 31884,
+    "label": "spell=31884",
+    "api": "Гнев карателя",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 375576,
+    "label": "spell=375576",
+    "api": "Божественный благовест",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 427453,
+    "label": "spell=427453",
+    "api": "Молот Света",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 204019,
+    "label": "spell=204019",
+    "api": "Благословенный молот",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 275779,
+    "label": "spell=275779",
+    "api": "Правосудие",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 62124,
+    "label": "spell=62124",
+    "api": "Длань расплаты",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "spell",
+    "id": 204054,
+    "label": "Освящённая земля",
+    "api": "Освященная земля",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
+    "kind": "item",
+    "id": 243990,
+    "label": "Чары для нагрудника – знак души мира",
+    "api": "Чары для наплечников – милость Амирдрассила",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 5487,
+    "label": "облике медведя",
+    "api": "Облик медведя",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 6807,
+    "label": "Трепку",
+    "api": "Трепка",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 22812,
+    "label": "Дубовую кожу",
+    "api": "Дубовая кожа",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 203964,
+    "label": "галактического стража",
+    "api": "Галактический страж",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 441605,
+    "label": "spell=441605",
+    "api": "Терзание",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 204066,
+    "label": "spell=204066",
+    "api": "Лунный луч",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 1252871,
+    "label": "spell=1252871",
+    "api": "Красная луна",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 102558,
+    "label": "spell=102558",
+    "api": "Воплощение: Страж Урсока",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 319454,
+    "label": "spell=319454",
+    "api": "Зов старейшего друида",
+    "match": false
+  },
+  {
+    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "kind": "spell",
+    "id": 371982,
+    "label": "spell=371982",
+    "api": "После пожара",
+    "match": false
+  },
+  {
+    "file": "guides\\rotation\\devourer-dh-rotation-ru.md",
+    "kind": "spell",
+    "id": 461408,
+    "label": "Wowhead",
+    "api": "Поглощение",
+    "match": false
+  },
+  {
+    "file": "guides\\rotation\\devourer-dh-rotation-ru.md",
+    "kind": "spell",
+    "id": 1226019,
+    "label": "Wowhead",
+    "api": "Жатва",
+    "match": false
+  }
+]

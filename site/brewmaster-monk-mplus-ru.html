@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Пивовар — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <!-- Wowhead tooltips: https://www.wowhead.com/tooltips -->
+  <script>
+    var whTooltips = {
+      colorLinks: true,
+      iconizeLinks: false,
+      renameLinks: false
+    };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js" async></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="пивовар-гайд-для-mythic-ключи">Пивовар — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>31.05.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#раскачивание-и-пиво-простыми-словами">Раскачивание и «пиво» — простыми словами</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-aoe-ключи">Первый пул — опенер (AoE, ключи)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-aoe-m">Простое правило «что жать сейчас?» (AoE, M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-шадо-пан-vs-мастер-гармонии">Герой-талант: Шадо-Пан vs Мастер гармонии</a></li>
+<li><a href="#частые-замены-в-m">Частые замены в M+</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#главное-правило">Главное правило</a></li>
+<li><a href="#приоритет">Приоритет</a></li>
+<li><a href="#зачем-каждый-стат-в-m">Зачем каждый стат в M+</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#какие-подземелья-фармить">Какие подземелья фармить</a></li>
+<li><a href="#тир-какие-слоты-брать">Тир — какие слоты брать</a></li>
+<li><a href="#чары-и-камни-12-0-5">Чары и камни (12.0.5)</a></li>
+<li><a href="#лучшие-в-слот-для-m-ориентир">Лучшие в слот для M+ (ориентир)</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#порядок-апгрейдов">Порядок апгрейдов</a></li>
+</ul>
+<p><strong><a href="#часть-3-кулдауны-утилити-аффиксы">ЧАСТЬ 3. Кулдауны, утилити, аффиксы</a></strong></p>
+<ul>
+<li><a href="#кулдауны-в-ключах">Кулдауны в ключах</a></li>
+<li><a href="#утилити-в-ключах">Утилити в ключах</a></li>
+<li><a href="#макрос-прерывания-фокус">Макрос прерывания (фокус)</a></li>
+<li><a href="#кайт-отбегание">Кайт (отбегание)</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>УБ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=121253">Удар бочонком</a></strong> (*Keg Smash*) — урон, сокращение КД «пив», <strong>перемешивание</strong></td></tr>
+<tr><td><strong>НУ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=100784">Нокаутирующий удар</a></strong> (*Blackout Kick*) — якорь ротации, <strong>4 сек</strong> КД (не ускоряется скоростью)</td></tr>
+<tr><td><strong>ОО</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=119582">Очищающий отвар</a></strong> (*Purifying Brew*) — снимает <strong>50%</strong> отложенного урона <strong>раскачивания</strong></td></tr>
+<tr><td><strong>ПД</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=115181">Пламенное дыхание</a></strong> (*Breath of Fire*) — дот огнём, связка с сетом</td></tr>
+<tr><td><strong>УО</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=115203">Укрепляющий отвар</a></strong> (*Fortifying Brew*) — большой защитный КД</td></tr>
+<tr><td><strong>Раскачивание</strong></td><td>пассивка танка: часть урона <strong>откладывается</strong> на <strong>10 сек</strong> (до <strong>15</strong> с талантом)</td></tr>
+<tr><td><strong>Перемешивание</strong></td><td>бафф от <strong>УБ</strong> / <strong>НУ</strong> / <strong>танцующего журавля</strong>: больше урона уходит в раскачивание</td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления (<strong>1 сек</strong>, не снижается скоростью у пивовара)</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>Энергия</strong></td><td>основной ресурс (<strong>макс. 100</strong>; не копите под <strong>УБ</strong>)</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Строите ротацию вокруг <strong><a href="https://www.wowhead.com/ru/spell=100784">нокаутирующего удара</a></strong> — между двумя <strong>НУ</strong> вписываете <strong>три</strong> другие способности.</p>
+<p>2. Держите <strong><a href="https://www.wowhead.com/ru/spell=121253">удар бочонком</a></strong> по кулдауну — главный урон и сокращение КД <strong>пив</strong> и <strong>перемешивания</strong>.</p>
+<p>3. Поддерживайте <strong>перемешивание</strong> почти всегда (<strong>УБ</strong> + <strong>НУ</strong>).</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=119582">Очищающий отвар</a></strong> — не копите <strong>2 заряда</strong>; один держите на всплеск <strong>раскачивания</strong> (иконка светится).</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=115203">Укрепляющий отвар</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=132578">призыв Нюцзао</a></strong> — <strong>до</strong> смертельного удара, не после.</p>
+<h2 id="раскачивание-и-пиво-простыми-словами">Раскачивание и «пиво» — простыми словами</h2>
+<table><tbody>
+<tr><th>Что происходит</th><th>Смысл</th></tr>
+<tr><td>Удар по вам</td><td>Часть урона <strong>сразу</strong>, часть — <strong>раскачивание</strong> (тиками <strong>0,5 сек</strong> ~<strong>10 сек</strong>)</td></tr>
+<tr><td>Цвет дебаффа</td><td>Зелёный → жёлтый → <strong>красный</strong> (тяжёлое раскачивание ≈ <strong>60%+</strong> макс. HP за время тика)</td></tr>
+<tr><td><strong>ОО</strong></td><td>Мгновенно «очищает» <strong>50%</strong> <strong>ещё не нанесённого</strong> отложенного урона</td></tr>
+<tr><td><strong>Перемешивание</strong></td><td>Пока бафф активен, <strong>больше</strong> нового урона уходит в отложенную часть</td></tr>
+<tr><td><strong>Лапа тигра</strong> / <strong>УБ</strong></td><td>Каждая <strong>−1 сек</strong> КД пив; <strong>УБ</strong> ещё <strong>−3 сек</strong></td></tr>
+</tbody></table>
+<p><strong>Правило для ОО:</strong> не держите <strong>оба</strong> заряда; один — на «пик» раскачивания (иконка <strong>ОО</strong> светится), второй — когда почти готов новый заряд.</p>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=121253">Удар бочонком</a></td><td>урон, перемешивание, КД пив</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=100784">Нокаутирующий удар</a></td><td>якорь ротации (КД 4 сек)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115181">Пламенное дыхание</a></td><td>огненный дот, сет 4/4</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=325153">Взрывной бочонок</a></td><td>КД урон, сброс <strong>УБ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=100780">Лапа тигра</a></td><td>заполнитель, −КД пив</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=101546">Танцующий журавль</a></td><td>сбор паков, перемешивание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=116847">Порыв нефритового ветра</a></td><td>AoE-урон по КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=123986">Выброс ци</a></td><td>урон / хил (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=119582">Очищающий отвар</a></td><td>очистка раскачивания</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=322960">Укрепляющий отвар: решительность</a></td><td>щит / поглощение (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115203">Укрепляющий отвар</a></td><td>−20% урона, КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115399">Отвар Черного Быка</a></td><td>вне ГКД, сброс пив (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=132578">Призыв Нюцзао, Черного Быка</a></td><td>оффенс + стан (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=322101">Устранение вреда</a></td><td>хил сферами</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=122278">Смягчение удара</a></td><td>−30% удара (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=122783">Распыление магии</a></td><td>−магия (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=116705">Рука-копье</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=119381">Круговой удар ногой</a></td><td>AoE-оглушение</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115078">Паралич</a></td><td>контроль / «стоп» каста</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=116844">Круг мира</a></td><td>отброс / зона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=218164">Детоксикация</a></td><td>яд / болезнь</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115546">Вызов</a></td><td>таунт</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=109132">Кувырок</a></td><td>мобильность</td></tr>
+<tr><td>Герой: <strong>Шадо-Пан</strong> / <strong>Мастер гармонии</strong></td><td>деревья талантов 71+ (см. калькулятор <a href="https://www.wowhead.com/ru/talent-calc/monk/brewmaster">Wowhead RU</a>)</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Название</th><th>Что делает</th><th>Когда жать</th></tr>
+<tr><td><strong>Удар бочонком</strong></td><td>Урон, <strong>перемешивание</strong>, −КД пив</td><td>По КД; не оставляйте без энергии</td></tr>
+<tr><td><strong>Нокаутирующий удар</strong></td><td>Урон, <strong>перемешивание</strong></td><td>Каждые <strong>~4 сек</strong> (якорь)</td></tr>
+<tr><td><strong>Пламенное дыхание</strong></td><td>Дот, урон; с <strong>4/4</strong> сета — бонус к <strong>УБ</strong></td><td>Аптайм; в окне <strong>Нюцзао</strong> (<strong>Шадо-Пан</strong>)</td></tr>
+<tr><td><strong>Взрывной бочонок</strong></td><td>Урон, сброс <strong>УБ</strong></td><td>На пул; с <strong>порывом нефритового ветра</strong> сильнее</td></tr>
+<tr><td><strong>Лапа тигра</strong></td><td>Урон, −КД пив</td><td>Заполнитель; не жрите энергию под <strong>УБ</strong></td></tr>
+<tr><td><strong>Очищающий отвар</strong></td><td>−<strong>50%</strong> отложенного раскачивания</td><td>Пик раскачивания; не <strong>2</strong> заряда простаивают</td></tr>
+<tr><td><strong>Укрепляющий отвар: решительность</strong></td><td>Щит (если взяли)</td><td>Часто / перед спайком</td></tr>
+<tr><td><strong>Укрепляющий отвар</strong></td><td>Сильное снижение урона</td><td>«Убьют сейчас»</td></tr>
+<tr><td><strong>Призыв Нюцзао</strong></td><td>Урон, <strong>мощный топот</strong></td><td>Жирный пул (<strong>≥25 сек</strong> боя)</td></tr>
+<tr><td><strong>Устранение вреда</strong></td><td>Подбор сфер исцеления</td><td>&lt;<strong>50%</strong> HP, <strong>3+</strong> сферы</td></tr>
+<tr><td><strong>Рука-копье</strong></td><td>Прерывание</td><td>Фокус-кастер</td></tr>
+<tr><td><strong>Круговой удар ногой</strong></td><td>AoE-стан</td><td>Орбы / опасные касты</td></tr>
+<tr><td><strong>Детоксикация</strong></td><td>Снять яд/болезнь</td><td>Союзники / себя</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-aoe-ключи">Первый пул — опенер (AoE, ключи)</h2>
+<p>Подходит для <strong>Шадо-Пан</strong> и большинства M+ паков (по <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-rotation-cooldowns-abilities">Icy Veins — opener</a>).</p>
+<pre><code>
+1. (опц.) Пламенное дыхание за ~3 сек до пула — бафф «обожжённые страсти»
+
+2. Порыв нефритового ветра ×2 за 2 сек до контакта
+
+3. Выброс ци в движении к паку
+
+4. Удар бочонком в движении (+ Вызов при необходимости)
+
+5. Нокаутирующий удар
+
+6. Пламенное дыхание
+
+7. Лапа тигра
+
+8. Взрывной бочонок ИЛИ Призыв Нюцзао
+
+9. Удар бочонком
+
+10. Нокаутирующий удар
+
+11. Второй из п.8 (что не жали)
+
+12. Дальше — таблица приоритета ниже
+
+</pre>
+<p>При <strong>сборе</strong> нескольких групп можно <strong>1–2</strong> раза <strong><a href="https://www.wowhead.com/ru/spell=101546">танцующий журавль</a></strong> в движении (даёт <strong>перемешивание</strong>), затем обычный опенер.</p>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-aoe-m">Простое правило «что жать сейчас?» (AoE, M+)</h2>
+<p>Упрощённый приоритет после опенера (полный список — на Icy Veins):</p>
+<table><tbody>
+<tr><th>Приоритет</th><th>Условие</th><th>Жмите</th></tr>
+<tr><td>1</td><td><strong>Нюцзао</strong> активен (<strong>Шадо-Пан</strong>)</td><td><strong>Пламенное дыхание</strong> → <strong>Удар бочонком</strong> (сброс ПД)</td></tr>
+<tr><td>2</td><td><strong>Нюцзао</strong> / <strong>Взрывной бочонок</strong> готовы, пул <strong>≥25 сек</strong></td><td><strong>Призыв Нюцзао</strong> или <strong>Взрывной бочонок</strong></td></tr>
+<tr><td>3</td><td><strong>Нокаутирующий удар</strong> готов</td><td><strong>НУ</strong></td></tr>
+<tr><td>4</td><td><strong>Удар бочонком</strong> готов</td><td><strong>УБ</strong></td></tr>
+<tr><td>5</td><td><strong>Пламенное дыхание</strong> (дот/бафф)</td><td><strong>ПД</strong></td></tr>
+<tr><td>6</td><td><strong>ОО</strong> светится / 2-й заряд почти готов</td><td><strong>Очищающий отвар</strong></td></tr>
+<tr><td>7</td><td>Щит / <strong>решительность</strong> не на КД, не умираете</td><td><strong>Укрепляющий отвар: решительность</strong></td></tr>
+<tr><td>8</td><td><strong>&gt;80</strong> энергии, всё выше на КД</td><td><strong>Лапа тигра</strong> (оставьте энергию на <strong>УБ</strong>)</td></tr>
+<tr><td>9</td><td>Сбор мобов</td><td><strong>Танцующий журавль</strong> (не спамьте подряд)</td></tr>
+</tbody></table>
+<blockquote>
+<p><strong>Главное:</strong> всегда хватало энергии на <strong>удар бочонком</strong>. Ротация = <strong>НУ</strong> + <strong>3</strong> способности + снова <strong>НУ</strong>.</p>
+</blockquote>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-шадо-пан-vs-мастер-гармонии">Герой-талант: Шадо-Пан vs Мастер гармонии</h2>
+<table><tbody>
+<tr><th></th><th><strong>Шадо-Пан</strong></th><th><strong>Мастер гармонии</strong></th></tr>
+<tr><td>Когда</td><td><strong>Стандарт M+</strong>, паки <strong>3+</strong>, проще</td><td>Высокие ключи, <strong>приоритетная</strong> цель, коорд. пулы</td></tr>
+<tr><td>Плюс</td><td>Чаще <strong>Нюцзао</strong>, сильный AoE (<strong>тень на поле боя</strong>), проще</td><td>Сильнее <strong>НУ</strong> + <strong>лапа тигра</strong> на 1–2 цели, <strong>выброс ци</strong></td></tr>
+<tr><td>Минус</td><td>Меньше урона на <strong>1–2</strong> цели</td><td>Жёстче позиционирование (<strong>перегружающая сила</strong>)</td></tr>
+</tbody></table>
+<p><strong>Для ключей:</strong> начните с <strong>Шадо-Пан</strong> (рекомендация Icy Veins для обычного M+). <strong>Мастер гармонии</strong> — если группа делает огромные пулы на высоких ключах и вы уверены в <strong>нокаутирующем ударе</strong> + <strong>комбо нокаута</strong>.</p>
+<p>Билды: <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-mythic-plus-tips">Icy Veins — M+ таланты</a></p>
+<h3 id="частые-замены-в-m">Частые замены в M+</h3>
+<table><tbody>
+<tr><th>Талант</th><th>Когда</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=218164">Детоксикация</a></td><td><strong>Пещеры Маисара</strong>, <strong>Шпили Ветрокрылых</strong>, <strong>Академия Алгет'ар</strong>, <strong>Яма Сарона</strong></td></tr>
+<tr><td>Давление точек</td><td>Энрейджи в тех же данжах + <strong>Престол Триумвирата</strong>, <strong>Небесный Путь</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115315">Призыв статуи Черного Быка</a></td><td>Разбросанные пулы — <strong>вызов</strong> по статуе</td></tr>
+<tr><td>Без <strong>разрешения Нюцзао</strong></td><td>Высокие ключи — снова хил <strong>сферами</strong> + <strong>устранение вреда</strong></td></tr>
+<tr><td>Состояние дзен / дух покоя</td><td>Максимальная защита на <strong>+15+</strong></td></tr>
+</tbody></table>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>Уровень предметов важнее вторичных статов.</strong> Ловкость даёт урон, уклонение, <strong>% раскачивания</strong> и силу атаки.</p>
+<h3 id="приоритет">Приоритет</h3>
+<p><strong>Если умираете (деф):</strong></p>
+<pre><code>
+ilvl &gt; Крит &gt; Универсальность &gt; Мастерство &gt; Скорость
+
+</pre>
+<p><strong>Обычный / урон (ключи):</strong></p>
+<pre><code>
+ilvl &gt; Крит &gt; Мастерство &gt; Универсальность &gt; Скорость
+
+</pre>
+<p>Все вторички <strong>близки</strong> — <strong>сим</strong> на <a href="https://www.raidbots.com/">Raidbots</a> при споре. Кольца/шея/плащ без ловкости — подбирайте по таблице выше.</p>
+<h3 id="зачем-каждый-стат-в-m">Зачем каждый стат в M+</h3>
+<table><tbody>
+<tr><th>Стат</th><th>Зачем</th></tr>
+<tr><td><strong>Крит</strong></td><td>Урон; с <strong>небесной удачей</strong> — сильнее хил и щиты</td></tr>
+<tr><td><strong>Универсальность</strong></td><td>Урон + меньше получаемого</td></tr>
+<tr><td><strong>Мастерство</strong></td><td><strong>Уклонение</strong> (стаки с <strong>НУ</strong>); сила атаки</td></tr>
+<tr><td><strong>Скорость</strong></td><td>Реген <strong>энергии</strong>, чаще <strong>лапа</strong> / <strong>УБ</strong> (ГКД всё равно <strong>1 сек</strong>)</td></tr>
+<tr><td><strong>Ловкость</strong></td><td>Урон, раскачивание, уклонение</td></tr>
+</tbody></table>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<p>Названия — <a href="https://www.wowhead.com/ru">Wowhead RU</a> (зоны и «Триумфатор ключей»).</p>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a>, посох</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>Кольца, офф-хенд</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td>Тир, <a href="https://www.wowhead.com/ru/item=250256">сердце ветра</a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>Офф-сет штаны / обувь</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a> (в достижении ключа иногда <strong>Шпиль Ветрокрылых</strong>), <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1984">Путь избранника Ра-дена</a></strong> (тир монаха S1 Midnight).</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250015">Грозный лик избранника Ра-дена</a></td></tr>
+<tr><td>Плечи</td><td><a href="https://www.wowhead.com/ru/item=250013">Камни с аурой избранника Ра-дена</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250018">Боевое облачение избранника Ра-дена</a></td></tr>
+<tr><td>Руки</td><td><a href="https://www.wowhead.com/ru/item=250016">Громовые кулаки избранника Ра-дена</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=250017">Бурекрушители избранника Ра-дена</a></td></tr>
+</tbody></table>
+<p>Остальное — оружие, шея, пояс, плащ, обувь, кольца, наручи, тринкеты.</p>
+<table><tbody>
+<tr><th>Бонус</th><th>Эффект</th></tr>
+<tr><td><strong>2 предмета</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=121253">Удар бочонком</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=115181">пламенное дыхание</a></strong> +<strong>10%</strong> урона</td></tr>
+<tr><td><strong>4 предмета</strong></td><td><strong>УБ</strong> −<strong>5</strong> энергии; по цели с <strong>ПД</strong> — доп. огненный урон</td></tr>
+</tbody></table>
+<p>Ротацию <strong>почти не меняет</strong> — держите <strong>пламенное дыхание</strong> на целях (талант <strong>сила Сал'салабима</strong>).</p>
+<hr>
+<h3 id="чары-и-камни-12-0-5">Чары и камни (12.0.5)</h3>
+<p>Источник: <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gems-enchants-consumables">Icy Veins — enchants</a>. Чаще <strong>крит + универсальность</strong>.</p>
+<table><tbody>
+<tr><th>Слот</th><th>Чара (Wowhead RU)</th><th>Зачем</th></tr>
+<tr><td><strong>Голова</strong></td><td><a href="https://www.wowhead.com/ru/item=243981">Чары для шлема – усиленное благословение скорости</a></td><td>Скорость</td></tr>
+<tr><td><strong>Плечи</strong></td><td>стремительность Акил'зона (Delve)</td><td>Скорость</td></tr>
+<tr><td><strong>Грудь</strong></td><td><a href="https://www.wowhead.com/ru/item=244002">Чары для нагрудника – метка магистра</a></td><td>Основная характеристика</td></tr>
+<tr><td><strong>Ноги</strong></td><td>охота далоранского следопыта</td><td>Скорость</td></tr>
+<tr><td><strong>Обувь</strong></td><td>охота далоранского следопыта</td><td>Скорость</td></tr>
+<tr><td><strong>Кольца</strong> (оба)</td><td>проворство Луносвета</td><td>Скорость</td></tr>
+<tr><td><strong>Оружие</strong></td><td><a href="https://www.wowhead.com/ru/item=223781">Чары для оружия – власть сияющей силы</a></td><td>Сила (прок)</td></tr>
+</tbody></table>
+<p><strong>Сокеты:</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a> в первый; остальные — <strong>безупречный хризолит универсальности</strong> или <strong>искусности</strong> (по симу).</p>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th></tr>
+<tr><td>Настой</td><td>настой рыцарей Крови / актуальный на Wowhead RU</td></tr>
+<tr><td>Боевое зелье</td><td>отвар безудержного забвения</td></tr>
+<tr><td>Хил-зелье</td><td><a href="https://www.wowhead.com/ru/search?q=%D0%97%D0%B5%D0%BB%D1%8C%D0%B5%20%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D1%8F%20%D0%9B%D1%83%D0%BD%D0%BE%D1%81%D0%B2%D0%B5%D1%82%D0%B0">Зелье здоровья Луносвета</a></td></tr>
+<tr><td>Еда</td><td><strong>серебряный парад</strong> / стамина + статы</td></tr>
+<tr><td>Руна</td><td>руна, коснутаяся Пустотой</td></tr>
+</tbody></table>
+<hr>
+<h3 id="лучшие-в-слот-для-m-ориентир">Лучшие в слот для M+ (ориентир)</h3>
+<p>Сверяй ID на <a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot">Icy Veins — gear</a> и Wowhead RU.</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td>Оружие</td><td>посох сезона / <a href="https://www.wowhead.com/ru/item=251162">Коготь предателя</a></td><td><a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a> / крафт</td></tr>
+<tr><td>Тринкет (активный)</td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a></td><td><a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a></td></tr>
+<tr><td>Тринкет (пассив)</td><td><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a>, <a href="https://www.wowhead.com/ru/item=249343">Взор ясновидца Альн</a></td><td>M+ / рейд</td></tr>
+<tr><td>Кольца</td><td><a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a></td><td>M+</td></tr>
+<tr><td>Штаны (офф-сет)</td><td>из <a href="https://www.wowhead.com/ru/zone=8910">Престола Триумвирата</a></td><td>M+</td></tr>
+</tbody></table>
+<h3 id="тринкеты">Тринкеты</h3>
+<table><tbody>
+<tr><th>Тир</th><th>Варианты</th></tr>
+<tr><td><strong>S</strong></td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a>, <a href="https://www.wowhead.com/ru/item=249343">Взор ясновидца Альн</a></td></tr>
+<tr><td><strong>A</strong></td><td><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a>, <a href="https://www.wowhead.com/ru/item=260235">Темное перо</a>, <a href="https://www.wowhead.com/ru/item=249807">Вечное яйцо</a></td></tr>
+<tr><td><strong>Def</strong></td><td><a href="https://www.wowhead.com/ru/item=252421">Гнилой сгусток</a></td></tr>
+</tbody></table>
+<h3 id="порядок-апгрейдов">Порядок апгрейдов</h3>
+<pre><code>
+Оружие → тринкеты → тир (голова / грудь / ноги) → остальное
+
+</pre>
+<p><strong><a href="https://www.wowhead.com/ru/currency=3513">Туманный сердечник Бездны</a></strong> (бонус-ролл): оружие → тринкеты → остальной BiS.</p>
+<hr>
+<h1 id="часть-3-кулдауны-утилити-аффиксы">ЧАСТЬ 3. Кулдауны, утилити, аффиксы</h1>
+<h2 id="кулдауны-в-ключах">Кулдауны в ключах</h2>
+<table><tbody>
+<tr><th>КД</th><th>Когда</th></tr>
+<tr><td><strong>Очищающий отвар</strong></td><td>Пик <strong>раскачивания</strong>; не <strong>2</strong> заряда простаивают</td></tr>
+<tr><td><strong>Укрепляющий отвар: решительность</strong></td><td>Часто / перед спайком (если взяли)</td></tr>
+<tr><td><strong>Укрепляющий отвар</strong></td><td>Смертельная механика</td></tr>
+<tr><td><strong>Призыв Нюцзао</strong></td><td>Жирный пул (<strong>≥25 сек</strong> боя); внутри — <strong>ПД</strong> + <strong>УБ</strong></td></tr>
+<tr><td><strong>Взрывной бочонок</strong></td><td>С <strong>порывом нефритового ветра</strong>; сброс <strong>УБ</strong></td></tr>
+<tr><td><strong>Смягчение удара</strong> / <strong>Распыление магии</strong></td><td>Физ. / маг. спайк (таланты)</td></tr>
+<tr><td><strong>Устранение вреда</strong></td><td><strong>3+</strong> сферы, низкое HP</td></tr>
+</tbody></table>
+<p><strong>Не складывайте</strong> все защиты на один тик без нужды.</p>
+<hr>
+<h2 id="утилити-в-ключах">Утилити в ключах</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Зачем</th></tr>
+<tr><td><strong>Рука-копье</strong></td><td>Прерывание (макрос на фокус)</td></tr>
+<tr><td><strong>Круговой удар ногой</strong></td><td>AoE-стан (<strong>Вознесённые</strong>)</td></tr>
+<tr><td><strong>Паралич</strong></td><td>«Стоп» перед пулом / экстра-киск</td></tr>
+<tr><td><strong>Круг мира</strong></td><td>Отброс, срыв каста, фиксация</td></tr>
+<tr><td><strong>Детоксикация</strong></td><td>Яды / болезни</td></tr>
+<tr><td><strong>Вызов</strong></td><td>Таунт</td></tr>
+<tr><td><strong>Призыв статуи</strong> + <strong>Вызов</strong></td><td>Агро на разбросанный пак</td></tr>
+<tr><td><strong>Кувырок</strong></td><td>Кайт / додж</td></tr>
+</tbody></table>
+<h3 id="макрос-прерывания-фокус">Макрос прерывания (фокус)</h3>
+<pre><code>
+#showtooltip Рука-копье
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Рука-копье
+
+</pre>
+<hr>
+<h2 id="кайт-отбегание">Кайт (отбегание)</h2>
+<p>Пивовар <strong>быстрый</strong>: <strong>кувырок</strong>, <strong>удар летящего змея</strong>, пассивная скорость группы. Если агро потерян — не паникуйте: <strong>вызов</strong>, <strong>круг мира</strong>, <strong>паралич</strong>, <strong>Нюцзао</strong> (топот). На высоких ключах кайт — нормальная часть выживания.</p>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать</th></tr>
+<tr><td><strong>Вознесённые</strong></td><td><strong>Круговой удар ногой</strong>, <strong>круг мира</strong> по орбам</td></tr>
+<tr><td><strong>Связанные с Пустотой</strong></td><td>Убить эмиссария — бурст</td></tr>
+<tr><td><strong>Пульсар</strong></td><td>Собирать орбы; не теряйте <strong>перемешивание</strong> в беге</td></tr>
+<tr><td><strong>Пожирание</strong></td><td><strong>Детоксикация</strong> на союзниках</td></tr>
+</tbody></table>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] Герой: <strong>Шадо-Пан</strong> (стандарт) или <strong>Мастер гармонии</strong> (высокие ключи)</li>
+<li>[ ] <strong>Удар бочонком</strong> по КД; ротация через <strong>нокаутирующий удар</strong></li>
+<li>[ ] <strong>Перемешивание</strong> + <strong>очищающий отвар</strong> на пиках</li>
+<li>[ ] <strong>Призыв Нюцзао</strong> / <strong>взрывной бочонок</strong> на жирные пулы</li>
+<li>[ ] <strong>Детоксикация</strong> / давление точек — по данжу</li>
+<li>[ ] Фарм: <strong>Академия Алгет'ар</strong>, <strong>Шпили Ветрокрылых</strong>, <strong>Узел Нексуса Зенас</strong></li>
+</ul>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-guide">Icy Veins — полный гайд</a></li>
+<li><a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-mythic-plus-tips">Icy Veins — M+ советы</a></li>
+<li><a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents">Icy Veins — таланты</a></li>
+<li><a href="https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spell-summary">Icy Veins — способности</a></li>
+<li><a href="https://www.raidbots.com/">Raidbots</a></li>
+</ul>
+  </article>
+</body>
+</html>

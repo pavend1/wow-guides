@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страж (медведь) — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <!-- Wowhead tooltips: https://www.wowhead.com/tooltips -->
+  <script>
+    var whTooltips = {
+      colorLinks: true,
+      iconizeLinks: false,
+      renameLinks: false
+    };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js" async></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="страж-медведь-гайд-для-mythic-ключи">Страж (медведь) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>31.05.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#ярость-откуда-и-куда">Ярость — откуда и куда</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-aoe-ключи">Первый пул — опенер (AoE, ключи)</a></li>
+<li><a href="#после-опенера">После опенера</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-aoe-m">Простое правило «что жать сейчас?» (AoE, M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-друид-когтя-vs-избранник-элуны">Герой-талант: Друид Когтя vs Избранник Элуны</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#главное-правило">Главное правило</a></li>
+<li><a href="#приоритет">Приоритет</a></li>
+<li><a href="#зачем-каждый-стат-в-m">Зачем каждый стат в M+</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#какие-подземелья-фармить">Какие подземелья фармить</a></li>
+<li><a href="#тир-какие-слоты-брать">Тир — какие слоты брать</a></li>
+<li><a href="#чары-и-камни-12-0-5">Чары и камни (12.0.5)</a></li>
+<li><a href="#лучшие-в-слот-для-m-ориентир">Лучшие в слот для M+ (ориентир)</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#порядок-апгрейдов">Порядок апгрейдов</a></li>
+</ul>
+<p><strong><a href="#часть-3-кулдауны-утилити-аффиксы">ЧАСТЬ 3. Кулдауны, утилити, аффиксы</a></strong></p>
+<ul>
+<li><a href="#кулдауны-в-ключах">Кулдауны в ключах</a></li>
+<li><a href="#механика-apex-дикий-страж">Механика Apex — Дикий страж</a></li>
+<li><a href="#утилити-в-ключах">Утилити в ключах</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>ЖМ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=192081">Железный мех</a></strong> (*Ironfur*) — активная броня, стаки</td></tr>
+<tr><td><strong>НВ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=22842">Неистовое восстановление</a></strong> (*Frenzied Regeneration*)</td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>Ярость</strong></td><td>основной ресурс медведя (макс. <strong>100</strong>, вне боя быстро падает)</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. В <strong><a href="https://www.wowhead.com/ru/spell=5487">облике медведя</a></strong> генерируете <strong>ярость</strong> (<a href="https://www.wowhead.com/ru/spell=33917">Увечье</a>, <a href="https://www.wowhead.com/ru/spell=77758">Взбучка</a>, автоатаки).</p>
+<p>2. Тратите ярость на <strong><a href="https://www.wowhead.com/ru/spell=192081">железный мех</a></strong> — держите <strong>1+ стак</strong> почти всегда под физ. уроном.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=77758">Взбучку</a></strong> жмите по кулдауну — урон, кровотечение, ярость.</p>
+<p>4. Лишнюю ярость — в <strong><a href="https://www.wowhead.com/ru/spell=400254">Смести</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=6807">Трепку</a></strong> (урон) или <strong>железный мех</strong> (защита).</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=22812">Дубовую кожу</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=61336">инстинкты выживания</a></strong> — <strong>до</strong> смертельного удара, не после.</p>
+<h2 id="ярость-откуда-и-куда">Ярость — откуда и куда</h2>
+<table><tbody>
+<tr><th>Откуда</th><th>Сколько (ориентир)</th></tr>
+<tr><td>Вход в <strong>облик медведя</strong></td><td><strong>+25</strong> (при выходе ярость обнуляется)</td></tr>
+<tr><td>Автоатака</td><td><strong>+4</strong></td></tr>
+<tr><td>Удар по вам (раз в сек.)</td><td><strong>+3</strong></td></tr>
+<tr><td><strong><a href="https://www.wowhead.com/ru/spell=33917">Увечье</a></strong></td><td><strong>+10</strong> (+ бонусы талантов / прок <strong>разорванной шкуры</strong>)</td></tr>
+<tr><td><strong><a href="https://www.wowhead.com/ru/spell=77758">Взбучка</a></strong></td><td><strong>+5</strong> (+ тики кровотечения с <strong>кровавой жаждой</strong>)</td></tr>
+<tr><td>Прок <strong><a href="https://www.wowhead.com/ru/spell=203964">галактического удара</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=164812">лунный огонь</a></strong></td><td><strong>+8</strong></td></tr>
+</tbody></table>
+<table><tbody>
+<tr><th>Куда тратить</th><th>Стоимость</th><th>Зачем</th></tr>
+<tr><td><strong><a href="https://www.wowhead.com/ru/spell=192081">Железный мех</a></strong></td><td><strong>40</strong> ярости</td><td>Броня ≈ <strong>112%</strong> ловкости на <strong>7 сек</strong>; стаки <strong>суммируются</strong>, время — нет</td></tr>
+<tr><td><strong><a href="https://www.wowhead.com/ru/spell=22842">Неистовое восстановление</a></strong></td><td><strong>—</strong> (КД)</td><td>Хил ~<strong>20%</strong> макс. HP</td></tr>
+<tr><td><strong><a href="https://www.wowhead.com/ru/spell=400254">Смести</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=6807">Трепка</a></strong></td><td><strong>40+</strong></td><td>Слив ярости в урон (часто при <strong>&gt;80</strong> ярости с талантом <strong>обузданная ярость</strong>)</td></tr>
+</tbody></table>
+<p><strong>Не капайте ярость</strong> — лишнее лучше в урон, если <strong>железный мех</strong> уже достаточно.</p>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность (Wowhead RU)</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5487">Облик медведя</a></td><td>танк-форма</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=192081">Железный мех</a></td><td>активная броня</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=77758">Взбучка</a></td><td>AoE + кровотечение</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=33917">Увечье</a></td><td>генератор ярости</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=400254">Смести</a></td><td>слив ярости (урон)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=441605">Терзание</a></td><td>удар (Друид Когтя)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6807">Трепка</a></td><td>слив ярости</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=164812">Лунный огонь</a></td><td>дот</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=204066">Лунный луч</a></td><td>КД (Избранник Элуны)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1252871">Красная луна</a></td><td>дот (Друид Когтя)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=22812">Дубовая кожа</a></td><td>−20% урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=61336">Инстинкты выживания</a></td><td>−50% урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=102558">Воплощение: Страж Урсока</a></td><td>оффенс + защита</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=319454">Зов старейшего друида</a></td><td>гибридный КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=371982">После пожара</a></td><td>утилити</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=203964">Галактический удар</a></td><td>прок под <a href="https://www.wowhead.com/ru/spell=164812">лунный огонь</a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=155835">Колючий мех</a></td><td>генерация ярости</td></tr>
+<tr><td>Герой: <strong>Друид Когтя</strong> / <strong>Избранник Элуны</strong></td><td>деревья талантов 71+</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Название</th><th>Что делает</th><th>Когда жать</th></tr>
+<tr><td><strong>Взбучка</strong></td><td>AoE-урон, кровотечение (до <strong>3</strong> стаков), ярость</td><td>По КД, аптайм на паке</td></tr>
+<tr><td><strong>Увечье</strong></td><td>Урон, много ярости, прок <strong>разорванной шкуры</strong></td><td>По КД</td></tr>
+<tr><td><strong>Железный мех</strong></td><td>Главная защита, стаки брони</td><td>Под физ. урон; <strong>2–3</strong> стака перед тяжёлым ударом</td></tr>
+<tr><td><strong>Смести</strong></td><td>AoE-слив ярости (урон)</td><td>При <strong>&gt;80</strong> ярости, если защита в порядке</td></tr>
+<tr><td><strong>Терзание</strong></td><td>Сильный удар (<strong>Друид Когтя</strong>, прок)</td><td>По проку вместо <strong>трепки</strong> / <strong>смести</strong></td></tr>
+<tr><td><strong>Лунный луч</strong></td><td>Большой КД (<strong>Избранник Элуны</strong>)</td><td>Каждый жирный пул</td></tr>
+<tr><td><strong>Красная луна</strong></td><td>Дот, аптайм (<strong>Друид Когтя</strong>, сингл)</td><td>По КД на боссе</td></tr>
+<tr><td><strong>Лунный огонь</strong></td><td>Дот, проки (<strong>Избранник Элуны</strong>)</td><td>Аптайм; в AoE — <strong>двойной лунный огонь</strong></td></tr>
+<tr><td><strong>Размах</strong></td><td>Заполнитель без ярости</td><td>Если всё на КД</td></tr>
+<tr><td><strong>Дубовая кожа</strong></td><td>−<strong>20%</strong> урона, <strong>8 сек</strong></td><td>Часто, сглаживание</td></tr>
+<tr><td><strong>Неистовое восстановление</strong></td><td>Хил</td><td>&lt;<strong>50%</strong> HP или после спайка</td></tr>
+<tr><td><strong>Инстинкты выживания</strong></td><td>−<strong>50%</strong> урона, <strong>6 сек</strong></td><td>«Убьют сейчас»</td></tr>
+<tr><td><strong>Воплощение: Страж Урсока</strong></td><td>Оффенс + защита, <strong>Увечье</strong> бьёт <strong>3</strong> цели</td><td>Почти каждый серьёзный пул</td></tr>
+<tr><td><strong>Рык</strong></td><td>Таунт</td><td>Потеря агра</td></tr>
+<tr><td><strong>Лобовая атака</strong></td><td>Прерывание</td><td>По фокусу кастера</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-aoe-ключи">Первый пул — опенер (AoE, ключи)</h2>
+<p>Подходит для <strong>Избранника Элуны</strong> и большинства паков.</p>
+<pre><code>
+1. Взбучка
+
+2. Увечье
+
+3. Лунный луч (если взяли)
+
+4. Воплощение: Страж Урсока
+
+5. Увечье
+
+6. Железный мех (если &lt;2 стаков)
+
+7. Лунный огонь на недоточных
+
+8. Смести при высокой ярости
+
+9. Увечье / Взбучка по КД
+
+10. Железный мех по мере ярости
+
+</pre>
+<p><strong>Друид Когтя:</strong> на одной цели добавьте <strong><a href="https://www.wowhead.com/ru/spell=1252871">красную луну</a></strong> по КД; раз в <strong>~2 мин</strong> — <strong><a href="https://www.wowhead.com/ru/spell=319454">зов старейшего друида</a></strong> в <strong>облике кошки</strong> (урон), если пул безопасен.</p>
+<h3 id="после-опенера">После опенера</h3>
+<p>Смотрите <strong>таблицу приоритета</strong> (Часть 2). Главное: <strong>взбучка</strong> по КД, <strong>железный мех</strong> не просаживать, <strong>ярость</strong> не капать.</p>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-aoe-m">Простое правило «что жать сейчас?» (AoE, M+)</h2>
+<p>Сверху вниз — первое подходящее:</p>
+<table><tbody>
+<tr><th>Приоритет</th><th>Условие</th><th>Жмите</th></tr>
+<tr><td>1</td><td><strong>Взбучка</strong> готова</td><td><strong>Взбучка</strong></td></tr>
+<tr><td>2</td><td><strong>Увечье</strong> готово</td><td><strong>Увечье</strong></td></tr>
+<tr><td>3</td><td><strong>Лунный луч</strong> готов (<strong>Избранник Элуны</strong>)</td><td><strong>Лунный луч</strong></td></tr>
+<tr><td>4</td><td><strong>Воплощение</strong> готово, жирный пул</td><td><strong>Воплощение: Страж Урсока</strong></td></tr>
+<tr><td>5</td><td>Прок <strong>терзания</strong></td><td><strong>Терзание</strong></td></tr>
+<tr><td>6</td><td><strong>&gt;80</strong> ярости, защита ок</td><td><strong>Смести</strong></td></tr>
+<tr><td>7</td><td><strong>&lt;2</strong> стака <strong>железного меха</strong>, физ. урон</td><td><strong>Железный мех</strong></td></tr>
+<tr><td>8</td><td><strong>Красная луна</strong> готова (<strong>Друид Когтя</strong>, босс)</td><td><strong>Красная луна</strong></td></tr>
+<tr><td>9</td><td>Нет <strong>лунного огня</strong> на целях</td><td><strong>Лунный огонь</strong></td></tr>
+<tr><td>10</td><td>Нечего выше</td><td><strong>Размах</strong></td></tr>
+</tbody></table>
+<blockquote>
+<p>На <strong>одной цели</strong> (<strong>Друид Когтя</strong>): <strong>красная луна</strong> и аптайм важнее <strong>размаха</strong>; в AoE берите талант <strong>двойной лунный огонь</strong> вместо <strong>красной луны</strong>.</p>
+</blockquote>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-друид-когтя-vs-избранник-элуны">Герой-талант: Друид Когтя vs Избранник Элуны</h2>
+<table><tbody>
+<tr><th></th><th><strong>Друид Когтя</strong></th><th><strong>Избранник Элуны</strong></th></tr>
+<tr><td>Когда</td><td>Меньшие паки, сильный босс, выше сингл-DPS</td><td>Большие пулы, проще старт</td></tr>
+<tr><td>Плюс</td><td><strong><a href="https://www.wowhead.com/ru/spell=441605">Терзание</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=1252871">красная луна</a></strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=204066">Лунный луч</a></strong> часто, сильный AoE, самохил</td></tr>
+<tr><td>Цикл</td><td>Физ. урон + проки</td><td><strong>Взбучка</strong> становится арканой (<strong>лунный зов</strong>), <strong>лунный огонь</strong> разлетается</td></tr>
+</tbody></table>
+<p><strong>Для ключей:</strong> оба варианта валидны. <strong>Избранник Элуны</strong> — проще и сильнее на <strong>больших</strong> пулах. <strong>Друид Когтя</strong> — если нужен урон на боссе и паки <strong>3–5</strong> мобов.</p>
+<p><strong>Ripweaving (Друид Когтя):</strong> после <strong>6</strong> <a href="https://www.wowhead.com/ru/spell=33917">увечий</a> с талантом <strong>прилив дикой силы</strong> — короткий заход в кошку (<strong>разрыв</strong>), безопаснее старого catweave. <strong>Catweave только ради DPS в Midnight — проигрыш</strong>, кроме <strong>зова старейшего друида</strong> раз в <strong>2 мин</strong>.</p>
+<p>Билды: <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-mythic-plus-tips">Icy Veins — M+ таланты</a></p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>Уровень предметов важнее вторичных статов.</strong> Ловкость, выносливость и броня с ilvl — основа. Разница <strong>10+ ilvl</strong> — почти всегда апгрейд.</p>
+<h3 id="приоритет">Приоритет</h3>
+<p><strong>Если умираете (деф):</strong></p>
+<pre><code>
+ilvl &gt; Скорость &gt; Универсальность &gt; Мастерство &gt; Крит
+
+</pre>
+<p><strong>Обычный / оффенс (ключи):</strong></p>
+<pre><code>
+ilvl &gt; Скорость &gt; Универсальность &gt; Крит &gt; Мастерство
+
+</pre>
+<p>Все вторички <strong>близки по силе</strong> — не гонитесь за идеальным процентом; <strong>сим</strong> на <a href="https://www.raidbots.com/">Raidbots</a> при споре.</p>
+<h3 id="зачем-каждый-стат-в-m">Зачем каждый стат в M+</h3>
+<table><tbody>
+<tr><th>Стат</th><th>Зачем</th></tr>
+<tr><td><strong>Скорость</strong></td><td>Больше <strong>увечий</strong> и <strong>взбучки</strong>, быстрее тики кровотечений, короче ГКД</td></tr>
+<tr><td><strong>Универсальность</strong></td><td>И урон, и меньше получаемого урона — «приятный» стат</td></tr>
+<tr><td><strong>Крит</strong></td><td>Урон + уклонение</td></tr>
+<tr><td><strong>Мастерство</strong></td><td>Больше макс. HP и лечения получаемого (<strong>природа: страж</strong>)</td></tr>
+<tr><td><strong>Ловкость</strong></td><td>Урон, броня от <strong>железного меха</strong>, уклонение</td></tr>
+</tbody></table>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<p>Названия — <a href="https://www.wowhead.com/ru">Wowhead RU</a> (зоны и «Триумфатор ключей»).</p>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a> (тринкет по кнопке)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>Кольца (<strong>затенение Бездной</strong>, <strong>отсутствие Света</strong> и др.)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td>Слоты <strong>тира</strong>, тринкеты (<a href="https://www.wowhead.com/ru/item=250256"><strong>сердце ветра</strong></a> и др.)</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a> (в достижении ключа иногда <strong>Шпиль Ветрокрылых</strong>), <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1980">Побеги цветочного сияния</a></strong> (тир друида S1 Midnight).</p>
+<p>У медведя <strong>гибко по статам</strong> — важнее <strong>4 предмета</strong> сета, чем идеальные вторички в слоте.</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250024">Ветви цветочного сияния</a></td></tr>
+<tr><td>Плечи</td><td><a href="https://www.wowhead.com/ru/item=250022">Стручки цветочного сияния</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250027">Ствол цветочного сияния</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=250023">Лубяные обмотки цветочного сияния</a></td></tr>
+<tr><td>Руки</td><td><a href="https://www.wowhead.com/ru/item=250025">Рукавицы цветочного сияния</a></td></tr>
+</tbody></table>
+<p>Остальное — оружие, шея, пояс, плащ, обувь, кольца, наручи, тринкеты (см. ниже).</p>
+<table><tbody>
+<tr><th>Бонус</th><th>Эффект</th></tr>
+<tr><td><strong>2 предмета</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=400254">Смести</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=6807">трепка</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=441605">терзание</a></strong> +<strong>10%</strong> урона; <strong><a href="https://www.wowhead.com/ru/spell=164812">лунный огонь</a></strong> +<strong>10%</strong></td></tr>
+<tr><td><strong>4 предмета</strong></td><td>Прок: следующий <strong>смести</strong> / <strong>трепка</strong> / <strong>терзание</strong> может <strong>повториться</strong> (часто после тика <strong>лунного огня</strong>)</td></tr>
+</tbody></table>
+<p>На ротацию влияет слабо — пассивный урон. С <strong>Друидом Когтя</strong> старайтесь прокать на <strong>терзание</strong>.</p>
+<hr>
+<h3 id="чары-и-камни-12-0-5">Чары и камни (12.0.5)</h3>
+<p>Источник: <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-gems-enchants-consumables">Icy Veins — enchants</a>. У медведя чаще <strong>скорость + универсальность</strong>.</p>
+<table><tbody>
+<tr><th>Слот</th><th>Чара (ориентир Wowhead RU)</th><th>Зачем</th></tr>
+<tr><td><strong>Голова</strong></td><td><a href="https://www.wowhead.com/ru/item=243981">Чары для шлема – усиленное благословение скорости</a></td><td>Скорость</td></tr>
+<tr><td><strong>Плечи</strong></td><td>стремительность Акил'зона (Delve)</td><td>Скорость</td></tr>
+<tr><td><strong>Грудь</strong></td><td><a href="https://www.wowhead.com/ru/item=244002">Чары для нагрудника – метка магистра</a></td><td>Основная характеристика</td></tr>
+<tr><td><strong>Ноги</strong></td><td>охота далоранского следопыта / доспехи рыцаря Крови</td><td>Скорость</td></tr>
+<tr><td><strong>Обувь</strong></td><td>охота далоранского следопыта</td><td>Скорость</td></tr>
+<tr><td><strong>Кольца</strong> (оба)</td><td><strong>проворство Луносвета</strong> (не стойкость паладина)</td><td>Скорость</td></tr>
+<tr><td><strong>Оружие</strong></td><td><strong>ярость берсерка</strong> / талассийское масло феникса</td><td>Урон</td></tr>
+</tbody></table>
+<p><strong>Сокеты:</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a> в первый; остальные — <strong>безупречный хризолит универсальности</strong> (Icy Veins для медведя).</p>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th></tr>
+<tr><td>Настой</td><td>настой рыцарей Крови</td></tr>
+<tr><td>Боевое зелье</td><td>отвар безудержного забвения</td></tr>
+<tr><td>Хил-зелье</td><td><a href="https://www.wowhead.com/ru/search?q=%D0%97%D0%B5%D0%BB%D1%8C%D0%B5%20%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D1%8F%20%D0%9B%D1%83%D0%BD%D0%BE%D1%81%D0%B2%D0%B5%D1%82%D0%B0">Зелье здоровья Луносвета</a></td></tr>
+<tr><td>Еда</td><td><strong>серебряный парад</strong> / <strong>празднование Харандар</strong> (стамина + статы)</td></tr>
+<tr><td>Руна</td><td>руна, коснутаяся Пустотой</td></tr>
+</tbody></table>
+<hr>
+<h3 id="лучшие-в-слот-для-m-ориентир">Лучшие в слот для M+ (ориентир)</h3>
+<p>Сверяй ID на <a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot">Icy Veins — gear</a> и Wowhead RU.</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td>Оружие (посох)</td><td><a href="https://www.wowhead.com/ru/item=251162">Коготь предателя</a> / крафт посоха сезона</td><td><a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a> / профессии</td></tr>
+<tr><td>Тринкет (активный)</td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a></td><td><a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a></td></tr>
+<tr><td>Тринкет (пассив)</td><td><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a>, <a href="https://www.wowhead.com/ru/item=249343">Взор ясновидца Альн</a></td><td>M+ / рейд</td></tr>
+<tr><td>Кольца</td><td>из <a href="https://www.wowhead.com/ru/zone=16573">Узла Нексуса Зенас</a></td><td>M+</td></tr>
+<tr><td>Шлем (офф-сет)</td><td><a href="https://www.wowhead.com/ru/item=151336">Истерзанный Бездной капюшон</a></td><td><a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a></td></tr>
+</tbody></table>
+<h3 id="тринкеты">Тринкеты</h3>
+<table><tbody>
+<tr><th>Тир</th><th>Варианты</th></tr>
+<tr><td><strong>S</strong></td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a>, <a href="https://www.wowhead.com/ru/item=249343">Взор ясновидца Альн</a></td></tr>
+<tr><td><strong>A</strong></td><td><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a>, <a href="https://www.wowhead.com/ru/item=260235">Темное перо</a>, <a href="https://www.wowhead.com/ru/item=249807">Вечное яйцо</a></td></tr>
+<tr><td><strong>Def</strong></td><td><a href="https://www.wowhead.com/ru/item=252421">Гнилой сгусток</a></td></tr>
+</tbody></table>
+<p>Тринкет <strong>по кнопке</strong> с <strong>1 мин</strong> КД удобно вместе с <strong>воплощением</strong> и <strong>лунным лучом</strong>.</p>
+<h3 id="порядок-апгрейдов">Порядок апгрейдов</h3>
+<pre><code>
+Оружие → тринкеты → шлем / грудь / ноги (тир) → остальное
+
+</pre>
+<p><strong>Туманный сердечник Бездны</strong> (бонус-ролл): оружие → тринкеты → остальной BiS-лист.</p>
+<p><strong>Крафт:</strong> посох → наручи / обувь агента Луносвета с усилением (Arcanoweave Lining) → кольцо.</p>
+<hr>
+<h1 id="часть-3-кулдауны-утилити-аффиксы">ЧАСТЬ 3. Кулдауны, утилити, аффиксы</h1>
+<h2 id="кулдауны-в-ключах">Кулдауны в ключах</h2>
+<table><tbody>
+<tr><th>КД</th><th>Когда</th></tr>
+<tr><td><strong>Дубовая кожа</strong> (~<strong>40–60 сек</strong>)</td><td>Часто, сглаживание; с <strong>шипами</strong> наносит урон атакующим</td></tr>
+<tr><td><strong>Неистовое восстановление</strong></td><td>&lt;<strong>50%</strong> HP, после спайка; <strong>2 заряда</strong> с талантом</td></tr>
+<tr><td><strong>Инстинкты выживания</strong> (<strong>2</strong> заряда)</td><td>Смертельная механика; не копить «на потом»</td></tr>
+<tr><td><strong>Воплощение: Страж Урсока</strong></td><td>Каждый жирный пул; много <strong>увечий</strong> и <strong>взбучки</strong></td></tr>
+<tr><td><strong>Лунный луч</strong></td><td>Вместе с пулом (<strong>Избранник Элуны</strong>)</td></tr>
+<tr><td><strong><a href="https://www.wowhead.com/ru/spell=155835">Колючий мех</a></strong></td><td>Перед огромным входящим уроном (генерация ярости)</td></tr>
+</tbody></table>
+<p><strong>Не складывайте</strong> все защиты на один момент без нужды.</p>
+<hr>
+<h2 id="механика-apex-дикий-страж">Механика Apex — Дикий страж</h2>
+<p>После <strong>берсерка</strong> / <strong>воплощения</strong> срабатывает <strong>Дикий страж</strong> (талант Apex): следующие способности могут <strong>повториться</strong>. Сет <strong>4 части</strong> усиливает <strong>смести</strong> / <strong>трепку</strong> / <strong>терзание</strong>. Ротацию почти не меняет — продолжайте жать по приоритету.</p>
+<hr>
+<h2 id="утилити-в-ключах">Утилити в ключах</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Зачем</th></tr>
+<tr><td><strong>Лобовая атака</strong></td><td>Прерывание (макрос на фокус)</td></tr>
+<tr><td><strong>Парализующий рык</strong></td><td>AoE-стоп (<strong>Вознесённые</strong>)</td></tr>
+<tr><td><strong>Вихрь Урсола</strong> + <strong>Тайфун</strong></td><td>Удержать мобов / отброс</td></tr>
+<tr><td><strong>Снятие порчи</strong></td><td>Яды и проклятия</td></tr>
+<tr><td><strong>Умиротворение</strong></td><td>Снять ярость с моба</td></tr>
+<tr><td><strong>Возрождение</strong></td><td>Баттл-рез (<strong>30</strong> ярости)</td></tr>
+<tr><td><strong>Знак дикой природы</strong></td><td><strong>+3%</strong> универсальности группе</td></tr>
+<tr><td><strong>Тревожный рев</strong></td><td>Скорость группе (<strong>Пульсар</strong>, бег между паками)</td></tr>
+<tr><td><strong>После пожара</strong></td><td>AoE-хил союзникам каждые <strong>300</strong> ярости потраченной</td></tr>
+</tbody></table>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать</th></tr>
+<tr><td><strong>Вознесённые</strong></td><td><strong>Парализующий рык</strong>, <strong>тайфун</strong> по орбам</td></tr>
+<tr><td><strong>Связанные с Пустотой</strong></td><td>Убить эмиссария — бурст</td></tr>
+<tr><td><strong>Пульсар</strong></td><td><strong>Тревожный рев</strong>, собирать орбы</td></tr>
+<tr><td><strong>Пожирание</strong></td><td><strong>Снятие порчи</strong> на союзниках; выход из <strong>облика медведя</strong> снимает дебафф с вас (медленно)</td></tr>
+</tbody></table>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] <strong>Избранник Элуны</strong> (проще) или <strong>Друид Когтя</strong> (урон на боссе)</li>
+<li>[ ] Уровень предметов &gt; вторичные статы</li>
+<li>[ ] <strong>Взбучка</strong> + <strong>увечье</strong> по КД; <strong>железный мех</strong> под физ. урон</li>
+<li>[ ] <strong>Воплощение</strong> + <strong>лунный луч</strong> на жирные пулы</li>
+<li>[ ] <strong>Дубовая кожа</strong> часто; <strong>инстинкты выживания</strong> — в запас</li>
+<li>[ ] Фарм: <strong>Академия Алгет'ар</strong>, <strong>Узел Нексуса Зенас</strong>, <strong>Шпили Ветрокрылых</strong></li>
+</ul>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-guide">Icy Veins — полный гайд</a></li>
+<li><a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-mythic-plus-tips">Icy Veins — M+ советы</a></li>
+<li><a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents">Icy Veins — таланты</a></li>
+<li><a href="https://www.icy-veins.com/wow/guardian-druid-pve-tank-spell-summary">Icy Veins — способности</a></li>
+<li><a href="https://www.raidbots.com/">Raidbots</a></li>
+</ul>
+  </article>
+</body>
+</html>

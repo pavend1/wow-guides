@@ -1,0 +1,24 @@
+﻿441678 ╠рёЄхЁёЄтю фшъюую юсышър | Druid of the Claw hero
+437376 ERR HTTP Error 404: Not Found
+421432 ╫хы■ёЄш ёрсыхчєср | After the Wildfire talent
+155784 ERR HTTP Error 404: Not Found
+155578 ╤ЄЁрц ▌ыєэ√ | Galactic Guardian
+203964 ├рыръЄшўхёъшщ ёЄЁрц | Gore
+102693 ╤ЄЁрцш Ёю∙ш | Wild Charge
+106898 ╥Ёхтюцэ√щ Ёхт | Wild Charge alt
+377779 ┴хЁёхЁъ: єяюЁёЄтю | Dream of Cenarius
+1267211 ╤ыртр ртрэурЁфр | apex placeholder
+449193 ╚чьхэўшт√щ юсышъ | Wild Guardian
+102543 ┬юяыю∙хэшх: ртрЄрЁр ╧хяыю°ъєЁющ | Incarnation
+391888 └фряЄштэ√щ Ёющ | Fluid Form 2
+set 1980 ╧юсхуш ЎтхЄюўэюую ёш эш 
+set 249900 HTTP Error 404: Not Found
+set 249901 HTTP Error 404: Not Found
+set 249902 HTTP Error 404: Not Found
+set 249903 HTTP Error 404: Not Found
+set 249904 HTTP Error 404: Not Found
+item 249897 HTTP Error 404: Not Found
+item 249898 HTTP Error 404: Not Found
+item 249899 HTTP Error 404: Not Found
+item 249900 HTTP Error 404: Not Found
+item 249901 HTTP Error 404: Not Found

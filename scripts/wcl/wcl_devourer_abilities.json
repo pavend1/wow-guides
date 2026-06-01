@@ -1,0 +1,73 @@
+{
+  "all": 135,
+  "devourer": [
+    {
+      "id": "-184575",
+      "name": "Blade of Justice"
+    },
+    {
+      "id": "404358",
+      "name": "Blade of Justice"
+    },
+    {
+      "id": "184575",
+      "name": "Blade of Justice"
+    },
+    {
+      "id": "473662",
+      "name": "Consume"
+    },
+    {
+      "id": "1245455",
+      "name": "Cull"
+    },
+    {
+      "id": "1217610",
+      "name": "Devour"
+    },
+    {
+      "id": "-1226033",
+      "name": "Eradicate"
+    },
+    {
+      "id": "1279200",
+      "name": "Eradicate (Cull)"
+    },
+    {
+      "id": "1225827",
+      "name": "Eradicate (Reap)"
+    },
+    {
+      "id": "1",
+      "name": "Melee"
+    },
+    {
+      "id": "1225823",
+      "name": "Reap"
+    },
+    {
+      "id": "343294",
+      "name": "Soul Reaper"
+    },
+    {
+      "id": "-473728",
+      "name": "Void Ray"
+    },
+    {
+      "id": "1213649",
+      "name": "Void Ray"
+    },
+    {
+      "id": "1214595",
+      "name": "Void Ray (Void Metamorphosis)"
+    },
+    {
+      "id": "-1256306",
+      "name": "Voidfall Meteor"
+    },
+    {
+      "id": "1256305",
+      "name": "Voidfall Meteor"
+    }
+  ]
+}

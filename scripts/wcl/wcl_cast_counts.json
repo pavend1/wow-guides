@@ -1,0 +1,117 @@
+{
+  "abilities": [
+    {
+      "name": "Consume",
+      "line": "39.30%",
+      "parts": [
+        "39.30%"
+      ]
+    },
+    {
+      "name": "Devour",
+      "line": "26.51%",
+      "parts": [
+        "26.51%"
+      ]
+    },
+    {
+      "name": "Void Ray",
+      "line": "14.53%",
+      "parts": [
+        "14.53%"
+      ]
+    },
+    {
+      "name": "Collapsing Star",
+      "line": "5.12%",
+      "parts": [
+        "5.12%"
+      ]
+    },
+    {
+      "name": "Cull",
+      "line": "3.58%",
+      "parts": [
+        "3.58%"
+      ]
+    },
+    {
+      "name": "Soul Immolation",
+      "line": "2.76%",
+      "parts": [
+        "2.76%"
+      ]
+    },
+    {
+      "name": "Reap",
+      "line": "2.56%",
+      "parts": [
+        "2.56%"
+      ]
+    },
+    {
+      "name": "Disrupt",
+      "line": "1.74%",
+      "parts": [
+        "1.74%"
+      ]
+    },
+    {
+      "name": "Glide",
+      "line": "1.43%",
+      "parts": [
+        "1.43%"
+      ]
+    },
+    {
+      "name": "Blur",
+      "line": "1.23%",
+      "parts": [
+        "1.23%"
+      ]
+    },
+    {
+      "name": "Potion of Recklessness",
+      "line": "0.41%",
+      "parts": [
+        "0.41%"
+      ]
+    },
+    {
+      "name": "Void-Touched",
+      "line": "0.20%",
+      "parts": [
+        "0.20%"
+      ]
+    },
+    {
+      "name": "Darkness",
+      "line": "0.20%",
+      "parts": [
+        "0.20%"
+      ]
+    },
+    {
+      "name": "Potent Healing Potion",
+      "line": "0.20%",
+      "parts": [
+        "0.20%"
+      ]
+    },
+    {
+      "name": "Silvermoon Parade",
+      "line": "0.10%",
+      "parts": [
+        "0.10%"
+      ]
+    },
+    {
+      "name": "Emberwing Heatwave",
+      "line": "0.10%",
+      "parts": [
+        "0.10%"
+      ]
+    }
+  ],
+  "extra": []
+}
