@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Скрытность — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="разбойник-скрытность-гайд-для-mythic-ключи">Разбойник (Скрытность) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-spec-builds-talents">таланты</a> · <a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>02.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#энергия-и-очки-серии">Энергия и очки серии</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-обманщик-vs-ловчий-смерти">Герой-талант: Обманщик vs Ловчий смерти</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>Скрыт</strong></td><td><strong>Скрытность</strong> (*Subtlety Rogue*)</td></tr>
+<tr><td><strong>ТК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=121471">Теневые клинки</a></strong> (*Shadow Blades*) — главный бурст <strong>~90 сек</strong></td></tr>
+<tr><td><strong>ТТ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=185313">Танец теней</a></strong> (*Shadow Dance*) — <strong>2</strong> использования внутри <strong>ТК</strong></td></tr>
+<tr><td><strong>ТП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=280719">Тайный прием</a></strong> (*Secret Technique*)</td></tr>
+<tr><td><strong>УТ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></strong> (*Shadowstrike*)</td></tr>
+<tr><td><strong>УС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=53">Удар в спину</a></strong> (*Backstab*)</td></tr>
+<tr><td><strong>Потр.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=196819">Потрошение</a></strong> (*Eviscerate*)</td></tr>
+<tr><td><strong>ЧП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=319175">Черный порох</a></strong> (*Black Powder*) — AoE-финишер</td></tr>
+<tr><td><strong>ШС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=197835">Шквал сюрикэнов</a></strong> (*Shuriken Storm*)</td></tr>
+<tr><td><strong>УМ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=441776">Удар милосердия</a></strong> (*Coup de Grace*)</td></tr>
+<tr><td><strong>Техт.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=196911">Теневая техника</a></strong> — «лишние» CP и энергия</td></tr>
+<tr><td><strong>МЛС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1273061">Метка ловчего смерти</a></strong> (*Deathstalker's Mark*) — герой <strong>Ловчий смерти</strong></td></tr>
+<tr><td><strong>П(н)Д</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=328086">Падение (не)достойных</a></strong> (*Darkest Night*)</td></tr>
+<tr><td><strong>ОС</strong></td><td>очки серии (combo points), до <strong>6–7</strong> с талантами</td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Играете <strong>циклами по ~90 сек</strong>: <strong><a href="https://www.wowhead.com/ru/spell=121471">Теневые клинки</a></strong> + <strong>два</strong> <strong><a href="https://www.wowhead.com/ru/spell=185313">Танца теней</a></strong> — это весь ваш урон.</p>
+<p>2. Внутри <strong>ТТ</strong> жмёте <strong><a href="https://www.wowhead.com/ru/spell=280719">Тайный прием</a></strong> и финишеры на <strong>6+ ОС</strong>; вне окна — спокойно копите <strong>ОС</strong> и <strong>Техт.</strong></p>
+<p>3. В AoE (M+) генерируете <strong>ОС</strong> через <strong><a href="https://www.wowhead.com/ru/spell=197835">Шквал сюрикэнов</a></strong>; при <strong>≤3</strong> целях можно <strong><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></strong>.</p>
+<p>4. <strong>Не капайте</strong> <strong><a href="https://www.wowhead.com/ru/spell=121471">Теневые клинки</a></strong> «на идеальный пак» — в ключах лучше лишний раз на среднем паке, чем простой.</p>
+<p>5. Утилита разбойника ( <strong><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=114018">Скрывающий покров</a></strong> ) — сильная; не забывайте про <strong><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></strong> на фокус.</p>
+<blockquote>
+<p><strong>Скрытность</strong> в M+ — не «равномерный AoE», а <strong>взрывные окна</strong> на приоритетных целях и жирных паках. Слабый sustained cleave компенсируется огромным бурстом.</p>
+</blockquote>
+<h2 id="энергия-и-очки-серии">Энергия и очки серии</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>ОС</strong> (до <strong>6–7</strong>)</td><td>В <strong>ТТ</strong> тратьте на <strong>6+</strong>; перед <strong>ТТ</strong> можно <strong>намеренно</strong> не финишить пару секунд</td><td>больше стаков <strong>Техт.</strong> → сильнее <strong>ТП</strong></td></tr>
+<tr><td><strong>Энергия</strong> (100–200)</td><td>Вне <strong>ТТ</strong> не обязаны забивать каждый ГКД — это нормально</td><td>в <strong>ТТ</strong> энергии хватает на спам</td></tr>
+<tr><td><strong>Техт.</strong> (стаки)</td><td>В бурсте старайтесь тратить стаки <strong>финишерами</strong> с баффом <strong>Древних искусств</strong></td><td>apex возвращает <strong>ОС</strong> и вызывает клонов</td></tr>
+<tr><td><strong>ТК</strong> (<strong>~90 сек</strong>)</td><td>Всегда <strong>2× ТТ</strong> внутри; не начинайте <strong>ТТ</strong>, если до конца <strong>ТК</strong> &amp;lt; <strong>10 сек</strong></td><td>иначе потеряете второй танец</td></tr>
+</tbody></table>
+<p><strong><a href="https://www.wowhead.com/ru/spell=196911">Теневая техника</a>:</strong> «случайные» лишние <strong>ОС</strong> — это стаки этой механики. В <strong><a href="https://www.wowhead.com/ru/spell=185313">Танце теней</a></strong> с талантом <strong>Тенековка</strong> (*Shadowcraft*) <strong>Техт.</strong> прокает чаще — не снимайте в M+.</p>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=121471">Теневые клинки</a></td><td>главный КД: удвоение <strong>ОС</strong>, +20% теневого урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185313">Танец теней</a></td><td>окно урона; <strong>2</strong> заряда в <strong>ТК</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=280719">Тайный прием</a></td><td>главный урон в <strong>ТТ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></td><td>генератор из стелса / <strong>ТТ</strong>; вешает <strong>МЛС</strong> (Ловчий смерти)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=53">Удар в спину</a></td><td>генератор вне стелса</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=197835">Шквал сюрикэнов</a></td><td>AoE-генератор <strong>ОС</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=196819">Потрошение</a></td><td>ST-финишер</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=319175">Черный порох</a></td><td>AoE-финишер</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=441776">Удар милосердия</a></td><td>сильный финишер по КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1856">Исчезновение</a></td><td>сброс боя / повторный <strong>УТ</strong> в опенере</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1784">Незаметность</a></td><td>стелс перед пулом</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=212283">Символы смерти</a></td><td>доп. урон (если в билде)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=381623">Скорополоховый чай</a></td><td>энергия (часто на авто при низкой энергии)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></td><td>«стоп» кастов (с талантом — AoE)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1833">Подлый трюк</a></td><td>контроль / сейв агра</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></td><td>−40% AoE-урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></td><td>иммунитет к магии / снятие дебаффов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185311">Алый фиал</a></td><td>хил на КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=114018">Скрывающий покров</a></td><td>стелс группы</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=36554">Шаг сквозь тень</a></td><td>рывок</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207777">Долой оружие</a></td><td>снятие <strong>Enrage</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=57934">Маленькие хитрости</a></td><td>сброс агра танку (выбор узла)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=137619">Метка смерти</a></td><td>+ОС на открытии боя</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1273061">Метка ловчего смерти</a></td><td>метка героя <strong>Ловчий смерти</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=328086">Падение (не)достойных</a></td><td>усиленное <strong>Потрошение</strong> после метки</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Цикл</td><td><strong>ТК</strong> + <strong>2× ТТ</strong></td><td>на паке, который живёт <strong>≥15 сек</strong>; тринкеты внутри</td></tr>
+<tr><td>В <strong>ТТ</strong></td><td><strong>ТП</strong></td><td><strong>6+ ОС</strong>, <strong>ТП</strong> готов</td></tr>
+<tr><td>В <strong>ТТ</strong></td><td><strong>ТК</strong></td><td>если ещё не жали в этом окне</td></tr>
+<tr><td>Финишеры</td><td><strong>Потр.</strong> / <strong>ЧП</strong> / <strong>УМ</strong></td><td><strong>6+ ОС</strong>; <strong>ЧП</strong> при <strong>4+</strong> врагах</td></tr>
+<tr><td>Генераторы</td><td><strong>УТ</strong> / <strong>ШС</strong> / <strong>УС</strong></td><td><strong>УТ</strong> в <strong>ТТ</strong>; <strong>ШС</strong> в AoE; иначе <strong>УС</strong></td></tr>
+<tr><td>Между бурстами</td><td><strong>УС</strong>, редкий <strong>УТ</strong></td><td>копите <strong>ОС</strong> и стаки <strong>Техт.</strong></td></tr>
+<tr><td>Утилита</td><td><strong>Пинок</strong>, <strong>Ослепление</strong>, <strong>Уловка</strong></td><td>по механикам недели</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=1784">Незаметность</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=2823">Смертоносный яд</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=5761">Замедляющий яд</a></strong> (M+ по умолчанию).</p>
+<p><strong>Обманщик (стандарт M+):</strong></p>
+<p>1. <strong><a href="https://www.wowhead.com/ru/spell=1784">Незаметность</a></strong>.</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></strong>.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=1856">Исчезновение</a></strong> → ещё <strong><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></strong>.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=53">Удар в спину</a></strong> до <strong>7 ОС</strong> (если в билде — семь точек).</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=196819">Потрошение</a></strong>.</p>
+<p>6. Тринкеты / зелье / расовые (<strong>~1–2 сек</strong> раньше, если тринкет даёт <strong>скорость</strong> — баг с <strong><a href="https://www.wowhead.com/ru/spell=185314">Сгущающимися тенями</a></strong>).</p>
+<p>7. <strong><a href="https://www.wowhead.com/ru/spell=185313">Танец теней</a></strong> → <strong><a href="https://www.wowhead.com/ru/spell=121471">Теневые клинки</a></strong>.</p>
+<p>8. <strong><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></strong> → <strong><a href="https://www.wowhead.com/ru/spell=280719">Тайный прием</a></strong>.</p>
+<p>9. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>; второй <strong>ТТ</strong> до падения <strong>ТК</strong>.</p>
+<p><strong>Ловчий смерти:</strong> начните с <strong><a href="https://www.wowhead.com/ru/spell=185438">Удар Тьмы</a></strong> (метка), дальше как выше; в AoE — <strong><a href="https://www.wowhead.com/ru/spell=197835">Шквал сюрикэнов</a></strong> вместо <strong>УТ</strong> при <strong>4+</strong> целях.</p>
+<blockquote>
+<p>За <strong>~20 сек</strong> до пула можно один раз нажать <strong>ТТ</strong> для <strong><a href="https://www.wowhead.com/ru/spell=470347">Суперзарядки</a></strong> (*Supercharger*) — если взяли в билде.</p>
+</blockquote>
+<p><strong>Макрос бурста:</strong></p>
+<pre><code>
+#showtooltip Теневые клинки
+
+/cast Танец теней
+
+/cast Теневые клинки
+
+/use 13
+
+/use 14
+
+</pre>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. <strong>ТК</strong> готов и танк держит пак? → <strong>ТТ</strong> → <strong>ТК</strong> → <strong>ТП</strong> (не ждите «идеала»).</p>
+<p>2. Внутри <strong>ТТ</strong>: <strong>ТП</strong> на <strong>6+ ОС</strong> → <strong>УМ</strong> → <strong>ЧП</strong> (много целей) / <strong>Потр.</strong> → <strong>УТ</strong> / <strong>ШС</strong>.</p>
+<p>3. До второго <strong>ТТ</strong>: не начинайте, если <strong>ТК</strong> &amp;lt; <strong>10 сек</strong> осталось.</p>
+<p>4. Между бурстами: <strong>УС</strong> / <strong>ШС</strong>; не капите <strong>ОС</strong> без нужды.</p>
+<p>5. <strong>Пинок</strong> и утилита важнее, чем «дожать» последний <strong>УС</strong> на адде.</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-обманщик-vs-ловчий-смерти">Герой-талант: Обманщик vs Ловчий смерти</h2>
+<table><tbody>
+<tr><th></th><th><strong>Обманщик</strong> (*Trickster*)</th><th><strong>Ловчий смерти</strong> (*Deathstalker*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — сильный AoE и проще бурст</td><td>чуть сильнее <strong>одна цель</strong>, слабее на паках</td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>ТП</strong>, <strong>ТК</strong>, <strong>ТТ</strong>, взрывной cleave</td><td><strong><a href="https://www.wowhead.com/ru/spell=1273061">Метка ловчего смерти</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=328086">Падение (не)достойных</a></strong></td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>лучший AoE, меньше требований к статам (<strong>~700</strong> скорости)</td><td>приоритетный урон по метке</td></tr>
+<tr><td><strong>Слабости</strong></td><td>слабее чистый ST на боссе</td><td>нужно <strong>~1100</strong> скорости; провал на разбросанных паках</td></tr>
+</tbody></table>
+<p><strong>Импорт (M+, Обманщик, AoE):</strong></p>
+<p>`CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMjZMegZmZGjZbYGbbzMzMzMjBjZWGAAAAGMGwY2MMwAziWoFbYGwMDmxA`</p>
+<p><strong>Ловчий смерти (M+):</strong> билд близок к Обманщику, но с веткой героя <strong>Ловчий смерти</strong> — импорт возьмите на <a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-spec-builds-talents">Icy Veins — таланты</a> (вкладка *Deathstalker → Mythic+/AoE*).</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/rogue/subtlety">Wowhead RU — разбойник, скрытность</a>.</p>
+<p><strong>Частые замены в M+ (Обманщик):</strong></p>
+<ul>
+<li><strong>Potent Powder</strong> — <strong><a href="https://www.wowhead.com/ru/spell=319175">Черный порох</a></strong> вместо части ST-финишеров на паках.</li>
+<li><strong>The First Dance</strong> — вместо *Finality*, если между паками много простоя (например, <strong>Академия Алгет'ар</strong>).</li>
+<li><strong>Airborne Irritant</strong> — <strong><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></strong> бьёт по AoE (аффикс Ascendant).</li>
+<li><strong>Numbing Poison</strong> → <strong>Atrophic Poison</strong> на тиранах в очень высоких ключах.</li>
+</ul>
+<p><strong>Apex *Ancient Arts* (Древние искусства):</strong> трата стаков <strong><a href="https://www.wowhead.com/ru/spell=196911">Теневой техники</a></strong> вызывает клонов; третий ряд apex возвращает <strong>ОС</strong> после финишера, если после генератора осталось <strong>5+</strong> стаков. В <strong>ТТ</strong> старайтесь финишить с активным баффом «теневого свечения» на экране.</p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Кинжал в оффханде — <strong>только кинжал</strong> (быстрее автоатаки → больше <strong>Техт.</strong>).</p>
+<h3 id="приоритет-m-обманщик">Приоритет (M+, <strong>Обманщик</strong>)</h3>
+<p>1. <strong>Ловкость</strong></p>
+<p>2. <strong>Скорость</strong> — ориентир <strong>~700</strong> рейтинга (два доп. ГКД в <strong>ТТ</strong> + синхрон <strong>ТП</strong>)</p>
+<p>3. <strong>Искусность</strong> — сильнее в AoE, часто выше крита</p>
+<p>4. <strong>Критический удар</strong></p>
+<p>5. <strong>Универсальность</strong></p>
+<h3 id="приоритет-m-ловчий-смерти">Приоритет (M+, <strong>Ловчий смерти</strong>)</h3>
+<p>1. <strong>Ловкость</strong></p>
+<p>2. <strong>Скорость</strong> — ориентир <strong>~1100</strong> (иначе герой слабее Обманщика)</p>
+<p>3. <strong>Искусность</strong></p>
+<p>4. <strong>Критический удар</strong></p>
+<p>5. <strong>Универсальность</strong></p>
+<blockquote>
+<p><strong>Скорость</strong> через <strong><a href="https://www.wowhead.com/ru/spell=185314">Сгущающиеся тени</a></strong> удлиняет <strong>ТТ</strong> — on-use с <strong>скоростью</strong> (например, *Light Company Guidon*) жмите <strong>чуть раньше</strong> опенера.</p>
+</blockquote>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td>оружие (*Edge of the Burning Sun* и др.)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>кольца, оружие</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>on-use тринкет (*Algeth'ar Puzzle Box*)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>сильные аксессуары сезона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=4813"><strong>Яма Сарона</strong></a></td><td>наручи, пояс, кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>кольца, наручи</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1987">Шутовской наряд мрачных острот</a></strong> (4 предмета; <strong>поножи — офф-сет</strong> с лучшими вторичками):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250006">Маскарад мрачных острот</a></td></tr>
+<tr><td>Плечи</td><td><a href="https://www.wowhead.com/ru/item=250004">Флаконы с ядом мрачных острот</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250009">Фантастическое убранство мрачных острот</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=250007">Ловкость рук мрачных острот</a></td></tr>
+<tr><td>Обувь</td><td><a href="https://www.wowhead.com/ru/item=250008">Балансировочные сапоги мрачных острот</a></td></tr>
+</tbody></table>
+<p><strong>2/4:</strong> финишеры сильнее; <strong>4/4:</strong> <strong>ТК</strong> длится <strong>+4 сек</strong> — ещё один «мини-ГКД» в бурсте.</p>
+<h3 id="чары-и-камни-12-0-5">Чары и камни (12.0.5)</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td>Оружие (оба)</td><td><strong>+ ловкость</strong> (*Acuity of the Ren'dorei* / аналог сезона)</td></tr>
+<tr><td>Кольца</td><td><strong>+ скорость</strong>, <strong>+ искусность</strong></td></tr>
+<tr><td>Ноги</td><td><strong>+ ловкость</strong> + вторичка</td></tr>
+<tr><td>Обувь</td><td><strong>+ скорость</strong></td></tr>
+<tr><td>Накидка</td><td><strong>+ скорость</strong></td></tr>
+<tr><td>Грудь</td><td><strong>+ все характеристики</strong></td></tr>
+<tr><td>Запястья</td><td><strong>+ искусность</strong></td></tr>
+<tr><td>Камни</td><td><strong>+ скорость</strong>, <strong>+ искусность</strong> — под сим</td></tr>
+</tbody></table>
+<p><strong>Крафт (приоритет):</strong> сначала <strong>основная рука</strong> с эмблемой *Darkmoon Sigil: Hunt*, затем пояс/наручи с *Arcanoweave Lining*.</p>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use (90 сек)</strong></td><td>*Light Company Guidon*</td><td>рейд</td></tr>
+<tr><td><strong>Сильный M+ on-use</strong></td><td>*Algeth'ar Puzzle Box* (<strong>2 мин</strong> — в каждый второй <strong>ТК</strong>)</td><td><strong>Академия Алгет'ар</strong></td></tr>
+<tr><td><strong>Запасной on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><strong>Шпили Ветрокрылых</strong></td></tr>
+<tr><td><strong>BiS пассивный</strong></td><td>*Gaze of the Alnseer*</td><td>рейд</td></tr>
+<tr><td><strong>Пассивный M+</strong></td><td>*Solarflare Prism*</td><td><strong>Небесный Путь</strong></td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong><a href="https://www.wowhead.com/ru/spell=121471">Теневыми клинками</a></strong> внутри <strong><a href="https://www.wowhead.com/ru/spell=185313">Танца теней</a></strong>. *Puzzle Box* начинает <strong>канал ~2 сек</strong> — жмите <strong>до</strong> <strong>ТК</strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] Яды: <strong><a href="https://www.wowhead.com/ru/spell=2823">Смертоносный яд</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=5761">Замедляющий яд</a></strong></li>
+<li>[ ] Герой: <strong>Обманщик</strong> (M+)</li>
+<li>[ ] Оффханд — <strong>кинжал</strong></li>
+<li>[ ] Макрос <strong><a href="https://www.wowhead.com/ru/spell=1766">Пинка</a></strong> на `@focus` / `@mouseover`</li>
+<li>[ ] Макрос бурста (<strong>ТТ</strong> + <strong>ТК</strong> + тринкеты)</li>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></strong> под тяжёлый AoE-пак</li>
+<li>[ ] Фарм: <strong>Небесный путь</strong>, <strong>Узел Нексуса</strong>, <strong>Академия Алгет'ар</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></td><td>прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></td><td>AoE-«стоп» с <strong>Airborne Irritant</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1833">Подлый трюк</a> / <a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></td><td>контроль кастов вне пинка</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1856">Исчезновение</a></td><td><strong><a href="https://www.wowhead.com/ru/spell=1833">Подлый трюк</a></strong> по цели, которую нельзя пнуть</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></td><td>−40% AoE; с <strong>Elusiveness</strong> ещё −20% всего урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></td><td><strong>Devour</strong>, магические дебаффы, «стоять в грязи»</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185311">Алый фиал</a></td><td>сейв + помощь хилу на <strong>Devour</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=114018">Скрывающий покров</a></td><td>скипы; часть мобов <strong>видит</strong> стелс — не рискуйте вслепую</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=36554">Шаг сквозь тень</a></td><td>Pulsar, механики</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207777">Долой оружие</a></td><td><strong>Enrage</strong> на аддах</td></tr>
+</tbody></table>
+<p><strong>Макрос Пинка:</strong></p>
+<pre><code>
+#showtooltip Пинок
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Пинок
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<h3 id="кулдауны-как-не-терять-dps">Кулдауны — как не терять DPS</h3>
+<ul>
+<li><strong>ТК</strong> — по КД на любом паке <strong>≥15 сек</strong>; внутри <strong>обязательно 2× ТТ</strong>.</li>
+<li>Не открывайте <strong>ТТ</strong>, если до конца <strong>ТК</strong> &amp;lt; <strong>10 сек</strong>.</li>
+<li>Перед <strong>ТТ</strong> можно <strong>2–3 сек</strong> не жать финишеры — накопить <strong>Техт.</strong> (не перекапывайте <strong>ОС</strong>).</li>
+<li><strong><a href="https://www.wowhead.com/ru/spell=470347">Суперзарядка</a></strong> за <strong>~20 сек</strong> до боя — один раз <strong>ТТ</strong>, если в билде.</li>
+</ul>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать Скрытнику</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></strong> (талант AoE), <strong><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></strong>; разбойник почти не помогает с орбами</td></tr>
+<tr><td><strong>Voidbound</strong></td><td>фокус адда; бурст <strong>ТК</strong> по приоритету</td></tr>
+<tr><td><strong>Pulsar</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=36554">Шаг сквозь тень</a></strong>; не теряйте <strong>ТК</strong> из-за беготни</td></tr>
+<tr><td><strong>Devour</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></strong> / раса; <strong><a href="https://www.wowhead.com/ru/spell=185311">Алый фиал</a></strong></td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<h3 id="обманщик-single-target-приоритетная-цель">Обманщик — single target (приоритетная цель)</h3>
+<p>1. <strong>ТТ</strong> при <strong>6+ ОС</strong> и готовом <strong>ТП</strong> (или активных <strong>ТК</strong>).</p>
+<p>2. <strong>ТТ</strong> при <strong>≤2 ОС</strong> и готовом <strong>ТП</strong> / <strong>ТК</strong>.</p>
+<p>3. <strong>ТК</strong> внутри <strong>ТТ</strong>.</p>
+<p>4. <strong>ТП</strong> в <strong>ТТ</strong>, <strong>6+ ОС</strong>.</p>
+<p>5. <strong>УМ</strong> при <strong>6+ ОС</strong>.</p>
+<p>6. <strong>Потр.</strong> при <strong>6+ ОС</strong>.</p>
+<p>7. <strong>УТ</strong>, иначе <strong>УС</strong>.</p>
+<h3 id="обманщик-aoe-m-4-целей">Обманщик — AoE (M+, <strong>4+</strong> целей)</h3>
+<p>1. <strong>ТТ</strong> / <strong>ТК</strong> / <strong>ТП</strong> — как в ST.</p>
+<p>2. <strong>ЧП</strong> при <strong>6+ ОС</strong>.</p>
+<p>3. <strong>Потр.</strong> при <strong>П(н)Д</strong> (Ловчий) или <strong>6+ ОС</strong>.</p>
+<p>4. <strong>УМ</strong> при <strong>6+ ОС</strong>.</p>
+<p>5. <strong>ШС</strong>; при <strong>≤3</strong> целях — <strong>УТ</strong>, если доступен.</p>
+<p>6. Вне <strong>ТТ</strong> — <strong>ШС</strong> / <strong>УС</strong>.</p>
+<h3 id="ловчий-смерти-отличия">Ловчий смерти — отличия</h3>
+<ul>
+<li>Всегда открывайте пул <strong><a href="https://www.wowhead.com/ru/spell=185438">Ударом Тьмы</a></strong> (<strong>МЛС</strong>).</li>
+<li>После снятия метки — <strong><a href="https://www.wowhead.com/ru/spell=328086">Падение (не)достойных</a></strong> → мощное <strong>Потрошение</strong>.</li>
+<li>AoE: <strong>ШС</strong>; <strong>УТ</strong> только при <strong>≤3</strong> целях.</li>
+</ul>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-mythic-plus-tips">Icy Veins — Subtlety Rogue M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/rogue/subtlety">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/subtlety-rogue-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>

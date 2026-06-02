@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Анхоли ДК — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="анхоли-дк-нечестивый-рыцарь-смерти-гайд-для-mythic-ключи">Анхоли ДК (нечестивый рыцарь смерти) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-spec-builds-talents">таланты</a> · <a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>02.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#две-валюты-на-экране">Две «валюты» на экране</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-всадник-апокалипсиса-vs-санlayn">Герой-талант: Всадник Апокалипсиса vs Сан'layn</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>Анхоли / Анх ДК</strong></td><td><strong>Нечестивый рыцарь смерти</strong> (*Unholy Death Knight*)</td></tr>
+<tr><td><strong>ВБ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=77575">Вспышка болезни</a></strong> (*Outbreak*)</td></tr>
+<tr><td><strong>УР</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=85948">Удар разложения</a></strong> (*Festering Strike*)</td></tr>
+<tr><td><strong>УП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=55090">Удар Плети</a></strong> (*Scourge Strike*)</td></tr>
+<tr><td><strong>ЛС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=47541">Лик смерти</a></strong> — трата рунической силы в ST</td></tr>
+<tr><td><strong>Эпид.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=207317">Эпидемия</a></strong> — трата рунической силы в AoE</td></tr>
+<tr><td><strong>НЛ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1242174">Некротический лик</a></strong> — усиленный ЛС во время <strong>Запретного знания</strong></td></tr>
+<tr><td><strong>Кладб.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1242218">Кладбище</a></strong> — усиленная Эпид. во время <strong>Запретного знания</strong></td></tr>
+<tr><td><strong>Нагн.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1247378">Нагноение</a></strong> (*Putrefy*)</td></tr>
+<tr><td><strong>ТП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=63560">Темное превращение</a></strong> (*Dark Transformation*)</td></tr>
+<tr><td><strong>ВМ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=42650">Войско мертвых</a></strong> (*Army of the Dead*)</td></tr>
+<tr><td><strong>ЖД</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=343294">Жнец душ</a></strong> (*Soul Reaper*)</td></tr>
+<tr><td><strong>СиР</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=43265">Смерть и разложение</a></strong> (*Death and Decay*)</td></tr>
+<tr><td><strong>ГК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=458128">Гнойная коса</a></strong> — прок от <strong>УР</strong> (*Festering Scythe*)</td></tr>
+<tr><td><strong>Руны</strong></td><td>6 штук, восстанавливаются ~10 сек (быстрее от скорости); максимум <strong>3</strong> одновременно «на перезарядке»</td></tr>
+<tr><td><strong>Рун. сила</strong></td><td>до <strong>100</strong>; не капайте — тратьте <strong>ЛС</strong> / <strong>Эпид.</strong></td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Держите на целях <strong>болезни</strong> (<strong>ВБ</strong> или <strong>Нагн.</strong> с талантом <strong>Ядовитый всплеск</strong>).</p>
+<p>2. Генерируете <strong>руны</strong> → <strong>руническую силу</strong> (<strong>УР</strong>, <strong>УП</strong>, <strong>Нагн.</strong>).</p>
+<p>3. Тратите <strong>руническую силу</strong> на <strong>ЛС</strong> (1–2 цели) или <strong>Эпид.</strong> (3+ целей; во время <strong>ВМ</strong> — <strong>НЛ</strong> / <strong>Кладб.</strong>).</p>
+<p>4. В бурст: <strong>ВМ</strong> + <strong>ТП</strong> + тринкеты; внутри окна — <strong>Нагн.</strong> и <strong>ЖД</strong>.</p>
+<p>5. В AoE <strong>УП</strong> сам разносит болезни — не нужно постоянно стоять в <strong>СиР</strong> ради cleave.</p>
+<h2 id="две-валюты-на-экране">Две «валюты» на экране</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>Руны</strong> (6)</td><td>Держите <strong>≥3</strong> на перезарядке; не копите выше <strong>3</strong> в ST</td><td>иначе теряете реген</td></tr>
+<tr><td><strong>Рун. сила</strong> (100)</td><td>Тратьте при <strong>~80+</strong> или проке <strong>Внезапной гибели</strong></td><td>кап = потеря DPS</td></tr>
+<tr><td><strong>Нагн.</strong> (до <strong>3</strong> зарядов)</td><td><strong>Не капайте</strong>; в AoE жмите агрессивнее</td><td>главный «кап» в ключах</td></tr>
+<tr><td><strong>Стаки «Малый вурдалак»</strong> (до <strong>8</strong>)</td><td>В ST держите <strong>4–6</strong>; в AoE <strong>не парьтесь</strong></td><td><strong>УП</strong> тратит стаки на призыв вурдалаков</td></tr>
+</tbody></table>
+<blockquote>
+<p>В начале ключа у вас <strong>3</strong> заряда <strong>Нагн.</strong> — <strong>не жмите первым же ГКД</strong>, дождитесь, пока танк соберёт пак.</p>
+</blockquote>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=77575">Вспышка болезни</a></td><td>вешает болезни на пак</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=85948">Удар разложения</a></td><td>даёт стаки «Малый вурдалак»</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=458128">Гнойная коса</a></td><td>бесплатный прок после <strong>УР</strong> — ускоряет болезни</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=55090">Удар Плети</a></td><td>тратит стаки, cleave болезней</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1247378">Нагноение</a></td><td>ключевая кнопка: вурдалак + AoE-взрыв</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47541">Лик смерти</a></td><td>ST-трата рун. силы</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207317">Эпидемия</a></td><td>AoE-трата рун. силы</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1242174">Некротический лик</a></td><td>усиленный <strong>ЛС</strong> после <strong>ВМ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1242218">Кладбище</a></td><td>усиленная <strong>Эпид.</strong> после <strong>ВМ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=63560">Темное превращение</a></td><td>мини-бурст каждые <strong>45 сек</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=42650">Войско мертвых</a></td><td>главный бурст (<strong>1.5 мин</strong> с <strong>ТП</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=343294">Жнец душ</a></td><td>execute / триггер <strong>Нагн.</strong> в окне <strong>ТП</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=43265">Смерть и разложение</a></td><td>AoE + с <strong>Циклом смерти</strong> — ускоряет <strong>Нагн.</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47528">Заморозка разума</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207167">Ослепляющая наледь</a></td><td>AoE-«стоп» кастов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49576">Хватка смерти</a></td><td>притягивание / stop-cast</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48707">Антимагический панцирь</a></td><td>сейв + рун. сила от магии</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48265">Поступь смерти</a></td><td>скорость / иммунитет к knockback</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=212552">Блуждающий дух</a></td><td>рывок</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=61999">Воскрешение союзника</a></td><td>боевой ресс</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Всегда</td><td><strong>ВБ</strong> / <strong>Нагн.</strong> (с <strong>Ядовитым всплеском</strong>)</td><td>болезни на всех целях, что живут <strong>≥15 сек</strong></td></tr>
+<tr><td>Высокий</td><td><strong>Нагн.</strong></td><td>не капать заряды; в <strong>ТП</strong> — максимум</td></tr>
+<tr><td>Высокий</td><td><strong>ГК</strong></td><td>бафф упал — обновите через <strong>УР</strong></td></tr>
+<tr><td>Бурст</td><td><strong>ВМ</strong>, <strong>ТП</strong>, тринкеты</td><td>вместе на приоритетном паке</td></tr>
+<tr><td>Трата силы</td><td><strong>ЛС</strong> / <strong>Эпид.</strong> / <strong>НЛ</strong> / <strong>Кладб.</strong></td><td>см. <a href="#приоритет-ротации-кратко">пороги целей</a></td></tr>
+<tr><td>Генераторы</td><td><strong>УР</strong>, <strong>УП</strong></td><td>стаки <strong>4–6</strong> → <strong>УП</strong></td></tr>
+<tr><td>AoE</td><td><strong>СиР</strong></td><td><strong>3+</strong> целей + талант <strong>Цикл смерти</strong></td></tr>
+<tr><td>Заполнитель</td><td><strong>ЛС</strong> / <strong>Эпид.</strong></td><td>если нечего важнее</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=46585">Воскрешение мертвецов</a></strong> (вурдалак), питомец на <strong>«Помощь»</strong>.</p>
+<p>1. <strong><a href="https://www.wowhead.com/ru/spell=77575">Вспышка болезни</a></strong> (если нет <strong>Ядовитого всплеска</strong>).</p>
+<p>2. <strong>2×</strong> <strong><a href="https://www.wowhead.com/ru/spell=85948">Удар разложения</a></strong>.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=42650">Войско мертвых</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=63560">Темное превращение</a></strong> + тринкеты + расовые.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=343294">Жнец душ</a></strong> (в M+ — сразу, не ждите <strong>Сгнивший корень</strong>).</p>
+<p>5. <strong>2×</strong> <strong><a href="https://www.wowhead.com/ru/spell=1247378">Нагноение</a></strong>.</p>
+<p>6. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<blockquote>
+<p>Тринкеты удобно вшить в макрос с <strong>ВМ</strong>. <strong>Придание сил</strong> от жреца — просите на <strong>ВМ</strong>.</p>
+</blockquote>
+<p><strong>Макрос бурста:</strong></p>
+<pre><code>
+#showtooltip Войско мертвых
+
+/cast Темное превращение
+
+/cast Войско мертвых
+
+/use 13
+
+/use 14
+
+</pre>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. Болезни спали? → <strong>Нагн.</strong> (или <strong>ВБ</strong>, если зарядов нет).</p>
+<p>2. <strong>ГК</strong> нет? → <strong>УР</strong> (если нужен стак / прок).</p>
+<p>3. <strong>~80+</strong> рун. силы или <strong>Внезапная гибель</strong>? → <strong>ЛС</strong> / <strong>Эпид.</strong> / <strong>НЛ</strong> / <strong>Кладб.</strong> (по числу целей).</p>
+<p>4. <strong>ТП</strong> / <strong>ВМ</strong> готовы и танк держит пак? → бурст.</p>
+<p>5. <strong>Нагн.</strong> <strong>3</strong> заряда или <strong>ТП</strong> активно? → <strong>Нагн.</strong></p>
+<p>6. Стаков <strong>Малый вурдалак</strong> <strong>&amp;lt;3</strong>? → <strong>УР</strong>; иначе → <strong>УП</strong>.</p>
+<p>7. Иначе → <strong>ЛС</strong> / <strong>Эпид.</strong></p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-всадник-апокалипсиса-vs-сан-layn">Герой-талант: Всадник Апокалипсиса vs Сан'layn</h2>
+<table><tbody>
+<tr><th></th><th><strong>Всадник Апокалипсиса</strong> (*Rider of the Apocalypse*)</th><th><strong>Сан'layn</strong> (*San'layn*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — сильный ST + хороший AoE через миньонов</td><td>слабее в ключах; альтернатива «ради стиля»</td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>ВМ</strong>, <strong>Нагн.</strong>, <strong>Маг</strong> мёртвых, всадники</td><td>болезни, <strong>Сгнивший корень</strong>, вампир. удары</td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>бурст <strong>1.5 мин</strong>, <strong>Поступь смерти</strong> → <strong>Смертельный натиск</strong></td><td>большие всплески от болезней</td></tr>
+<tr><td><strong>Слабости</strong></td><td>нужно следить за <strong>Нагн.</strong> и болезнями</td><td>ниже ST в M+</td></tr>
+</tbody></table>
+<p><strong>Импорт (M+, Всадник, AoE):</strong></p>
+<p>`CwPAAAAAAAAAAAAAAAAAAAAAAAYmhZMzMDz2MzMTzmZGjZAAAAAAAAgZGzYAwyMmZ2MzYMDYzsZYgBmNGasgBMDAjZmxMAzMzYMA`</p>
+<p><strong>Импорт (ST / рейдовый шаблон):</strong></p>
+<p>`CwPAAAAAAAAAAAAAAAAAAAAAAAwMjZMzYY2mZmZa2MzMjZAAAAAAAAgZGmZAw2MmZ2mZGjZAbmFDDMwsxQjFAMDAjZmxMAzMzYMA`</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/death-knight/unholy">Wowhead RU — рыцарь смерти, нечестивый</a>.</p>
+<p><strong>Частые замены в M+:</strong></p>
+<ul>
+<li><strong>Menacing Magus</strong> + <strong>Cycle of Death</strong> вместо <strong>Morbidity</strong> + <strong>Infected Claws</strong> — больше cleave.</li>
+<li><strong>Blightburst</strong> ( <strong>Ядовитый всплеск</strong> ) — меньше <strong>ВБ</strong>, болезни через <strong>Нагн.</strong></li>
+<li><strong>Blightfall</strong> ( <strong>Сгнивший корень</strong> ) — большой взрыв болезней после <strong>ТП</strong>; сложнее, но сильный ST-бурст.</li>
+</ul>
+<p><strong>Apex-тalent <a href="https://www.wowhead.com/ru/spell=1242158">Запретное знание</a>:</strong> после <strong>ВМ</strong> на <strong>30 сек</strong> <strong>ЛС</strong> → <strong>НЛ</strong>, <strong>Эпид.</strong> → <strong>Кладб.</strong>; <strong>Нагн.</strong> даёт мастерство и стаки. Питомцы — на <strong>«Помощь»</strong>.</p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Выше уровень предмета почти всегда лучше.</p>
+<h3 id="приоритет-m-всадник-aoe">Приоритет (M+, <strong>Всадник</strong>, AoE)</h3>
+<p>1. <strong>Сила</strong></p>
+<p>2. <strong>Искусность</strong> — главный стат (миньоны + болезни)</p>
+<p>3. <strong>Критический удар</strong></p>
+<p>4. <strong>Скорость</strong></p>
+<p>5. <strong>Универсальность</strong></p>
+<blockquote>
+<p><strong>Искусность</strong> и <strong>крит</strong> усиливают друг друга через болезни и питомцев. <strong>Скорость</strong> ускоряет руны и атаки вурдалака — полезна, но обычно ниже мастери/крита.</p>
+</blockquote>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>сильное <strong>2H-оружие</strong> сезона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=4813"><strong>Яма Сарона</strong></a></td><td>наплечники, кольцо, пояс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>кольцо, <strong>on-use</strong> тринкет</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>наручи, кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td>оружие, аксессуары</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong>неумолимого всадника</strong> (4 предмета для бонуса; <strong>наплечники — офф-сет</strong> — там скорость/vers):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=249970">Корона неумолимого всадника</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=249973">Панцирь неумолимого всадника</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=249971">Костехваты неумолимого всадника</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=249969">Набедренники неумолимого всадника</a></td></tr>
+</tbody></table>
+<p><strong>2/4 и 4/4 важнее</strong> «идеальных» слотов.</p>
+<h3 id="чары-и-камни-12-0-5">Чары и камни (12.0.5)</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td>Оружие</td><td><strong>+ искусность</strong> / <strong>+ крит</strong></td></tr>
+<tr><td>Кольца</td><td><strong>+ искусность</strong>, <strong>+ крит</strong></td></tr>
+<tr><td>Ноги</td><td><strong>+ сила</strong> + вторичка</td></tr>
+<tr><td>Обувь</td><td><strong>+ скорость</strong></td></tr>
+<tr><td>Накидка</td><td><strong>+ искусность</strong></td></tr>
+<tr><td>Грудь</td><td><strong>+ все характеристики</strong></td></tr>
+<tr><td>Запястья</td><td><strong>+ искусность</strong></td></tr>
+<tr><td>Камни</td><td><strong>+ искусность</strong>, <strong>+ крит</strong> — под сим</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use (1.5 мин)</strong></td><td>*Light Company Guidon* — синхрон с <strong>ВМ</strong></td><td>рейд</td></tr>
+<tr><td><strong>Сильный M+ on-use</strong></td><td>тринкет из <strong>Академии Алгет'ар</strong> (*Puzzle Box*, 2 мин — чуть хуже синхрон)</td><td>ключ</td></tr>
+<tr><td><strong>Запасной on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><strong>Шпили Ветрокрылых</strong></td></tr>
+<tr><td><strong>BiS пассивный</strong></td><td>*Gaze of the Alnseer*</td><td>рейд</td></tr>
+<tr><td><strong>Пассивный</strong></td><td><a href="https://www.wowhead.com/ru/item=250257"><strong>Око зияющей Бездны</strong></a></td><td>под сим</td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong><a href="https://www.wowhead.com/ru/spell=42650">Войском мертвых</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=63560">Темным превращением</a></strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=46585">Воскрешение мертвецов</a></strong>, питомец на <strong>«Помощь»</strong></li>
+<li>[ ] Герой: <strong>Всадник Апокалипсиса</strong></li>
+<li>[ ] Макрос <strong>Заморозки разума</strong> на `@focus` / `@mouseover`</li>
+<li>[ ] Макрос бурста (<strong>ВМ</strong> + <strong>ТП</strong> + тринкеты)</li>
+<li>[ ] <strong>Антимагический панцирь</strong> под магический урон пака</li>
+<li>[ ] Фарм: <strong>Пещеры Маисара</strong>, <strong>Академия Алгет'ар</strong>, <strong>Яма Сарона</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47528">Заморозка разума</a></td><td>прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207167">Ослепляющая наледь</a></td><td>AoE-«стоп» кастов (аффикс Ascendant)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49576">Хватка смерти</a></td><td>сбор мобов / stop-cast на расстоянии</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48707">Антимагический панцирь</a></td><td>сейв + рун. сила; <strong>Devour</strong> — пре-каст</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48792">Незыблемость льда</a></td><td>−30% урона, снимает стан</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48265">Поступь смерти</a> / <a href="https://www.wowhead.com/ru/spell=212552">Блуждающий дух</a></td><td>Pulsar, механики движения</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=61999">Воскрешение союзника</a></td><td>боевой ресс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=45524">Ледяные оковы</a></td><td>замедление для кайта</td></tr>
+</tbody></table>
+<p><strong>Макрос Заморозки разума:</strong></p>
+<pre><code>
+#showtooltip Заморозка разума
+
+/stopcasting
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Заморозка разума
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<h3 id="кулдауны-как-не-терять-dps">Кулдауны — как не терять DPS</h3>
+<ul>
+<li><strong>ТП</strong> — <strong>по КД</strong>; каждый второй раз вместе с <strong>ВМ</strong>.</li>
+<li>В M+ <strong>не держите</strong> <strong>ВМ</strong> «на большой пак» — теряете использования.</li>
+<li><strong>Нагн.</strong> концентрируйте в окне <strong>ТП</strong> (+ <strong>Commander of the Dead</strong>).</li>
+<li>После <strong>ТП</strong> с <strong>Сгнившим корнем</strong>: накопите болезни → <strong>Сгнивший корень</strong> → <strong>Нагн.</strong> для повторного наложения.</li>
+</ul>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать Анх ДК</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><a href="https://www.wowhead.com/ru/spell=207167">Ослепляющая наледь</a>, <a href="https://www.wowhead.com/ru/spell=47528">Заморозка разума</a>, <a href="https://www.wowhead.com/ru/spell=49576">Хватка смерти</a></td></tr>
+<tr><td><strong>Voidbound</strong></td><td>фокус адда; можно придержать <strong>ВМ</strong> / <strong>ТП</strong></td></tr>
+<tr><td><strong>Pulsar</strong></td><td><a href="https://www.wowhead.com/ru/spell=48265">Поступь смерти</a>, <a href="https://www.wowhead.com/ru/spell=212552">Блуждающий дух</a></td></tr>
+<tr><td><strong>Devour</strong></td><td><a href="https://www.wowhead.com/ru/spell=48707">Антимагический панцирь</a> до дебаффа или помогите снять щит</td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<h3 id="пороги-лс-vs-эпид-vs-нл-vs-кладб">Пороги <strong>ЛС</strong> vs <strong>Эпид.</strong> vs <strong>НЛ</strong> vs <strong>Кладб.</strong></h3>
+<table><tbody>
+<tr><th>Ситуация</th><th>Жмите</th></tr>
+<tr><td><strong>1–2</strong> цели, без <strong>Запретного знания</strong></td><td><strong>ЛС</strong></td></tr>
+<tr><td><strong>3+</strong> целей, без <strong>Запретного знания</strong></td><td><strong>Эпид.</strong></td></tr>
+<tr><td><strong>1–4</strong> цели, <strong>Запретное знание</strong> активно</td><td><strong>НЛ</strong></td></tr>
+<tr><td><strong>5+</strong> целей, <strong>Запретное знание</strong> активно</td><td><strong>Кладб.</strong></td></tr>
+<tr><td><strong>6+</strong> целей, <strong>Запретное знание</strong> активно</td><td><strong>Кладб.</strong> (приоритет над <strong>НЛ</strong>)</td></tr>
+</tbody></table>
+<h3 id="single-target-приоритетная-цель">Single target / приоритетная цель</h3>
+<p>1. Болезни (<strong>Нагн.</strong> / <strong>ВБ</strong>).</p>
+<p>2. <strong>ГК</strong> — обновить через <strong>УР</strong>.</p>
+<p>3. <strong>ЖД</strong> (&amp;lt;35% HP или бесплатный от <strong>ТП</strong> / <strong>Reaping</strong>).</p>
+<p>4. <strong>ЛС</strong> / <strong>НЛ</strong> (антикап / <strong>Внезапная гибель</strong>).</p>
+<p>5. <strong>Нагн.</strong> в <strong>ТП</strong>.</p>
+<p>6. <strong>УР</strong> (&amp;lt;3 стаков) → <strong>УП</strong> (≥1 стак).</p>
+<p>7. <strong>ЛС</strong> / <strong>НЛ</strong> — заполнитель.</p>
+<h3 id="aoe-m">AoE (M+)</h3>
+<p>1. Болезни на пак (<strong>ВБ</strong> / <strong>Нагн.</strong>).</p>
+<p>2. <strong>СиР</strong> при <strong>3+</strong> (с <strong>Циклом смерти</strong>).</p>
+<p>3. <strong>ВМ</strong> + <strong>ТП</strong> + <strong>ЖД</strong> + <strong>Нагн.</strong> (не кап заряды).</p>
+<p>4. <strong>Эпид.</strong> / <strong>Кладб.</strong> / <strong>НЛ</strong> — по таблице порогов.</p>
+<p>5. <strong>УР</strong> / <strong>УП</strong> — ниже приоритетом; стаки в AoE часто <strong>перекапываются</strong> — это нормально.</p>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-mythic-plus-tips">Icy Veins — Unholy DK M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/death-knight/unholy">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/unholy-dk-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>

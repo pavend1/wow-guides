@@ -2,14 +2,6 @@
   {
     "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
     "kind": "spell",
-    "id": 184662,
-    "label": "Ревностный защитник",
-    "api": "Щит возмездия",
-    "match": false
-  },
-  {
-    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
-    "kind": "spell",
     "id": 182104,
     "label": "spell=182104",
     "api": "Яркий Свет",
@@ -88,14 +80,6 @@
     "match": false
   },
   {
-    "file": "guides\\mplus\\prot-paladin-mplus-ru.md",
-    "kind": "item",
-    "id": 243990,
-    "label": "Чары для нагрудника – знак души мира",
-    "api": "Чары для наплечников – милость Амирдрассила",
-    "match": false
-  },
-  {
     "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
     "kind": "spell",
     "id": 5487,
@@ -123,56 +107,24 @@
     "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
     "kind": "spell",
     "id": 203964,
-    "label": "галактического стража",
+    "label": "галактического удара",
     "api": "Галактический страж",
     "match": false
   },
   {
-    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "file": "guides\\mplus\\subtlety-rogue-mplus-ru.md",
     "kind": "spell",
-    "id": 441605,
-    "label": "spell=441605",
-    "api": "Терзание",
+    "id": 185314,
+    "label": "Сгущающимися тенями",
+    "api": "Сгущающиеся тени",
     "match": false
   },
   {
-    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
+    "file": "guides\\mplus\\subtlety-rogue-mplus-ru.md",
     "kind": "spell",
-    "id": 204066,
-    "label": "spell=204066",
-    "api": "Лунный луч",
-    "match": false
-  },
-  {
-    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
-    "kind": "spell",
-    "id": 1252871,
-    "label": "spell=1252871",
-    "api": "Красная луна",
-    "match": false
-  },
-  {
-    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
-    "kind": "spell",
-    "id": 102558,
-    "label": "spell=102558",
-    "api": "Воплощение: Страж Урсока",
-    "match": false
-  },
-  {
-    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
-    "kind": "spell",
-    "id": 319454,
-    "label": "spell=319454",
-    "api": "Зов старейшего друида",
-    "match": false
-  },
-  {
-    "file": "guides\\mplus\\guardian-druid-mplus-ru.md",
-    "kind": "spell",
-    "id": 371982,
-    "label": "spell=371982",
-    "api": "После пожара",
+    "id": 470347,
+    "label": "Суперзарядки",
+    "api": "Суперзарядка",
     "match": false
   },
   {
