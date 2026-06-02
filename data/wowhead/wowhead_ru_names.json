@@ -1,0 +1,316 @@
+{
+  "ok": {
+    "spell:53600": {
+      "en": "Shield of the Righteous",
+      "ru": "Щит праведника"
+    },
+    "spell:85673": {
+      "en": "Word of Glory",
+      "ru": "Торжество"
+    },
+    "spell:26573": {
+      "en": "Consecration",
+      "ru": "Освящение"
+    },
+    "spell:31935": {
+      "en": "Avenger's Shield",
+      "ru": "Щит мстителя"
+    },
+    "spell:31884": {
+      "en": "Avenging Wrath",
+      "ru": "Гнев карателя"
+    },
+    "spell:375576": {
+      "en": "Divine Toll",
+      "ru": "Божественный благовест"
+    },
+    "spell:427453": {
+      "en": "Hammer of Light",
+      "ru": "Молот Света"
+    },
+    "spell:204019": {
+      "en": "Blessed Hammer",
+      "ru": "Благословенный молот"
+    },
+    "spell:53595": {
+      "en": "Hammer of the Righteous",
+      "ru": "Молот праведника"
+    },
+    "spell:24275": {
+      "en": "Hammer of Wrath",
+      "ru": "Молот гнева"
+    },
+    "spell:275779": {
+      "en": "Judgment",
+      "ru": "Правосудие"
+    },
+    "spell:62124": {
+      "en": "Hand of Reckoning",
+      "ru": "Длань расплаты"
+    },
+    "spell:31850": {
+      "en": "Ardent Defender",
+      "ru": "Ревностный защитник"
+    },
+    "spell:86659": {
+      "en": "Guardian of Ancient Kings",
+      "ru": "Защитник древних королей"
+    },
+    "spell:642": {
+      "en": "Divine Shield",
+      "ru": "Божественный щит"
+    },
+    "spell:633": {
+      "en": "Lay on Hands",
+      "ru": "Возложение рук"
+    },
+    "spell:96231": {
+      "en": "Rebuke",
+      "ru": "Укор"
+    },
+    "spell:853": {
+      "en": "Hammer of Justice",
+      "ru": "Молот правосудия"
+    },
+    "spell:115750": {
+      "en": "Blinding Light",
+      "ru": "Слепящий свет"
+    },
+    "spell:213644": {
+      "en": "Cleanse Toxins",
+      "ru": "Очищение от токсинов"
+    },
+    "spell:1022": {
+      "en": "Blessing of Protection",
+      "ru": "Благословение защиты"
+    },
+    "spell:204018": {
+      "en": "Blessing of Spellwarding",
+      "ru": "Благословение защиты от заклинаний"
+    },
+    "spell:6940": {
+      "en": "Blessing of Sacrifice",
+      "ru": "Жертвенное благословение"
+    },
+    "spell:10326": {
+      "en": "Turn Evil",
+      "ru": "Изгнание зла"
+    },
+    "spell:391054": {
+      "en": "Intercession",
+      "ru": "Заступничество"
+    },
+    "spell:465": {
+      "en": "Devotion Aura",
+      "ru": "Аура благочестия"
+    },
+    "spell:432472": {
+      "en": "Sacred Weapon",
+      "ru": "Святое оружие"
+    },
+    "spell:389539": {
+      "en": "Sentinel",
+      "ru": "Часовой"
+    },
+    "spell:327193": {
+      "en": "Shining Light proc",
+      "ru": "Минута славы"
+    },
+    "spell:105805": {
+      "en": "Vanguard",
+      "ru": "Святилище"
+    },
+    "spell:1044": {
+      "en": "Blessing of Freedom",
+      "ru": "Благословенная свобода"
+    },
+    "spell:190784": {
+      "en": "Divine Steed",
+      "ru": "Божественный скакун"
+    },
+    "spell:28730": {
+      "en": "Arcane Torrent",
+      "ru": "Волшебный поток"
+    },
+    "spell:46968": {
+      "en": "Final Stand",
+      "ru": "Ударная волна"
+    },
+    "spell:81256": {
+      "en": "Consecrated Ground",
+      "ru": "Танцующее руническое оружие"
+    },
+    "spell:431377": {
+      "en": "Templar",
+      "ru": "Светозар"
+    },
+    "spell:431414": {
+      "en": "Lightsmith",
+      "ru": "Солнечный ожог"
+    },
+    "item:237568": {
+      "en": "Luminant Verdict's Unwavering Gaze",
+      "ru": "Хризалида разлученных душ"
+    },
+    "item:237570": {
+      "en": "Luminant Verdict's Providence Watch",
+      "ru": "Логическая схема \"Омега\""
+    },
+    "item:237567": {
+      "en": "Luminant Verdict's Divine Warplate",
+      "ru": "Логическая схема \"Альфа\""
+    },
+    "item:237569": {
+      "en": "Luminant Verdict's Greaves",
+      "ru": "Отчаяние Вспышки Сумерек"
+    },
+    "item:246278": {
+      "en": "Voidclaw Gauntlets",
+      "ru": "Ножные пластины перенапряжения"
+    },
+    "item:246295": {
+      "en": "Spellbane Cutlass",
+      "ru": "Булава тазавешского часового"
+    },
+    "item:246296": {
+      "en": "Ward of the Spellbreaker",
+      "ru": "Несбалансированная булава тазавешского часового"
+    },
+    "item:246297": {
+      "en": "Algeth'ar Puzzle Box",
+      "ru": "Клинковый посох отчаявшегося защитника"
+    },
+    "item:246298": {
+      "en": "Solarflare Prism",
+      "ru": "Треснутый посох отчаявшегося защитника"
+    },
+    "item:246299": {
+      "en": "Umbral Plume",
+      "ru": "Клинок утраченной надежды"
+    },
+    "item:246301": {
+      "en": "Spellbreaker's Bracers",
+      "ru": "Выщербленный клинок утраченной надежды"
+    },
+    "item:246304": {
+      "en": "Spellbreaker's Blade",
+      "ru": "Господство Новолуния \"Охота\""
+    },
+    "item:246305": {
+      "en": "Spellbreaker's Rebuke",
+      "ru": "Господство Новолуния \"Кровь\""
+    }
+  },
+  "errors": [
+    [
+      "item:237571",
+      "Luminant Verdict's Gauntlets",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:246300",
+      "Loa Worshiper's Band",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:246302",
+      "Rotting Globule",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:246303",
+      "Heart of Wind",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240041",
+      "Empowered Blessing of Speed",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240042",
+      "Akil'zon's Swiftness",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240043",
+      "Mark of the Worldsoul",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240044",
+      "Blood Knight's Armor Kit",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240045",
+      "Farstrider's Hunt",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240046",
+      "Silvermoon's Tenacity ring",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240047",
+      "Acuity of the Ren'dorei",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240048",
+      "Thalassian Phoenix Oil",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240049",
+      "Rite of Sanctification",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240050",
+      "Indecipherable Eversong Diamond",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240051",
+      "Flawless Masterful Peridot",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240052",
+      "Stabilizing Gemstone Bandolier",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240053",
+      "Flask of the Shattered Sun",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240054",
+      "Light's Potential",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240055",
+      "Silvermoon Health Potion",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240056",
+      "Champion's Bento",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240057",
+      "Void-Touched Augment Rune",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "item:240058",
+      "Radiant Jewelbinder",
+      "HTTP Error 404: Not Found"
+    ]
+  ]
+}
