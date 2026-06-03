@@ -227,7 +227,7 @@
 4. **Критический удар**
 5. **Универсальность**
 
-> **Скорость** через **[Сгущающиеся тени](https://www.wowhead.com/ru/spell=185314)** удлиняет **ТТ** — on-use с **скоростью** (например, *Light Company Guidon*) жмите **чуть раньше** опенера.
+> **Скорость** через **[Сгущающиеся тени](https://www.wowhead.com/ru/spell=185314)** удлиняет **ТТ** — on-use с **скоростью** (например, **[Стяг отряда Света](https://www.wowhead.com/ru/item=249344)**) жмите **чуть раньше** опенера.
 
 ---
 
@@ -239,7 +239,7 @@
 |------------|-------|
 | [**Небесный Путь**](https://www.wowhead.com/ru/zone=6988) | оружие (*Edge of the Burning Sun* и др.) |
 | [**Узел Нексуса Зенас**](https://www.wowhead.com/ru/zone=16573) | кольца, оружие |
-| [**Академия Алгет'ар**](https://www.wowhead.com/ru/zone=14032) | on-use тринкет (*Algeth'ar Puzzle Box*) |
+| [**Академия Алгет'ар**](https://www.wowhead.com/ru/zone=14032) | on-use — [**Алгет'арская шкатулка с секретом**](https://www.wowhead.com/ru/item=193701) |
 | [**Шпили Ветрокрылых**](https://www.wowhead.com/ru/zone=15808) | [**Сердце ветра**](https://www.wowhead.com/ru/item=250256) |
 | [**Пещеры Маисара**](https://www.wowhead.com/ru/zone=16395) | сильные аксессуары сезона |
 | [**Яма Сарона**](https://www.wowhead.com/ru/zone=4813) | наручи, пояс, кольца |
@@ -301,13 +301,13 @@
 
 | Роль | Предмет | Откуда |
 |------|---------|--------|
-| **BiS on-use (90 сек)** | *Light Company Guidon* | рейд |
-| **Сильный M+ on-use** | *Algeth'ar Puzzle Box* (**2 мин** — в каждый второй **ТК**) | **Академия Алгет'ар** |
-| **Запасной on-use** | [**Сердце ветра**](https://www.wowhead.com/ru/item=250256) | **Шпили Ветрокрылых** |
-| **BiS пассивный** | *Gaze of the Alnseer* | рейд |
-| **Пассивный M+** | *Solarflare Prism* | **Небесный Путь** |
+| **BiS on-use (90 сек)** | [**Стяг отряда Света**](https://www.wowhead.com/ru/item=249344) | рейд (Шпиль Пустоты) |
+| **Сильный M+ on-use** | [**Алгет'арская шкатулка с секретом**](https://www.wowhead.com/ru/item=193701) (**2 мин** — в каждый второй **ТК**) | [**Академия Алгет'ар**](https://www.wowhead.com/ru/zone=14032) |
+| **Запасной on-use** | [**Сердце ветра**](https://www.wowhead.com/ru/item=250256) | [**Шпили Ветрокрылых**](https://www.wowhead.com/ru/zone=15808) |
+| **BiS пассивный** | [**Око зияющей Бездны**](https://www.wowhead.com/ru/item=250257) | рейд |
+| **Пассивный M+** | [**Призма солнечной вспышки**](https://www.wowhead.com/ru/item=252420) | [**Небесный Путь**](https://www.wowhead.com/ru/zone=6988) |
 
-Синхронизируйте on-use с **[Теневыми клинками](https://www.wowhead.com/ru/spell=121471)** внутри **[Танца теней](https://www.wowhead.com/ru/spell=185313)**. *Puzzle Box* начинает **канал ~2 сек** — жмите **до** **ТК**.
+Синхронизируйте on-use с **[Теневыми клинками](https://www.wowhead.com/ru/spell=121471)** внутри **[Танца теней](https://www.wowhead.com/ru/spell=185313)**. **Шкатулка** начинает **канал ~2 сек** — жмите **до** **ТК**.
 
 ---
 
