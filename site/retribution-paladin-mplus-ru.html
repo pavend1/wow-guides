@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ретри-паладин — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="воздаяние-ретри-паладин-гайд-для-mythic-ключи">Воздаяние (ретри-паладин) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents">таланты</a> · <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-mythic-plus-tips">M+</a> · <a href="https://www.method.gg/guides/retribution-paladin/talents">Method — таланты</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>06.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#сила-света-на-экране">Сила Света на экране</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-храмовник-vs-вестник-солнца">Герой-талант: Храмовник vs Вестник Солнца</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#чары-гемы-и-химия">Чары, гемы и химия</a></li>
+<li><a href="#чары">Чары</a></li>
+<li><a href="#гемы">Гемы</a></li>
+<li><a href="#химия">Химия</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>Ретри / Воздаяние</strong></td><td><strong>Воздаяние</strong> (*Retribution Paladin*)</td></tr>
+<tr><td><strong>СС</strong></td><td><strong>Сила Света</strong> (*Holy Power*), до <strong>5</strong></td></tr>
+<tr><td><strong>ГК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=31884">Гнев карателя</a></strong> (*Avenging Wrath*) — главный бурст <strong>~2 мин</strong></td></tr>
+<tr><td><strong>ИС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></strong> (*Wake of Ashes*) — AoE-стан + генератор</td></tr>
+<tr><td><strong>КС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=184575">Клинок справедливости</a></strong> (*Blade of Justice*)</td></tr>
+<tr><td><strong>ББ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=375576">Божественный благовест</a></strong> (*Divine Toll*)</td></tr>
+<tr><td><strong>СП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=343527">Смертный приговор</a></strong> (*Execution Sentence*)</td></tr>
+<tr><td><strong>ОП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=383328">Окончательный приговор</a></strong> (*Final Verdict*) — ST-тратитель</td></tr>
+<tr><td><strong>ББуря</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=53385">Божественная буря</a></strong> (*Divine Storm*) — AoE-тратитель</td></tr>
+<tr><td><strong>МС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=427453">Молот Света</a></strong> (*Hammer of Light*) — после <strong>ИС</strong> (<strong>Храмовник</strong>)</td></tr>
+<tr><td><strong>МГ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=24275">Молот гнева</a></strong> (*Hammer of Wrath*)</td></tr>
+<tr><td><strong>ИВ</strong></td><td>прок <strong>Искусство войны</strong> / <strong>Праведная причина</strong> — усиливает <strong>КС</strong></td></tr>
+<tr><td><strong>СвВ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=384392">Сияющая война</a></strong> (*Radiant Glory*) — <strong>ГК</strong> через <strong>ИС</strong></td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Генерируете <strong>Силу Света</strong> (<strong>КС</strong>, <strong>Удар воина Света</strong>, <strong>Правосудие</strong>, <strong>ИС</strong>, <strong>ББ</strong> и автоатаки с <strong>Крестовыми ударами</strong>).</p>
+<p>2. Тратите <strong>СС</strong> на <strong><a href="https://www.wowhead.com/ru/spell=383328">Окончательный приговор</a></strong> (одна цель) или <strong><a href="https://www.wowhead.com/ru/spell=53385">Божественную бурю</a></strong> (<strong>3+</strong> врагов).</p>
+<p>3. В бурст (<strong>Храмовник</strong>, M+): <strong><a href="https://www.wowhead.com/ru/spell=31884">Гнев карателя</a></strong> → <strong><a href="https://www.wowhead.com/ru/spell=343527">Смертный приговор</a></strong> (если в билде) → <strong><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></strong> → <strong><a href="https://www.wowhead.com/ru/spell=427453">Молот Света</a></strong> → <strong>ОП</strong> / <strong>ББуря</strong> → <strong><a href="https://www.wowhead.com/ru/spell=375576">Божественный благовест</a></strong>.</p>
+<p>4. При проке <strong>Искусства войны</strong> — <strong><a href="https://www.wowhead.com/ru/spell=184575">Клинок справедливости</a></strong> <strong>выше</strong> обычного приоритета (apex <strong><a href="https://www.wowhead.com/ru/spell=1261113">Свет в душе</a></strong>).</p>
+<p>5. <strong>Не капайте</strong> <strong>5 СС</strong> без плана; <strong>не держите</strong> <strong>ГК</strong> «на идеальный пак» — в ключах лучше лишний бурст на среднем пуле.</p>
+<blockquote>
+<p><strong>Воздаяние</strong> в M+ — мощные <strong>всплески</strong> каждые <strong>~1–2 мин</strong> + сильная <strong>групповая утилита</strong> (сейвы, ресс, аура). Урон «между окнами» скромнее, чем у чистых ranged-DPS — это нормально.</p>
+</blockquote>
+<h2 id="сила-света-на-экране">Сила Света на экране</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>СС</strong> (до <strong>5</strong>)</td><td>Тратьте на <strong>ОП</strong> / <strong>ББурю</strong> / <strong>МС</strong>; не генерируйте на <strong>5</strong> «просто так»</td><td>кап = потеря генерации</td></tr>
+<tr><td><strong>ИВ</strong> (прок)</td><td><strong>КС</strong> сразу, даже если <strong>4 СС</strong> — можно «потерять» 1 СС</td><td>apex <strong>Свет в душе</strong> + риск перезаписи прока</td></tr>
+<tr><td><strong>МС</strong> (<strong>~20 сек</strong> после <strong>ИС</strong>)</td><td><strong>5 СС</strong> → <strong>МС</strong> в окне <strong>ГК</strong> / <strong>СП</strong></td><td>главный урон <strong>Храмовника</strong></td></tr>
+<tr><td><strong>ГК</strong> (<strong>~2 мин</strong>)</td><td>Жмите на паке <strong>≥15 сек</strong>; тринкеты <strong>до</strong> или <strong>внутри</strong></td><td><strong>ГК</strong> усиливает крит и траты <strong>СС</strong></td></tr>
+<tr><td><strong>ИС</strong> (<strong>~45 сек</strong>)</td><td>По КД на паке; с <strong>СвВ</strong> — это и есть «мини-<strong>ГК</strong>»</td><td>AoE-стан (демоны/нежить) + <strong>МС</strong></td></tr>
+</tbody></table>
+<p><strong><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a>:</strong> <strong>5 сек</strong> AoE-оглушение только по <strong>демонам</strong> и <strong>нежити</strong> — на таких паках цените стан; на остальных это просто урон + <strong>МС</strong>.</p>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31884">Гнев карателя</a></td><td>+урон, +крит; <strong>Правосудие</strong> → <strong>Молот гнева</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></td><td>AoE-урон, стан нежити/демонов; открывает <strong>МС</strong> (<strong>Храмовник</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=427453">Молот Света</a></td><td><strong>5 СС</strong>, огромный AoE после <strong>ИС</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=184575">Клинок справедливости</a></td><td>генератор <strong>2 СС</strong>; при <strong>ИВ</strong> — приоритет</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=375576">Божественный благовест</a></td><td><strong>5 СС</strong> мгновенно + <strong><a href="https://www.wowhead.com/ru/spell=384027">Божественный резонанс</a></strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=343527">Смертный приговор</a></td><td>отложенный урон по приоритетной цели; в AoE бейте пак как обычно</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=383328">Окончательный приговор</a></td><td>главный ST-тратитель <strong>СС</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=53385">Божественная буря</a></td><td>AoE-тратитель <strong>СС</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=20271">Правосудие</a></td><td>генератор; в <strong>ГК</strong> → <strong>Молот гнева</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=24275">Молот гнева</a></td><td>генератор при <strong>ГК</strong> или цель &amp;lt;20% HP</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=35395">Удар воина Света</a></td><td>базовый генератор (без <strong>Крестовых ударов</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=403826">Клинок возмездия</a></td><td>AoE-<strong>КС</strong> (талант M+)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=184662">Щит возмездия</a></td><td>поглощение урона на <strong>~15 сек</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=96231">Укор</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=853">Молот правосудия</a></td><td><strong>6 сек</strong> оглушение</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115750">Слепящий свет</a></td><td>AoE-дизориент <strong>~10 м</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=10326">Изгнание зла</a></td><td>страх нежити/демонов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=391054">Заступничество</a></td><td>боевой ресс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=213644">Очищение от токсинов</a></td><td>снятие яда/болезни</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1044">Благословенная свобода</a></td><td>снятие замедлений</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1022">Благословение защиты</a></td><td>иммунитет к физике <strong>10 сек</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6940">Жертвенное благословение</a></td><td>−30% урона союзнику</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=633">Возложение рук</a></td><td>полный хил союзнику</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=85673">Торжество</a></td><td>хил за <strong>3 СС</strong> (редко в M+)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=190784">Божественный скакун</a></td><td>рывок / Pulsar</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=317920">Аура сосредоточенности</a></td><td>−3% урона группе</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Бурст</td><td><strong>ГК</strong> + <strong>СП</strong> + <strong>ИС</strong> + <strong>МС</strong> + <strong>ББ</strong></td><td>пак <strong>≥15 сек</strong>; тринкеты внутри</td></tr>
+<tr><td>Прок</td><td><strong>КС</strong> с <strong>ИВ</strong></td><td>сразу, не ждите «идеальных» <strong>5 СС</strong></td></tr>
+<tr><td>ST</td><td><strong>ОП</strong></td><td><strong>3–5 СС</strong>, одна цель</td></tr>
+<tr><td>AoE</td><td><strong>ББуря</strong></td><td><strong>3+</strong> целей (или <strong>2+</strong> с *Tempest of the Lightbringer*)</td></tr>
+<tr><td>Генераторы</td><td><strong>КС</strong>, <strong>Правосудие</strong>, <strong>МГ</strong>, <strong>Удар воина Света</strong></td><td>не кап <strong>СС</strong></td></tr>
+<tr><td>По КД</td><td><strong>ИС</strong>, <strong>ББ</strong></td><td>на любом живом паке</td></tr>
+<tr><td>Утилита</td><td><strong>Укор</strong>, <strong>Молот правосудия</strong>, <strong>Слепящий свет</strong></td><td>по механикам недели</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Если есть <strong><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a></strong> — <strong>канал ~2 сек</strong> <strong>до</strong> пула (или за <strong>~2 сек</strong> до <strong>ГК</strong>).</p>
+<p><strong>Храмовник, стандарт M+ (со <a href="https://www.wowhead.com/ru/spell=343527">Смертным приговором</a>):</strong></p>
+<p>1. <strong><a href="https://www.wowhead.com/ru/spell=184575">Клинок справедливости</a></strong>.</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=31884">Гнев карателя</a></strong>.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/item=241309">Потенциал Света</a></strong> + on-use тринкеты.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=343527">Смертный приговор</a></strong>.</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></strong>.</p>
+<p>6. <strong><a href="https://www.wowhead.com/ru/spell=427453">Молот Света</a></strong>.</p>
+<p>7. <strong><a href="https://www.wowhead.com/ru/spell=383328">Окончательный приговор</a></strong> × <strong>2</strong>.</p>
+<p>8. <strong><a href="https://www.wowhead.com/ru/spell=375576">Божественный благовест</a></strong>.</p>
+<p>9. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<p><strong>С <a href="https://www.wowhead.com/ru/spell=384392">Сияющей войной</a></strong> вместо <strong>СП:</strong> шаг <strong>4</strong> пропустите — <strong>ГК</strong> даст <strong><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></strong> раньше; жмите <strong>ИС</strong> сразу после <strong>ГК</strong>.</p>
+<p><strong>Макрос бурста:</strong></p>
+<pre><code>
+#showtooltip Гнев карателя
+
+/cast Гнев карателя
+
+/cast Смертный приговор
+
+/use 13
+
+/use 14
+
+</pre>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. <strong>ИВ</strong> на <strong>КС</strong>? → <strong>КС</strong> (даже на <strong>4 СС</strong>).</p>
+<p>2. <strong>МС</strong> готов и есть <strong>5 СС</strong>? → <strong>МС</strong> (особенно в <strong>ГК</strong> / <strong>СП</strong>).</p>
+<p>3. <strong>ГК</strong> готов и танк держит пак? → <strong>ГК</strong> → <strong>СП</strong> → <strong>ИС</strong> → <strong>МС</strong> → траты <strong>СС</strong>.</p>
+<p>4. <strong>3+</strong> врагов? → <strong>ББуря</strong>; иначе → <strong>ОП</strong> на <strong>3–5 СС</strong>.</p>
+<p>5. <strong>ИС</strong> / <strong>ББ</strong> по КД — не копите «на босса», если пак живёт <strong>≥10 сек</strong>.</p>
+<p>6. <strong>Укор</strong> и <strong><a href="https://www.wowhead.com/ru/spell=115750">Слепящий свет</a></strong> важнее, чем «дожать» последний <strong>ОП</strong> на адде.</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-храмовник-vs-вестник-солнца">Герой-талант: Храмовник vs Вестник Солнца</h2>
+<table><tbody>
+<tr><th></th><th><strong>Храмовник</strong> (*Templar*)</th><th><strong>Вестник Солнца</strong> (*Herald of the Sun*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — <strong>Молот Света</strong>, сильный AoE</td><td>чуть проще sustained, меньше пикового бурста</td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>ИС</strong> → <strong>МС</strong>, <strong>Божественный молот</strong>, cleave от критов</td><td><strong><a href="https://www.wowhead.com/ru/spell=431377">Светозар</a></strong> после <strong>ИС</strong>, сильный <strong>Молот гнева</strong></td></tr>
+<tr><td><strong>Генерация СС</strong></td><td><strong>Крестовые удары</strong> (*Crusading Strikes*)</td><td><strong>Удары Света</strong> (*Templar Strikes*)</td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>лучший AoE-бурст, funnel с <strong>СП</strong></td><td>ровный ST, меньше «setup»</td></tr>
+<tr><td><strong>Слабости</strong></td><td>нужно не забывать <strong>МС</strong> после <strong>ИС</strong></td><td>слабее на разбросанных паках</td></tr>
+</tbody></table>
+<p><strong>Импорт (M+, Храмовник, AoE / <a href="https://www.wowhead.com/ru/spell=384392">Сияющая война</a>):</strong></p>
+<p>`CYEAAAAAAAAAAAAAAAAAAAAAAAAAAMAAa22mZmlxYmBAAAAAwMlZxwMjthZbYmtZMGjhZsxGGAAyMTbzMbzAA2AMAYMDDMzMzshlZwwYYwA`</p>
+<p><strong>Импорт (M+, Храмовник, приоритетная цель / <a href="https://www.wowhead.com/ru/spell=343527">Смертный приговор</a>):</strong> возьмите на <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-mythic-plus-tips">Icy Veins — M+ Execution Sentence</a> (вкладка *Templar Execution Sentence*).</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/paladin/retribution">Wowhead RU — паладин, воздаяние</a>.</p>
+<p><strong>Частые замены в M+ (Храмовник):</strong></p>
+<ul>
+<li><strong>Tempest of the Lightbringer</strong> вместо <strong>Jurisdiction</strong> — больше AoE (<strong>ББуря</strong> уже с <strong>2</strong> целей).</li>
+<li><strong><a href="https://www.wowhead.com/ru/spell=343527">Смертный приговор</a></strong> вместо <strong><a href="https://www.wowhead.com/ru/spell=384392">Сияющей войны</a></strong> — funnel на приоритетную цель (высокие ключи).</li>
+<li><strong><a href="https://www.wowhead.com/ru/spell=403826">Клинок возмездия</a></strong> + <strong>Sanctify</strong> — cleave-паки.</li>
+<li><strong>Blinding Light</strong> (талант) — <strong><a href="https://www.wowhead.com/ru/spell=115750">Слепящий свет</a></strong> бьёт по AoE (аффикс Ascendant).</li>
+<li><strong>Turn Evil</strong> — <strong><a href="https://www.wowhead.com/ru/spell=10326">Изгнание зла</a></strong> на нежить/демонов.</li>
+</ul>
+<p><strong>Apex <a href="https://www.wowhead.com/ru/spell=1261113">Свет в душе</a>:</strong> прок <strong>ИВ</strong> → <strong>КС</strong> <strong>+150%</strong> урона + волна AoE; в <strong>ГК</strong> траты <strong>СС</strong> сильнее. <strong>Не перезаписывайте</strong> прок лишним <strong>КС</strong> без <strong>ИВ</strong>.</p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Сила на 2H-оружии даёт больше, чем на любом другом слоте.</p>
+<h3 id="приоритет-m-храмовник">Приоритет (M+, <strong>Храмовник</strong>)</h3>
+<p>1. <strong>Сила</strong></p>
+<p>2. <strong>Искусность</strong> — усиливает весь святой урон</p>
+<p>3. <strong>Критический удар</strong> — ценнее в AoE (<strong>Wrathful Descent</strong>)</p>
+<p>4. <strong>Скорость</strong> — быстрее <strong>Крестовые удары</strong> и КД генераторов</p>
+<p>5. <strong>Универсальность</strong></p>
+<blockquote>
+<p>Точный порядок вторичек <strong>плавает</strong> от экипировки — для BiS прогоните <a href="https://www.raidbots.com/">Raidbots</a>. Жёстких брейкпоинтов нет.</p>
+</blockquote>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td><strong><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a></strong>, 2H-оружие</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>сильное 2H-оружие сезона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>кольца (сет-бонус колец)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td><strong><a href="https://www.wowhead.com/ru/item=151332">Перчатки когтей Бездны</a></strong> (офф-сет тира)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=4813"><strong>Яма Сарона</strong></a></td><td>шея, пояс, кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><strong><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a></strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td><strong><a href="https://www.wowhead.com/ru/item=252420">Призма солнечной вспышки</a></strong></td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1985">Одежды суда света</a></strong> (4 предмета; <strong>перчатки — офф-сет</strong>):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=249961">Неколебимый взор суда света</a></td></tr>
+<tr><td>Плечи</td><td><a href="https://www.wowhead.com/ru/item=249959">Наблюдатели суда света</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=249964">Небесный боевой доспех суда света</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=249960">Наголенники суда света</a></td></tr>
+<tr><td>Руки</td><td><strong><a href="https://www.wowhead.com/ru/item=151332">Перчатки когтей Бездны</a></strong> (не тир!) — <a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td></tr>
+</tbody></table>
+<p><strong>2/4:</strong> <strong><a href="https://www.wowhead.com/ru/spell=383346">Огонь очищения</a></strong> сильнее на тратах <strong>СС</strong>; <strong>4/4:</strong> пассивный урон — на ротацию почти не влияет.</p>
+<p><strong>Крафт (ранний сезон):</strong> 2H <strong>Blood Knight's Warblade</strong> с *Darkmoon Sigil: Hunt* → пояс/наручи с *Arcanoweave Lining*.</p>
+<hr>
+<h2 id="чары-гемы-и-химия">Чары, гемы и химия</h2>
+<p>Источник: <a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gems-enchants-consumables">Icy Veins — gems, enchants, consumables</a>. Названия — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a>.</p>
+<h3 id="чары">Чары</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td><strong>Оружие</strong></td><td><strong>Точность рен'дораи</strong> + <a href="https://www.wowhead.com/ru/item=243733">Талассийское масло феникса</a></td></tr>
+<tr><td><strong>Шлем / плечи</strong></td><td>усиленное избегание / благодать Амирдрассила</td></tr>
+<tr><td><strong>Грудь</strong></td><td>метка души мира</td></tr>
+<tr><td><strong>Ноги</strong></td><td>набор охотника из леса</td></tr>
+<tr><td><strong>Обувь</strong></td><td>ловкость рыси</td></tr>
+<tr><td><strong>Кольца</strong></td><td><strong>+ искусность</strong> / <strong>+ крит</strong> (по симу)</td></tr>
+<tr><td><strong>Запястья / накидка</strong></td><td><strong>+ искусность</strong></td></tr>
+</tbody></table>
+<h3 id="гемы">Гемы</h3>
+<p><strong>Эпик:</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a>. <strong>Остальные:</strong> <strong>безупречный аметист смертоносности</strong> / <strong>гранат мастерства</strong> — в недостающую вторичку (сим).</p>
+<h3 id="химия">Химия</h3>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th><th>Заметка</th></tr>
+<tr><td><strong>Настой</strong></td><td><a href="https://www.wowhead.com/ru/item=241323">Настой магистров</a> / <a href="https://www.wowhead.com/ru/item=241327">Настой Расколотого Солнца</a></td><td>По симу: не хватает мастерства → Солнце</td></tr>
+<tr><td><strong>Боевое зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241309">Потенциал Света</a></td><td>В бурст с <strong>ГК</strong></td></tr>
+<tr><td><strong>Хил-зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241304">Луносветское лечебное зелье</a></td><td>Запас HP</td></tr>
+<tr><td><strong>Еда (пир)</strong></td><td><a href="https://www.wowhead.com/ru/item=255845">Парад Луносвета</a> / <a href="https://www.wowhead.com/ru/item=255846">Празднество Харандара</a></td><td>Основная стата</td></tr>
+<tr><td><strong>Еда (запас)</strong></td><td><a href="https://www.wowhead.com/ru/item=255847">Невообразимое королевское жаркое</a></td><td>Если пира нет</td></tr>
+<tr><td><strong>Руна</strong></td><td><a href="https://www.wowhead.com/ru/item=259085">Меченная Бездной руна усиления</a></td><td>На важные ключи</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=193701"><strong>Алгет'арская шкатулка с секретом</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a> — <strong>канал до</strong> <strong>ГК</strong></td></tr>
+<tr><td><strong>BiS пассивный</strong></td><td><a href="https://www.wowhead.com/ru/item=260235"><strong>Темное перо</strong></a> / *Radiant Plume*</td><td>рейд</td></tr>
+<tr><td><strong>Сильный M+ пассив</strong></td><td><a href="https://www.wowhead.com/ru/item=252420"><strong>Призма солнечной вспышки</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td></tr>
+<tr><td><strong>Запасной on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td></tr>
+<tr><td><strong>Запасной on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=249344"><strong>Стяг отряда Света</strong></a></td><td>рейд (<strong>2 мин</strong> — в каждый второй <strong>ГК</strong>)</td></tr>
+</tbody></table>
+<p><strong>Шкатулка</strong> — <strong>~2 сек</strong> канала; не макросьте в одну кнопку с <strong>ГК</strong>, если не успеваете. On-use со <strong>статами</strong> — внутри <strong><a href="https://www.wowhead.com/ru/spell=31884">Гнева карателя</a></strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] Герой: <strong>Храмовник</strong> (M+)</li>
+<li>[ ] 2H-оружие (не щит + 1H для урона)</li>
+<li>[ ] Макрос <strong><a href="https://www.wowhead.com/ru/spell=96231">Укора</a></strong> на `@focus` / `@mouseover`</li>
+<li>[ ] Макрос бурста (<strong>ГК</strong> + <strong>СП</strong> + тринкеты)</li>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка</a></strong> — канал <strong>до</strong> пула</li>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=317920">Аура сосредоточенности</a></strong> включена</li>
+<li>[ ] Фарм: <strong>Академия Алгет'ар</strong>, <strong>Пещеры Маисара</strong>, <strong>Престол Триумвирата</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=96231">Укор</a></td><td>прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=853">Молот правосудия</a></td><td><strong>6 сек</strong> стан на кастера</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=115750">Слепящий свет</a></td><td>AoE-«стоп» (Ascendant); единственный AoE-stop ретри</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></td><td><strong>5 сек</strong> AoE-стан по <strong>демонам/нежити</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=10326">Изгнание зла</a></td><td>контроль нежити/демонов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=184662">Щит возмездия</a></td><td>пре-каст под тяжёлый удар / <strong>Devour</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=391054">Заступничество</a></td><td>боевой ресс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=213644">Очищение от токсинов</a></td><td>яд/болезнь; <strong>Devour</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1044">Благословенная свобода</a></td><td>замедления; <strong>Devour</strong> (с *Unbound Freedom* — на союзника)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1022">Благословение защиты</a></td><td>физ. иммун союзнику с агро</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6940">Жертвенное благословение</a></td><td>сейв танка/хила — <strong>договоритесь заранее</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=633">Возложение рук</a></td><td>экстренный хил</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=190784">Божественный скакун</a></td><td>Pulsar, механики</td></tr>
+</tbody></table>
+<p><strong>Макрос Укора:</strong></p>
+<pre><code>
+#showtooltip Укор
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Укор
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<h3 id="кулдауны-как-не-терять-dps">Кулдауны — как не терять DPS</h3>
+<ul>
+<li><strong>ГК</strong> — на любом паке <strong>≥15 сек</strong>; внутри — <strong>СП</strong> → <strong>ИС</strong> → <strong>МС</strong> → <strong>ББ</strong>.</li>
+<li><strong>ИС</strong> / <strong>ББ</strong> — <strong>по КД</strong>, не «копите на босса» в M+.</li>
+<li>С <strong>СП</strong> активным — продолжайте AoE-ротацию; урон <strong>СП</strong> считает весь урон по целям.</li>
+<li><strong>Шкатулка</strong>: канал <strong>до</strong> <strong>ГК</strong>, не после.</li>
+</ul>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать ретри</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=115750">Слепящий свет</a></strong> (талант AoE), <strong><a href="https://www.wowhead.com/ru/spell=96231">Укор</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=853">Молот правосудия</a></strong>; орбы — слабая сторона класса</td></tr>
+<tr><td><strong>Voidbound</strong></td><td>фокус адда; <strong>ГК</strong> + <strong>СП</strong> по приоритету</td></tr>
+<tr><td><strong>Pulsar</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=190784">Божественный скакун</a></strong>; подбирайте орбы у союзников</td></tr>
+<tr><td><strong>Devour</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=213644">Очищение от токсинов</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=1044">Благословенная свобода</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=184662">Щит возмездия</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=633">Возложение рук</a></strong></td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<h3 id="пороги-st-vs-aoe">Пороги ST vs AoE</h3>
+<table><tbody>
+<tr><th>Ситуация</th><th>Тратитель <strong>СС</strong></th></tr>
+<tr><td><strong>1–2</strong> цели</td><td><strong><a href="https://www.wowhead.com/ru/spell=383328">Окончательный приговор</a></strong></td></tr>
+<tr><td><strong>3+</strong> целей</td><td><strong><a href="https://www.wowhead.com/ru/spell=53385">Божественная буря</a></strong></td></tr>
+<tr><td><strong>2+</strong> с *Tempest of the Lightbringer* (без <strong>Jurisdiction</strong>)</td><td><strong><a href="https://www.wowhead.com/ru/spell=53385">Божественная буря</a></strong></td></tr>
+</tbody></table>
+<h3 id="single-target-приоритетная-цель">Single target / приоритетная цель</h3>
+<p>1. <strong><a href="https://www.wowhead.com/ru/spell=427453">Молот Света</a></strong> с проком *Light's Deliverance* (если скоро кончится <strong>ГК</strong> / <strong>СП</strong>).</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=184575">Клинок справедливости</a></strong> с <strong>ИВ</strong> (apex <strong>Свет в душе</strong>).</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=427453">Молот Света</a></strong> при <strong>5 СС</strong>.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=383328">Окончательный приговор</a></strong> при <strong>3–5 СС</strong>.</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=255937">Испепеляющий след</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=375576">Божественный благовест</a></strong> по КД.</p>
+<p>6. <strong><a href="https://www.wowhead.com/ru/spell=184575">Клинок справедливости</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=20271">Правосудие</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=24275">Молот гнева</a></strong> — генераторы.</p>
+<h3 id="aoe-m">AoE (M+)</h3>
+<p>1. <strong>ИВ</strong> → <strong>КС</strong> (можно с <strong><a href="https://www.wowhead.com/ru/spell=403826">Клинком возмездия</a></strong>).</p>
+<p>2. <strong>МС</strong> / <strong>ББуря</strong> / <strong>ОП</strong> — как в ST, но <strong>ББуря</strong> при <strong>3+</strong>.</p>
+<p>3. <strong>ИС</strong> + <strong>ББ</strong> по КД.</p>
+<p>4. Не капите <strong>СС</strong> на AoE — <strong>ББуря</strong> часто важнее «идеального» <strong>ОП</strong>.</p>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-mythic-plus-tips">Icy Veins — Retribution Paladin M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/retribution-paladin-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/paladin/retribution">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/retribution-paladin-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>
