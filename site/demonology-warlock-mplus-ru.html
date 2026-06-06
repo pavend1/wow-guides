@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Демонолог — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="демонолог-варлок-гайд-для-mythic-ключи">Демонолог (варлок) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents">таланты</a> · <a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-mythic-plus-tips">M+</a> · <a href="https://www.method.gg/guides/demonology-warlock/stats-races-and-consumables">Method — расы</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>06.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#две-валюты-на-экране">Две «валюты» на экране</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-диабolist-vs-жнец-душ">Герой-талант: Диабolist vs Жнец душ</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#расы-орда-и-альянс">Расы: Орда и Альянс</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#чары-гемы-и-химия">Чары, гемы и химия</a></li>
+<li><a href="#чары">Чары</a></li>
+<li><a href="#гемы">Гемы</a></li>
+<li><a href="#химия">Химия</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>Демонолог / Демо</strong></td><td><strong>Демонология</strong> (*Demonology Warlock*)</td></tr>
+<tr><td><strong>ОД</strong></td><td><strong>Осколки души</strong> (*Soul Shards*)</td></tr>
+<tr><td><strong>ДЯ</strong></td><td><strong>Демоническое ядро</strong> (*Demonic Core*) — прок для <strong><a href="https://www.wowhead.com/ru/spell=264178">Демонического заряда</a></strong></td></tr>
+<tr><td><strong>РГ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=105174">Рука Гул'дана</a></strong> (*Hand of Gul'dan*)</td></tr>
+<tr><td><strong>ЗО</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=104316">Призыв зловещих охотников</a></strong> (*Call Dreadstalkers*)</td></tr>
+<tr><td><strong>Тиран</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=265187">Призыв демонического тирана</a></strong> (*Summon Demonic Tyrant*)</td></tr>
+<tr><td><strong>Страж</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=18540">Призыв стража ужаса</a></strong> (*Summon Doomguard*)</td></tr>
+<tr><td><strong>Импл.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=196277">Имплозия</a></strong> (*Implosion*)</td></tr>
+<tr><td><strong>ВС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=264130">Вытягивание сил</a></strong> (*Power Siphon*)</td></tr>
+<tr><td><strong>ГВБ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1276452">Гримуар: властелин бесов</a></strong> (*Grimoire: Imp Lord*)</td></tr>
+<tr><td><strong>ГРС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1276467">Гримуар: разоритель Скверны</a></strong> (*Grimoire: Fel Ravager*)</td></tr>
+<tr><td><strong>СТ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=686">Стрела Тьмы</a></strong> — генератор ОД</td></tr>
+<tr><td><strong>АС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=434506">Адская стрела</a></strong> (*Infernal Bolt*)</td></tr>
+<tr><td><strong>ДЗ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=264178">Демонический заряд</a></strong> (*Demonbolt*)</td></tr>
+<tr><td><strong>Бесы</strong></td><td><strong>Беспорядочные бесы</strong> (*Wild Imps*) — питомцы от <strong>РГ</strong></td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Генерируете <strong>осколки души</strong> (<strong>СТ</strong>, <strong>ДЗ</strong>, <strong>АС</strong>, проки <strong>ДЯ</strong>).</p>
+<p>2. Тратите ОД на <strong>РГ</strong> → появляются <strong>бесы</strong>; держите <strong>ЗО</strong> и гримуары по КД.</p>
+<p>3. В бурст: <strong>Страж</strong> → <strong>ГВБ</strong> → <strong>ГРС</strong> → <strong>Тиран</strong> → максимум <strong>РГ</strong> в окне тирана.</p>
+<p>4. В AoE: <strong>Импл.</strong> с <strong>≥6</strong> бесами (с талантом <strong>To Hell and Back</strong> — и в cleave на 2–3 цели).</p>
+<p>5. Между пулами <strong>не сжигайте</strong> все ОД в <strong>Импл.</strong> — выходите с <strong>3 ОД</strong> и бесами для быстрого старта.</p>
+<h2 id="две-валюты-на-экране">Две «валюты» на экране</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>Осколки души</strong> (до <strong>5</strong>)</td><td>Не копите выше <strong>4–5</strong> без плана; тратьте на <strong>РГ</strong> / призывы</td><td>кап = потеря генерации</td></tr>
+<tr><td><strong>Демоническое ядро</strong> (до <strong>4</strong>)</td><td>Держите <strong>≤2</strong> стаков в обычной ротации; перед <strong>Тираном</strong> — <strong>≥2</strong></td><td>иначе теряете проки; нужны для быстрого набора ОД в окне</td></tr>
+<tr><td><strong>Бесы</strong></td><td><strong>Импл.</strong> при <strong>≥6</strong>; перед <strong>ВС</strong> — <strong>≥2</strong> беса</td><td>cleave и генерация <strong>ДЯ</strong></td></tr>
+<tr><td><strong>Переход между пулами</strong></td><td>Вне боя восстановите <strong>3 ОД</strong>; не <strong>Импл.</strong> «в пустоту» в конце пака</td><td>иначе долгий «прогрев» на новом пуле</td></tr>
+</tbody></table>
+<blockquote>
+<p><strong>Бесы</strong> при движении выстраиваются <strong>перпендикулярно</strong> направлению взгляда — <strong>стрейфите</strong>, чтобы не агрить лишних мобов. На сложных маршрутах <strong>отзовите</strong> <strong><a href="https://www.wowhead.com/ru/spell=30146">стража Скверны</a></strong>.</p>
+</blockquote>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=686">Стрела Тьмы</a></td><td>главный генератор ОД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=264178">Демонический заряд</a></td><td>мгновенный урон + ОД при проке <strong>ДЯ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=434506">Адская стрела</a></td><td>генератор при <strong>≤2</strong> ОД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=105174">Рука Гул'дана</a></td><td><strong>1–3</strong> ОД → бесы; ключевой «тратитель»</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=104316">Призыв зловещих охотников</a></td><td>постоянный призыв; с тир-сетом почти без КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=265187">Призыв демонического тирана</a></td><td>главный бурст (<strong>~1.5 мин</strong>), усиливает демонов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=18540">Призыв стража ужаса</a></td><td>большой демон на КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1276452">Гримуар: властелин бесов</a></td><td>бурст + <strong><a href="https://www.wowhead.com/ru/spell=89808">Опаляющая магия</a></strong> вне КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1276467">Гримуар: разоритель Скверны</a></td><td>бурст + <strong><a href="https://www.wowhead.com/ru/spell=19647">Запрет чар</a></strong> / диспел вне КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=196277">Имплозия</a></td><td>взрыв бесов — AoE</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=264130">Вытягивание сил</a></td><td>забирает бесов → <strong>ДЯ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=30146">Призыв стража Скверны</a></td><td>ваш питомец; <strong><a href="https://www.wowhead.com/ru/spell=89766">Метание топора</a></strong> — прерывание + стан</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=104773">Твердая решимость</a></td><td>главный сейв (−40% урона)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=108416">Темный пакт</a></td><td>щит за HP</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=30283">Неистовство Тьмы</a></td><td>AoE-оглушение <strong>3 сек</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5484">Вой ужаса</a></td><td>AoE-страх (с <strong>Oppressive Darkness</strong> — до <strong>10</strong> целей, КД <strong>~25 сек</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5782">Страх</a></td><td>одиночный контроль</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=710">Изгнание</a></td><td>убирает аберрацию / демона / элементаля на <strong>30 сек</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6789">Лик тлена</a></td><td>хил + страх дальней цели</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6262">Камень здоровья</a></td><td><strong>25%</strong> HP, КД <strong>1 мин</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=20707">Камень души</a></td><td>боевой ресс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=111771">Демонические врата</a></td><td>портал группы / скип маршрута</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48020">Демонический круг: телепортация</a></td><td>личный сдвиг</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=111400">Стремительный бег</a></td><td>+50% скорости, −100% урона от падения</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=702">Проклятие слабости</a></td><td>замедляет автоатаки мобов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1714">Проклятие косноязычия</a></td><td>замедляет касты (снижает нужду в киках)</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Бурст</td><td><strong>ГВБ</strong> → <strong>ГРС</strong> → <strong>Тиран</strong> → <strong>Страж</strong></td><td>танк держит пак; расовые + тринкеты в <strong>Тиран</strong></td></tr>
+<tr><td>Высокий</td><td><strong>РГ</strong> при <strong>4–5</strong> ОД</td><td>не копите без причины</td></tr>
+<tr><td>Высокий</td><td><strong>ЗО</strong></td><td>по КД (с 4p тир-сета — почти всегда)</td></tr>
+<tr><td>Высокий</td><td><strong>Импл.</strong></td><td><strong>≥6</strong> бесов; <strong>≤2</strong> <strong>ДЯ</strong> перед взрывом</td></tr>
+<tr><td>Средний</td><td><strong>ВС</strong></td><td><strong>≤2</strong> <strong>ДЯ</strong> и <strong>≥2</strong> беса</td></tr>
+<tr><td>Средний</td><td><strong>ДЗ</strong></td><td><strong>≥2</strong> стака <strong>ДЯ</strong></td></tr>
+<tr><td>Средний</td><td><strong>АС</strong> / <strong>СТ</strong></td><td><strong>≤2</strong> ОД или заполнитель</td></tr>
+<tr><td>Утилити</td><td><strong>Метание топора</strong>, <strong>Неистовство Тьмы</strong>, <strong>Вой ужаса</strong></td><td>прерывание / стоп кастов</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=30146">Призыв стража Скверны</a></strong>, питомец на <strong>«Пассивность»</strong> (не <strong>«Угроза»</strong>).</p>
+<p>1. Прекаст <strong>2×</strong> <strong><a href="https://www.wowhead.com/ru/spell=264178">Демонический заряд</a></strong> (если есть <strong>ДЯ</strong>).</p>
+<p>2. Прекаст <strong><a href="https://www.wowhead.com/ru/spell=264130">Вытягивание сил</a></strong> (<strong>≥2</strong> беса).</p>
+<p>3. Прекаст <strong><a href="https://www.wowhead.com/ru/spell=686">Стрела Тьмы</a></strong>.</p>
+<p>4. <strong>СТ</strong> → <strong><a href="https://www.wowhead.com/ru/spell=18540">Призыв стража ужаса</a></strong>.</p>
+<p>5. <strong>ГВБ</strong> → <strong>ГРС</strong> + расовые + тринкеты.</p>
+<p>6. <strong>2–4×</strong> <strong>СТ</strong> (до <strong>≤2</strong> ОД).</p>
+<p>7. <strong>ЗО</strong> → <strong>Тиран</strong>.</p>
+<p>8. Спам <strong>РГ</strong> в окне <strong>Тирана</strong>.</p>
+<p>9. <strong>Импл.</strong> (<strong>≥6</strong> бесов, <strong>≤1</strong> <strong>ДЯ</strong>).</p>
+<p>10. <strong>ВС</strong> после второй <strong>РГ</strong>.</p>
+<p>11. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<p><strong>Макрос бурста:</strong></p>
+<pre><code>
+#showtooltip Призыв демонического тирана
+
+/cast Гримуар: властелин бесов
+
+/cast Гримуар: разоритель Скверны
+
+/cast Призыв демонического тирана
+
+/use 13
+
+/use 14
+
+</pre>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. <strong>Тиран</strong> / <strong>Страж</strong> / гримуары готовы и танк держит пак? → бурст (п. 1–8 опенера).</p>
+<p>2. <strong>≥6</strong> бесов и <strong>≤2</strong> <strong>ДЯ</strong>? → <strong>Импл.</strong></p>
+<p>3. <strong>≤2</strong> <strong>ДЯ</strong> и <strong>≥2</strong> беса? → <strong>ВС</strong></p>
+<p>4. <strong>ЗО</strong> готов? → <strong>ЗО</strong></p>
+<p>5. <strong>≥4</strong> ОД? → <strong>РГ</strong></p>
+<p>6. <strong>≥2</strong> <strong>ДЯ</strong>? → <strong>ДЗ</strong></p>
+<p>7. <strong>≤2</strong> ОД? → <strong>АС</strong> / <strong>СТ</strong></p>
+<p>8. Иначе → <strong>СТ</strong> (не стойте без дела — генерируйте ОД).</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-диабolist-vs-жнец-душ">Герой-талант: Диабolist vs Жнец душ</h2>
+<table><tbody>
+<tr><th></th><th><strong>Диабolist</strong> (*Diabolist*)</th><th><strong>Жнец душ</strong> (*Soul Harvester*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — сильнее AoE и burst на больших паках</td><td>для <strong>низких</strong> ключей / мелких пулов</td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>Импл.</strong>, <strong>Ruination</strong>, <strong>Cloven Souls</strong></td><td>быстрее старт <strong>Apex</strong> (*Dominion of Argus*), больше <strong>ДЯ</strong></td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>burst на <strong>5+</strong> целях, предсказуемый cadence</td><td>лучше <strong>1–3</strong> цели, сильнее execute-эффекты</td></tr>
+<tr><td><strong>Слабости</strong></td><td>чуть слабее на крошечных пулах</td><td>ниже потолок AoE в высоких ключах</td></tr>
+<tr><td><strong>Утилити</strong></td><td><strong>Howl of Terror</strong> <strong>25 сек</strong> / <strong>10</strong> целей</td><td>сильнее <strong><a href="https://www.wowhead.com/ru/spell=6262">Камень здоровья</a></strong>, улучшенный <strong>Камень души</strong></td></tr>
+</tbody></table>
+<p><strong>Импорт (M+, Diabolist, AoE):</strong></p>
+<p>`CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzyAAAAAAAAGzYYBGYb0CNsYMzYZ2mZmxMAwMjZGzMDwYmxMbAAgxMzMzww2MGwA`</p>
+<p><strong>Импорт (ST / Soul Harvester):</strong></p>
+<p>`CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmxsMAAAAAAAjtlBGwAmhtQGbGjx2sMzMjZAAzMzMzAMzMmxMDAAwYmZmZMDLDAD`</p>
+<p><strong>Импорт (M+, Soul Harvester, мелкие пулы):</strong></p>
+<p>`CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxiZGzyAAAAAAAMWWGYADYG2CM2MmZsMmxMzMAwMzMGDwMzYmxMbAAgxMzMzYw2MDwA`</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/warlock/demonology">Wowhead RU — варлок, демонология</a>.</p>
+<p><strong>Частые замены в M+:</strong></p>
+<ul>
+<li><strong>Grimoire: Fel Ravager</strong> вместо <strong>Imp Lord</strong> — если нужен <strong>offensive dispel</strong> (<strong>Devour Magic</strong>).</li>
+<li><strong>Shadowfury</strong> ↔ <strong>Howl of Terror</strong> — под иммунитеты к страху/оглушению.</li>
+<li><strong>Banish</strong> — один опасный аберрация/демон/элементаль на <strong>30 сек</strong>.</li>
+<li><strong>Inner Demons</strong> ↔ <strong>Practiced Rituals</strong> — больше sustain vs риск лишнего агра бесов.</li>
+<li><strong>Burning Rush</strong> — почти всегда стоит взять для <strong>Pulsar</strong> и механик.</li>
+</ul>
+<p><strong>Apex <a href="https://www.wowhead.com/ru/spell=434506">Dominion of Argus</a>:</strong> после <strong>Тирана</strong> максимум <strong>РГ</strong> → больше призывов. Входите в окно с <strong>ОД</strong> и <strong>ДЯ</strong>, а не «копите» всё <strong>до</strong> <strong>Тирана</strong>.</p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Разница между вторичками небольшая — не отказывайтесь от апгрейда ради «идеального» статa.</p>
+<h3 id="приоритет-m-диабolist-aoe">Приоритет (M+, <strong>Диабolist</strong>, AoE)</h3>
+<p>1. <strong>Интеллект</strong></p>
+<p>2. <strong>Критический удар</strong></p>
+<p>3. <strong>Скорость</strong> / <strong>Искусность</strong> (близки по ценности)</p>
+<p>4. <strong>Универсальность</strong></p>
+<blockquote>
+<p><strong>Искусность</strong> усиливает <strong>всех</strong> демонов и <strong>Импл.</strong> — особенно ценна в AoE. <strong>Скорость</strong> ускоряет касты и атаки питомцев (кроме бесов с фиксированным числом <strong>firebolt</strong>). <strong>Крит</strong> синергирует с талантами вроде *Demonic Brutality*.</p>
+</blockquote>
+<hr>
+<h2 id="расы-орда-и-альянс">Расы: Орда и Альянс</h2>
+<p>Разница между лучшей и худшей расой для демонолога — <strong>~2% DPS</strong> (<a href="https://www.method.gg/guides/demonology-warlock/stats-races-and-consumables">Method</a>). Для <strong>M+</strong> utility иногда важнее сырого урона.</p>
+<h3 id="сводка">Сводка</h3>
+<table><tbody>
+<tr><th>Фракция</th><th>Мин-макс DPS</th><th>Utility / M+</th><th>«Играю ради удовольствия»</th></tr>
+<tr><td><strong>Орда</strong></td><td><strong>Орк</strong></td><td><strong>Таурен</strong>, <strong>Нежить</strong>, <strong>Эльф крови</strong></td><td>любая — разрыв мал</td></tr>
+<tr><td><strong>Альянс</strong></td><td><strong>Дворф</strong> (Dark Iron) / <strong>Эльф Бездны</strong></td><td><strong>Дворф</strong>, <strong>Человек</strong>, <strong>Ночной эльф</strong></td><td>любая</td></tr>
+</tbody></table>
+<hr>
+<h3 id="орда">Орда</h3>
+<table><tbody>
+<tr><th>Раса</th><th>Плюсы</th><th>Минусы</th></tr>
+<tr><td><strong>Орк</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=20572">Кровавое неистовство</a></strong> — burst <strong>интеллекта</strong> <strong>~15 сек</strong>; лучший синхрон с <strong>Тираном</strong> и гримуарами; <strong>~#1</strong> DPS</td><td>нет сильной M+ utility; вне burst — «пустой» racial</td></tr>
+<tr><td><strong>Тролль</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=26297">Берсерк</a></strong> — <strong>+10%</strong> скорости атаки/каста; хорошо масштабируется со <strong>скоростью</strong> и бесами</td><td>слабее орка в чистом burst; нет контроля</td></tr>
+<tr><td><strong>Таурен</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=20549">Громовая поступь</a></strong> — AoE-стан; пассив <strong>+2%</strong> к крит-урону (*Brawn*)</td><td>DPS ниже орка/тролля; стан с <strong>GCD</strong></td></tr>
+<tr><td><strong>Нежить</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=7744">Воля Отрекшихся</a></strong> — снятие страха/сна/очарования; <strong><a href="https://www.wowhead.com/ru/spell=20577">Каннибализм</a></strong> — хил вне боя</td><td>нулевой прирост урона</td></tr>
+<tr><td><strong>Эльф крови</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=28730">Волшебный поток</a></strong> — <strong>диспел</strong> + <strong>восстановление маны</strong>; тематично для варлока</td><td>DPS racial отсутствует; диспел есть у <strong>ГРС</strong> / <strong>Imp Lord</strong></td></tr>
+<tr><td><strong>Гоблин</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=69070">Реактивный прыжок</a></strong> — сильная мобильность; <strong>+1%</strong> скорости/крита (*Time is Money*)</td><td>DPS ниже; прыжок легко «сломать» механику</td></tr>
+</tbody></table>
+<p><strong>Орда — рекомендация:</strong> <strong>орк</strong> для рейтинга и burst; <strong>таурен</strong> / <strong>нежить</strong>, если цените контроль и выживаемость.</p>
+<hr>
+<h3 id="альянс">Альянс</h3>
+<table><tbody>
+<tr><th>Раса</th><th>Плюсы</th><th>Минусы</th></tr>
+<tr><td><strong>Дворф (Dark Iron)</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=265221">Огненная кровь</a></strong> — burst основной характеристики; сильный аналог <strong>Blood Fury</strong></td><td>нет AoE-контроля</td></tr>
+<tr><td><strong>Эльф Бездны</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=260364">Энтропическое объятие</a></strong> — <strong>+4%</strong> урона на <strong>~12 сек</strong>; <strong><a href="https://www.wowhead.com/ru/spell=256948">Пространственный разлом</a></strong> — телепорт</td><td>прок не привязан к <strong>Тирану</strong> идеально; телепорт ситуативен</td></tr>
+<tr><td><strong>Дворф</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=20594">Каменная форма</a></strong> — снятие ядов/болезней, <strong>−10%</strong> урона; полезен на <strong>Devour</strong></td><td>DPS racial слабый</td></tr>
+<tr><td><strong>Человек</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=59752">Воля к жизни</a></strong> — снятие контроля</td><td>нет burst-стата</td></tr>
+<tr><td><strong>Гном</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=20589">Мастер побега</a></strong> — снятие замедлений/корней; <strong>+5%</strong> интеллекта (*Expansive Mind*)</td><td>слабее в burst, чем DI / Void Elf</td></tr>
+<tr><td><strong>Ночной эльф</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=58984">Слиться с тенью</a></strong> — сброс боя / skip; <strong>+2%</strong> крита</td><td>DPS racial ситуативен</td></tr>
+<tr><td><strong>Дреней</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=59547">Дар наару</a></strong> — сейв-хил</td><td>слабый DPS; хил дублирует <strong>Камень здоровья</strong></td></tr>
+<tr><td><strong>Ворген</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=68992">Легкость тьмы</a></strong> — <strong>40%</strong> скорости <strong>~10 сек</strong></td><td>нет burst-стата</td></tr>
+<tr><td><strong>Мехагном</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=312411">Набор хитростей</a></strong> — побег из корней/замедлений</td><td>минимальный DPS-профит</td></tr>
+</tbody></table>
+<p><strong>Альянс — рекомендация:</strong> <strong>Dark Iron</strong> или <strong>эльф Бездны</strong> для DPS; <strong>дворф</strong> / <strong>человек</strong> — если в группе не хватает dispel и снятия контроля.</p>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a>, плечи</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>обувь, сильные аксессуары</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>кольца (сет бонус слабый — <strong>ilvl</strong> важнее)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td><strong>посох / off-hand</strong>, лучшее оружие M+</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>тринкеты, наручи</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td>оружие, аксессуары</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1989">Владычество поджигателя из пустоты</a></strong> (4 предмета для бонуса):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250042">Тлеющее пламя поджигателя из пустоты</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250045">Жуткие одеяния поджигателя из пустоты</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=250043">Захваты поджигателя из пустоты</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=250041">Столпы поджигателя из пустоты</a></td></tr>
+</tbody></table>
+<p><strong>Наплечники — офф-сет</strong> (рейд / катализатор). <strong>2/4 и 4/4 важнее</strong> «идеальных» слотов: 4p почти постоянный <strong>ЗО</strong> — заметный прирост AoE.</p>
+<hr>
+<h2 id="чары-гемы-и-химия">Чары, гемы и химия</h2>
+<p>Источник: <a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gems-enchants-consumables">Icy Veins — gems, enchants, consumables</a>. Названия — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a>.</p>
+<h3 id="чары">Чары</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td><strong>Оружие</strong></td><td><a href="https://www.wowhead.com/ru/item=243733">Талассийское масло феникса</a>; руна — <strong>точность Рен'dorei</strong> / <strong>ярость берсерка</strong> (по симу)</td></tr>
+<tr><td><strong>Шлем</strong></td><td>усиленное благословение скорости</td></tr>
+<tr><td><strong>Грудь</strong></td><td>метка души мира</td></tr>
+<tr><td><strong>Плечи</strong></td><td>стремительность Акил'зона</td></tr>
+<tr><td><strong>Ноги</strong></td><td>солнечный шёлк (мастерство)</td></tr>
+<tr><td><strong>Кольца</strong></td><td><strong>+ крит</strong> или <strong>+ скорость</strong> (под сим)</td></tr>
+<tr><td><strong>Обувь</strong></td><td>ловкость рыси / охота дальнего странника</td></tr>
+<tr><td><strong>Накидка / запястья</strong></td><td><strong>+ крит</strong> / <strong>+ скорость</strong></td></tr>
+</tbody></table>
+<h3 id="гемы">Гемы</h3>
+<p><strong>Эпик (один на персонажа):</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a> или <strong>Могучий алмаз Вечной Песни</strong> (на myth-треке).</p>
+<p><strong>Остальные сокеты:</strong> <strong>4 разноцветных</strong> камня с <strong>критом</strong> (для активации эпика) — <a href="https://www.wowhead.com/ru/item=240892">безупречный хризолит искусности</a> и другие «смертоносные» камни по симу.</p>
+<h3 id="химия">Химия</h3>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th><th>Заметка</th></tr>
+<tr><td><strong>Настой</strong></td><td><a href="https://www.wowhead.com/ru/item=241323">Настой магистров</a> / <a href="https://www.wowhead.com/ru/item=241327">Настой Расколотого Солнца</a></td><td>По симу: крит vs скорость</td></tr>
+<tr><td><strong>Боевое зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241309">Потенциал Света</a></td><td>Стабильно; *Draught of Rampant Abandon* — сильнее, но зона тишины</td></tr>
+<tr><td><strong>Хил-зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241304">Луносветское лечебное зелье</a></td><td>Запас HP</td></tr>
+<tr><td><strong>Еда (пир)</strong></td><td><a href="https://www.wowhead.com/ru/item=255845">Парад Луносвета</a> / <a href="https://www.wowhead.com/ru/item=255846">Празднество Харандара</a></td><td>Лучшие пиры сезона</td></tr>
+<tr><td><strong>Еда (запас)</strong></td><td><a href="https://www.wowhead.com/ru/item=255847">Невообразимое королевское жаркое</a></td><td>Если пира нет</td></tr>
+<tr><td><strong>Руна</strong></td><td><a href="https://www.wowhead.com/ru/item=259085">Меченная Бездной руна усиления</a></td><td>~1% урона; пропадает при смерти</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use / burst</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><strong>Шпили Ветрокрылых</strong></td></tr>
+<tr><td><strong>Сильный пассивный</strong></td><td><a href="https://www.wowhead.com/ru/item=250257"><strong>Око зияющей Бездны</strong></a></td><td>под сим</td></tr>
+<tr><td><strong>Сильный on-use (рейд)</strong></td><td>*Emberwing Feather*</td><td>рейд</td></tr>
+<tr><td><strong>Запасной on-use</strong></td><td>тринкет из <strong>Академии Алгет'ар</strong></td><td>ключ</td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong><a href="https://www.wowhead.com/ru/spell=265187">Призывом демонического тирана</a></strong> и гримуарами.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=30146">Призыв стража Скверны</a></strong>, питомец на <strong>«Пассивность»</strong></li>
+<li>[ ] Герой: <strong>Диабolist</strong> (или <strong>Жнец душ</strong> для мелких пулов)</li>
+<li>[ ] <strong>Burning Rush</strong>, <strong>Shadowfury</strong> / <strong>Howl of Terror</strong></li>
+<li>[ ] Макрос <strong><a href="https://www.wowhead.com/ru/spell=89766">Метания топора</a></strong> на `@focus` / `@mouseover`</li>
+<li>[ ] Макрос бурста (<strong>Тиран</strong> + гримуары + тринкеты)</li>
+<li>[ ] <strong>Камни здоровья</strong> раздать группе</li>
+<li>[ ] Фарм: <strong>Шпили Ветрокрылых</strong>, <strong>Престол Триумвирата</strong>, <strong>Пещеры Маисара</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=89766">Метание топора</a></td><td>прерывание + <strong>1 сек</strong> стан — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=19647">Запрет чар</a></td><td>от <strong>ГРС</strong> вне КД гримуара</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=89808">Опаляющая магия</a></td><td>диспел союзника от <strong>ГВБ</strong> вне КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=30283">Неистовство Тьмы</a></td><td>AoE-оглушение <strong>3 сек</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5484">Вой ужаса</a></td><td>AoE-страх (<strong>10</strong> целей с талантом)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5782">Страх</a> / <a href="https://www.wowhead.com/ru/spell=710">Изгнание</a></td><td>ситуативный контроль</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6789">Лик тлена</a></td><td>хил + страх ( <strong>Ascendant</strong> )</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=104773">Твердая решимость</a></td><td>главный сейв</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=108416">Темный пакт</a></td><td>щит перед механикой</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6262">Камень здоровья</a></td><td><strong>Devour</strong> — помогите снять щит</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=20707">Камень души</a></td><td>боевой ресс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=111771">Демонические врата</a></td><td>скипы (согласуйте с группой)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48020">Демонический круг: телепортация</a></td><td>личный reposition</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=111400">Стремительный бег</a></td><td><strong>Pulsar</strong>, kiting</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=702">Проклятие слабости</a></td><td>пак с <strong>melee</strong>-мобами</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1714">Проклятие косноязычия</a></td><td>меньше киков на кастерах</td></tr>
+</tbody></table>
+<p><strong>Макрос Метания топора:</strong></p>
+<pre><code>
+#showtooltip Метание топора
+
+/stopcasting
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Метание топора
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<h3 id="кулдауны-как-не-терять-dps">Кулдауны — как не терять DPS</h3>
+<ul>
+<li><strong>Тиран</strong> — на <strong>каждом</strong> нормальном паке; не «копите» на воображаемый мега-пак <strong>&gt;3 мин</strong>.</li>
+<li><strong>Страж</strong> + гримуары — вместе с <strong>Тираном</strong> или непосредственно перед ним.</li>
+<li><strong>Импл.</strong> — не в последнюю секунду пака, если теряете <strong>ОД</strong> на следующем.</li>
+<li>Между пулами: <strong>3 ОД</strong> вне боя → мгновенный <strong>РГ</strong> / <strong>Тиран</strong> на старте.</li>
+</ul>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать демонологу</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><a href="https://www.wowhead.com/ru/spell=30283">Неистовство Тьмы</a>, <a href="https://www.wowhead.com/ru/spell=5484">Вой ужаса</a>, <a href="https://www.wowhead.com/ru/spell=5782">Страх</a>, <a href="https://www.wowhead.com/ru/spell=6789">Лик тлена</a>, <a href="https://www.wowhead.com/ru/spell=89766">Метание топора</a></td></tr>
+<tr><td><strong>Voidbound</strong></td><td>фокус эмиссара; можно придержать <strong>Тиран</strong></td></tr>
+<tr><td><strong>Pulsar</strong></td><td><a href="https://www.wowhead.com/ru/spell=111400">Стремительный бег</a>, <a href="https://www.wowhead.com/ru/spell=48020">Демонический круг</a></td></tr>
+<tr><td><strong>Devour</strong></td><td><a href="https://www.wowhead.com/ru/spell=89808">Опаляющая магия</a>, <a href="https://www.wowhead.com/ru/spell=6262">Камень здоровья</a>, <a href="https://www.wowhead.com/ru/spell=6789">Лик тлена</a></td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<p><strong>Single target / приоритетная цель:</strong></p>
+<p>1. <strong>ГВБ</strong> → <strong>ГРС</strong> → <strong>Тиран</strong> → <strong>Страж</strong> (+ тринкеты / расовые).</p>
+<p>2. <strong>ВС</strong> (<strong>≤2</strong> <strong>ДЯ</strong>, <strong>≥2</strong> беса).</p>
+<p>3. <strong>Импл.</strong> (<strong>≥6</strong> бесов, с <strong>To Hell and Back</strong>).</p>
+<p>4. <strong>ЗО</strong>.</p>
+<p>5. <strong>РГ</strong> (<strong>4–5</strong> ОД).</p>
+<p>6. <strong>ДЗ</strong> (<strong>≥2</strong> <strong>ДЯ</strong>).</p>
+<p>7. <strong>АС</strong> (<strong>≤2</strong> ОД) → <strong>СТ</strong>.</p>
+<p><strong>AoE (M+):</strong> тот же приоритет; <strong>Импл.</strong> — чаще и агрессивнее. <strong>РГ</strong> на приоритетную цель (больше HP / опасный моб). Не <strong>Импл.</strong> в конце пака «в никуда».</p>
+<p><strong>Пороги:</strong></p>
+<table><tbody>
+<tr><th>Ситуация</th><th>Действие</th></tr>
+<tr><td><strong>≥6</strong> бесов, <strong>≤2</strong> <strong>ДЯ</strong></td><td><strong>Импл.</strong></td></tr>
+<tr><td><strong>≤2</strong> <strong>ДЯ</strong>, <strong>≥2</strong> беса</td><td><strong>ВС</strong></td></tr>
+<tr><td><strong>≥4</strong> ОД</td><td><strong>РГ</strong></td></tr>
+<tr><td><strong>≥2</strong> <strong>ДЯ</strong></td><td><strong>ДЗ</strong></td></tr>
+<tr><td><strong>≤2</strong> ОД</td><td><strong>АС</strong> / <strong>СТ</strong></td></tr>
+<tr><td>Перед <strong>Тираном</strong></td><td><strong>≥2</strong> <strong>ДЯ</strong>, <strong>≥3</strong> ОД</td></tr>
+</tbody></table>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-mythic-plus-tips">Icy Veins — Demonology Warlock M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/demonology-warlock-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.method.gg/guides/demonology-warlock/stats-races-and-consumables">Method — статы, расы, химия</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/warlock/demonology">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/demonology-warlock-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>
