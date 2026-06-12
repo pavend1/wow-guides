@@ -1,0 +1,66 @@
+=== CORE ===
+1239524: Eradicate -> Истребление
+1245453: Cull -> Истребление
+1225827: Eradicate -> Истребление
+1217610: Devour -> Пожирание
+1241937: Soul Immolation -> Жар души
+1238495: Moment of Craving -> Миг голода
+1232310: Feast of Souls -> Пиршество душ
+1242504: Emptiness -> Опустошенность
+1244235: Rolling Torment -> Каскад мучений
+1256301: Voidfall -> Безднопад
+1256295: Mass Acceleration -> Массовое ускорение
+1256351: Emptiness of the Void -> Пустота Бездны
+1256353: World Killer -> Убийца миров
+461408: Consume -> Поглощение
+1226019: Reap -> Жатва
+473728: Void Ray -> Луч Бездны
+1217605: Void Metamorphosis -> Метаморфоза Бездны
+1221150: Collapsing Star -> Коллапсирующая звезда
+370965: The Hunt -> Охота
+198793: Vengeful Retreat -> Коварное отступление
+198589: Blur -> Затуманивание
+196718: Darkness -> Мрак
+183752: Disrupt -> Прерывание
+203513: Demonic Wards -> Демонические обереги
+1227338: Impending Apocalypse -> Надвигающийся апокалипсис
+1260013: Grim Focus -> Мрачная сосредоточенность
+1256676: Catastrophe -> Катастрофа
+1256308: Dark Matter -> Темная материя
+1256619: World Killer -> Убийца миров
+=== HERO TREE ROOTS 1256100-1256200 ===
+=== TALENTS 1244200-1245600 ===
+1244220: Voidpurge -> Очищение Бездной
+1244235: Rolling Torment -> Каскад мучений
+1244237: Rolling Torment -> Каскад мучений
+1244505: Shifting Shadows -> Движущиеся тени
+1244509: Shifting Shadows -> Движущиеся тени
+1244525: Shifting Shadows -> Движущиеся тени
+1245003: Shifting Shadows -> Движущиеся тени
+1245285: Collect Galactic Void-Scarred Banner -> Получить галактическое зараженное Бездной знамя
+1245303: Update Phase Shift Zone Aura -> Обновление фазы и смена ауры зоны
+1245412: Voidblade -> Клинок Бездны
+1245414: Voidblade -> Клинок Бездны
+1245470: Reaper's Toll -> Дань жнецу
+1245483: Pierce the Veil -> Потусторонний удар
+1245523: Reaper's Toll -> Дань жнецу
+=== TALENTS 1256100-1256700 ===
+1256245: Phase Shift -> Фазовый сдвиг
+1256295: Mass Acceleration -> Массовое ускорение
+1256301: Voidfall -> Безднопад
+1256302: Voidfall -> Безднопад
+1256303: Voidfall Meteor -> Метеорит Бездны
+1256304: Voidfall Meteor -> Метеорит Бездны
+1256305: Voidfall Meteor -> Метеорит Бездны
+1256306: Voidfall Meteor -> Метеорит Бездны
+1256307: Dark Matter -> Темная материя
+1256308: Dark Matter -> Темная материя
+1256312: Celestial Echoes -> Небесные отголоски
+1256322: Voidfall -> Безднопад
+1256353: World Killer -> Убийца миров
+1256616: World Killer -> Убийца миров
+1256617: World Killer -> Убийца миров
+1256618: World Killer -> Убийца миров
+1256619: World Killer -> Убийца миров
+1256667: Catastrophe -> Катастрофа
+1256676: Catastrophe -> Катастрофа

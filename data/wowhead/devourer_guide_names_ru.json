@@ -1,0 +1,450 @@
+{
+  "Consume": {
+    "id": 461408,
+    "ru": "Поглощение",
+    "icon": "inv_misc_monsterspidercarapace_01"
+  },
+  "Reap": {
+    "id": 1226019,
+    "ru": "Жатва",
+    "icon": "inv_12_dh_void_ability_reap"
+  },
+  "Devour": {
+    "id": 1217610,
+    "ru": "Пожирание",
+    "icon": "inv_12_dh_void_ability_feast"
+  },
+  "Cull": {
+    "id": 1245453,
+    "ru": "Истребление",
+    "icon": "inv_12_dh_void_ability_empoweredreap"
+  },
+  "Eradicate": {
+    "id": 1225827,
+    "ru": "Истребление",
+    "icon": "inv_12_dh_void_ability_eradicate"
+  },
+  "Void Ray": {
+    "id": 473728,
+    "ru": "Луч Бездны",
+    "icon": "inv_12_dh_void_ability_voidray"
+  },
+  "Void Metamorphosis": {
+    "id": 1217605,
+    "ru": "Метаморфоза Бездны",
+    "icon": "inv_112_ability_demonhunter_metamorphasisvoid"
+  },
+  "Collapsing Star": {
+    "id": 1221150,
+    "ru": "Коллапсирующая звезда",
+    "icon": "inv_12_dh_void_ability_collapsingstar"
+  },
+  "Soul Immolation": {
+    "id": 1241937,
+    "ru": "Жар души",
+    "icon": "inv_12_dh_void_ability_voidpurge"
+  },
+  "Voidblade": {
+    "id": 1245412,
+    "ru": "Клинок Бездны",
+    "icon": "inv_12_voiddh_ability_voidblade"
+  },
+  "The Hunt": {
+    "id": 370965,
+    "ru": "Охота",
+    "icon": "inv_ability_demonhunter_thehunt"
+  },
+  "Hungering Slash": {
+    "id": 1239123,
+    "ru": "Голодный взмах",
+    "icon": "inv_12_dh_void_ability_reapersslice"
+  },
+  "Vengeful Retreat": {
+    "id": 198793,
+    "ru": "Коварное отступление",
+    "icon": "ability_demonhunter_vengefulretreat2"
+  },
+  "Pierce the Veil": {
+    "id": 1245483,
+    "ru": "Потусторонний удар",
+    "icon": "ability_demonhunter_soulcleave4"
+  },
+  "Predator's Wake": {
+    "id": 1259431,
+    "ru": "След хищника",
+    "icon": "ability_ardenweald_demonhunter"
+  },
+  "Reaper's Toll": {
+    "id": 1245470,
+    "ru": "Дань жнецу",
+    "icon": "inv_glaive_1h_artifactazgalor_d_05dual"
+  },
+  "Shift": {
+    "id": 1242880,
+    "ru": "Сдвиг",
+    "icon": "spell_warlock_demonicportal_purple"
+  },
+  "Disrupt": {
+    "id": 183752,
+    "ru": "Прерывание",
+    "icon": "ability_demonhunter_consumemagic"
+  },
+  "Blur": {
+    "id": 198589,
+    "ru": "Затуманивание",
+    "icon": "ability_demonhunter_blur"
+  },
+  "Darkness": {
+    "id": 196718,
+    "ru": "Мрак",
+    "icon": "ability_demonhunter_darkness"
+  },
+  "Demonic Wards": {
+    "id": 203513,
+    "ru": "Демонические обереги",
+    "icon": "inv_belt_leather_demonhunter_a_01"
+  },
+  "Voidfall": {
+    "id": 1256301,
+    "ru": "Безднопад",
+    "icon": "inv_12_dh_void_ability_voidfall"
+  },
+  "Mass Acceleration": {
+    "id": 1256295,
+    "ru": "Массовое ускорение",
+    "icon": "inv_nullstone_cosmicvoid"
+  },
+  "Meteoric Fall": {
+    "id": 1253391,
+    "ru": "Падающий метеорит",
+    "icon": "ability_socererking_arcanereplication"
+  },
+  "Meteoric Rise": {
+    "id": 1253377,
+    "ru": "Стремительный взлет",
+    "icon": "ability_socererking_arcanefortification"
+  },
+  "Phase Shift": {
+    "id": 1256245,
+    "ru": "Фазовый сдвиг",
+    "icon": "ability_demonhunter_blur"
+  },
+  "Path to Oblivion": {
+    "id": 1253399,
+    "ru": "Путь к забвению",
+    "icon": "ability_socererking_arcaneacceleration"
+  },
+  "State of Matter": {
+    "id": 1253402,
+    "ru": "Состояние вещества",
+    "icon": "inv_112_arcane_buff"
+  },
+  "Swift Erasure": {
+    "id": 1253668,
+    "ru": "Быстрое устранение",
+    "icon": "ability_priest_darkarchangel"
+  },
+  "Doomsayer": {
+    "id": 1253676,
+    "ru": "Вестник рока",
+    "icon": "inv_shadowflame_buff"
+  },
+  "Harness the Cosmos": {
+    "id": 1279247,
+    "ru": "Власть над космосом",
+    "icon": "inv_cosmicvoid_orb"
+  },
+  "Celestial Echoes": {
+    "id": 1253415,
+    "ru": "Небесные отголоски",
+    "icon": "inv_polearm_2h_voidscythe_d_01"
+  },
+  "Catastrophe": {
+    "id": 1256676,
+    "ru": "Катастрофа",
+    "icon": "inv_netherportal"
+  },
+  "Calamitous": {
+    "id": 1242495,
+    "ru": "Бедствие",
+    "icon": "ability_argus_soulbombdebuffsmall"
+  },
+  "Final Hour": {
+    "id": 1253805,
+    "ru": "Последний час",
+    "icon": "inv_10_worlddroplevelingoptionalreagent_relics_hourglass_color1"
+  },
+  "Otherworldly Focus": {
+    "id": 1253817,
+    "ru": "Потусторонняя концентрация",
+    "icon": "inv_babyvoidwalker_blue"
+  },
+  "World Killer": {
+    "id": 1256353,
+    "ru": "Убийца миров",
+    "icon": "inv_112_raiddimensius_brokenworld"
+  },
+  "Dark Matter": {
+    "id": 1256308,
+    "ru": "Темная материя",
+    "icon": "inv_cosmicvoid_nova"
+  },
+  "Emptiness of the Void": {
+    "id": 1256351,
+    "ru": "Пустота Бездны",
+    "icon": "inv_cosmicvoid_groundsate"
+  },
+  "Midnight": {
+    "id": 1242486,
+    "ru": "Полночь",
+    "icon": "inv12_apextalent_demonhunter_midnight"
+  },
+  "Voidsurge/Demonsurge": {
+    "id": 452402,
+    "ru": "Демоническая вспышка",
+    "icon": "inv_ability_felscarreddemonhunter_demonsurge"
+  },
+  "Demonsurge proc": {
+    "id": 1245496,
+    "ru": "Демоническая вспышка",
+    "icon": "inv_ability_felscarreddemonhunter_demonsurge"
+  },
+  "Wave of Debilitation": {
+    "id": 452403,
+    "ru": "Волна истощения",
+    "icon": "spell_fire_felfirenova"
+  },
+  "Pursuit of Angriness": {
+    "id": 452404,
+    "ru": "Погоня за злостью",
+    "icon": "ability_felarakkoa_focusedblast"
+  },
+  "Focused Hatred": {
+    "id": 452405,
+    "ru": "Направленная ненависть",
+    "icon": "ability_demonhunter_illidansgrasp"
+  },
+  "Set Fire to the Pain": {
+    "id": 452406,
+    "ru": "Да разгорится боль",
+    "icon": "ability_demonhunter_empowerwards"
+  },
+  "Improved Soul Rending": {
+    "id": 452407,
+    "ru": "Улучшенное раздирание души",
+    "icon": "ability_demonhunter_soulcleave2"
+  },
+  "Burning Blades": {
+    "id": 1245654,
+    "ru": "Горящие клинки",
+    "icon": "inv_glaive_1h_artifactazgalor_d_02dual"
+  },
+  "Violent Transformation": {
+    "id": 452409,
+    "ru": "Агрессивное превращение",
+    "icon": "spell_shadow_demoniccirclesummon"
+  },
+  "Enduring Torment": {
+    "id": 452410,
+    "ru": "Нескончаемое истязание",
+    "icon": "spell_fire_felimmolation"
+  },
+  "Untethered Fury": {
+    "id": 452411,
+    "ru": "Высвобожденный гнев",
+    "icon": "inv__felbarrage"
+  },
+  "Student of Suffering": {
+    "id": 453239,
+    "ru": "Знаток страданий",
+    "icon": "achievement_dungeon_theatreofpain_kultharok"
+  },
+  "Flamebound": {
+    "id": 452413,
+    "ru": "Связь пламени",
+    "icon": "spell_fire_felflamering"
+  },
+  "Monster Rising": {
+    "id": 452414,
+    "ru": "Пробуждение монстра",
+    "icon": "ability_warlock_demonicpower"
+  },
+  "Demonic Intensity": {
+    "id": 452415,
+    "ru": "Демоническая напряженность",
+    "icon": "spell_warlock_demonicempowerment"
+  },
+  "Moment of Craving": {
+    "id": 1238495,
+    "ru": "Миг голода",
+    "icon": "inv_ability_soulharvesterwarlock_demonicsoul"
+  },
+  "Feast of Souls": {
+    "id": 1232310,
+    "ru": "Пиршество душ",
+    "icon": "inv_12_dh_void_ability_firstofsouls"
+  },
+  "Emptiness": {
+    "id": 1242504,
+    "ru": "Опустошенность",
+    "icon": "inv_cosmicvoid_buff"
+  },
+  "Rolling Torment": {
+    "id": 1244235,
+    "ru": "Каскад мучений",
+    "icon": "inv_cosmicvoid_debuff"
+  },
+  "Second Helping": {
+    "id": 1239537,
+    "ru": "Добавка",
+    "icon": "inv_polearm_2h_voidscythe_d_01"
+  },
+  "Devourer's Bite": {
+    "id": 1241532,
+    "ru": "Укус пожирателя",
+    "icon": "inv_12_dh_void_ability_devourerbite"
+  },
+  "Voidstep": {
+    "id": 1239526,
+    "ru": "Шаг сквозь Бездну",
+    "icon": "inv_12_dh_void_ability_voidstep"
+  },
+  "Soul Glutton": {
+    "id": 1247534,
+    "ru": "Ненасытный душеглот",
+    "icon": "ability_bossgorefiend_gorefiendscorruption"
+  },
+  "Voidpurge": {
+    "id": 1244220,
+    "ru": "Очищение Бездной",
+    "icon": "inv_12_dh_void_ability_voidray"
+  },
+  "Voidglare Boon": {
+    "id": 1241922,
+    "ru": "Дар созерцателя Бездны",
+    "icon": "inv_helmet_89"
+  },
+  "Focused Ray": {
+    "id": 1240203,
+    "ru": "Сфокусированный луч",
+    "icon": "inv_cosmicvoid_beam"
+  },
+  "Star Fragments": {
+    "id": 1240204,
+    "ru": "Фрагменты звезд",
+    "icon": "inv_12_dh_void_ability_starfragments"
+  },
+  "Tempered Soul": {
+    "id": 1246555,
+    "ru": "Закаленная душа",
+    "icon": "inv_12_dh_void_ability_voidpurge"
+  },
+  "Spontaneous Immolation": {
+    "id": 1246556,
+    "ru": "Самопроизвольное воспламенение",
+    "icon": "spell_fire_twilightimmolation"
+  },
+  "Scythe's Embrace": {
+    "id": 1246558,
+    "ru": "Объятия жнеца",
+    "icon": "inv_12_dh_void_ability_voidreaper"
+  },
+  "Duty Eternal": {
+    "id": 1246562,
+    "ru": "Вечный долг",
+    "icon": "inv_12_voiddh_ability_voidblade"
+  },
+  "Soul Rending": {
+    "id": 204909,
+    "ru": "Раздирание души",
+    "icon": "ability_demonhunter_soulcleave2"
+  },
+  "Shattered Souls": {
+    "id": 1227619,
+    "ru": "Расколотые души",
+    "icon": "inv_12_dh_void_ability_soulfragments"
+  },
+  "Grim Focus": {
+    "id": 1260013,
+    "ru": "Мрачная сосредоточенность",
+    "icon": "ability_demonhunter_eyebeam"
+  },
+  "Impending Apocalypse": {
+    "id": 1227338,
+    "ru": "Надвигающийся апокалипсис",
+    "icon": "inv_12_dh_void_ability_impendingapocalypse"
+  },
+  "Entropy": {
+    "id": 1261684,
+    "ru": "Энтропия",
+    "icon": "inv_112_raidtrinkets_voidprism"
+  },
+  "Blind Focus": {
+    "id": 1272364,
+    "ru": "Слепая концентрация",
+    "icon": "inv_belt_leather_raiddemonhunter_r_01"
+  },
+  "Soulforged Blades": {
+    "id": 1272432,
+    "ru": "Духокованные клинки",
+    "icon": "inv12_ability_deathknight_frostscythe"
+  },
+  "Singular Strikes": {
+    "id": 1272770,
+    "ru": "Одиночные удары",
+    "icon": "inv_12_dh_void_ability_scythethrow"
+  },
+  "Predator's Thirst": {
+    "id": 1215617,
+    "ru": "Жажда хищника",
+    "icon": "inv_12_dh_void_ability_consume"
+  },
+  "Volatile Instinct": {
+    "id": 1272453,
+    "ru": "Нестабильный инстинкт",
+    "icon": "inv_nature_nova"
+  },
+  "Annihilator": {
+    "ru": "Разрушитель",
+    "note": "hero tree name in RU client (talent picker); shared with Месть + Пожиратель"
+  },
+  "Void-Scarred": {
+    "ru": "Зараженные Бездной",
+    "note": "hero tree name in RU talent picker (in-game UI)"
+  },
+  "Burn It Out": {
+    "id": 1266316,
+    "ru": "Выжигание",
+    "icon": "spell_fire_felflamebreath"
+  },
+  "Soul Cleanse": {
+    "id": 1266496,
+    "ru": "Очищение души",
+    "icon": "spell_holy_dispelmagic"
+  },
+  "First In, Last Out": {
+    "id": 1266497,
+    "ru": "На острие",
+    "icon": "ability_demonhunter_demonictrample"
+  },
+  "Demon Muzzle": {
+    "id": 1266329,
+    "ru": "Демонический намордник",
+    "icon": "spell_warlock_demonicservitude"
+  },
+  "Voidsurge (Devourer)": {
+    "id": 1246160,
+    "ru": "Всплеск Бездны",
+    "icon": "inv_12_voiddh_ability_demonsurge"
+  },
+  "Soul Fragments": {
+    "id": 1245577,
+    "ru": "Фрагменты души",
+    "icon": "inv_12_dh_void_ability_soulfragments"
+  },
+  "Devourer's Ire": {
+    "id": 1245575,
+    "ru": "Гнев пожирателя",
+    "icon": "spell_nzinsanity_shortsighted"
+  }
+}
