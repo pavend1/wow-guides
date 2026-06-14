@@ -1,0 +1,20 @@
+{
+  "Ebon Might": {"id": 395152, "ru": "Черная мощь", "icon": "spell_sarkareth"},
+  "Prescience": {"id": 409311, "ru": "Предвидение", "icon": "ability_evoker_prescience"},
+  "Fire Breath": {"id": 357208, "ru": "Огненное дыхание", "icon": "ability_evoker_firebreath"},
+  "Upheaval": {"id": 396286, "ru": "Дрожь земли", "icon": "ability_evoker_upheaval"},
+  "Eruption": {"id": 395160, "ru": "Извержение", "icon": "ability_evoker_eruption"},
+  "Living Flame": {"id": 361469, "ru": "Живой жар", "icon": "ability_evoker_livingflame"},
+  "Breath of Eons": {"id": 403631, "ru": "Дыхание эпох", "icon": "ability_evoker_breathofeons"},
+  "Tip the Scales": {"id": 370553, "ru": "Смещение равновесия", "icon": "ability_evoker_tipthescales"},
+  "Time Skip": {"id": 404977, "ru": "Пропустить время", "icon": "ability_evoker_timeskip"},
+  "Azure Strike": {"id": 362969, "ru": "Лазурный удар", "icon": "ability_evoker_azurestrike"},
+  "Chrono Flames": {"id": 431443, "ru": "Хроновспышки", "icon": "inv_ability_chronowardenevoker_chronoflame"},
+  "Deep Breath": {"id": 433874, "ru": "Глубокий вдох", "icon": "ability_evoker_deepbreath"},
+  "Hover": {"id": 358267, "ru": "Бреющий полёт", "icon": "ability_evoker_hover"},
+  "Blistering Scales": {"id": 360827, "ru": "Вздувшаяся чешуя", "icon": "ability_evoker_blisteringscales"},
+  "Essence Burst": {"id": 392268, "ru": "Взрывная сущность", "icon": "ability_evoker_essenceburst"},
+  "Sands of Time": {"id": 395153, "ru": "Пески времени", "icon": "ability_evoker_sandsoftime"},
+  "Duplicate": {"id": 431875, "ru": "Остаточное изображение", "icon": "ability_evoker_afterimage"},
+  "Temporality": {"id": 431873, "ru": "Темпоральность", "icon": "ability_evoker_temporality"}
+}

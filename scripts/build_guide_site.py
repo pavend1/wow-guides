@@ -18,6 +18,7 @@ GUIDES = [
     ("guides/mplus/subtlety-rogue-mplus-ru.md", "Скрытность — M+", "Разбойник", "Скрытность", "M+"),
     ("guides/mplus/demonology-warlock-mplus-ru.md", "Демонолог — M+", "Чернокнижник", "Демонология", "M+"),
     ("guides/rotation/devourer-dh-rotation-ru.md", "Пожиратель DH", "Охотник на демонов", "Пожиратель", "Ротация"),
+    ("guides/rotation/augmentation-evoker-rotation-ru.md", "Насыщатель", "Пробудитель", "Насыщатель", "Ротация"),
 ]
 
 CLASS_ORDER = [
@@ -29,6 +30,7 @@ CLASS_ORDER = [
     "Разбойник",
     "Чернокнижник",
     "Охотник на демонов",
+    "Пробудитель",
 ]
 SITE = ROOT / "site"
 TEMPLATE = SITE / "template.html"

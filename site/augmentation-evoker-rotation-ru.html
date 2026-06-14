@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Насыщатель</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="пробудитель-насыщатель-гайд-для-новичка">Пробудитель — Насыщатель: гайд для новичка</h1>
+<blockquote>
+<p>Источник ротации: <a href="https://www.method.gg/guides/augmentation-evoker/playstyle-and-rotation">Method 12.0.5</a> · <a href="https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-rotation-cooldowns-abilities">Icy Veins 12.0.5</a></p>
+<p>Названия способностей: <a href="https://www.wowhead.com/ru/talent-calc/evoker/augmentation">Wowhead RU</a> (спец <strong>Насыщатель</strong> = Augmentation)</p>
+<p>Расы: <a href="https://www.method.gg/guides/augmentation-evoker/stats-races-and-consumables">Method 12.0.5</a></p>
+<p>Патч: <strong>12.0.5</strong></p>
+<p>Обновлено: <strong>14.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#не-можете-найти-способность-прочитайте-это">⚠️ Не можете найти способность? Прочитайте это</a></li>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#ресурсы-на-экране-запомните-их">Ресурсы на экране — запомните их</a></li>
+<li><a href="#кнопки-на-панели-точные-названия-wowhead-ru">Кнопки на панели — точные названия (Wowhead RU)</a></li>
+<li><a href="#первый-бой-нажимайте-именно-так-пошагово">Первый бой — нажимайте именно так (пошагово)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас">Простое правило «что жать сейчас?»</a></li>
+<li><a href="#5-ошибок-новичка">5 ошибок новичка</a></li>
+<li><a href="#что-смотреть-на-экране-шпаргалка">Что смотреть на экране (шпаргалка)</a></li>
+</ul>
+<p><strong><a href="#часть-2-полный-справочник">ЧАСТЬ 2. Полный справочник</a></strong></p>
+<ul>
+<li><a href="#ссылки-wowhead-основные-способности">Ссылки Wowhead (основные способности)</a></li>
+<li><a href="#словарь-english--русское-название-в-игре">Словарь (English → русское название в игре)</a></li>
+<li><a href="#базовый-игровой-цикл">Базовый игровой цикл</a></li>
+<li><a href="#ротация-одна-цель-продвинутая">Ротация: одна цель (продвинутая)</a></li>
+<li><a href="#ротация-aoe-мифик">Ротация: AoE / Мифик+</a></li>
+<li><a href="#два-геро-таланта-в-чём-разница">Два геро-таланта: в чём разница</a></li>
+<li><a href="#дракомандир--приоритеты-и-советы">Дракомандир — приоритеты и советы</a></li>
+<li><a href="#хроностраж--приоритеты-и-советы">Хроностраж — приоритеты и советы</a></li>
+<li><a href="#опener-продвинутый">Опенер (продвинутый)</a></li>
+<li><a href="#управление-ресурсами-и-черной-мощью">Управление ресурсами и <strong>Черной мощью</strong></a></li>
+<li><a href="#позиционирование-и-мобильность">Позиционирование и мобильность</a></li>
+<li><a href="#защита-диспелы-и-utility">Защита, диспелы и utility</a></li>
+<li><a href="#выбор-расы">Выбор расы</a></li>
+<li><a href="#история-изменений">История изменений</a></li>
+</ul>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="не-можете-найти-способность-прочитайте-это">⚠️ Не можете найти способность? Прочитайте это</h2>
+<h3 id="правильное-название-специализации">Правильное название специализации</h3>
+<p>В <strong>русском клиенте</strong> специализация Augmentation называется <strong>Насыщатель</strong> (не «Усиление» и не «Augmentation»).</p>
+<p>Откройте окно талантов (<strong>N</strong>) → вкладка «Специализации».</p>
+<p>Должно быть выбрано: <strong>Насыщатель</strong> (третья спец пробудителя, иконка с золотой/бронзовой аурой).</p>
+<p>Если у вас <strong>Опустошитель</strong> или <strong>Хранитель</strong> — это другие спеки; часть кнопок ниже <strong>не будет</strong> на панели.</p>
+<h3 id="как-найти-ключевые-способности">Как найти ключевые способности</h3>
+<p>Нажмите <strong>P</strong> → вкладка <strong>«Способности»</strong> → слева выберите <strong>«Насыщатель»</strong>.</p>
+<table><tbody>
+<tr><th>English</th><th>Название в русском клиенте</th></tr>
+<tr><td>Ebon Might</td><td><strong>Черная мощь</strong></td></tr>
+<tr><td>Prescience</td><td><strong>Предвидение</strong></td></tr>
+<tr><td>Fire Breath</td><td><strong>Огненное дыхание</strong></td></tr>
+<tr><td>Upheaval</td><td><strong>Дрожь земли</strong></td></tr>
+<tr><td>Eruption</td><td><strong>Извержение</strong></td></tr>
+<tr><td>Living Flame</td><td><strong>Живой жар</strong></td></tr>
+<tr><td>Breath of Eons</td><td><strong>Дыхание эпох</strong></td></tr>
+<tr><td>Azure Strike</td><td><strong>Лазурный удар</strong></td></tr>
+<tr><td>Chrono Flames</td><td><strong>Хроновспышки</strong></td></tr>
+</tbody></table>
+<h3 id="усиленные-заклинания-empower">Усиленные заклинания (Empower)</h3>
+<p><strong>Огненное дыхание</strong> и <strong>Дрожь земли</strong> — <strong>усиленные</strong> способности: удерживайте кнопку, чтобы повысить ранг (1–4). Чем выше ранг, тем сильнее эффект и тем дольше продлевается <strong>Черная мощь</strong> через талант <strong>Пески времени</strong>.</p>
+<hr>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Держите на союзниках <strong>Предвидение</strong> и на себе/рейде <strong>Черную мощь</strong> — это ваш главный урон (через усиление союзников).</p>
+<p>2. По кулдауну жмёте <strong>Огненное дыхание</strong> и <strong>Дрожь земли</strong> <strong>пока активна Черная мощь</strong>.</p>
+<p>3. Тратите <strong>сущность</strong> на <strong>Извержение</strong> — оно <strong>продлевает</strong> <strong>Черную мощь</strong>.</p>
+<p>4. Между этим — <strong>Живой жар</strong> / <strong>Лазурный удар</strong> / <strong>Хроновспышки</strong> для генерации сущности и <strong>Взрывной сущности</strong>.</p>
+<p>5. Раз в ~2 мин — <strong>Дыхание эпох</strong> вместе с <strong>Черной мощью</strong>.</p>
+<p>Это весь цикл. Всё остальное — уточнения по геро-талантам.</p>
+<hr>
+<h2 id="ресурсы-на-экране-запомните-их">Ресурсы на экране — запомните их</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Название</th><th>Зачем</th></tr>
+<tr><td>Синие/фиолетовые точки</td><td><strong>Сущность</strong></td><td>Тратится на <strong>Извержение</strong> (до 5). Генерируется филлерами.</td></tr>
+<tr><td>Прок (сияющая иконка)</td><td><strong>Взрывная сущность</strong></td><td><strong>Извержение</strong> бесплатно / с бонусом. Не переполняйте (макс. 2 заряда).</td></tr>
+<tr><td>Бафф на панели</td><td><strong>Черная мощь</strong></td><td>Главный бурст-бафф. <strong>Продлевайте</strong>, а не перезапускайте рано.</td></tr>
+<tr><td>2 заряда</td><td><strong>Предвидение</strong></td><td>Жмите по КД, не копите 2 заряда без нужды.</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-точные-названия-wowhead-ru">Кнопки на панели — точные названия (Wowhead RU)</h2>
+<h3 id="основные-есть-почти-всегда">Основные (есть почти всегда)</h3>
+<table><tbody>
+<tr><th>№</th><th>Название в игре</th><th>Что делает</th><th>Когда жать</th></tr>
+<tr><td>1</td><td><strong>Черная мощь</strong></td><td>Главный бафф: усиливает вас и союзников-DPS</td><td>Если на баффе ≤ <strong>4 сек</strong> (или ≤ <strong>3 сек</strong> в рейде — см. ниже)</td></tr>
+<tr><td>2</td><td><strong>Предвидение</strong></td><td>Крит союзнику (2 заряда)</td><td><strong>По КД</strong>, не переполняйте заряды</td></tr>
+<tr><td>3</td><td><strong>Огненное дыхание</strong></td><td>Усиленное AoE/DoT</td><td><strong>По КД</strong>, только при активной <strong>Черной мощи</strong></td></tr>
+<tr><td>4</td><td><strong>Дрожь земли</strong></td><td>Усиленный AoE</td><td><strong>По КД</strong>, только при активной <strong>Черной мощи</strong></td></tr>
+<tr><td>5</td><td><strong>Извержение</strong></td><td>Тратит сущность, продлевает <strong>Черную мощь</strong></td><td>При <strong>Черной мощи</strong> или при <strong>2× Взрывной сущности</strong></td></tr>
+<tr><td>6</td><td><strong>Дыхание эпох</strong></td><td>Главный КД (~2 мин)</td><td><strong>По КД</strong>; в M+ не в самом конце пака</td></tr>
+<tr><td>7</td><td><strong>Живой жар</strong></td><td>Филлер, генерирует сущность</td><td>Между приоритетными кнопками</td></tr>
+<tr><td>8</td><td><strong>Лазурный удар</strong></td><td>Мгновенный филлер</td><td>ST (<strong>Дракомандир</strong>) или в движении</td></tr>
+<tr><td>9</td><td><strong>Хроновспышки</strong></td><td>Филлер (<strong>Хроностраж</strong>)</td><td>Между <strong>Извержениями</strong></td></tr>
+<tr><td>10</td><td><strong>Бреющий полёт</strong></td><td>Полёт + каст в движении</td><td>Перед движением, не тратьте все заряды зря</td></tr>
+<tr><td>11</td><td><strong>Смещение равновесия</strong></td><td>Мгновенный макс. ранг следующего Empower</td><td>С <strong>Огненным дыханием</strong> (<strong>Дракомандир</strong>) или по КД (<strong>Хроностраж</strong>)</td></tr>
+<tr><td>12</td><td><strong>Пропустить время</strong></td><td>Ускоряет КД Empower</td><td>Когда <strong>Огненное дыхание</strong> и <strong>Дрожь земли</strong> в откате (<strong>Хроностраж</strong>)</td></tr>
+<tr><td>13</td><td><strong>Глубокий вдох</strong></td><td>Доп. КД (<strong>Дракомандир</strong>)</td><td><strong>По КД</strong> в приоритетном списке</td></tr>
+<tr><td>14</td><td><strong>Вздувшаяся чешуя</strong></td><td>Щит на танка</td><td>Препулл / когда КД готов</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-бой-нажимайте-именно-так-пошагово">Первый бой — нажимайте именно так (пошагово)</h2>
+<p>Рекомендуемая ветка для новичка: <strong>Дракомандир</strong> (проще в M+ и рейде по мете 12.0.5).</p>
+<h3 id="шаг-0-перед-пулом">Шаг 0. Перед пулом</h3>
+<ul>
+<li><strong>Вздувшаяся чешуя</strong> на танка (если взяли талант).</li>
+<li>Начните каст <strong>Живого жара</strong> или <strong>Хроновспышек</strong> за <strong>~1,5 сек</strong> до пула.</li>
+</ul>
+<h3 id="шаг-1-старт-боя-первые-15-секунд">Шаг 1. Старт боя (первые 15 секунд)</h3>
+<pre><code>
+1. Черная мощь
+
+2. Предвидение
+
+3. Предвидение          ← второй заряд
+
+4. Дыхание эпох
+
+5. Глубокий вдох        ← если играете Дракомандиром
+
+6. Зелье / тринкет
+
+7. Смещение равновесия
+
+8. Огненное дыхание    ← максимальный ранг, который успеваете
+
+9. Дрожь земли          ← низкий ранг в AoE, чтобы все мобы попали
+
+10. Пропустить время    ← Хроностраж; у Дракомандира пропустите
+
+11. Предвидение
+
+12. Извержение × 2–3
+
+13. Живой жар / Лазурный удар / Хроновспышки
+
+</pre>
+<h3 id="шаг-2-обычный-цикл-после-опенера">Шаг 2. Обычный цикл (после опенера)</h3>
+<p>Повторяйте приоритет из раздела <a href="#простое-правило-что-жать-сейчас">«Простое правило»</a>: <strong>Черная мощь</strong> → Empower по КД → <strong>Извержение</strong> → филлер.</p>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас">Простое правило «что жать сейчас?»</h2>
+<p>Смотрите <strong>сверху вниз</strong>, первое подходящее — жмите:</p>
+<table><tbody>
+<tr><th>Приоритет</th><th>Условие</th><th>Жмите</th></tr>
+<tr><td>1</td><td><strong>Черная мощь</strong> ≤ <strong>4 сек</strong></td><td><strong>Черная мощь</strong></td></tr>
+<tr><td>2</td><td><strong>Дыхание эпох</strong> готово</td><td><strong>Дыхание эпох</strong></td></tr>
+<tr><td>3</td><td><strong>Глубокий вдох</strong> готов (Дракомандир)</td><td><strong>Глубокий вдох</strong></td></tr>
+<tr><td>4</td><td><strong>Предвидение</strong> готово (нет 2 зарядов)</td><td><strong>Предвидение</strong></td></tr>
+<tr><td>5</td><td><strong>Смещение равновесия</strong> + <strong>Огненное дыхание</strong> готовы</td><td><strong>Смещение равновесия</strong> → <strong>Огненное дыхание</strong></td></tr>
+<tr><td>6</td><td><strong>Огненное дыхание</strong> готово, <strong>Черная мощь</strong> активна</td><td><strong>Огненное дыхание</strong></td></tr>
+<tr><td>7</td><td><strong>Дрожь земли</strong> готова, <strong>Черная мощь</strong> активна</td><td><strong>Дрожь земли</strong></td></tr>
+<tr><td>8</td><td><strong>Извержение</strong>: <strong>Черная мощь</strong> активна <strong>или</strong> 2× <strong>Взрывная сущность</strong></td><td><strong>Извержение</strong></td></tr>
+<tr><td>9</td><td>Нужно двигаться</td><td><strong>Бреющий полёт</strong> → каст в движении</td></tr>
+<tr><td>10</td><td>Всё остальное</td><td><strong>Лазурный удар</strong> (ST) / <strong>Хроновспышки</strong> (Хроностраж) / <strong>Живой жар</strong></td></tr>
+</tbody></table>
+<blockquote>
+<p><strong>Огненное дыхание</strong> и <strong>Дрожь земли</strong> <strong>без</strong> активной <strong>Черной мощи</strong> — почти всегда ошибка: вы теряете продление от <strong>Песков времени</strong>.</p>
+</blockquote>
+<hr>
+<h2 id="5-ошибок-новичка">5 ошибок новичка</h2>
+<p>1. <strong>Empower без Черной мощи</strong> — главная потеря DPS. Сначала бафф, потом <strong>Огненное дыхание</strong> / <strong>Дрожь земли</strong>.</p>
+<p>2. <strong>Два заряда Предвидения</strong> простаивают — жмите по КД.</p>
+<p>3. <strong>Извержение в пустоту</strong> — без <strong>Черной мощи</strong> и без <strong>Взрывной сущности</strong> вы почти не продлеваете бафф.</p>
+<p>4. <strong>Дыхание эпох в конце пака</strong> в M+ — союзники не успеют накопить урон в дебафф.</p>
+<p>5. <strong>Стоите в анимации Бреющего полёта</strong> — жмите <strong>Бреущий полёт</strong> сразу после мгновенной кнопки (<strong>Предвидение</strong>, <strong>Лазурный удар</strong>).</p>
+<hr>
+<h2 id="что-смотреть-на-экране-шпаргалка">Что смотреть на экране (шпаргалка)</h2>
+<pre><code>
+[ Черная мощь: ████████░░ 6 сек ]   ← скоро обновить
+
+[ Сущность:   ███░░ 3/5 ]           ← хватит на Извержение
+
+[ Взрывная сущность: ●● ]           ← 2 прока — жмите Извержение
+
+[ Предвидение: 2/2 ]                ← срочно Предвидение!
+
+</pre>
+<hr>
+<h1 id="часть-2-полный-справочник">ЧАСТЬ 2. Полный справочник</h1>
+<h2 id="ссылки-wowhead-основные-способности">Ссылки Wowhead (основные способности)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Ссылка</th></tr>
+<tr><td><strong>Черная мощь</strong></td><td>https://www.wowhead.com/ru/spell=395152</td></tr>
+<tr><td><strong>Предвидение</strong></td><td>https://www.wowhead.com/ru/spell=409311</td></tr>
+<tr><td><strong>Огненное дыхание</strong></td><td>https://www.wowhead.com/ru/spell=357208</td></tr>
+<tr><td><strong>Дрожь земли</strong></td><td>https://www.wowhead.com/ru/spell=396286</td></tr>
+<tr><td><strong>Извержение</strong></td><td>https://www.wowhead.com/ru/spell=395160</td></tr>
+<tr><td><strong>Дыхание эпох</strong></td><td>https://www.wowhead.com/ru/spell=403631</td></tr>
+</tbody></table>
+<h2 id="словарь-english-русское-название-в-игре">Словарь (English → русское название в игре)</h2>
+<table><tbody>
+<tr><th>English</th><th>Русское название</th></tr>
+<tr><td>Augmentation (spec)</td><td><strong>Насыщатель</strong></td></tr>
+<tr><td>Ebon Might</td><td><strong>Черная мощь</strong></td></tr>
+<tr><td>Prescience</td><td><strong>Предвидение</strong></td></tr>
+<tr><td>Fire Breath</td><td><strong>Огненное дыхание</strong></td></tr>
+<tr><td>Upheaval</td><td><strong>Дрожь земли</strong></td></tr>
+<tr><td>Eruption</td><td><strong>Извержение</strong></td></tr>
+<tr><td>Living Flame</td><td><strong>Живой жар</strong></td></tr>
+<tr><td>Breath of Eons</td><td><strong>Дыхание эпох</strong></td></tr>
+<tr><td>Tip the Scales</td><td><strong>Смещение равновесия</strong></td></tr>
+<tr><td>Time Skip</td><td><strong>Пропустить время</strong></td></tr>
+<tr><td>Azure Strike</td><td><strong>Лазурный удар</strong></td></tr>
+<tr><td>Chrono Flames</td><td><strong>Хроновспышки</strong></td></tr>
+<tr><td>Deep Breath</td><td><strong>Глубокий вдох</strong></td></tr>
+<tr><td>Hover</td><td><strong>Бреющий полёт</strong></td></tr>
+<tr><td>Blistering Scales</td><td><strong>Вздувшаяся чешуя</strong></td></tr>
+<tr><td>Obsidian Scales</td><td><strong>Обсидиановая чешуя</strong></td></tr>
+<tr><td>Renewing Blaze</td><td><strong>Обновляющее пламя</strong></td></tr>
+<tr><td>Zephyr</td><td><strong>Южный ветер</strong></td></tr>
+<tr><td>Essence Burst</td><td><strong>Взрывная сущность</strong></td></tr>
+<tr><td>Sands of Time</td><td><strong>Пески времени</strong></td></tr>
+<tr><td>Shifting Sands</td><td><strong>Подвижные пески</strong> (бафф от мастерства)</td></tr>
+<tr><td>Scalecommander</td><td><strong>Дракомандир</strong></td></tr>
+<tr><td>Chronowarden</td><td><strong>Хроностраж</strong></td></tr>
+<tr><td>Duplicate (Apex)</td><td><strong>Остаточное изображение</strong> (Afterimage)</td></tr>
+<tr><td>Quell</td><td><strong>Подавление</strong></td></tr>
+<tr><td>Rescue</td><td><strong>Спасение</strong></td></tr>
+<tr><td>Oppressing Roar</td><td><strong>Угнетающий рык</strong></td></tr>
+<tr><td>Expunge</td><td><strong>Нейтрализация</strong></td></tr>
+<tr><td>Cauterizing Flame</td><td><strong>Прижигающее пламя</strong></td></tr>
+</tbody></table>
+<hr>
+<h2 id="базовый-игровой-цикл">Базовый игровой цикл</h2>
+<p>Насыщатель — <strong>support-DPS</strong>: большая часть урона идёт через усиление союзников, но <strong>ваши</strong> касты всё равно важны для продления <strong>Черной мощи</strong>.</p>
+<table><tbody>
+<tr><th>Способность</th><th>Роль в цикле</th></tr>
+<tr><td><strong>Черная мощь</strong></td><td>Главный бафф (~30 сек). <strong>Продлевается</strong> <strong>Извержением</strong>, Empower и <strong>Дыханием эпох</strong>. Можно <strong>пандемить</strong> до +30% длительности при раннем обновлении.</td></tr>
+<tr><td><strong>Предвидение</strong></td><td>Крит союзнику, 2 заряда, ~12 сек КД. Мгновенная — удобна для движения.</td></tr>
+<tr><td><strong>Огненное дыхание</strong> / <strong>Дрожь земли</strong></td><td>Усиленные заклинания. Дают <strong>Подвижные пески</strong> (vers союзникам) и продлевают <strong>Черную мощь</strong> через <strong>Пески времени</strong>.</td></tr>
+<tr><td><strong>Извержение</strong></td><td>Тратит 3 <strong>сущности</strong> (или прок <strong>Взрывной сущности</strong>). Главный «продлевающий» спелл.</td></tr>
+<tr><td><strong>Дыхание эпох</strong></td><td>~2 мин. Накапливает часть урона рейда и взрывает. С <strong>Черной мощью</strong> <strong>продлевает</strong> её; с apex <strong>Остаточное изображение</strong> — жмите <strong>по КД</strong>.</td></tr>
+<tr><td><strong>Живой жар</strong> / <strong>Лазурный удар</strong> / <strong>Хроновспышки</strong></td><td>Генерация <strong>сущности</strong> и проков.</td></tr>
+</tbody></table>
+<p>Цикл ~<strong>30 секунд</strong> вокруг Empower + <strong>Черной мощи</strong>; раз в <strong>2 мин</strong> — окно <strong>Дыхания эпох</strong>.</p>
+<hr>
+<h2 id="ротация-одна-цель-продвинутая">Ротация: одна цель (продвинутая)</h2>
+<blockquote>
+<p>Источники: <a href="https://www.method.gg/guides/augmentation-evoker/playstyle-and-rotation">Method</a>, <a href="https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-rotation-cooldowns-abilities">Icy Veins</a>. Фиксированной ротации нет — только <strong>приоритетный список</strong>.</p>
+</blockquote>
+<h3 id="общий-st-приоритет">Общий ST-приоритет</h3>
+<p>1. <strong>Черная мощь</strong> — если ≤ <strong>4 сек</strong> (в рейде часто ≤ <strong>3 сек</strong> для пандема)</p>
+<p>2. <strong>Дыхание эпох</strong> — по КД</p>
+<p>3. <strong>Глубокий вдох</strong> — по КД (<strong>Дракомандир</strong>)</p>
+<p>4. <strong>Предвидение</strong> — по КД</p>
+<p>5. <strong>Смещение равновесия</strong> + <strong>Огненное дыхание</strong> (макс. ранг)</p>
+<p>6. <strong>Дрожь земли</strong> — по КД</p>
+<p>7. <strong>Пропустить время</strong> — если оба Empower в КД (<strong>Хроностраж</strong>)</p>
+<p>8. <strong>Извержение</strong> — при <strong>Черной мощи</strong> или 2× <strong>Взрывной сущности</strong></p>
+<p>9. <strong>Лазурный удар</strong> (<strong>Дракомандир</strong>, Echoing Strike) / <strong>Хроновспышки</strong> (<strong>Хроностраж</strong>)</p>
+<p>10. <strong>Живой жар</strong></p>
+<hr>
+<h2 id="ротация-aoe-мифик">Ротация: AoE / Мифик+</h2>
+<p>Приоритет <strong>тот же</strong>, с поправками:</p>
+<ul>
+<li><strong>Дрожь земли</strong> — <strong>минимальный</strong> ранг, чтобы все цели попали в радиус.</li>
+<li><strong>Огненное дыхание</strong> — ранг по ситуации; не тратьте время на макс. ранг, если пак скоро умрёт.</li>
+<li>Филлер: <strong>Лазурный удар</strong> / <strong>Хроновспышки</strong>; в AoE <strong>Живой жар</strong> ниже в приоритете (<strong>Хроностраж</strong>).</li>
+<li>В конце пака <strong>не</strong> тратьте <strong>Дыхание эпох</strong> / <strong>Черную мощь</strong>, если следующий пак через несколько секунд и КД не успеет.</li>
+</ul>
+<hr>
+<h2 id="два-геро-таланта-в-чём-разница">Два геро-таланта: в чём разница</h2>
+<table><tbody>
+<tr><th></th><th><strong>Дракомандир</strong></th><th><strong>Хроностраж</strong></th></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>Deep Breath</strong>, bombardments, <strong>Лазурный удар</strong> в ST</td><td><strong>Пропустить время</strong>, <strong>Хроновспышки</strong>, <strong>Смещение равновесия</strong></td></tr>
+<tr><td><strong>Мета 12.0.5</strong></td><td>Сильнее в <strong>рейде и M+</strong> (<a href="https://www.method.gg/guides/augmentation-evoker/talents">Method</a>)</td><td>Конкурентен; больше управления КД</td></tr>
+<tr><td><strong>Apex</strong></td><td><strong>Остаточное изображение</strong> + <strong>Глубокий вдох</strong></td><td><strong>Остаточное изображение</strong> + <strong>Темпоральность</strong></td></tr>
+<tr><td><strong>Филлер ST</strong></td><td><strong>Лазурный удар</strong> (Echoing Strike)</td><td><strong>Хроновспышки</strong></td></tr>
+<tr><td><strong>Ключевые КД</strong></td><td><strong>Глубокий вдох</strong>, <strong>Дыхание эпох</strong> по КД</td><td><strong>Пропустить время</strong>, отмена <strong>Смещения равновесия</strong></td></tr>
+</tbody></table>
+<hr>
+<h2 id="дракомандир-приоритеты-и-советы">Дракомандир — приоритеты и советы</h2>
+<ul>
+<li><strong>Дыхание эпох</strong> — <strong>по КД</strong> ради uptime <strong>Остаточного изображения</strong> (Duplicate).</li>
+<li><strong>Глубокий вдох</strong> — в приоритетном списке сразу после <strong>Дыхания эпох</strong>.</li>
+<li>Заканчивайте <strong>Дыхание эпох</strong> раньше, когда все залпы <strong>Command Squadron</strong> отработали (~2 сек).</li>
+<li><strong>Лазурный удар</strong> в ST с Echoing Strike: мгновенный, удобнее держать <strong>Бреющий полёт</strong> для механик.</li>
+<li><strong>Bombardments</strong> (дебафф от Mass Eruption) — следите за продлением через <strong>Извержение</strong> (Extended Battle).</li>
+</ul>
+<hr>
+<h2 id="хроностраж-приоритеты-и-советы">Хроностраж — приоритеты и советы</h2>
+<ul>
+<li><strong>Смещение равновесия</strong> — часто <strong>по КД</strong> ради <strong>Темпоральности</strong> / haste на <strong>Черную мощь</strong>.</li>
+<li>Если взяли <strong>Пропустить время</strong> — используйте, когда <strong>Огненное дыхание</strong> и <strong>Дрожь земли</strong> оба в КД.</li>
+<li><strong>Макрос отмены Смещения равновесия</strong> (если Empower не готов в следующем GCD):</li>
+</ul>
+<pre><code>
+#showtooltip
+
+/cast Смещение равновесия
+
+/cancelaura Смещение равновесия
+
+</pre>
+<ul>
+<li><strong>Хроновспышки</strong> вместо <strong>Живого жара</strong> как основной филлер.</li>
+</ul>
+<hr>
+<h2 id="опener-продвинутый">Опener (продвинутый)</h2>
+<h3 id="препулл">Препулл</h3>
+<p>1. <strong>Вздувшаяся чешуя</strong> на танка</p>
+<p>2. Каст <strong>Хроновспышек</strong> / <strong>Живого жара</strong> (1,5 сек до пула)</p>
+<h3 id="после-пула">После пула</h3>
+<pre><code>
+Черная мощь → Предвидение ×2 → Дыхание эпох → Глубокий вдох (Дракомандир)
+
+→ зелье/тринкет → Смещение равновесия → Огненное дыхание (макс. ранг)
+
+→ Дрожь земли (низкий ранг в AoE) → Пропустить время (Хроностраж)
+
+→ Предвидение → Огненное дыхание → Дрожь земли → Извержение ×3
+
+→ обычный приоритет
+
+</pre>
+<hr>
+<h2 id="управление-ресурсами-и-черной-мощью">Управление ресурсами и <strong>Черной мощью</strong></h2>
+<ul>
+<li><strong>Сущность</strong>: макс. <strong>5</strong>. Не копите выше <strong>3–4</strong>, если скоро <strong>Извержение</strong>.</li>
+<li><strong>Взрывная сущность</strong>: макс. <strong>2</strong>. При 2 проках — <strong>Извержение</strong> в приоритете.</li>
+<li><strong>Черная мощь</strong>: обновляйте при <strong>≤4 сек</strong> (или <strong>≤3 сек</strong> в рейде). Пандем — до <strong>+30%</strong> длительности.</li>
+<li><strong>Empower</strong> только при активной <strong>Черной мощи</strong> (кроме опенера с намеренным сетапом).</li>
+<li><strong>Дыхание эпох</strong> + <strong>Черная мощь</strong> вместе — стандарт; без <strong>Черной мощи</strong> <strong>Дыхание</strong> всё равно сильно, но теряете синергию продления.</li>
+<li>Tier Midnight S1: выше uptime <strong>Черной мощи</strong> и <strong>Остаточного изображения</strong> — ротация «сама» тянется плавнее.</li>
+</ul>
+<hr>
+<h2 id="позиционирование-и-мобильность">Позиционирование и мобильность</h2>
+<ul>
+<li><strong>Бреющий полёт</strong> — основной инструмент: после короткой анимации кастуйте в движении. Не в GCD усиленных (<strong>Огненное дыхание</strong> / <strong>Дрожь земли</strong>).</li>
+<li><strong>Предвидение</strong> — мгновенная, тратьте заряд под короткое смещение.</li>
+<li><strong>Лазурный удар</strong> — если нет <strong>Бреющего полёта</strong> и <strong>Предвидения</strong>.</li>
+<li><strong>Дыхание эпох</strong> — чем короче линия полёта, тем меньше простоя ( <strong>Maneuverability</strong> у <strong>Дракомандира</strong> — рулите и обрывайте раньше).</li>
+</ul>
+<hr>
+<h2 id="защита-диспелы-и-utility">Защита, диспелы и utility</h2>
+<table><tbody>
+<tr><th>Инструмент</th><th>Зачем</th></tr>
+<tr><td><strong>Обсидиановая чешуя</strong></td><td>Пассивное −<strong>30%</strong> (или <strong>40%</strong> с талантами) магического урона</td></tr>
+<tr><td><strong>Обновляющее пламя</strong></td><td>Хил от поглощённого <strong>Обсидиановой чешуей</strong> урона</td></tr>
+<tr><td><strong>Вздувшаяся чешуя</strong></td><td>Щит на танка / себя</td></tr>
+<tr><td><strong>Южный ветер</strong></td><td>−<strong>20%</strong> AoE-урона группе + скорость</td></tr>
+<tr><td><strong>Подавление</strong></td><td>Прерывание</td></tr>
+<tr><td><strong>Спасение</strong></td><td>Подтягивание союзника + <strong>Twin Guardian</strong> (скорость, каст в движении)</td></tr>
+<tr><td><strong>Угнетающий рык</strong></td><td>AoE-контроль / прерывание</td></tr>
+<tr><td><strong>Нейтрализация</strong> / <strong>Прижигающее пламя</strong> / <strong>Нейтрализующий покров</strong></td><td>Диспелы</td></tr>
+</tbody></table>
+<p><strong>Совет M+:</strong> не забывайте <strong>Предвидение</strong> на сильных DPS-ов рейда/группы; авто-таргет по боссу тоже работает, ручной таргет — до <strong>~2%</strong> DPS (<a href="https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-rotation-cooldowns-abilities">Icy Veins</a>).</p>
+<hr>
+<h2 id="выбор-расы">Выбор расы</h2>
+<p>У пробудителя <strong>только драктhyr</strong> — другие расы недоступны (<a href="https://www.method.gg/guides/augmentation-evoker/stats-races-and-consumables">Method</a>).</p>
+<table><tbody>
+<tr><th>Фракция</th><th>Раса</th><th>Заметка</th></tr>
+<tr><td><strong>Альянс / Орда</strong></td><td><strong>Драктыр</strong></td><td>Единственный выбор; racial почти не влияет на DPS</td></tr>
+</tbody></table>
+<p>Разница между «Alliance» и «Horde» драктhyr — только внешность и фракция.</p>
+<hr>
+<h2 id="история-изменений">История изменений</h2>
+<table><tbody>
+<tr><th>Дата</th><th>Изменение</th></tr>
+<tr><td>14.06.2026</td><td>Первая версия: структура как у гайда Пожирателя DH; названия по Wowhead RU (<strong>Насыщатель</strong> = Augmentation); ротация Method / Icy Veins 12.0.5</td></tr>
+</tbody></table>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>

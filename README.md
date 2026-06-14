@@ -16,6 +16,7 @@
 | [guides/mplus/subtlety-rogue-mplus-ru.md](guides/mplus/subtlety-rogue-mplus-ru.md) | Разбойник (Скрытность), Mythic+ |
 | [guides/mplus/demonology-warlock-mplus-ru.md](guides/mplus/demonology-warlock-mplus-ru.md) | Демонолог (варлок), Mythic+ |
 | [guides/rotation/devourer-dh-rotation-ru.md](guides/rotation/devourer-dh-rotation-ru.md) | Охотник на демонов — Пожиратель, ротация |
+| [guides/rotation/augmentation-evoker-rotation-ru.md](guides/rotation/augmentation-evoker-rotation-ru.md) | Пробудитель — Насыщатель, ротация |
 
 ## Структура репозитория
 
