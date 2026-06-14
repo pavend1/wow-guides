@@ -101,17 +101,47 @@ body {
   padding-left: 1.25rem;
 }
 
-.index-list {
+.index-class {
+  margin-top: 2rem;
+}
+
+.index-class h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.35rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.35rem;
+}
+
+.index-spec-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.index-list li {
-  margin: 0.75rem 0;
+.index-spec-list li {
+  margin: 0.5rem 0;
 }
 
-.index-list a {
-  font-size: 1.1rem;
+.index-spec-list a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+.index-spec-list a:hover .index-spec {
+  text-decoration: underline;
+}
+
+.index-spec {
+  flex: 1;
+}
+
+.index-type {
+  font-size: 0.85rem;
+  opacity: 0.65;
+  white-space: nowrap;
 }
 
 /* Не ломать фон тултипов Wowhead (power.js / fallback) */

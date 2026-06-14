@@ -6,16 +6,29 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# path, page title, class name, spec name, guide type label
 GUIDES = [
-    ("guides/mplus/prot-paladin-mplus-ru.md", "Прот-паладин — M+"),
-    ("guides/mplus/guardian-druid-mplus-ru.md", "Страж (медведь) — M+"),
-    ("guides/mplus/brewmaster-monk-mplus-ru.md", "Пивовар — M+"),
-    ("guides/mplus/shadow-priest-mplus-ru.md", "Теневой жрец (ШП) — M+"),
-    ("guides/mplus/unholy-dk-mplus-ru.md", "Анхоли ДК — M+"),
-    ("guides/mplus/subtlety-rogue-mplus-ru.md", "Скрытность — M+"),
-    ("guides/mplus/demonology-warlock-mplus-ru.md", "Демонолог — M+"),
-    ("guides/mplus/retribution-paladin-mplus-ru.md", "Ретри-паладин — M+"),
-    ("guides/rotation/devourer-dh-rotation-ru.md", "Пожиратель DH"),
+    ("guides/mplus/prot-paladin-mplus-ru.md", "Прот-паладин — M+", "Паладин", "Защита", "M+"),
+    ("guides/mplus/retribution-paladin-mplus-ru.md", "Ретри-паладин — M+", "Паладин", "Воздаяние", "M+"),
+    ("guides/mplus/guardian-druid-mplus-ru.md", "Страж (медведь) — M+", "Друид", "Страж", "M+"),
+    ("guides/mplus/brewmaster-monk-mplus-ru.md", "Пивовар — M+", "Монах", "Пивовар", "M+"),
+    ("guides/mplus/shadow-priest-mplus-ru.md", "Теневой жрец (ШП) — M+", "Жрец", "Тень", "M+"),
+    ("guides/mplus/unholy-dk-mplus-ru.md", "Анхоли ДК — M+", "Рыцарь смерти", "Нечестивость", "M+"),
+    ("guides/mplus/subtlety-rogue-mplus-ru.md", "Скрытность — M+", "Разбойник", "Скрытность", "M+"),
+    ("guides/mplus/demonology-warlock-mplus-ru.md", "Демонолог — M+", "Чернокнижник", "Демонология", "M+"),
+    ("guides/rotation/devourer-dh-rotation-ru.md", "Пожиратель DH", "Охотник на демонов", "Пожиратель", "Ротация"),
+]
+
+CLASS_ORDER = [
+    "Паладин",
+    "Друид",
+    "Монах",
+    "Жрец",
+    "Рыцарь смерти",
+    "Разбойник",
+    "Чернокнижник",
+    "Охотник на демонов",
 ]
 SITE = ROOT / "site"
 TEMPLATE = SITE / "template.html"
@@ -173,26 +186,48 @@ def render_page(title: str, body_html: str) -> str:
     return tpl.replace("{{TITLE}}", html.escape(title)).replace("{{CONTENT}}", body_html)
 
 
-def build_index(entries: list[tuple[str, str, str]]) -> str:
-    items = "\n".join(
-        f'<li><a href="{fname}">{html.escape(label)}</a></li>' for fname, label, _ in entries
+def build_index(entries: list[tuple[str, str, str, str, str, str]]) -> str:
+    by_class: dict[str, list[tuple[str, str, str]]] = {}
+    for fname, _title, rel, class_name, spec_name, guide_type in entries:
+        by_class.setdefault(class_name, []).append((fname, spec_name, guide_type))
+
+    sections: list[str] = []
+    for class_name in CLASS_ORDER:
+        specs = by_class.get(class_name)
+        if not specs:
+            continue
+        items = "\n".join(
+            f'<li><a href="{fname}"><span class="index-spec">{html.escape(spec)}</span>'
+            f'<span class="index-type">{html.escape(guide_type)}</span></a></li>'
+            for fname, spec, guide_type in specs
+        )
+        sections.append(
+            f'<section class="index-class">'
+            f'<h2>{html.escape(class_name)}</h2>'
+            f'<ul class="index-spec-list">{items}</ul>'
+            f"</section>"
+        )
+
+    body = (
+        "<h1>Гайды WoW (RU)</h1>"
+        "<p>Наведите на ссылку Wowhead — всплывёт тултип с игры.</p>"
+        + "".join(sections)
     )
-    body = f"<h1>Гайды WoW (RU)</h1><p>Наведите на ссылку Wowhead — всплывёт тултип с игры.</p><ul class=\"index-list\">{items}</ul>"
     return render_page("Гайды WoW", body)
 
 
 def main() -> None:
     SITE.mkdir(parents=True, exist_ok=True)
-    built: list[tuple[str, str, str]] = []
+    built: list[tuple[str, str, str, str, str, str]] = []
 
-    for rel, title in GUIDES:
+    for rel, title, class_name, spec_name, guide_type in GUIDES:
         src = ROOT / rel
         md = src.read_text(encoding="utf-8")
         body = md_to_html(md)
         fname = Path(rel).stem + ".html"
         page = render_page(title, body)
         (SITE / fname).write_text(page, encoding="utf-8")
-        built.append((fname, title, rel))
+        built.append((fname, title, rel, class_name, spec_name, guide_type))
         print("built", fname)
 
     (SITE / "index.html").write_text(build_index(built), encoding="utf-8")
