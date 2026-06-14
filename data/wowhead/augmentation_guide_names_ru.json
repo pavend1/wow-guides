@@ -16,5 +16,13 @@
   "Essence Burst": {"id": 392268, "ru": "Взрывная сущность", "icon": "ability_evoker_essenceburst"},
   "Sands of Time": {"id": 395153, "ru": "Пески времени", "icon": "ability_evoker_sandsoftime"},
   "Duplicate": {"id": 431875, "ru": "Остаточное изображение", "icon": "ability_evoker_afterimage"},
-  "Temporality": {"id": 431873, "ru": "Темпоральность", "icon": "ability_evoker_temporality"}
+  "Temporality": {"id": 431873, "ru": "Темпоральность", "icon": "ability_evoker_temporality"},
+  "Obsidian Scales": {"id": 363916, "ru": "Обсидиановая чешуя", "icon": "ability_evoker_obsidianscales"},
+  "Renewing Blaze": {"id": 374348, "ru": "Обновляющее пламя", "icon": "ability_evoker_renewingblaze"},
+  "Zephyr": {"id": 374227, "ru": "Южный ветер", "icon": "ability_evoker_zephyr"},
+  "Quell": {"id": 351338, "ru": "Подавление", "icon": "ability_evoker_quell"},
+  "Rescue": {"id": 370665, "ru": "Спасение", "icon": "ability_evoker_rescue"},
+  "Oppressing Roar": {"id": 406975, "ru": "Угнетающий рык", "icon": "ability_evoker_oppressingroar"},
+  "Expunge": {"id": 365585, "ru": "Нейтрализация", "icon": "ability_evoker_expunge"},
+  "Cauterizing Flame": {"id": 374251, "ru": "Прижигающее пламя", "icon": "ability_evoker_cauterizingflame"}
 }

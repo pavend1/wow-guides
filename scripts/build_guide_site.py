@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 from pathlib import Path
 
@@ -21,6 +22,12 @@ GUIDES = [
     ("guides/rotation/augmentation-evoker-rotation-ru.md", "Насыщатель", "Пробудитель", "Насыщатель", "Ротация"),
 ]
 
+# Optional Wowhead spell-name data for auto-linking **Name** → tooltip links.
+SPELL_NAME_JSON: dict[str, Path] = {
+    "guides/rotation/augmentation-evoker-rotation-ru.md": ROOT
+    / "data/wowhead/augmentation_guide_names_ru.json",
+}
+
 CLASS_ORDER = [
     "Паладин",
     "Друид",
@@ -34,6 +41,67 @@ CLASS_ORDER = [
 ]
 SITE = ROOT / "site"
 TEMPLATE = SITE / "template.html"
+
+
+def load_spell_links(json_path: Path) -> dict[str, str]:
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    return {
+        entry["ru"]: f"https://www.wowhead.com/ru/spell={entry['id']}"
+        for entry in data.values()
+    }
+
+
+def _stash_markdown_links(text: str) -> tuple[str, list[str]]:
+    saved: list[str] = []
+
+    def stash(match: re.Match[str]) -> str:
+        saved.append(match.group(0))
+        return f"\x00LINK{len(saved) - 1}\x00"
+
+    text = re.sub(r"\[[^\]]+\]\([^)]+\)", stash, text)
+    text = re.sub(r"https://www\.wowhead\.com/\S+", stash, text)
+    return text, saved
+
+
+def _restore_markdown_links(text: str, saved: list[str]) -> str:
+    for i, original in enumerate(saved):
+        text = text.replace(f"\x00LINK{i}\x00", original)
+    return text
+
+
+def link_bare_wowhead_urls(text: str) -> str:
+    return re.sub(
+        r"https://www\.wowhead\.com/ru/spell=(\d+)",
+        r"[Wowhead](https://www.wowhead.com/ru/spell=\1)",
+        text,
+    )
+
+
+def link_spell_names_in_md(md: str, spell_links: dict[str, str]) -> str:
+    parts = re.split(r"(```[\s\S]*?```)", md)
+    out: list[str] = []
+    for part in parts:
+        if part.startswith("```"):
+            out.append(part)
+            continue
+        part = link_bare_wowhead_urls(part)
+        part, saved = _stash_markdown_links(part)
+        for name in sorted(spell_links, key=len, reverse=True):
+            url = spell_links[name]
+            part = re.sub(
+                rf"\*\*{re.escape(name)}\*\*",
+                f"**[{name}]({url})**",
+                part,
+            )
+        out.append(_restore_markdown_links(part, saved))
+    return "".join(out)
+
+
+def preprocess_md(md: str, rel: str) -> str:
+    json_path = SPELL_NAME_JSON.get(rel)
+    if not json_path or not json_path.is_file():
+        return md
+    return link_spell_names_in_md(md, load_spell_links(json_path))
 
 
 def md_to_html(text: str) -> str:
@@ -225,6 +293,7 @@ def main() -> None:
     for rel, title, class_name, spec_name, guide_type in GUIDES:
         src = ROOT / rel
         md = src.read_text(encoding="utf-8")
+        md = preprocess_md(md, rel)
         body = md_to_html(md)
         fname = Path(rel).stem + ".html"
         page = render_page(title, body)
