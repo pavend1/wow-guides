@@ -17,6 +17,7 @@ GUIDES = [
     ("guides/mplus/shadow-priest-mplus-ru.md", "Теневой жрец (ШП) — M+", "Жрец", "Тень", "M+"),
     ("guides/mplus/unholy-dk-mplus-ru.md", "Анхоли ДК — M+", "Рыцарь смерти", "Нечестивость", "M+"),
     ("guides/mplus/subtlety-rogue-mplus-ru.md", "Скрытность — M+", "Разбойник", "Скрытность", "M+"),
+    ("guides/mplus/outlaw-rogue-mplus-ru.md", "Головорез — M+", "Разбойник", "Головорез", "M+"),
     ("guides/mplus/demonology-warlock-mplus-ru.md", "Демонолог — M+", "Чернокнижник", "Демонология", "M+"),
     ("guides/rotation/devourer-dh-rotation-ru.md", "Пожиратель DH", "Охотник на демонов", "Пожиратель", "Ротация"),
     ("guides/rotation/augmentation-evoker-rotation-ru.md", "Насыщатель", "Пробудитель", "Насыщатель", "Ротация"),

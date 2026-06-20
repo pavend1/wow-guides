@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Головорез — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="разбойник-головорез-гайд-для-mythic-ключи">Разбойник (Головорез) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents">таланты</a> · <a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>20.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#энергия-очки-серии-и-стадии-бк">Энергия, очки серии и «стадии» БК</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-обманщик-vs-судьбоносный">Герой-талант: Обманщик vs Судьбоносный</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#чары-гемы-и-химия">Чары, гемы и химия</a></li>
+<li><a href="#чары">Чары</a></li>
+<li><a href="#гемы">Гемы</a></li>
+<li><a href="#химия">Химия</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>Головорез / Outlaw</strong></td><td><strong>Головорез</strong> (*Outlaw Rogue*)</td></tr>
+<tr><td><strong>ВА</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=13750">Выброс адреналина</a></strong> (*Adrenaline Rush*) — ускорение энергии и автоатак</td></tr>
+<tr><td><strong>БК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=315508">Бросок костей</a></strong> (*Roll the Bones*) — «стадии» баффа</td></tr>
+<tr><td><strong>МЯ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=315496">Мясорубка</a></strong> (*Slice and Dice*) — скорость атаки</td></tr>
+<tr><td><strong>ШК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=13877">Шквал клинков</a></strong> (*Blade Flurry*) — cleave на все цели</td></tr>
+<tr><td><strong>НК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=271877">Натиск клинка</a></strong> (*Blade Rush*) — генератор + рывок</td></tr>
+<tr><td><strong>КУ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=193315">Коварный удар</a></strong> (*Sinister Strike*) — основной генератор</td></tr>
+<tr><td><strong>ПГ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=315341">Промеж глаз</a></strong> (*Between the Eyes*) — главный финишер</td></tr>
+<tr><td><strong>Подг.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1277933">Подготовка</a></strong> (*Preparation*) — сброс КД</td></tr>
+<tr><td><strong>ЧУ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=51690">Череда убийств</a></strong> (*Killing Spree*)</td></tr>
+<tr><td><strong>Уст.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=2098">Устранение</a></strong> (*Dispatch*) — запасной финишер</td></tr>
+<tr><td><strong>ВП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=185763">Выстрел из пистоли</a></strong> (*Pistol Shot*)</td></tr>
+<tr><td><strong>ПИ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=381989">Призовая игра</a></strong> (*Keep It Rolling*) — продлевает <strong>БК</strong></td></tr>
+<tr><td><strong>УМ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=441776">Удар милосердия</a></strong> (*Coup de Grace*) — прок <strong>Обманщика</strong></td></tr>
+<tr><td><strong>ВС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=381846">Веерная стрельба</a></strong> (*Fan the Hammer*) — стаки <strong>ЗВ</strong></td></tr>
+<tr><td><strong>ЗВ</strong></td><td>прок <strong><a href="https://www.wowhead.com/ru/spell=195627">Замечательная возможность</a></strong> (*Opportunity*)</td></tr>
+<tr><td><strong>ШКости</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=256170">Шулерские кости</a></strong> (*Loaded Dice*) — +1 стадия <strong>БК</strong> после <strong>ВА</strong></td></tr>
+<tr><td><strong>БЛ</strong></td><td>*Restless Blades* — сокращение КД от финишеров</td></tr>
+<tr><td><strong>ОС</strong></td><td>очки серии (combo points), до <strong>6–7</strong></td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Держите <strong><a href="https://www.wowhead.com/ru/spell=13877">Шквал клинков</a></strong> на паках с <strong>2+</strong> целями — почти весь урон <strong>разлетается</strong> по cleave.</p>
+<p>2. Крутите <strong><a href="https://www.wowhead.com/ru/spell=315508">Бросок костей</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=13750">Выброс адреналина</a></strong> по КД; <strong><a href="https://www.wowhead.com/ru/spell=381989">Призовую игру</a></strong> — на <strong>стадии 2+</strong> (лучше <strong>3+</strong>).</p>
+<p>3. Финишируйте <strong><a href="https://www.wowhead.com/ru/spell=315341">Промеж глаз</a></strong> на <strong>6+ ОС</strong>; между <strong>ПГ</strong> — <strong><a href="https://www.wowhead.com/ru/spell=51690">Череду убийств</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=2098">Устранение</a></strong>.</p>
+<p>4. Генерируйте <strong>ОС</strong> <strong><a href="https://www.wowhead.com/ru/spell=193315">Коварным ударом</a></strong>; при проке <strong>ЗВ</strong> — <strong><a href="https://www.wowhead.com/ru/spell=185763">Выстрел из пистоли</a></strong> (особенно <strong>6</strong> стаков <strong>ВС</strong>).</p>
+<p>5. <strong>Не капайте энергию</strong> — жмите кнопки; <strong>не держите ШК</strong>, если адды вот-вот умрут.</p>
+<blockquote>
+<p><strong>Головорез</strong> в M+ — <strong>ровный sustained-DPS</strong> без «огромных окон», как у <strong>Скрытности</strong>. Сильная сторона — постоянный cleave и урон, когда у других закончились бурсты. Фокус — <strong>самая жирная цель</strong> в паке.</p>
+</blockquote>
+<h2 id="энергия-очки-серии-и-стадии-бк">Энергия, очки серии и «стадии» БК</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>Энергия</strong> (100–250 в <strong>ВА</strong>)</td><td>Не капайте; в <strong>ВА</strong> ГКД может падать до <strong>0,8 сек</strong> при <strong>~20–25%</strong> скорости</td><td>больше генераторов → больше <strong>ПГ</strong></td></tr>
+<tr><td><strong>ОС</strong> (до <strong>6–7</strong>)</td><td><strong>ПГ</strong> / <strong>ЧУ</strong> на <strong>6+</strong>; не жмите генератор на <strong>макс. ОС</strong></td><td>кап <strong>ОС</strong> = потеря</td></tr>
+<tr><td><strong>БК — стадии</strong></td><td><strong>1:</strong> чаще двойной <strong>КУ</strong> + <strong>ЗВ</strong> · <strong>2:</strong> <strong>+1 ОС</strong> с <strong>КУ</strong> · <strong>3:</strong> <strong>БЛ +30%</strong> · <strong>4:</strong> <strong>+10%</strong> крит</td><td>стадии <strong>накапливаются</strong> (стадия 3 = бонусы 1+2+3)</td></tr>
+<tr><td><strong>ШК</strong></td><td>По КД при <strong>2+</strong> целях; перекаст на <strong>≤4 ОС</strong>, если <strong>4+</strong> врагов</td><td>источник cleave — <strong>вы</strong>, не цель</td></tr>
+<tr><td><strong>ВА</strong></td><td>На <strong>≤2 ОС</strong>; не стопайте из-за капа энергии — это нормально</td><td><strong>ШКости</strong> улучшают следующий <strong>БК</strong></td></tr>
+</tbody></table>
+<p><strong><a href="https://www.wowhead.com/ru/spell=315508">Бросок костей</a></strong> (Midnight): жмите по КД, пока не <strong>стадия 2+</strong>. <strong><a href="https://www.wowhead.com/ru/spell=381989">Призовая игра</a></strong> продлевает текущий <strong>БК</strong> на <strong>30 сек</strong> — в M+ проще жать на <strong>стадии 2+</strong>, чем «ждать идеальную 3».</p>
+<p><strong><a href="https://www.wowhead.com/ru/spell=1277933">Подготовка</a>:</strong> сбрасывает <strong>ВА</strong>, <strong>ПГ</strong>, <strong>НК</strong>, <strong>ШК</strong>, <strong>ЧУ</strong>. Жмите, когда эти способности на КД (или перед важным паком).</p>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=13750">Выброс адреналина</a></td><td>+энергия, +скорость атаки; <strong>~3 мин</strong> (сокращается <strong>БЛ</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=315508">Бросок костей</a></td><td>«стадии» баффа; крутить по КД до <strong>2+</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=315496">Мясорубка</a></td><td>+скорость автоатак; перед пулом</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=13877">Шквал клинков</a></td><td>cleave; <strong>2+</strong> цели</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=271877">Натиск клинка</a></td><td>генератор + рывок к цели</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=193315">Коварный удар</a></td><td>основной генератор <strong>ОС</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=315341">Промеж глаз</a></td><td>главный финишер; усиливает весь урон</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1277933">Подготовка</a></td><td>сброс КД (<strong>~4 мин</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=51690">Череда убийств</a></td><td>канал-урон; отменяйте при капе энергии</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2098">Устранение</a></td><td>запасной финишер</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185763">Выстрел из пистоли</a></td><td>дальний генератор; с <strong>ЗВ</strong> — приоритет</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=381989">Призовая игра</a></td><td>+<strong>30 сек</strong> к <strong>БК</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=441776">Удар милосердия</a></td><td>усиленное <strong>Уст.</strong> (<strong>Обманщик</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=256170">Шулерские кости</a></td><td>следующий <strong>БК</strong> +1 стадия после <strong>ВА</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1784">Незаметность</a></td><td>стелс перед пулом</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1856">Исчезновение</a></td><td>сброс боя / <strong>Подлый трюк</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></td><td>«стоп» кастов (AoE с талантом)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6770">Ошеломление</a></td><td>контроль / скип</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1833">Подлый трюк</a></td><td>оглушение из стелса</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></td><td>−40% AoE-урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></td><td>иммунитет к магии</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185311">Алый фиал</a></td><td>хил на КД</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=114018">Скрывающий покров</a></td><td>стелс группы</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2983">Спринт</a></td><td>скорость бега (Pulsar)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=195457">Абордажный крюк</a></td><td>рывок</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5938">Отравляющий укол</a></td><td>снятие <strong>Enrage</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=315584">Быстродействующий яд</a></td><td>lethal-яд по умолчанию</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5761">Замедляющий яд</a></td><td>замедление (M+)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=381637">Атрофический яд</a></td><td>−урон врагов (высокие ключи)</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Cleave</td><td><strong>ШК</strong></td><td><strong>2+</strong> цели; не на dying pack</td></tr>
+<tr><td>Баффы</td><td><strong>БК</strong></td><td>по КД, пока <strong>&amp;lt; стадии 2</strong></td></tr>
+<tr><td>Баффы</td><td><strong>ПИ</strong></td><td><strong>стадия 2+</strong> (идеал — <strong>3+</strong>)</td></tr>
+<tr><td>Бурст</td><td><strong>ВА</strong></td><td>по КД, <strong>≤2 ОС</strong></td></tr>
+<tr><td>Финишеры</td><td><strong>ПГ</strong></td><td><strong>6+ ОС</strong>, по КД</td></tr>
+<tr><td>Сброс</td><td><strong>Подг.</strong></td><td><strong>ВА</strong> + <strong>ПГ</strong> + <strong>НК</strong> на КД</td></tr>
+<tr><td>Урон</td><td><strong>ЧУ</strong></td><td><strong>6+ ОС</strong>, остальное на КД</td></tr>
+<tr><td>Прок</td><td><strong>ВП</strong></td><td><strong>6</strong> стаков <strong>ЗВ</strong>; при <strong>3</strong> — только <strong>1–3 ОС</strong></td></tr>
+<tr><td>Генераторы</td><td><strong>НК</strong>, <strong>КУ</strong></td><td>заполнить ГКД</td></tr>
+<tr><td>Запас</td><td><strong>Уст.</strong> / <strong>УМ</strong></td><td>если <strong>ПГ</strong> / <strong>ЧУ</strong> недоступны</td></tr>
+<tr><td>Утилита</td><td><strong>Пинок</strong>, <strong>Ослепление</strong>, <strong>Уловка</strong></td><td>по механикам</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=1784">Незаметность</a></strong>, <strong><a href="https://www.wowhead.com/ru/spell=315584">Быстродействующий яд</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=5761">Замедляющий яд</a></strong>.</p>
+<p><strong>Обманщик, стандарт M+:</strong></p>
+<p>1. За <strong>~5 сек</strong> до пула: <strong><a href="https://www.wowhead.com/ru/spell=13750">Выброс адреналина</a></strong> → <strong><a href="https://www.wowhead.com/ru/spell=315508">Бросок костей</a></strong> → <strong><a href="https://www.wowhead.com/ru/spell=315496">Мясорубка</a></strong> (если баффы уже висят — не пережимайте).</p>
+<p>2. На пуле: <strong><a href="https://www.wowhead.com/ru/spell=13877">Шквал клинков</a></strong> (если <strong>2+</strong> цели).</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=271877">Натиск клинка</a></strong> + зелье / расовые / on-use тринкеты.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=193315">Коварный удар</a></strong> до <strong>6+ ОС</strong>.</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=315341">Промеж глаз</a></strong>.</p>
+<p>6. <strong>КУ</strong> или <strong><a href="https://www.wowhead.com/ru/spell=185763">Выстрел из пистоли</a></strong> (если <strong>3+</strong> стаков <strong>ВС</strong>).</p>
+<p>7. <strong><a href="https://www.wowhead.com/ru/spell=1277933">Подготовка</a></strong>, если <strong>ПГ</strong> на КД — иначе ещё <strong>ПГ</strong>, потом <strong>Подг.</strong></p>
+<p>8. Повтор <strong>КУ</strong> / <strong>ВП</strong> → <strong>ПГ</strong> → <strong>ЧУ</strong> на <strong>6+ ОС</strong>.</p>
+<p>9. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<blockquote>
+<p><strong>Мясорубка</strong> не тратит <strong><a href="https://www.wowhead.com/ru/spell=470347">Суперзарядку</a></strong> — можно накладывать до пула. За <strong>~20 сек</strong> до боя один <strong><a href="https://www.wowhead.com/ru/spell=315508">Бросок костей</a></strong> для <strong>Суперзарядки</strong>, если взяли в билде.</p>
+</blockquote>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. <strong>ШК</strong> активен на живом паке <strong>2+</strong>? Если нет — жми (не на последних секундах жизни аддов).</p>
+<p>2. <strong>БК</strong> &amp;lt; <strong>стадии 2</strong>? → крути <strong>БК</strong>.</p>
+<p>3. <strong>ПИ</strong> готова и <strong>БК ≥ стадии 2</strong>? → <strong>ПИ</strong>.</p>
+<p>4. <strong>ВА</strong> готова, <strong>≤2 ОС</strong>? → <strong>ВА</strong>.</p>
+<p>5. <strong>ПГ</strong> готова, <strong>6+ ОС</strong>? → <strong>ПГ</strong> (главный урон).</p>
+<p>6. <strong>Подг.</strong> готова, <strong>ВА</strong> + <strong>ПГ</strong> + <strong>НК</strong> на КД? → <strong>Подг.</strong></p>
+<p>7. <strong>ЧУ</strong> / <strong>Уст.</strong> / <strong>УМ</strong> на <strong>6+ ОС</strong>, если <strong>ПГ</strong> на КД.</p>
+<p>8. <strong>ВП</strong> при <strong>6</strong> стаках <strong>ЗВ</strong>; иначе <strong>НК</strong> / <strong>КУ</strong>.</p>
+<p>9. <strong>Пинок</strong> важнее «дожать» последний <strong>КУ</strong>.</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-обманщик-vs-судьбоносный">Герой-талант: Обманщик vs Судьбоносный</h2>
+<table><tbody>
+<tr><th></th><th><strong>Обманщик</strong> (*Trickster*)</th><th><strong>Судьбоносный</strong> (*Fatebound*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — выше потолок AoE и ST</td><td>запасной; проще, без <strong>ЧУ</strong></td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=441776">Удар милосердия</a></strong>, <strong>ЧУ</strong>, быстрее руки</td><td>меньше кнопок, ровнее урон</td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td><strong>~10%+</strong> DPS, <strong>Nimble Flurry</strong> в AoE</td><td>проще освоить; комфорт на боссе</td></tr>
+<tr><td><strong>Слабости</strong></td><td>больше проков и приоритетов</td><td>заметно слабее <strong>Обманщика</strong></td></tr>
+</tbody></table>
+<p><strong>Импорт (M+, Обманщик, AoE):</strong></p>
+<p>`CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MYmZmZmtZmZMzMzsBmZbaZw2MAAAAAgZbbmZGmZmZGzMzyAAAAwYAwYWMMwAzCL0CbMAzMYgB`</p>
+<p><strong>Судьбоносный (M+, AoE):</strong></p>
+<p>`CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MYmZMzsNzMzMzMzsxDwMbTLD2mBAAAAAMbbzMzwMzMzYmZWGAAAAGADsBzY0Y2AsNwCDAmZGYA`</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/rogue/outlaw">Wowhead RU — разбойник, головорез</a>.</p>
+<p><strong>Частые замены в M+ (Обманщик):</strong></p>
+<ul>
+<li><strong>Airborne Irritant</strong> — <strong><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></strong> бьёт по AoE (аффикс Ascendant).</li>
+<li><strong>Numbing Poison</strong> → <strong>Atrophic Poison</strong> на тиранах в очень высоких ключах.</li>
+<li><strong>Tricks of the Trade</strong> vs <strong>Blackjack</strong> — в M+ чаще <strong>Blackjack</strong> (меньше урона танку после <strong>Ошеломления</strong> / <strong>Ослепления</strong>).</li>
+</ul>
+<p><strong>Apex *Gravedigger* (Могильщик):</strong> бесплатные <strong><a href="https://www.wowhead.com/ru/spell=315341">Промеж глаз</a></strong> и усиление <strong>Уст.</strong> — следите за баффом «пульки в руке» (*Palmed Bullets*).</p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Оффханд — <strong>кинжал</strong> предпочтительнее (талант *Zero In*, <strong>~1%</strong>); если есть только медленное крафт-оружие — играйте им, пока не упадёт кинжал.</p>
+<h3 id="приоритет-m">Приоритет (M+)</h3>
+<p>1. <strong>Ловкость</strong></p>
+<p>2. <strong>Критический удар</strong> — до <strong>~40%</strong> очень ценен</p>
+<p>3. <strong>Скорость</strong> — ориентир <strong>~20–25%</strong> (ГКД <strong>0,8 сек</strong> в <strong>ВА</strong>)</p>
+<p>4. <strong>Универсальность</strong> — сильна, но быстро «сыпется» при стакании</p>
+<p>5. <strong>Искусность</strong></p>
+<blockquote>
+<p>После брейкпоинта <strong>скорости</strong> и <strong>~40%</strong> крита — симуйте: лучший слот часто <strong>универсальность</strong> или <strong>крит</strong> на кольцах/чарах.</p>
+</blockquote>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=4813"><strong>Яма Сарона</strong></a></td><td>кольца, наручи, <strong>оффханд-кинжал</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>оружие, кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a> (тринкет)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td><a href="https://www.wowhead.com/ru/item=252420"><strong>Призма солнечной вспышки</strong></a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>on-use — <a href="https://www.wowhead.com/ru/item=193701"><strong>Алгет'арская шкатулка с секретом</strong></a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>пояс, аксессуары</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>накидка, кольца</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1987">Шутовской наряд мрачных острот</a></strong> (<strong>4/4</strong>; <strong>поножи — офф-сет</strong> с лучшими вторичками):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Плечи</td><td><a href="https://www.wowhead.com/ru/item=250004">Флаконы с ядом мрачных острот</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250009">Фантастическое убранство мрачных острот</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=250007">Ловкость рук мрачных острот</a></td></tr>
+<tr><td>Поножи</td><td>офф-сет с <strong>критом</strong> / <strong>скоростью</strong></td></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250006">Маскарад мрачных острот</a> — если нет лучше по ilvl</td></tr>
+</tbody></table>
+<p><strong>2/4</strong> и <strong>4/4</strong> усиливают урон; на ротацию не влияют — просто больше цифры.</p>
+<hr>
+<h2 id="чары-гемы-и-химия">Чары, гемы и химия</h2>
+<p>Источник: <a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gems-enchants-consumables">Icy Veins — gems, enchants, consumables</a>. Названия — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a>.</p>
+<h3 id="чары">Чары</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td><strong>Оружие (оба)</strong></td><td><strong>Точность Джан'алая</strong> + <a href="https://www.wowhead.com/ru/item=243733">Талассийское масло феникса</a></td></tr>
+<tr><td><strong>Шлем / плечи</strong></td><td>усиленное избегание / благодать Амирдрассила</td></tr>
+<tr><td><strong>Грудь</strong></td><td>метка души мира</td></tr>
+<tr><td><strong>Ноги</strong></td><td>набор охотника из леса</td></tr>
+<tr><td><strong>Обувь</strong></td><td>ловкость дальнобойщика</td></tr>
+<tr><td><strong>Кольца</strong></td><td><strong>+ крит</strong>, <strong>+ скорость</strong> (сим обязателен)</td></tr>
+<tr><td><strong>Запястья / накидка</strong></td><td><strong>+ крит</strong> / <strong>+ скорость</strong></td></tr>
+</tbody></table>
+<p><strong>Крафт (приоритет):</strong> <strong>основная рука</strong> с *Darkmoon Sigil: Hunt* или *Void*, оффханд-кинжал; пояс/наручи с *Arcanoweave Lining*.</p>
+<h3 id="гемы">Гемы</h3>
+<p><strong>Эпик:</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a>. <strong>Остальные:</strong> <strong>крит</strong> и <strong>скорость</strong> (перидот / гранат) до брейкпоинтов, затем — по симу.</p>
+<h3 id="химия">Химия</h3>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th><th>Заметка</th></tr>
+<tr><td><strong>Настой</strong></td><td><a href="https://www.wowhead.com/ru/item=241325">Настой рыцарей крови</a> / <a href="https://www.wowhead.com/ru/item=241323">Настой магистров</a></td><td><strong>Крит</strong> до <strong>~40%</strong> → магистры</td></tr>
+<tr><td><strong>Боевое зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241309">Потенциал Света</a></td><td>С <strong>ВА</strong> / <strong>ПГ</strong></td></tr>
+<tr><td><strong>Хил-зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241304">Луносветское лечебное зелье</a></td><td>Запас HP</td></tr>
+<tr><td><strong>Еда (пир)</strong></td><td><a href="https://www.wowhead.com/ru/item=255846">Празднество Харандара</a> / <a href="https://www.wowhead.com/ru/item=255847">Невообразимое королевское жаркое</a></td><td>Основная стата</td></tr>
+<tr><td><strong>Руна</strong></td><td><a href="https://www.wowhead.com/ru/item=259085">Меченная Бездной руна усиления</a></td><td>На важные ключи</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=249344"><strong>Стяг отряда Света</strong></a></td><td>рейд</td></tr>
+<tr><td><strong>Сильный M+ on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=193701"><strong>Алгет'арская шкатулка с секретом</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td></tr>
+<tr><td><strong>M+ on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td></tr>
+<tr><td><strong>BiS пассивный</strong></td><td><a href="https://www.wowhead.com/ru/item=250257"><strong>Око зияющей Бездны</strong></a></td><td>рейд</td></tr>
+<tr><td><strong>Пассивный M+</strong></td><td><a href="https://www.wowhead.com/ru/item=252420"><strong>Призма солнечной вспышки</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td></tr>
+</tbody></table>
+<p>On-use жмите с <strong><a href="https://www.wowhead.com/ru/spell=13750">Выбросом адреналина</a></strong> и <strong><a href="https://www.wowhead.com/ru/spell=315341">Промеж глаз</a></strong>. <strong>Шкатулка</strong> — <strong>канал ~2 сек</strong> до <strong>ВА</strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] Яды: <strong><a href="https://www.wowhead.com/ru/spell=315584">Быстродействующий яд</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=5761">Замедляющий яд</a></strong></li>
+<li>[ ] Герой: <strong>Обманщик</strong> (M+)</li>
+<li>[ ] Оффханд — <strong>кинжал</strong>, если есть</li>
+<li>[ ] Макрос <strong><a href="https://www.wowhead.com/ru/spell=1766">Пинка</a></strong> на `@focus` / `@mouseover`</li>
+<li>[ ] Трекер <strong>стадий БК</strong> и стаков <strong>ЗВ</strong></li>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></strong> под тяжёлый AoE-пак</li>
+<li>[ ] Фарм: <strong>Яма Сарона</strong>, <strong>Шпили</strong>, <strong>Небесный путь</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></td><td>прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></td><td>AoE-«стоп» с <strong>Airborne Irritant</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=6770">Ошеломление</a> / <strong>Ослепление</strong></td><td>контроль; <strong>Blackjack</strong> снижает урон танку</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1856">Исчезновение</a></td><td>скип: в aggro → группа проходит → <strong>Vanish</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1966">Уловка</a></td><td>−40% AoE</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></td><td><strong>Devour</strong>, магия</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=185311">Алый фиал</a></td><td>сейв + <strong>Devour</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=114018">Скрывающий покров</a></td><td>скипы; часть мобов <strong>видит</strong> стелс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2983">Спринт</a></td><td><strong>Pulsar</strong> — быстрее собрать орбы</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=5938">Отравляющий укол</a></td><td><strong>Enrage</strong> (не для DPS)</td></tr>
+</tbody></table>
+<p><strong>Макрос Пинка:</strong></p>
+<pre><code>
+#showtooltip Пинок
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Пинок
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<h3 id="кулдауны-как-не-терять-dps">Кулдауны — как не терять DPS</h3>
+<ul>
+<li><strong>ШК</strong> — не тратьте на аддов, которые умрут за <strong>&amp;lt;3 сек</strong>; перекаст при <strong>4+</strong> целях на <strong>≤4 ОС</strong>.</li>
+<li><strong>БК</strong> — по КД до <strong>стадии 2+</strong>; не «сидите» на <strong>ПИ</strong> слишком долго.</li>
+<li><strong>ЧУ</strong> — отменяйте (<strong>/stopcasting</strong>), если капнули энергию; не жмите во время <strong>Суперзарядки</strong>.</li>
+<li><strong>Подг.</strong> — не пропускайте использование за бой: <strong>~4 мин</strong> КД.</li>
+</ul>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать Головорезу</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=2094">Ослепление</a></strong> (AoE), <strong><a href="https://www.wowhead.com/ru/spell=1766">Пинок</a></strong></td></tr>
+<tr><td><strong>Voidbound</strong></td><td>фокус эмиссара; <strong>ПГ</strong> + <strong>ЧУ</strong> по приоритету</td></tr>
+<tr><td><strong>Pulsar</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=2983">Спринт</a></strong>; не теряйте <strong>ШК</strong> из-за беготни</td></tr>
+<tr><td><strong>Devour</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=31224">Плащ теней</a></strong> / раса; <strong><a href="https://www.wowhead.com/ru/spell=185311">Алый фиал</a></strong></td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<h3 id="обманщик-st-и-aoe-m">Обманщик — ST и AoE (M+)</h3>
+<p>Ротация <strong>одинакова</strong>; в AoE добавьте постоянный <strong>ШК</strong> и фокус на <strong>самую живучую</strong> цель.</p>
+<p>1. <strong>ШК</strong>, если <strong>2+</strong> цели и бафф не активен (или <strong>4+</strong> цели и <strong>≤4 ОС</strong>).</p>
+<p>2. <strong>БК</strong>, если <strong>&amp;lt; стадии 2</strong>.</p>
+<p>3. <strong>ПИ</strong> на <strong>стадии 2+</strong> (лучше <strong>3+</strong>).</p>
+<p>4. <strong>ВА</strong> на <strong>≤2 ОС</strong>.</p>
+<p>5. <strong>НК</strong> по КД.</p>
+<p>6. <strong>ПГ</strong> на <strong>6+ ОС</strong>.</p>
+<p>7. <strong>Подг.</strong>, если <strong>ВА</strong> + <strong>ПГ</strong> + <strong>НК</strong> на КД.</p>
+<p>8. <strong>ЧУ</strong> на <strong>6+ ОС</strong> (не при <strong>Суперзарядке</strong>).</p>
+<p>9. <strong>УМ</strong> (прок) → <strong>Уст.</strong> на <strong>5–6+ ОС</strong>.</p>
+<p>10. <strong>ВП</strong> при <strong>6</strong> стаках <strong>ЗВ</strong>; при <strong>3</strong> — только <strong>1–3 ОС</strong>.</p>
+<p>11. <strong>КУ</strong> — заполнитель.</p>
+<h3 id="судьбоносный-отличия">Судьбоносный — отличия</h3>
+<ul>
+<li>Можно <strong>не</strong> брать <strong>ЧУ</strong> — проще ротация, ниже DPS.</li>
+<li>Те же приоритеты <strong>БК</strong> / <strong>ПИ</strong> / <strong>ПГ</strong> / <strong>ВА</strong>.</li>
+<li><strong>УМ</strong> нет — больше <strong>Уст.</strong></li>
+</ul>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-mythic-plus-tips">Icy Veins — Outlaw Rogue M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/rogue/outlaw">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/outlaw-rogue-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>
