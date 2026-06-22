@@ -16,6 +16,7 @@ GUIDES = [
     ROOT / "guides" / "mplus" / "outlaw-rogue-mplus-ru.md",
     ROOT / "guides" / "rotation" / "devourer-dh-rotation-ru.md",
     ROOT / "guides" / "rotation" / "augmentation-evoker-rotation-ru.md",
+    ROOT / "guides" / "mplus" / "frost-mage-mplus-ru.md",
 ]
 
 LINK_RE = re.compile(

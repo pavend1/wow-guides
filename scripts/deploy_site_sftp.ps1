@@ -39,6 +39,7 @@ $lines = @(
     "put `"$siteDir\retribution-paladin-mplus-ru.html`" ${remote}retribution-paladin-mplus-ru.html",
     "put `"$siteDir\devourer-dh-rotation-ru.html`" ${remote}devourer-dh-rotation-ru.html",
     "put `"$siteDir\augmentation-evoker-rotation-ru.html`" ${remote}augmentation-evoker-rotation-ru.html",
+    "put `"$siteDir\frost-mage-mplus-ru.html`" ${remote}frost-mage-mplus-ru.html",
     "bye"
 )
 $lines | Set-Content -Encoding ascii $batch

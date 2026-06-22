@@ -21,6 +21,7 @@ GUIDES = [
     ("guides/mplus/demonology-warlock-mplus-ru.md", "Демонолог — M+", "Чернокнижник", "Демонология", "M+"),
     ("guides/rotation/devourer-dh-rotation-ru.md", "Пожиратель DH", "Охотник на демонов", "Пожиратель", "Ротация"),
     ("guides/rotation/augmentation-evoker-rotation-ru.md", "Насыщатель", "Пробудитель", "Насыщатель", "Ротация"),
+    ("guides/mplus/frost-mage-mplus-ru.md", "Фрост-маг — M+", "Маг", "Лед", "M+"),
 ]
 
 # Optional Wowhead spell-name data for auto-linking **Name** → tooltip links.
@@ -39,6 +40,7 @@ CLASS_ORDER = [
     "Чернокнижник",
     "Охотник на демонов",
     "Пробудитель",
+    "Маг",
 ]
 SITE = ROOT / "site"
 TEMPLATE = SITE / "template.html"

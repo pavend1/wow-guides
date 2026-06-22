@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фрост-маг — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="фрост-маг-гайд-для-mythic-ключи">Фрост-маг — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-spec-builds-talents">таланты</a> · <a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.7</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>22.06.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#механика-заморозка-и-проки">Механика «Заморозка» и проки</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-чаромет-vs-ледяной-огонь">Герой-талант: Чаромет vs Ледяной огонь</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#чары-гемы-и-химия">Чары, гемы и химия</a></li>
+<li><a href="#чары">Чары</a></li>
+<li><a href="#гемы">Гемы</a></li>
+<li><a href="#химия">Химия</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>ФМ / Фрост</strong></td><td><strong>Лед</strong> (*Frost Mage*)</td></tr>
+<tr><td><strong>ЛС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=116">Ледяная стрела</a></strong> (*Frostbolt*) — заполнитель</td></tr>
+<tr><td><strong>СЛО</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=431044">Стрела ледяного огня</a></strong> (*Frostfire Bolt*) — заполнитель <strong>Ледяного огня</strong></td></tr>
+<tr><td><strong>Шквал</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=44614">Шквал</a></strong> (*Flurry*)</td></tr>
+<tr><td><strong>ЛК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=30455">Ледяное копье</a></strong> (*Ice Lance*)</td></tr>
+<tr><td><strong>ЛШ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=84714">Ледяной шар</a></strong> (*Frozen Orb*)</td></tr>
+<tr><td><strong>МЛ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=205021">Морозный луч</a></strong> (*Ray of Frost*)</td></tr>
+<tr><td><strong>КБ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=153595">Кометная буря</a></strong> (*Comet Storm*)</td></tr>
+<tr><td><strong>СБ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=190356">Снежная буря</a></strong> (*Blizzard*)</td></tr>
+<tr><td><strong>ЛШип</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=199786">Ледовый шип</a></strong> (*Glacial Spike*)</td></tr>
+<tr><td><strong>ЗМ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=190446">Заморозка мозгов</a></strong> (*Brain Freeze*) — прок на <strong>Шквал</strong></td></tr>
+<tr><td><strong>ЛП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=44544">Ледяные пальцы</a></strong> (*Fingers of Frost*) — прок на <strong>ЛК</strong></td></tr>
+<tr><td><strong>ЛБ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=155149">Ледяная Бездна</a></strong> (*Thermal Void*) — удваивает расход <strong>Заморозки</strong> следующим <strong>ЛК</strong></td></tr>
+<tr><td><strong>Заморозка</strong></td><td>дебафф-стаки на цели; тратятся <strong>ЛК</strong> / <strong>КБ</strong> / <strong>ЛШип</strong> → <strong>Разрушение</strong> (cleave)</td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Копите на цели стаки <strong>Заморозки</strong> (<strong>ЛС</strong> / <strong>СЛО</strong>, <strong>МЛ</strong>, <strong>ЛШ</strong> и др.).</p>
+<p>2. Тратите стаки <strong>Ледяным копьём</strong> (<strong>6+</strong> стаков у <strong>Чаромета</strong>, <strong>10+</strong> у <strong>Ледяного огня</strong>) или по проку <strong>Ледяные пальцы</strong>.</p>
+<p>3. По проку <strong>Заморозка мозгов</strong> жмите <strong>Шквал</strong>; с талантом <strong>Ледяная Бездна</strong> — следите, чтобы <strong>ЛК</strong> съедал больше стаков.</p>
+<p>4. <strong>Морозный луч</strong> и <strong>Ледяной шар</strong> — по кулдауну; <strong>МЛ</strong> лучше кастовать <strong>после</strong> расхода стаков, а не в пустую.</p>
+<p>5. В M+ почти всегда бьёте <strong>одну приоритетную цель</strong>; AoE идёт от <strong>Разрушения</strong> и cleave. Полноценный AoE-режим — с <strong>3+</strong> целей.</p>
+<h2 id="механика-заморозка-и-проки">Механика «Заморозка» и проки</h2>
+<table><tbody>
+<tr><th>Элемент</th><th>Правило</th><th>Почему</th></tr>
+<tr><td><strong>Заморозка</strong> (до <strong>20</strong> стаков)</td><td>Кап <strong>20</strong> — переполнение неизбежно; не паникуйте</td><td>главный ресурс урона</td></tr>
+<tr><td><strong>ЛК</strong></td><td><strong>Чаромет:</strong> <strong>≥6</strong> стаков или <strong>ЛП</strong>; <strong>Ледяной огонь:</strong> <strong>≥10</strong> или <strong>ЛП</strong></td><td>максимум <strong>Разрушения</strong></td></tr>
+<tr><td><strong>ЛП</strong></td><td><strong>ЛК</strong> бьёт как при полных стаках, <strong>не снимая</strong> дебафф</td><td>жмите сразу</td></tr>
+<tr><td><strong>ЗМ</strong></td><td><strong>Шквал</strong> по проку; с <strong>ЛБ</strong> — удваивает расход стаков следующим <strong>ЛК</strong> (<strong>8 сек</strong>)</td><td>синергия с <strong>ЛП</strong> — до <strong>12</strong> стаков урона без снятия дебаффа</td></tr>
+<tr><td><strong>МЛ</strong></td><td>Канал <strong>4 сек</strong>; с apex даёт <strong>2 заряда</strong> — можно копить под тринкет / босса</td><td>каждый тик даёт <strong>Заморозку</strong></td></tr>
+<tr><td><strong>ЛШ</strong></td><td>Летит вперёд <strong>15 сек</strong>; у <strong>Чаромета</strong> осколки ускоряют КД</td><td>главный AoE-кулдаун</td></tr>
+<tr><td><strong>2 цели</strong></td><td>Всё ещё <strong>ST-ротация</strong> на приоритетную</td><td>AoE-приоритет — с <strong>3+</strong> целей</td></tr>
+</tbody></table>
+<blockquote>
+<p><strong>Разрушение</strong> (*Shatter*): при расходе стаков <strong>ЛК</strong> / <strong>КБ</strong> / <strong>ЛШип</strong> бьёт цель и наносит меньший урон рядом стоящим. Если цель умирает со стаками — взрыв по AoE (*Winter's End*).</p>
+</blockquote>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=116">Ледяная стрела</a></td><td>заполнитель; копит <strong>Заморозку</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=431044">Стрела ледяного огня</a></td><td>заполнитель <strong>Ледяного огня</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=44614">Шквал</a></td><td>мгновенный урон; сброс КД от <strong>ЗМ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=30455">Ледяное копье</a></td><td>трата стаков / прок <strong>ЛП</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=205021">Морозный луч</a></td><td>главный КД (<strong>~1 мин</strong>), канал; после каста → <strong>КБ</strong> (если талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=84714">Ледяной шар</a></td><td>вторичный КД, AoE по пути</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=153595">Кометная буря</a></td><td>сильный удар; после <strong>МЛ</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=190356">Снежная буря</a></td><td>AoE; в M+ чаще <strong>мгновенная</strong> (таланты)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=199786">Ледовый шип</a></td><td>большой удар по готовности</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=157997">Кольцо обледенения</a></td><td>мгновенный AoE-стан (Чаромет)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=120">Конус холода</a></td><td>замедление / стаки (Чаромет)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2139">Антимагия</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31661">Дыхание дракона</a></td><td>AoE-дезориент («стоп» кастов)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=118">Превращение</a></td><td>экстренный контроль (лечит цель!)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=30449">Чарокрад</a></td><td>снять магический бафф с моба</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=475">Снятие проклятия</a></td><td>диспел проклятий</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=110959">Великая невидимость</a></td><td>сброс агра + сейв от механик</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1953">Скачок</a></td><td>рывок</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=108839">Плавучая льдина</a></td><td>каст <strong>ЛС</strong> на ходу</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=45438">Ледяная глыба</a></td><td>иммунитет</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=414658">Ледяной холод</a></td><td>сейв (−70% урона, <strong>2</strong> заряда)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=55342">Зеркальное изображение</a></td><td>копии + сброс агра</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1459">Чародейский интеллект</a></td><td>бафф группы</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Высокий</td><td><strong>ЗМ</strong> → <strong>Шквал</strong></td><td>прок не копите</td></tr>
+<tr><td>Высокий</td><td><strong>ЛП</strong> → <strong>ЛК</strong></td><td>прок не копите</td></tr>
+<tr><td>Высокий</td><td><strong>ЛК</strong> при <strong>6+</strong> / <strong>10+</strong> стаках</td><td>не теряйте <strong>Заморозку</strong> впустую</td></tr>
+<tr><td>Высокий</td><td><strong>КБ</strong>, <strong>ЛШип</strong></td><td>по готовности</td></tr>
+<tr><td>Средний</td><td><strong>ЛШ</strong>, <strong>МЛ</strong></td><td>по КД; <strong>МЛ</strong> — после расхода стаков</td></tr>
+<tr><td>Средний</td><td><strong>СБ</strong></td><td>мгновенная или <strong>5+</strong> целей (Чаромет)</td></tr>
+<tr><td>Заполнитель</td><td><strong>ЛС</strong> / <strong>СЛО</strong></td><td>между приоритетами; прерывайте на проки</td></tr>
+<tr><td>Утилити</td><td><strong>Антимагия</strong>, <strong>Дыхание дракона</strong></td><td>кик / стоп кастов</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=1459">Чародейский интеллект</a></strong>.</p>
+<h3 id="чаромет-рекомендуется">Чаромет (рекомендуется)</h3>
+<p><strong>3+ целей (типичный M+):</strong></p>
+<p>1. <strong><a href="https://www.wowhead.com/ru/spell=190356">Снежная буря</a></strong>.</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=44614">Шквал</a></strong>.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=84714">Ледяной шар</a></strong>.</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=205021">Морозный луч</a></strong> + тринкеты.</p>
+<p>5. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<p><strong>1–2 цели:</strong></p>
+<p>1. Прекаст <strong><a href="https://www.wowhead.com/ru/spell=116">Ледяную стрелу</a></strong>.</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=205021">Морозный луч</a></strong>.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=30455">Ледяное копье</a></strong>.</p>
+<p>4. Дальше — приоритет.</p>
+<h3 id="ледяной-огонь">Ледяной огонь</h3>
+<p><strong>3+ целей:</strong></p>
+<p>1. Прекаст <strong><a href="https://www.wowhead.com/ru/spell=190356">Снежную бурю</a></strong> (за <strong>2 сек</strong> до пула).</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=44614">Шквал</a></strong>.</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=205021">Морозный луч</a></strong>.</p>
+<p>4. Приоритет.</p>
+<p><strong>1–2 цели:</strong></p>
+<p>1. Прекаст <strong><a href="https://www.wowhead.com/ru/spell=431044">Стрелу ледяного огня</a></strong>.</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=205021">Морозный луч</a></strong>.</p>
+<p>3. Приоритет.</p>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. Есть <strong>Заморозка мозгов</strong>? → <strong><a href="https://www.wowhead.com/ru/spell=44614">Шквал</a></strong>.</p>
+<p>2. Есть <strong>Ледяные пальцы</strong>? → <strong><a href="https://www.wowhead.com/ru/spell=30455">Ледяное копье</a></strong>.</p>
+<p>3. <strong>≥6</strong> (Чаромет) / <strong>≥10</strong> (Ледяной огонь) стаков <strong>Заморозки</strong>? → <strong>ЛК</strong>.</p>
+<p>4. <strong>КБ</strong> / <strong>ЛШип</strong> / <strong>ЛШ</strong> готовы? → жмите.</p>
+<p>5. <strong>МЛ</strong> готов и стаки потрачены? → канал + тринкеты на приоритетной цели.</p>
+<p>6. <strong>3+</strong> целей и мгновенная <strong>СБ</strong>? → <strong>СБ</strong>.</p>
+<p>7. Иначе → <strong>ЛС</strong> / <strong>СЛО</strong> (не стойте без дела).</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-чаромет-vs-ледяной-огонь">Герой-талант: Чаромет vs Ледяной огонь</h2>
+<table><tbody>
+<tr><th></th><th><strong>Чаромет</strong> (*Spellslinger*)</th><th><strong>Ледяной огонь</strong> (*Frostfire*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — стабильнее, чаще <strong>ЛШ</strong>, проще ротация</td><td>чуть <strong>burstier</strong>, но <strong>слабее</strong> в ключах</td></tr>
+<tr><td><strong>Стиль</strong></td><td>осколки ускоряют <strong>ЛШ</strong>; <strong>ЛК</strong> с <strong>6</strong> стаков</td><td><strong>СЛО</strong>, <strong>КБ</strong>, взрывной AoE; <strong>ЛК</strong> с <strong>10</strong> стаков</td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>предсказуемый урон пак за паком</td><td>быстрый урон по мелким пакам / открытому миру</td></tr>
+<tr><td><strong>Слабости</strong></td><td>меньше «взрыва» на коротких пулах</td><td>ниже средний DPS в высоких ключах</td></tr>
+</tbody></table>
+<p><strong>Импорт (Чаромет, M+/AoE):</strong></p>
+<p>`CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmxMzMzMziZmZMjZAAAgZmZWWmZaDAA2AAAAWAYbbMzMDmthxMsAAAwMbAzADYGMA`</p>
+<p><strong>Импорт (Ледяной огонь, M+/AoE):</strong></p>
+<p>`CAEAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFmZmYGmZmZmZWMzMzMGzsMTzMLzCAAAaBAAWAAAAWAYbbMzMDGGzMzYDAAAMzgZyYAgB`</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/mage/frost">Wowhead RU — маг, лед</a>.</p>
+<p><strong>Частые замены в M+:</strong></p>
+<ul>
+<li><strong>Одинокая зима</strong> (*Lonely Winter*) ↔ <strong>Призыв элементаля воды</strong> — <strong>~1%</strong> ST vs <strong>~1%</strong> AoE; элементаль даёт <strong>Заморозку</strong> танку.</li>
+<li>В данже с проклятиями → <strong>Снятие проклятия</strong>; с укради-баффами → <strong>Чарокрад</strong> (иначе трата очков).</li>
+<li>Много фокус-урона → <strong>Ледяное обострение</strong> (*Frost Conditioning*) — <strong>2</strong> заряда <strong>Ледяного холода</strong> подряд.</li>
+</ul>
+<p><strong>Apex (*Hand of Frost*):</strong> пассивно усиливает <strong>Разрушение</strong>; <strong>МЛ</strong> получает <strong>2-й заряд</strong> — копите под тринкет или босса.</p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Посох / жезл + off-hand — самые ценные слоты после тринкетов.</p>
+<h3 id="приоритет-m-оба-героя">Приоритет (M+, оба героя)</h3>
+<p>1. <strong>Интеллект</strong></p>
+<p>2. <strong>Искусность</strong> — усиливает <strong>Заморозку</strong> и <strong>Разрушение</strong></p>
+<p>3. <strong>Критический удар</strong> — нет жёсткого капа</p>
+<p>4. <strong>Скорость</strong> — быстрее <strong>ЛС</strong>, больше проков</p>
+<p>5. <strong>Универсальность</strong></p>
+<blockquote>
+<p>Веса <strong>плавают</strong> от экипировки — не стакайте одну вторичку в ноль. Для BiS прогоните <a href="https://www.raidbots.com/">Raidbots</a>.</p>
+</blockquote>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a>, плечи, тринкеты</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=4813"><strong>Яма Сарона</strong></a></td><td>шея, обувь</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>оружие, пояс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>аксессуары, обувь</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>тринкеты, наручи</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td>оружие, <a href="https://www.wowhead.com/ru/item=252420"><strong>Призма солнечной вспышки</strong></a></td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1983">Соглашение безднокрушителя</a></strong> (4 предмета; <strong>плечи — офф-сет</strong>):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250060">Покров безднокрушителя</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250063">Одеяние безднокрушителя</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=250061">Рукавицы безднокрушителя</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=250059">Брюки безднокрушителя</a></td></tr>
+</tbody></table>
+<p><strong>2/4:</strong> <strong>Шквал</strong> +<strong>10%</strong> урона, <strong>10%</strong> шанс <strong>ЛП</strong>; <strong>4/4:</strong> <strong>ЛП</strong> усиливает <strong>Разрушение</strong> на <strong>+15%</strong> — пассивно, ротацию не ломает.</p>
+<p><strong>Крафт (ранний сезон):</strong> жезл *Aln'hara Cane* с *Darkmoon Sigil: Hunt* → наручи с *Arcanoweave Lining*.</p>
+<p><strong>Апгрейд гребнями:</strong> оружие → тринкет → голова/грудь/ноги → остальное.</p>
+<hr>
+<h2 id="чары-гемы-и-химия">Чары, гемы и химия</h2>
+<p>Источник: <a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-gems-enchants-consumables">Icy Veins — gems, enchants, consumables</a>. Названия — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a>.</p>
+<h3 id="чары">Чары</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td><strong>Оружие</strong></td><td><a href="https://www.wowhead.com/ru/item=243733">Талассийское масло феникса</a>; позже — <strong>мастерство тайной магии</strong></td></tr>
+<tr><td><strong>Шлем</strong></td><td>усиленное благословение скорости</td></tr>
+<tr><td><strong>Грудь</strong></td><td>метка магистра / метка души мира</td></tr>
+<tr><td><strong>Плечи</strong></td><td>стремительность Акил'зона</td></tr>
+<tr><td><strong>Ноги</strong></td><td>солнечный шёлк (мастерство)</td></tr>
+<tr><td><strong>Кольца</strong></td><td><strong>+ искусность</strong> или <strong>+ крит</strong> (по симу)</td></tr>
+<tr><td><strong>Обувь</strong></td><td>ловкость рыси</td></tr>
+<tr><td><strong>Накидка / запястья</strong></td><td><strong>+ искусность</strong></td></tr>
+</tbody></table>
+<h3 id="гемы">Гемы</h3>
+<p><strong>Эпик (один на персонажа):</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a>.</p>
+<p><strong>Остальные сокеты:</strong> <a href="https://www.wowhead.com/ru/item=240892">безупречный хризолит искусности</a> / камни с <strong>искусностью + критом</strong> — по симу.</p>
+<h3 id="химия">Химия</h3>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th><th>Заметка</th></tr>
+<tr><td><strong>Настой</strong></td><td><a href="https://www.wowhead.com/ru/item=241323">Настой магистров</a> / <a href="https://www.wowhead.com/ru/item=241327">Настой Расколотого Солнца</a></td><td>Крит vs искусность — по симу</td></tr>
+<tr><td><strong>Боевое зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241309">Потенциал Света</a></td><td>Стабильно; сильнее зелья — зона тишины под ногами</td></tr>
+<tr><td><strong>Хил-зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241304">Луносветское лечебное зелье</a></td><td>Запас HP</td></tr>
+<tr><td><strong>Еда (пир)</strong></td><td><a href="https://www.wowhead.com/ru/item=255845">Парад Луносвета</a> / <a href="https://www.wowhead.com/ru/item=255846">Празднество Харандара</a></td><td>Лучшие пиры сезона</td></tr>
+<tr><td><strong>Еда (запас)</strong></td><td><a href="https://www.wowhead.com/ru/item=255847">Невообразимое королевское жаркое</a></td><td>Если пира нет</td></tr>
+<tr><td><strong>Руна</strong></td><td><a href="https://www.wowhead.com/ru/item=259085">Меченная Бездной руна усиления</a></td><td>~1% урона; пропадает при смерти</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use (M+)</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td></tr>
+<tr><td><strong>BiS пассивный</strong></td><td><a href="https://www.wowhead.com/ru/item=250257"><strong>Око зияющей Бездны</strong></a></td><td>рейд / высокий трек</td></tr>
+<tr><td><strong>Сильный M+</strong></td><td><a href="https://www.wowhead.com/ru/item=252420"><strong>Призма солнечной вспышки</strong></a></td><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td></tr>
+<tr><td><strong>Рейд S-tier</strong></td><td><a href="https://www.wowhead.com/ru/item=249343"><strong>Взор ясновидца Альн</strong></a></td><td>рейд (Chimaerus)</td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong><a href="https://www.wowhead.com/ru/spell=205021">Морозным лучом</a></strong> (второй заряд — под тринкет / приоритетного моба).</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=1459">Чародейский интеллект</a></strong></li>
+<li>[ ] Герой: <strong>Чаромет</strong> (M+)</li>
+<li>[ ] Макрос <strong><a href="https://www.wowhead.com/ru/spell=2139">Антимагии</a></strong> на `@focus` / `@mouseover`</li>
+<li>[ ] <strong>Снятие проклятия</strong> / <strong>Чарокрад</strong> — если в данже есть механики</li>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=108839">Плавучая льдина</a></strong> на панели для кастов на бегу</li>
+<li>[ ] Фарм: <strong>Шпили Ветрокрылых</strong>, <strong>Яма Сарона</strong>, <strong>Узел Нексуса Зенас</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2139">Антимагия</a></td><td>прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=31661">Дыхание дракона</a></td><td>AoE-дезориент («стоп» кастов, <strong>Ascendant</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=118">Превращение</a></td><td><strong>экстренно</strong> — лечит моба, не злоупотребляйте</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=157980">Сверхновая</a></td><td>отброс вместо <strong>Дыхания</strong> — менее надёжный «стоп»</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=30449">Чарокрад</a></td><td>снять магический бафф с моба</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=475">Снятие проклятия</a></td><td><strong>Devour</strong>, проклятия в данжах</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=110959">Великая невидимость</a></td><td>сброс агра; иногда <strong>полностью</strong> снимает механику с вас</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=45438">Ледяная глыба</a></td><td>иммунитет</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=414658">Ледяной холод</a></td><td>главный сейв (<strong>2</strong> заряда)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=55342">Зеркальное изображение</a></td><td>сброс агра + небольшой burst</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1953">Скачок</a></td><td><strong>Pulsar</strong> — не перепрыгивайте союзника с орбом</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=113724">Кольцо мороза</a></td><td>редко: стоп рывков мобов (advanced)</td></tr>
+</tbody></table>
+<p><strong>Макрос Антимагии:</strong></p>
+<pre><code>
+#showtooltip Антимагия
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Антимагия
+
+</pre>
+<p><strong>Фокус с курсора:</strong></p>
+<pre><code>
+/focus [@mouseover]
+
+</pre>
+<blockquote>
+<p>Фрост <strong>замедляет всё</strong>, к чему прикасается — иногда мешает танку кайтить. Согласуйте с танком на «скользких» маршрутах.</p>
+</blockquote>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать фросту</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=31661">Дыхание дракона</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=157980">Сверхновая</a></strong></td></tr>
+<tr><td><strong>Voidbound</strong></td><td>адд должен умереть от AoE; фокус, если группа слабая</td></tr>
+<tr><td><strong>Pulsar</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1953">Скачок</a></strong> к союзнику; не убегайте «сквозь» орб</td></tr>
+<tr><td><strong>Devour</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=475">Снятие проклятия</a></strong> снимает *Void Rift*</td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<h3 id="чаромет-single-target-приоритетная-цель-2-цели-тоже-st">Чаромет — single target / приоритетная цель (2 цели тоже ST)</h3>
+<p>1. <strong>КБ</strong>.</p>
+<p>2. <strong>Шквал</strong> с <strong>ЗМ</strong>; если <strong>ЛБ</strong> не активна — второй <strong>Шквал</strong> с <strong>ЗМ</strong>.</p>
+<p>3. <strong>ЛШ</strong>.</p>
+<p>4. <strong>ЛК</strong> с <strong>ЛП</strong>.</p>
+<p>5. <strong>ЛШип</strong>.</p>
+<p>6. <strong>ЛК</strong> при <strong>≥6</strong> стаках <strong>Заморозки</strong>.</p>
+<p>7. <strong>МЛ</strong>.</p>
+<p>8. <strong>Шквал</strong> (заряд без <strong>ЗМ</strong>).</p>
+<p>9. <strong>ЛС</strong>.</p>
+<h3 id="чаромет-aoe-3-целей">Чаромет — AoE (3+ целей)</h3>
+<p>1. <strong>КБ</strong>.</p>
+<p>2. <strong>СБ</strong>, если активна мгновенная каста (*Freezing Rain*).</p>
+<p>3. <strong>Шквал</strong> с <strong>ЗМ</strong> (логика <strong>ЛБ</strong> — как в ST).</p>
+<p>4. <strong>ЛШ</strong>.</p>
+<p>5. <strong>ЛК</strong> с <strong>ЛП</strong>.</p>
+<p>6. <strong>ЛШип</strong>.</p>
+<p>7. <strong>ЛК</strong> при <strong>≥6</strong> стаках.</p>
+<p>8. <strong>Кольцо обледенения</strong> / <strong>Конус холода</strong>.</p>
+<p>9. <strong>СБ</strong> при <strong>5+</strong> целях.</p>
+<p>10. <strong>Шквал</strong> → <strong>МЛ</strong> → <strong>ЛС</strong>.</p>
+<blockquote>
+<p>В M+ <strong>не ждите</strong> идеального AoE: держите <strong>одну</strong> приоритетную цель — cleave приходит от <strong>Разрушения</strong>.</p>
+</blockquote>
+<h3 id="ледяной-огонь-отличия">Ледяной огонь — отличия</h3>
+<ul>
+<li>Заполнитель: <strong>СЛО</strong> вместо <strong>ЛС</strong>.</li>
+<li><strong>ЛК</strong> при <strong>≥10</strong> стаках (не <strong>6</strong>).</li>
+<li>AoE: больше <strong>СБ</strong> на <strong>3–6</strong> целях; <strong>Конус холода</strong> сейчас слаб — не приоритет.</li>
+</ul>
+<h3 id="кулдауны-как-не-терять-dps">Кулдауны — как не терять DPS</h3>
+<ul>
+<li><strong>МЛ</strong> — <strong>2 заряда</strong>: один на пак, второй — под тринкет / босса.</li>
+<li><strong>ЛШ</strong> — не копите «на босса» в M+; у <strong>Чаромета</strong> осколки и так ускоряют КД.</li>
+<li><strong>МЛ</strong> кастуйте <strong>после</strong> расхода стаков — иначе переполните <strong>Заморозку</strong>.</li>
+</ul>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-mythic-plus-tips">Icy Veins — Frost Mage M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/frost-mage-pve-dps-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/mage/frost">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/frost-mage-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>
