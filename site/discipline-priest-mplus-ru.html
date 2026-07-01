@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Послушание — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="послушание-discipline-priest-гайд-для-mythic-ключи">Послушание (Discipline Priest) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents">Icy Veins — таланты</a> · <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-stat-priority">статы</a> · <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-gems-enchants-consumables">чары/химия</a> · <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>01.07.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#искупление-вины-и-щит-бездны">Искупление вины и Щит Бездны</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-ясновидец-vs-ткач-бездны">Герой-талант: Ясновидец vs Ткач Бездны</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#чары-гемы-и-химия">Чары, гемы и химия</a></li>
+<li><a href="#чары">Чары</a></li>
+<li><a href="#гемы">Гемы</a></li>
+<li><a href="#химия">Химия</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</a></strong></p>
+<ul>
+<li><a href="#кулдауны-и-утилити">Кулдауны и утилити</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#приоритет-ротации-кратко">Приоритет ротации (кратко)</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>Дис / Послушание</strong></td><td><strong>Послушание</strong> (*Discipline Priest*)</td></tr>
+<tr><td><strong>СС:Щит</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=17">Слово силы: Щит</a></strong></td></tr>
+<tr><td><strong>Щит Б.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=1253593">Щит Бездны</a></strong> — усиленный щит от <strong>Постижения тьмы</strong></td></tr>
+<tr><td><strong>Исповедь</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=47540">Исповедь</a></strong> — ключевая способность</td></tr>
+<tr><td><strong>Т.восст.</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=186263">Темное восстановление</a></strong> — сильный ST-хил по проку</td></tr>
+<tr><td><strong>СТ:Боль</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></strong></td></tr>
+<tr><td><strong>СТ:Смерть</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=32379">Слово Тьмы: Смерть</a></strong></td></tr>
+<tr><td><strong>СС:Сияние</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=194509">Слово силы: Сияние</a></strong> — AoE-<strong>Искупление вины</strong></td></tr>
+<tr><td><strong>Проповедь</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=472433">Проповедь</a></strong> — групповой бурст-хил + мгновенные <strong>Сияния</strong></td></tr>
+<tr><td><strong>Искр.раскаяние</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=421453">Искреннее раскаяние</a></strong> — <strong>Ультимативная исповедь</strong>, КД <strong>4 мин</strong></td></tr>
+<tr><td><strong>Подавл.боли</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=33206">Подавление боли</a></strong> — −40% урона одной цели</td></tr>
+<tr><td><strong>Искупление</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=194384">Искупление вины</a></strong> — ваш урон → хил союзникам с баффом</td></tr>
+<tr><td><strong>ВР</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=8092">Взрыв разума</a></strong></td></tr>
+<tr><td><strong>ПС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></strong></td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Вешаете <strong><a href="https://www.wowhead.com/ru/spell=194384">Искупление вины</a></strong> на группу (<strong>Исповедь</strong>, <strong>СС:Щит</strong>, <strong>СС:Сияние</strong>, <strong>Мольба</strong> и др.).</p>
+<p>2. Наносите урон (<strong>СТ:Боль</strong>, <strong>СТ:Смерть</strong>, <strong>Кара</strong>, <strong>ВР</strong>) — часть урона лечит всех с <strong>Искуплением</strong>.</p>
+<p>3. Крутите <strong><a href="https://www.wowhead.com/ru/spell=47540">Исповедь</a></strong> по КД: прок <strong><a href="https://www.wowhead.com/ru/spell=1253593">Щита Б.</a></strong>, размазывание <strong>СТ:Боли</strong> по паку, ST-хил.</p>
+<p>4. Между <strong>Исповедями</strong> жмите <strong><a href="https://www.wowhead.com/ru/spell=17">Слово силы: Щит</a></strong> (таланты <strong>Weal and Woe</strong> / <strong>Eternal Barrier</strong>).</p>
+<p>5. На прок <strong><a href="https://www.wowhead.com/ru/spell=186263">Темного восстановления</a></strong> — срочный хил раненому (частые проки в M+ при многих дотах).</p>
+<blockquote>
+<p><strong>Послушание</strong> в S1 Midnight — это в первую очередь <strong>Щит Бездны</strong> и <strong>Темное восстановление</strong>, а не «чистое» <strong>Искупление</strong> через урон. Урон всё ещё важен, но щиты и проки несут основную нагрузку.</p>
+</blockquote>
+<h2 id="искупление-вины-и-щит-бездны">Искупление вины и Щит Бездны</h2>
+<table><tbody>
+<tr><th>Механика</th><th>Правило</th></tr>
+<tr><td><strong>Искупление вины</strong></td><td>Урон с <strong>Искуплением</strong> на цели → хил этой цели. <strong>Внешний</strong> урон (тринкеты, расовые) <strong>не</strong> лечит.</td></tr>
+<tr><td><strong>Щит Б.</strong></td><td>После <strong>Исповеди</strong> шанс усилить следующий <strong>СС:Щит</strong> (<strong>Постижение тьмы</strong>). Сильнее обычного щита, брызгает на <strong>2</strong> соседей, отражает урон → ещё хил.</td></tr>
+<tr><td><strong>«Колода» проков</strong></td><td>Каждые <strong>3</strong> каста <strong>Исповеди</strong> — <strong>гарантированно</strong> один <strong>Щит Б.</strong> (но неизвестно, на каком из трёх). Можно держать прок под урон.</td></tr>
+<tr><td><strong>Исповедь</strong></td><td>На союзнике — <strong>Искупление</strong> + хил; на враге — урон + размазывание <strong>СТ:Боли</strong> (важно в M+).</td></tr>
+<tr><td><strong>Не копите</strong> <strong>СС:Щит</strong></td><td>Между <strong>Исповедями</strong> тратьте заряд <strong>СС:Щит</strong> — не теряйте КД и <strong>Weal and Woe</strong>.</td></tr>
+</tbody></table>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47540">Исповедь</a></td><td>канал: хил союзника или урон врагу; прок <strong>Щита Б.</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=17">Слово силы: Щит</a></td><td>абсорб + <strong>Искупление</strong>; между <strong>Исповедями</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=1253593">Щит Бездны</a></td><td>усиленный щит от <strong>Постижения тьмы</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=186263">Темное восстановление</a></td><td>мощный ST-хил по проку (много дотов в M+)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></td><td>дот на врагов; проки <strong>Т.восст.</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=32379">Слово Тьмы: Смерть</a></td><td>execute &amp;lt;20% HP; сильный урон в M+</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=194509">Слово силы: Сияние</a></td><td>AoE-<strong>Искупление</strong>; с <strong>Проповедью</strong> — мгновенно</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=472433">Проповедь</a></td><td>хил всей группы + <strong>2</strong> мгновенных <strong>СС:Сияния</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=421453">Искреннее раскаяние</a></td><td>длинный КД; в M+ почти всегда <strong>по врагам</strong> при <strong>Искуплении</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=33206">Подавление боли</a></td><td>сейв танка / игрока с DoT</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=62618">Слово силы: Барьер</a></td><td>альтернатива <strong>Искр.раскаянию</strong> (выбор таланта)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=8092">Взрыв разума</a></td><td>урон; у <strong>Ткача Б.</strong> — <strong>Энтропический разлом</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=585">Кара</a></td><td>заполнитель урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=2061">Быстрое исцеление</a></td><td>прямой хил + <strong>Искупление</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=200829">Мольба</a></td><td>быстрый хил + <strong>Искупление</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=123040">Подчинитель разума</a></td><td>питомец (с <strong>Проповедью</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></td><td>отдайте <strong>ДД</strong> (талант <strong>Близнецы солнца</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=8122">Ментальный крик</a></td><td>AoE-страх — «стоп» кастов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=9484">Сковывание кошмара</a></td><td>CC нежити/аберраций</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=528">Рассеивание заклинаний</a></td><td>снять <strong>магию</strong> с мобов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td><td>паковое снятие</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=213634">Очищение от болезни</a></td><td>болезни (аффикс <strong>Devour</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=21562">Слово силы: Стойкость</a></td><td>бафф группы</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=586">Уход в тень</a></td><td>сброс агра + с <strong><a href="https://www.wowhead.com/ru/spell=108968">Вхождением в Бездну</a></strong> — снижение урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=19236">Молитва отчаяния</a></td><td>личный сейв-хил</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Приоритет</th><th>Способность</th><th>Когда</th></tr>
+<tr><td>Высший</td><td><strong>Щит Б.</strong> (прок)</td><td><strong>до</strong> следующей <strong>Исповеди</strong>; на себя/танка под урон</td></tr>
+<tr><td>Высший</td><td><strong>Т.восст.</strong> (прок)</td><td>раненый без полного HP</td></tr>
+<tr><td>Высокий</td><td><strong>Исповедь</strong></td><td>по КД: союзник (хил) или враг (доты/урон)</td></tr>
+<tr><td>Высокий</td><td><strong>СС:Щит</strong></td><td>между <strong>Исповедями</strong>, не капить КД</td></tr>
+<tr><td>Средний</td><td><strong>СТ:Боль</strong></td><td>на всех врагов пака</td></tr>
+<tr><td>Средний</td><td><strong>СТ:Смерть</strong></td><td>по КД; снайп &amp;lt;20% HP в паке</td></tr>
+<tr><td>Бурст</td><td><strong>Проповедь</strong> + <strong>СС:Сияние</strong></td><td>перед/во время тяжёлого урона</td></tr>
+<tr><td>По ситуации</td><td><strong>Искр.раскаяние</strong></td><td>большой пак + <strong>Искупление</strong> на группе</td></tr>
+<tr><td>Заполнитель</td><td><strong>Кара</strong>, <strong>ВР</strong></td><td>когда нечего важнее</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<p>Перед боем: <strong><a href="https://www.wowhead.com/ru/spell=21562">Слово силы: Стойкость</a></strong>.</p>
+<p><strong>Ясновидец, стандарт M+:</strong></p>
+<p>1. <strong><a href="https://www.wowhead.com/ru/spell=589">Слово Тьмы: Боль</a></strong> на приоритетную цель (или прекаст).</p>
+<p>2. <strong><a href="https://www.wowhead.com/ru/spell=47540">Исповедь</a></strong> на <strong>танка</strong> (или самого раненого).</p>
+<p>3. <strong><a href="https://www.wowhead.com/ru/spell=17">Слово силы: Щит</a></strong> на танка.</p>
+<p>4. Если есть прок — <strong><a href="https://www.wowhead.com/ru/spell=1253593">Щит Бездны</a></strong> на танка/себя.</p>
+<p>5. <strong><a href="https://www.wowhead.com/ru/spell=47540">Исповедь</a></strong> по <strong>врагу</strong> (размазать <strong>СТ:Боль</strong>).</p>
+<p>6. <strong><a href="https://www.wowhead.com/ru/spell=32379">Слово Тьмы: Смерть</a></strong>.</p>
+<p>7. Дальше — <a href="#приоритет-ротации-кратко">приоритет ротации</a>.</p>
+<blockquote>
+<p>На первом пуле не ждите «идеального» окна для <strong>Проповеди</strong> — если группа уже получает урон, <strong>Проповедь</strong> + <strong>СС:Сияние</strong> сразу.</p>
+</blockquote>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>1. Есть прок <strong>Щита Б.</strong>? → наложите <strong>до</strong> следующей <strong>Исповеди</strong>.</p>
+<p>2. Есть прок <strong>Т.восст.</strong> и раненый? → <strong>Т.восст.</strong></p>
+<p>3. <strong>Исповедь</strong> готова? → союзник (хил) или враг (пак без дотов).</p>
+<p>4. <strong>СС:Щит</strong> готов и нет прока <strong>Щита Б.</strong>? → на танка/раненого.</p>
+<p>5. Нет <strong>СТ:Боли</strong> на врагах? → <strong>СТ:Боль</strong> / <strong>Исповедь</strong> по врагу.</p>
+<p>6. <strong>СТ:Смерть</strong> по КД.</p>
+<p>7. Грядёт большой урон? → <strong>Проповедь</strong> → <strong>СС:Сияние</strong> (×2).</p>
+<p>8. Иначе → <strong>Кара</strong> / <strong>ВР</strong>.</p>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-ясновидец-vs-ткач-бездны">Герой-талант: Ясновидец vs Ткач Бездны</h2>
+<table><tbody>
+<tr><th></th><th><strong>Ясновидец</strong> (*Oracle*)</th><th><strong>Ткач Бездны</strong> (*Voidweaver*)</th></tr>
+<tr><td><strong>M+ по умолчанию</strong></td><td><strong>да</strong> — <strong>Щит Б.</strong>, <strong>Т.восст.</strong>, сильный ST</td><td>альтернатива; слабее после нерфов <strong>Искупления</strong></td></tr>
+<tr><td><strong>Стиль</strong></td><td><strong>Исповедь</strong> на союзников, <strong>СС:Щит</strong>, проки</td><td><strong>Искупление</strong> через урон, <strong>Энтропический разлом</strong>, питомцы</td></tr>
+<tr><td><strong>Сильные стороны</strong></td><td>стабильный хил, простая логика</td><td>AoE-урон в окна <strong>разлома</strong></td></tr>
+<tr><td><strong>Слабости</strong></td><td>меньше «чистого» AoE-DPS</td><td>слабее ST, нужны тайминги <strong>ВР</strong></td></tr>
+</tbody></table>
+<p><strong>Импорт (Ясновидец, M+):</strong></p>
+<p>`CAQAAAAAAAAAAAAAAAAAAAAAAADsYwyMjZmZGMbzYmZmZMzAAAAAAAAAAYGWmBzMzMMmZwmpZiBYmFMEGzyAMGsAAAjZmZMYGgZmRwA`</p>
+<p><strong>Импорт (Ткач Бездны, M+, альтернатива):</strong></p>
+<p>`CAQAAAAAAAAAAAAAAAAAAAAAAADsYwyMjZmZmhZbGzMzMDzAAAAAAAAAAYMWmBzMzYzYmBMNTMAzsghwYWGgxgFAAYMzMjBzAMzMTwA`</p>
+<p>Калькулятор: <a href="https://www.wowhead.com/ru/talent-calc/priest/discipline">Wowhead RU — жрец, послушание</a>.</p>
+<p><strong>Частые замены в M+:</strong></p>
+<ul>
+<li><strong>Массовое рассеивание</strong> — под аффикс <strong>Ascendant</strong> и данжи с магией.</li>
+<li><strong>Очищение от болезни</strong> (улучшенное <strong>Очищение</strong>) — <strong>Devour</strong>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>.</li>
+<li><strong>Сковывание кошмара</strong> — нежить/аберрации (<a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a> и др.).</li>
+<li><strong>Вхождение в Бездну</strong> — снижение урона при <strong><a href="https://www.wowhead.com/ru/spell=586">Уходе в тень</a></strong>.</li>
+</ul>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее идеальных вторичных статов.</strong> Все вторички близки по ценности — берите выше уровень предмета.</p>
+<h3 id="приоритет-m-ясновидец">Приоритет (M+, <strong>Ясновидец</strong>)</h3>
+<p>1. <strong>Интеллект</strong></p>
+<p>2. <strong>Скорость</strong></p>
+<p>3. <strong>Критический удар</strong></p>
+<p>4. <strong>Искусность</strong> (*Искусность: Благодать* — усиливает хил с <strong>Искуплением</strong>)</p>
+<p>5. <strong>Универсальность</strong></p>
+<h3 id="приоритет-m-ткач-бездны">Приоритет (M+, <strong>Ткач Бездны</strong>)</h3>
+<p>Тот же порядок: <strong>Скорость</strong> → <strong>Крит</strong> → <strong>Искусность</strong> → <strong>Универсальность</strong>.</p>
+<blockquote>
+<p>На очень высоких ключах иногда качают <strong>Универсальность</strong> ради снижения урона — это <strong>минус HPS</strong>. Для большинства ключей не копируйте.</p>
+</blockquote>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td>тринкет <a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>шея, кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16573"><strong>Узел Нексуса Зенас</strong></a></td><td>плечи (офф-сет), кольца</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td>тринкеты, оружие</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td>оружие, тринкеты</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=6988"><strong>Небесный Путь</strong></a></td><td>посох / офф-хенд</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong><a href="https://www.wowhead.com/ru/item-set=1986">Бремя слепых клятв</a></strong> (4 предмета):</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=250051">Крылатый шлем слепых клятв</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=250054">Убранство слепых клятв</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=250052">Прикосновение слепых клятв</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=250050">Поножи слепых клятв</a></td></tr>
+</tbody></table>
+<p><strong>Плечи</strong> — офф-сет (M+ / рейд). <strong>2/4 и 4/4</strong> важнее «идеальных» статов: бонусы пассивны (сильнее прямые хилы / дольше <strong>Искупление</strong> с <strong>Быстрого исцеления</strong> и <strong>СС:Сияния</strong>).</p>
+<hr>
+<h2 id="чары-гемы-и-химия">Чары, гемы и химия</h2>
+<p>Источник: <a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-gems-enchants-consumables">Icy Veins — gems, enchants, consumables</a>. Названия — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a>.</p>
+<h3 id="чары">Чары</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td><strong>Оружие</strong></td><td><a href="https://www.wowhead.com/ru/item=243733">Талассийское масло феникса</a></td></tr>
+<tr><td><strong>Оружие (талант)</strong></td><td><strong>Ясновидец:</strong> точность рен'дорай; <strong>Ткач Б.:</strong> ярость берсерка</td></tr>
+<tr><td><strong>Кольца</strong></td><td>ловкость Луносвета / аналоги сезона</td></tr>
+<tr><td><strong>Шлем</strong></td><td>усиленное благословение самоисцеления</td></tr>
+<tr><td><strong>Плечи</strong></td><td>исцеление Луносвета</td></tr>
+<tr><td><strong>Грудь</strong></td><td>метка магистра</td></tr>
+<tr><td><strong>Ноги</strong></td><td>чародейская нить</td></tr>
+<tr><td><strong>Обувь</strong></td><td>корни Шаладрассила</td></tr>
+<tr><td><strong>Накидка / наручи</strong></td><td>крафт с <strong>Arcanoweave Lining</strong> (2 слота на сезон)</td></tr>
+</tbody></table>
+<h3 id="гемы">Гемы</h3>
+<p><strong>Эпик (один):</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a>.</p>
+<p><strong>Остальные сокеты:</strong> камни <strong>скорость + крит</strong> (или <strong>скорость + искусность</strong> под сим).</p>
+<h3 id="химия">Химия</h3>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th><th>Заметка</th></tr>
+<tr><td><strong>Настой</strong></td><td><a href="https://www.wowhead.com/ru/item=241325">Настой рыцарей крови</a> / <a href="https://www.wowhead.com/ru/item=241323">Настой магистров</a></td><td>скорость vs искусность</td></tr>
+<tr><td><strong>Боевое зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241309">Потенциал Света</a></td><td>стабильно; <a href="https://www.wowhead.com/ru/item=241292">Настой полного отрешения</a> — сильнее</td></tr>
+<tr><td><strong>Хил-зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241304">Луносветское лечебное зелье</a></td><td>запас HP</td></tr>
+<tr><td><strong>Еда (пир)</strong></td><td><a href="https://www.wowhead.com/ru/item=255845">Парад Луносвета</a> / <a href="https://www.wowhead.com/ru/item=255846">Празднество Харандара</a></td><td>лучшие пиры сезона</td></tr>
+<tr><td><strong>Еда (запас)</strong></td><td><a href="https://www.wowhead.com/ru/item=255847">Невообразимое королевское жаркое</a></td><td>если пира нет</td></tr>
+<tr><td><strong>Руна</strong></td><td><a href="https://www.wowhead.com/ru/item=259085">Меченная Бездной руна усиления</a></td><td>~1% ко всему; пропадает при смерти</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Роль</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td><strong>BiS on-use (рейд)</strong></td><td>тринкет с босса Ваэлгора</td><td>рейд <strong>The Voidspire</strong></td></tr>
+<tr><td><strong>BiS пассив (рейд)</strong></td><td>тринкет с <strong>Chimaerus</strong></td><td>рейд <strong>The Dreamrift</strong></td></tr>
+<tr><td><strong>M+ on-use</strong></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a></td><td><strong>Шпили Ветрокрылых</strong></td></tr>
+<tr><td><strong>M+ пассив</strong></td><td>тринкет из <strong>Академии Алгет'ар</strong></td><td>фарм по таблице лута</td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong><a href="https://www.wowhead.com/ru/spell=472433">Проповедью</a></strong>. Урон тринкетов <strong>не</strong> лечит через <strong>Искупление</strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] <strong><a href="https://www.wowhead.com/ru/spell=21562">Слово силы: Стойкость</a></strong></li>
+<li>[ ] Герой: <strong>Ясновидец</strong> (или <strong>Ткач Бездны</strong> по желанию)</li>
+<li>[ ] <strong>Массовое рассеивание</strong> / <strong>Очищение от болезни</strong> под аффикс недели</li>
+<li>[ ] <strong>Придание сил</strong> — макрос на союзника-ДД (не на себя)</li>
+<li>[ ] Нет <strong>прерывания</strong> у жреца — договоритесь, кто стопает касты</li>
+<li>[ ] Фарм: <strong>Шпили Ветрокрылых</strong>, <strong>Престол Триумвирата</strong>, <strong>Академия Алгет'ар</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-утилити-аффиксы-ротация-в-ключах">ЧАСТЬ 3. Утилити, аффиксы, ротация в ключах</h1>
+<h2 id="кулдауны-и-утилити">Кулдауны и утилити</h2>
+<table><tbody>
+<tr><th>Способность</th><th>В ключах</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=472433">Проповедь</a></td><td>мгновенный хил группы + <strong>2</strong> мгновенных <strong>СС:Сияния</strong>; держите заряды под мобильность</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=421453">Искреннее раскаяние</a></td><td><strong>4 мин</strong>; по <strong>врагам</strong> с <strong>Искуплением</strong> на группе (в воздухе — бесплатный <strong>СС:Щит</strong> / <strong>СТ:Смерть</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=33206">Подавление боли</a></td><td>танк / игрок с тяжёлым DoT; с талантом — больше зарядов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=62618">Слово силы: Барьер</a></td><td>если взяли вместо <strong>Искр.раскаяния</strong> — стак группы под урон</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=8122">Ментальный крик</a></td><td>AoE-страх — «стоп» кастов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=9484">Сковывание кошмара</a></td><td>CC нежити/аберраций</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=528">Рассеивание заклинаний</a></td><td>снимать <strong>магические</strong> баффы с мобов</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td><td>паковое снятие (КД <strong>2 мин</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=213634">Очищение от болезни</a></td><td><strong>Devour</strong> и болезни</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=10060">Придание сил</a></td><td><strong>ДД</strong> на 2-мин КД (<strong>Близнецы солнца</strong> дадут вам тоже)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=586">Уход в тень</a></td><td>сброс агра; с <strong>Вхождением в Бездну</strong> — DR</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=19236">Молитва отчаяния</a></td><td>личный сейв</td></tr>
+</tbody></table>
+<blockquote>
+<p>У <strong>Послушания нет прерывания</strong> — это норма для хилов в Midnight. Используйте <strong>Ментальный крик</strong> и CC.</p>
+</blockquote>
+<p><strong>Макрос Придания сил на фокус-ДД:</strong></p>
+<pre><code>
+#showtooltip Придание сил
+
+/cast [@focus,exists,help,nodead][] Придание сил
+
+</pre>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать дису</th></tr>
+<tr><td><strong>Xal'atath's Bargain: Ascendant</strong></td><td><a href="https://www.wowhead.com/ru/spell=528">Рассеивание заклинаний</a> / <a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td></tr>
+<tr><td><strong>Voidbound</strong> (щиты)</td><td><strong>СТ:Смерть</strong> по щитам; у <strong>Ткача Б.</strong> — *Devour Matter*</td></tr>
+<tr><td><strong>Devour</strong> (болезнь)</td><td><a href="https://www.wowhead.com/ru/spell=213634">Очищение от болезни</a>, <a href="https://www.wowhead.com/ru/spell=32375">Массовое рассеивание</a></td></tr>
+<tr><td><strong>Pulsar</strong></td><td><strong>Уход в тень</strong> / предвидение перемещений; не стойте в уроне</td></tr>
+</tbody></table>
+<hr>
+<h2 id="приоритет-ротации-кратко">Приоритет ротации (кратко)</h2>
+<p><strong>Ясновидец, M+ (общий приоритет):</strong></p>
+<p>1. <strong>Щит Б.</strong> (прок) → <strong>до</strong> следующей <strong>Исповеди</strong>.</p>
+<p>2. <strong>Т.восст.</strong> (прок) на раненого.</p>
+<p>3. <strong>СТ:Боль</strong> на врагах без дота.</p>
+<p>4. <strong>СТ:Смерть</strong> по КД (&amp;lt;20% — приоритет).</p>
+<p>5. <strong>Исповедь</strong> — союзник (хил/<strong>Искупление</strong>) или враг (доты).</p>
+<p>6. <strong>СС:Щит</strong> между <strong>Исповедями</strong>.</p>
+<p>7. <strong>Проповедь</strong> → <strong>СС:Сияние</strong> (×1–2) под урон.</p>
+<p>8. <strong>Искр.раскаяние</strong> по врагам при <strong>Искуплении</strong> на группе.</p>
+<p>9. <strong>ВР</strong> / <strong>Кара</strong>.</p>
+<p><strong>Тяжёлый урон по группе:</strong></p>
+<p><strong>Проповедь</strong> → <strong>СС:Сияние</strong> ×2 → <strong>Исповедь</strong> на танка → <strong>СС:Щит</strong> / <strong>Щит Б.</strong> → урон по паку.</p>
+<p><strong>Тяжёлый ST-урон (танк):</strong></p>
+<p><strong>Подавл.боли</strong> → <strong>Исповедь</strong> → <strong>СС:Щит</strong> / <strong>Щит Б.</strong> → <strong>Т.восст.</strong></p>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-mythic-plus-tips">Icy Veins — Discipline Priest M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/priest/discipline">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/discipline-priest-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>

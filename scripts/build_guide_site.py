@@ -15,6 +15,7 @@ GUIDES = [
     ("guides/mplus/guardian-druid-mplus-ru.md", "Страж (медведь) — M+", "Друид", "Страж", "M+"),
     ("guides/mplus/brewmaster-monk-mplus-ru.md", "Пивовар — M+", "Монах", "Пивовар", "M+"),
     ("guides/mplus/shadow-priest-mplus-ru.md", "Теневой жрец (ШП) — M+", "Жрец", "Тень", "M+"),
+    ("guides/mplus/discipline-priest-mplus-ru.md", "Послушание — M+", "Жрец", "Послушание", "M+"),
     ("guides/mplus/unholy-dk-mplus-ru.md", "Анхоли ДК — M+", "Рыцарь смерти", "Нечестивость", "M+"),
     ("guides/mplus/subtlety-rogue-mplus-ru.md", "Скрытность — M+", "Разбойник", "Скрытность", "M+"),
     ("guides/mplus/outlaw-rogue-mplus-ru.md", "Головорез — M+", "Разбойник", "Головорез", "M+"),

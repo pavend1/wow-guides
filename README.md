@@ -12,6 +12,7 @@
 | [guides/mplus/guardian-druid-mplus-ru.md](guides/mplus/guardian-druid-mplus-ru.md) | Страж (медведь), Mythic+ |
 | [guides/mplus/brewmaster-monk-mplus-ru.md](guides/mplus/brewmaster-monk-mplus-ru.md) | Пивовар, Mythic+ |
 | [guides/mplus/shadow-priest-mplus-ru.md](guides/mplus/shadow-priest-mplus-ru.md) | Теневой жрец (ШП), Mythic+ |
+| [guides/mplus/discipline-priest-mplus-ru.md](guides/mplus/discipline-priest-mplus-ru.md) | Послушание (дис жрец), Mythic+ |
 | [guides/mplus/unholy-dk-mplus-ru.md](guides/mplus/unholy-dk-mplus-ru.md) | Анхоли ДК (нечестивый), Mythic+ |
 | [guides/mplus/subtlety-rogue-mplus-ru.md](guides/mplus/subtlety-rogue-mplus-ru.md) | Разбойник (Скрытность), Mythic+ |
 | [guides/mplus/outlaw-rogue-mplus-ru.md](guides/mplus/outlaw-rogue-mplus-ru.md) | Разбойник (Головорез), Mythic+ |
