@@ -28,6 +28,8 @@ GUIDES = [
 
 # Optional Wowhead spell-name data for auto-linking **Name** → tooltip links.
 SPELL_NAME_JSON: dict[str, Path] = {
+    "guides/mplus/blood-dk-mplus-ru.md": ROOT
+    / "data/wowhead/blood_dk_guide_names_ru.json",
     "guides/rotation/augmentation-evoker-rotation-ru.md": ROOT
     / "data/wowhead/augmentation_guide_names_ru.json",
 }
@@ -89,8 +91,8 @@ def link_spell_names_in_md(md: str, spell_links: dict[str, str]) -> str:
         if part.startswith("```"):
             out.append(part)
             continue
-        part = link_bare_wowhead_urls(part)
         part, saved = _stash_markdown_links(part)
+        part = link_bare_wowhead_urls(part)
         for name in sorted(spell_links, key=len, reverse=True):
             url = spell_links[name]
             part = re.sub(
