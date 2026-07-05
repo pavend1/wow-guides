@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кровь ДК — M+</title>
+  <link rel="stylesheet" href="guides.css">
+  <script>
+    var whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+  <nav class="guide-nav">
+    <a href="index.html">← Все гайды</a>
+  </nav>
+  <article class="guide markdown-body">
+<h1 id="кровь-blood-гайд-для-mythic-ключи">Кровь (Blood) — гайд для Mythic+ (ключи)</h1>
+<blockquote>
+<p>Источники: <a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-stat-priority">Icy Veins — статы</a> · <a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-rotation-cooldowns-abilities">ротация</a> · <a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot">экипировка</a> · <a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-mythic-plus-tips">M+</a></p>
+<p>Патч: <strong>12.0.5</strong> (Midnight Season 1)</p>
+<p>Фокус: <strong>только ключи</strong>, рейды не рассматриваются</p>
+<p><strong>Названия способностей, предметов, чар и камней</strong> — как в <a href="https://www.wowhead.com/ru">Wowhead RU</a> (tooltip API, locale 7)</p>
+<p>Обновлено: <strong>06.07.2026</strong></p>
+</blockquote>
+<h2 id="оглавление">Оглавление</h2>
+<ul>
+<li><a href="#сокращения">Сокращения</a></li>
+</ul>
+<p><strong><a href="#часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</a></strong></p>
+<ul>
+<li><a href="#что-вы-делаете-одной-фразой">Что вы делаете одной фразой</a></li>
+<li><a href="#две-валюты-и-костный-щит">Две «валюты» и костный щит</a></li>
+<li><a href="#справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</a></li>
+<li><a href="#кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</a></li>
+<li><a href="#первый-пул-опенер-m">Первый пул — опенер (M+)</a></li>
+<li><a href="#простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</a></li>
+</ul>
+<p><strong><a href="#часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</a></strong></p>
+<ul>
+<li><a href="#герой-талант-пожиратель-душ-vs-санlayn">Герой-талант: Пожиратель душ vs Сан'layn</a></li>
+<li><a href="#статы">Статы</a></li>
+<li><a href="#экипировка-только-m">Экипировка (только M+)</a></li>
+<li><a href="#чары-гемы-и-химия">Чары, гемы и химия</a></li>
+<li><a href="#тринкеты">Тринкеты</a></li>
+<li><a href="#шпаргалка-перед-ключом">Шпаргалка перед ключом</a></li>
+</ul>
+<p><strong><a href="#часть-3-кулдауны-утилити-аффиксы">ЧАСТЬ 3. Кулдауны, утилити, аффиксы</a></strong></p>
+<ul>
+<li><a href="#кулдауны-в-ключах">Кулдауны в ключах</a></li>
+<li><a href="#утилити-в-ключах">Утилити в ключах</a></li>
+<li><a href="#аффиксы">Аффиксы</a></li>
+<li><a href="#ссылки">Ссылки</a></li>
+</ul>
+<h2 id="сокращения">Сокращения</h2>
+<table><tbody>
+<tr><th>Сокращение</th><th>Расшифровка</th></tr>
+<tr><td><strong>БК / Blood</strong></td><td><strong>Кровь</strong> (*Blood Death Knight*) — танк-спек рыцаря смерти</td></tr>
+<tr><td><strong>УС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=49998">Удар смерти</a></strong> (*Death Strike*) — главный хил и <strong>кровяной щит</strong></td></tr>
+<tr><td><strong>ДХ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=195182">Дробление хребта</a></strong> (*Marrowrend*) — поддержка <strong>костного щита</strong></td></tr>
+<tr><td><strong>УвС</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=206930">Удар в сердце</a></strong> (*Heart Strike*) — трата рун, урон</td></tr>
+<tr><td><strong>ВК</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=50842">Вскипание крови</a></strong> (*Blood Boil*) — AoE, болезни</td></tr>
+<tr><td><strong>СиР</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=43265">Смерть и разложение</a></strong> (*Death and Decay*)</td></tr>
+<tr><td><strong>ТРО</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=49028">Танцующее руническое оружие</a></strong> (*Dancing Rune Weapon*)</td></tr>
+<tr><td><strong>КВ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=55233">Кровь вампира</a></strong> (*Vampiric Blood*)</td></tr>
+<tr><td><strong>АМП</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=48707">Антимагический панцирь</a></strong></td></tr>
+<tr><td><strong>НЛ</strong></td><td><strong><a href="https://www.wowhead.com/ru/spell=48792">Незыблемость льда</a></strong></td></tr>
+<tr><td><strong>КЩ</strong></td><td><strong>Костный щит</strong> — стаки от <strong>ДХ</strong>; дают броню и силу</td></tr>
+<tr><td><strong>Руны</strong></td><td>6 штук, восстанавливаются ~10 сек; максимум <strong>3</strong> одновременно «на перезарядке»</td></tr>
+<tr><td><strong>Рун. сила</strong></td><td>до <strong>100</strong>; тратится на <strong>УС</strong></td></tr>
+<tr><td><strong>ГКД</strong></td><td>глобальное время восстановления</td></tr>
+<tr><td><strong>КД</strong></td><td>время восстановления способности</td></tr>
+<tr><td><strong>ilvl</strong></td><td>уровень предметов</td></tr>
+<tr><td><strong>M+</strong></td><td>эпохальные ключи</td></tr>
+<tr><td><strong>BiS</strong></td><td>лучший предмет в слот</td></tr>
+<tr><td><strong>опенер</strong></td><td>стартовая серия на первом пуле</td></tr>
+</tbody></table>
+<hr>
+<h1 id="часть-1-для-тех-кто-играет-впервые">ЧАСТЬ 1. Для тех, кто играет впервые</h1>
+<h2 id="что-вы-делаете-одной-фразой">Что вы делаете одной фразой</h2>
+<p>1. Держите <strong>≥5</strong> стаков <strong><a href="https://www.wowhead.com/ru/spell=195182">костного щита</a></strong> через <strong><a href="https://www.wowhead.com/ru/spell=195182">дробление хребта</a></strong>.</p>
+<p>2. Тратите <strong>руны</strong> на <strong><a href="https://www.wowhead.com/ru/spell=206930">удар в сердце</a></strong> / <strong><a href="https://www.wowhead.com/ru/spell=50842">вскипание крови</a></strong> → получаете <strong>руническую силу</strong>.</p>
+<p>3. Тратите <strong>руническую силу</strong> на <strong><a href="https://www.wowhead.com/ru/spell=49998">удар смерти</a></strong> — это и хил, и <strong>кровяной щит</strong> (поглощение).</p>
+<p>4. <strong><a href="https://www.wowhead.com/ru/spell=49028">Танцующее руническое оружие</a></strong> + <strong><a href="https://www.wowhead.com/ru/spell=55233">кровь вампира</a></strong> — на каждый жирный пул.</p>
+<p>5. Стоите в <strong><a href="https://www.wowhead.com/ru/spell=43265">смерти и разложении</a></strong> на паках; <strong>не капайте</strong> заряды <strong>ВК</strong>.</p>
+<h2 id="две-валюты-и-костный-щит">Две «валюты» и костный щит</h2>
+<table><tbody>
+<tr><th>Ресурс</th><th>Правило</th><th>Зачем</th></tr>
+<tr><td><strong>Руны</strong> (6)</td><td>Держите <strong>≥3</strong> на перезарядке; не копите выше <strong>3</strong></td><td>иначе теряете реген</td></tr>
+<tr><td><strong>Рун. сила</strong> (100)</td><td>Тратьте на <strong>УС</strong> при <strong>~70+</strong> или когда нужен хил</td><td>кап = потеря щита и хила</td></tr>
+<tr><td><strong>Костный щит</strong> (до <strong>10</strong> стаков)</td><td>Держите <strong>≥5</strong> почти всегда</td><td>броня + сила; без щита вы «мягче»</td></tr>
+<tr><td><strong>Кровяной щит</strong></td><td>Появляется после <strong>УС</strong></td><td>поглощает урон; зависит от полученного урона и мастерства</td></tr>
+</tbody></table>
+<p><strong>Не капайте заряды <a href="https://www.wowhead.com/ru/spell=50842">вскипания крови</a></strong> — в AoE жмите агрессивнее.</p>
+<hr>
+<h2 id="справка-по-названиям-wowhead-ru">Справка по названиям (Wowhead RU)</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Кратко</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=195182">Дробление хребта</a></td><td>+стаки <strong>костного щита</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=206930">Удар в сердце</a></td><td>трата рун, урон (ST / мало целей)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=50842">Вскипание крови</a></td><td>AoE, болезни, заряды</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49998">Удар смерти</a></td><td>хил + <strong>кровяной щит</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=43265">Смерть и разложение</a></td><td>зона под ногами, замедление (с талантом)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49028">Танцующее руническое оружие</a></td><td>оффенс + копии способностей</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=55233">Кровь вампира</a></td><td>+макс. HP, +хил от <strong>УС</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=194844">Буря костей</a></td><td>AoE-урон, трата <strong>костного щита</strong> (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=343294">Жнец душ</a></td><td>execute / эмиссарии аффикса</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47528">Заморозка разума</a></td><td>прерывание</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207167">Ослепляющая наледь</a></td><td>AoE-дизориент</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49576">Хватка смерти</a></td><td>сбор / soft-stop каста</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=108199">Хватка Горфинда</a></td><td>массовый сбор (талант)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48707">Антимагический панцирь</a></td><td>−магия, +рун. сила</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48792">Незыблемость льда</a></td><td>−30% урона</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49039">Перерождение</a></td><td>cheat death</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48265">Поступь смерти</a></td><td>мобильность</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=61999">Воскрешение союзника</a></td><td>боевой ресс</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=111673">Контроль над нежитью</a></td><td>контроль моба (Яма Сарона, Пещеры Маисара)</td></tr>
+<tr><td>Герой: <strong>Пожиратель душ</strong> / <strong>Сан'layn</strong></td><td>деревья талантов 71+</td></tr>
+</tbody></table>
+<hr>
+<h2 id="кнопки-на-панели-что-делает-каждая">Кнопки на панели — что делает каждая</h2>
+<table><tbody>
+<tr><th>Название</th><th>Что делает</th><th>Когда жать</th></tr>
+<tr><td><strong>Дробление хребта</strong></td><td>+стаки <strong>костного щита</strong></td><td><strong>&lt;5</strong> стаков; перед <strong>ТРО</strong></td></tr>
+<tr><td><strong>Удар в сердце</strong></td><td>Урон, рун. сила</td><td>ST / 1–3 цели; заполнитель</td></tr>
+<tr><td><strong>Вскипание крови</strong></td><td>AoE, болезни</td><td><strong>3+</strong> целей; не капайте заряды</td></tr>
+<tr><td><strong>Удар смерти</strong></td><td>Хил + <strong>кровяной щит</strong></td><td><strong>~70+</strong> рун. силы или под уроном</td></tr>
+<tr><td><strong>Смерть и разложение</strong></td><td>Зона, замедление</td><td>На паке; держите аптайм</td></tr>
+<tr><td><strong>Танцующее руническое оружие</strong></td><td>Большой КД</td><td>Каждый серьёзный пул (~<strong>90 сек</strong>)</td></tr>
+<tr><td><strong>Кровь вампира</strong></td><td>+HP, усиленный <strong>УС</strong></td><td>Вместе с <strong>ТРО</strong> или «убьют сейчас»</td></tr>
+<tr><td><strong>Буря костей</strong></td><td>AoE-бурст</td><td>Жирный AoE (если взяли)</td></tr>
+<tr><td><strong>Жнец душ</strong></td><td>Execute</td><td>Цель <strong>&lt;35%</strong> HP; эмиссарии</td></tr>
+<tr><td><strong>Заморозка разума</strong></td><td>Прерывание</td><td>Фокус-кастер</td></tr>
+<tr><td><strong>Ослепляющая наледь</strong></td><td>AoE-стоп</td><td>Аффикс <strong>Вознесённые</strong></td></tr>
+<tr><td><strong>Хватка смерти</strong></td><td>Сбор / stop-cast</td><td>Потеря моба, сброс каста</td></tr>
+<tr><td><strong>Антимагический панцирь</strong></td><td>Магический сейв</td><td>Магический пак / <strong>Devour</strong></td></tr>
+<tr><td><strong>Незыблемость льда</strong></td><td>−<strong>30%</strong> урона</td><td>Спайк урона</td></tr>
+<tr><td><strong>Перерождение</strong></td><td>Не умереть 1 раз</td><td>«Ошибка прощения»</td></tr>
+</tbody></table>
+<hr>
+<h2 id="первый-пул-опенер-m">Первый пул — опенер (M+)</h2>
+<h3 id="пожиратель-душ-deathbringer-дефолт-m">Пожиратель душ (Deathbringer, дефолт M+)</h3>
+<pre><code>
+1. Смерть и разложение (если ещё не под ногами)
+
+2. Марка жнеца (Reaper&#x27;s Mark) — если взяли
+
+3. Танцующее руническое оружие
+
+4. Кровь вампира
+
+5. Дробление хребта (до 5+ стаков костного щита)
+
+6. Вскипание крови
+
+7. Удар в сердце
+
+8. Удар смерти (~70+ рун. силы)
+
+9. Дальше — таблица приоритета
+
+</pre>
+<h3 id="сан-layn-gift-of-the-san-layn">Сан'layn (Gift of the San'layn)</h3>
+<p>На опенере важнее окно <strong>ТРО</strong> → <strong>Дар Сан'layn</strong> → цепочка <strong>Удар вампира</strong> + <strong>УС</strong>. Вне окна — как обычно: <strong>ДХ</strong>, <strong>ВК</strong>, <strong>УвС</strong>, <strong>УС</strong>.</p>
+<hr>
+<h2 id="простое-правило-что-жать-сейчас-m">Простое правило «что жать сейчас?» (M+)</h2>
+<p>Смотрите <strong>сверху вниз</strong>, первое подходящее — жмите:</p>
+<table><tbody>
+<tr><th>Приоритет</th><th>Условие</th><th>Жмите</th></tr>
+<tr><td>1</td><td><strong>&lt;5</strong> стаков <strong>костного щита</strong></td><td><strong>Дробление хребта</strong></td></tr>
+<tr><td>2</td><td><strong>ТРО</strong> / <strong>Кровь вампира</strong> готовы, пул <strong>≥20 сек</strong></td><td><strong>Кровь вампира</strong> → <strong>ТРО</strong></td></tr>
+<tr><td>3</td><td><strong>~70+</strong> рун. силы или нужен хил</td><td><strong>Удар смерти</strong></td></tr>
+<tr><td>4</td><td><strong>3+</strong> целей, заряд <strong>ВК</strong> готов</td><td><strong>Вскипание крови</strong></td></tr>
+<tr><td>5</td><td>Не стоите в <strong>СиР</strong> на паке</td><td><strong>Смерть и разложение</strong></td></tr>
+<tr><td>6</td><td><strong>УвС</strong> готов (ST / мало целей)</td><td><strong>Удар в сердце</strong></td></tr>
+<tr><td>7</td><td>Прок <strong>Exterminate</strong> (Пожиратель душ)</td><td><strong>ДХ</strong> (вне <strong>ТРО</strong> в AoE)</td></tr>
+<tr><td>8</td><td>Цель <strong>&lt;35%</strong> HP</td><td><strong>Жнец душ</strong></td></tr>
+<tr><td>9</td><td>Всё на КД, <strong>2+</strong> цели</td><td><strong>Вскипание крови</strong></td></tr>
+<tr><td>10</td><td>Заполнитель</td><td><strong>Удар в сердце</strong></td></tr>
+</tbody></table>
+<blockquote>
+<p><strong>Удар смерти вне ГКД</strong> — можно вставлять между другими кнопками.</p>
+</blockquote>
+<hr>
+<h1 id="часть-2-таланты-статы-экипировка">ЧАСТЬ 2. Таланты, статы, экипировка</h1>
+<h2 id="герой-талант-пожиратель-душ-vs-сан-layn">Герой-талант: Пожиратель душ vs Сан'layn</h2>
+<table><tbody>
+<tr><th></th><th><strong>Пожиратель душ</strong> (*Deathbringer*)</th><th><strong>Сан'layn</strong></th></tr>
+<tr><td>Когда</td><td><strong>Дефолт для M+</strong> — проще, сильнее AoE</td><td>Если любите окно <strong>ТРО</strong> + <strong>Удар вампира</strong></td></tr>
+<tr><td>Плюс</td><td><strong>Жнец душ</strong> на эмиссариев; <strong>Exterminate</strong></td><td>Огромный хил в <strong>Дар Сан'layn</strong></td></tr>
+<tr><td>Статы</td><td><strong>Крит</strong> &gt; <strong>Vers</strong></td><td><strong>Скорость</strong> &gt; <strong>Крит</strong></td></tr>
+<tr><td>Цикл</td><td><strong>Марка жнеца</strong> + <strong>ТРО</strong> каждые <strong>~90 сек</strong></td><td>Всё крутится вокруг <strong>ТРО</strong> и <strong>Дара Сан'layn</strong></td></tr>
+</tbody></table>
+<p><strong>Для ключей:</strong> <strong>Пожиратель душ</strong> — если не уверены. <strong>Сан'layn</strong> — когда освоили окно <strong>ТРО</strong>.</p>
+<p>Билды: <a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-mythic-plus-tips">Icy Veins — M+ таланты</a></p>
+<hr>
+<h2 id="статы">Статы</h2>
+<h3 id="главное-правило">Главное правило</h3>
+<p><strong>ilvl важнее вторичных статов.</strong> Сила, выносливость и броня с ilvl — основа. Разница <strong>10+ ilvl</strong> — почти всегда апгрейд.</p>
+<h3 id="приоритет">Приоритет</h3>
+<p><strong>Пожиратель душ (M+):</strong></p>
+<pre><code>
+ilvl &gt; Крит &gt; Универсальность &gt; Мастерство &gt; Скорость
+
+</pre>
+<p><strong>Сан'layn (M+):</strong></p>
+<pre><code>
+ilvl &gt; Скорость &gt; Крит &gt; Универсальность &gt; Мастерство
+
+</pre>
+<h3 id="зачем-каждый-стат-в-m">Зачем каждый стат в M+</h3>
+<table><tbody>
+<tr><th>Стат</th><th>Зачем</th></tr>
+<tr><td><strong>Крит</strong></td><td>Урон + <strong>парирование</strong> (через <strong>Riposte</strong>); проки в <strong>ТРО</strong></td></tr>
+<tr><td><strong>Скорость</strong></td><td>Быстрее руны и автоатаки; ценнее для <strong>Сан'layn</strong></td></tr>
+<tr><td><strong>Универсальность</strong></td><td>И урон/хил, и −получаемого урона</td></tr>
+<tr><td><strong>Мастерство</strong></td><td>Сильнее <strong>кровяной щит</strong> от <strong>УС</strong>; но кап щита ограничен</td></tr>
+<tr><td><strong>Сила</strong></td><td>Урон, броня от <strong>костного щита</strong>, парирование</td></tr>
+</tbody></table>
+<p><strong>Сим:</strong> <a href="https://www.raidbots.com/">Raidbots</a> — только для <strong>урона</strong>; деф-симы для танков ненадёжны.</p>
+<hr>
+<h2 id="экипировка-только-m">Экипировка (только M+)</h2>
+<h3 id="какие-подземелья-фармить">Какие подземелья фармить</h3>
+<table><tbody>
+<tr><th>Подземелье</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=16395"><strong>Пещеры Маисара</strong></a></td><td><strong>2H-оружие</strong> сезона; <strong>контроль над нежитью</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=4813"><strong>Яма Сарона</strong></a></td><td>наплечники, кольцо, пояс; <strong>контроль над нежитью</strong> на боссе</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=14032"><strong>Академия Алгет'ар</strong></a></td><td><strong>on-use</strong> тринкет</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=15808"><strong>Шпили Ветрокрылых</strong></a></td><td><a href="https://www.wowhead.com/ru/item=250256"><strong>Сердце ветра</strong></a>, слоты <strong>тира</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/zone=8910"><strong>Престол Триумвирата</strong></a></td><td>кольца, наручи</td></tr>
+</tbody></table>
+<p><strong>Весь пул M+ S1:</strong> <a href="https://www.wowhead.com/ru/zone=4131">Терраса Магистров</a>, <a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a>, <a href="https://www.wowhead.com/ru/zone=16573">Узел Нексуса Зенас</a>, <a href="https://www.wowhead.com/ru/zone=15808">Шпили Ветрокрылых</a>, <a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a>, <a href="https://www.wowhead.com/ru/zone=4813">Яма Сарона</a>, <a href="https://www.wowhead.com/ru/zone=8910">Престол Триумвирата</a>, <a href="https://www.wowhead.com/ru/zone=6988">Небесный Путь</a>.</p>
+<h3 id="тир-какие-слоты-брать">Тир — какие слоты брать</h3>
+<p>Сет <strong>неумолимого всадника</strong> (общий тир ДК S1 Midnight).</p>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет (Wowhead RU)</th></tr>
+<tr><td>Голова</td><td><a href="https://www.wowhead.com/ru/item=249970">Корона неумолимого всадника</a></td></tr>
+<tr><td>Грудь</td><td><a href="https://www.wowhead.com/ru/item=249973">Панцирь неумолимого всадника</a></td></tr>
+<tr><td>Перчатки</td><td><a href="https://www.wowhead.com/ru/item=249971">Костехваты неумолимого всадника</a></td></tr>
+<tr><td>Ноги</td><td><a href="https://www.wowhead.com/ru/item=249969">Набедренники неумолимого всадника</a></td></tr>
+</tbody></table>
+<p><strong>Наплечники — офф-сет</strong> (там часто скорость/vers). <strong>2/4 и 4/4</strong> важнее идеальных вторичек.</p>
+<table><tbody>
+<tr><th>Бонус</th><th>Эффект</th></tr>
+<tr><td><strong>2 предмета</strong></td><td><strong>Вскипание крови</strong> +<strong>3</strong> рун. силы за каст</td></tr>
+<tr><td><strong>4 предмета</strong></td><td><strong>Удар смерти</strong> иногда даёт заряд <strong>ВК</strong></td></tr>
+</tbody></table>
+<p>Пассивно — не капайте рун. силу перед <strong>ВК</strong>.</p>
+<h3 id="лучшие-в-слот-для-m-ориентир">Лучшие в слот для M+ (ориентир)</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Предмет</th><th>Откуда</th></tr>
+<tr><td>Оружие (2H)</td><td><a href="https://www.wowhead.com/ru/item=251162">Коготь предателя</a> / крафт</td><td><a href="https://www.wowhead.com/ru/zone=16395">Пещеры Маисара</a></td></tr>
+<tr><td>Тринкет (активный)</td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a></td><td><a href="https://www.wowhead.com/ru/zone=14032">Академия Алгет'ар</a></td></tr>
+<tr><td>Тринкет (пассив)</td><td><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a>, <a href="https://www.wowhead.com/ru/item=249343">Взор ясновидца Альн</a></td><td>M+ / рейд</td></tr>
+<tr><td>Кольца</td><td>из <a href="https://www.wowhead.com/ru/zone=16573">Узла Нексуса Зенас</a></td><td>M+</td></tr>
+</tbody></table>
+<h3 id="порядок-апгрейдов">Порядок апгрейдов</h3>
+<pre><code>
+Оружие → тринкеты → шлем / грудь / ноги (тир) → остальное
+
+</pre>
+<p><strong>Крафт:</strong> 2H <strong>Blood Knight's Warblade</strong> → кольцо / наручи с усилением.</p>
+<hr>
+<h2 id="чары-гемы-и-химия">Чары, гемы и химия</h2>
+<p>Источник: <a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gems-enchants-consumables">Icy Veins — gems, enchants, consumables</a>.</p>
+<h3 id="чары">Чары</h3>
+<table><tbody>
+<tr><th>Слот</th><th>Ориентир</th></tr>
+<tr><td><strong>Оружие</strong></td><td><strong>Руна падающей звезды</strong> / <a href="https://www.wowhead.com/ru/item=243733">Талассийское масло феникса</a></td></tr>
+<tr><td><strong>Шлем / плечи</strong></td><td>усиленное избегание / благодать Амирдрассила</td></tr>
+<tr><td><strong>Грудь</strong></td><td>метка души мира</td></tr>
+<tr><td><strong>Ноги</strong></td><td>набор охотника из леса</td></tr>
+<tr><td><strong>Обувь</strong></td><td>ловкость рыси</td></tr>
+<tr><td><strong>Кольца</strong></td><td><strong>+ крит</strong> (Пожиратель) / <strong>+ скорость</strong> (Сан'layn)</td></tr>
+</tbody></table>
+<h3 id="гемы">Гемы</h3>
+<p><strong>Эпик:</strong> <a href="https://www.wowhead.com/ru/item=240983">Непостижимый алмаз Вечной Песни</a>. <strong>Остальные:</strong> по симу — <strong>крит</strong> или <strong>скорость</strong>.</p>
+<h3 id="химия">Химия</h3>
+<table><tbody>
+<tr><th>Тип</th><th>Предмет</th><th>Заметка</th></tr>
+<tr><td><strong>Настой</strong></td><td><a href="https://www.wowhead.com/ru/item=241325">Настой рыцарей крови</a></td><td>Держите на себе на весь забег</td></tr>
+<tr><td><strong>Боевое зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241292">Настой полного отрешения</a></td><td>На бурст / <strong>ТРО</strong></td></tr>
+<tr><td><strong>Хил-зелье</strong></td><td><a href="https://www.wowhead.com/ru/item=241304">Луносветское лечебное зелье</a></td><td>Запас HP</td></tr>
+<tr><td><strong>Еда (пир)</strong></td><td><a href="https://www.wowhead.com/ru/item=255845">Парад Луносвета</a> / <a href="https://www.wowhead.com/ru/item=255846">Празднество Харандара</a></td><td>Основная стата</td></tr>
+<tr><td><strong>Руна</strong></td><td><a href="https://www.wowhead.com/ru/item=259085">Меченная Бездной руна усиления</a></td><td>На важные ключи</td></tr>
+</tbody></table>
+<hr>
+<h2 id="тринкеты">Тринкеты</h2>
+<table><tbody>
+<tr><th>Тир</th><th>Варианты</th></tr>
+<tr><td><strong>S</strong></td><td><a href="https://www.wowhead.com/ru/item=193701">Алгет'арская шкатулка с секретом</a>, <a href="https://www.wowhead.com/ru/item=249343">Взор ясновидца Альн</a></td></tr>
+<tr><td><strong>A</strong></td><td><a href="https://www.wowhead.com/ru/item=250256">Сердце ветра</a>, <a href="https://www.wowhead.com/ru/item=260235">Темное перо</a></td></tr>
+<tr><td><strong>Def</strong></td><td><a href="https://www.wowhead.com/ru/item=252421">Гнилой сгусток</a></td></tr>
+</tbody></table>
+<p>Синхронизируйте on-use с <strong>ТРО</strong> + <strong>Кровь вампира</strong>.</p>
+<hr>
+<h2 id="шпаргалка-перед-ключом">Шпаргалка перед ключом</h2>
+<ul>
+<li>[ ] Герой: <strong>Пожиратель душ</strong> (или <strong>Сан'layn</strong>)</li>
+<li>[ ] Макрос <strong>Заморозки разума</strong> на `@focus`</li>
+<li>[ ] <strong>≥5</strong> стаков <strong>костного щита</strong> перед пулом</li>
+<li>[ ] <strong>ТРО</strong> + <strong>Кровь вампира</strong> на жирные паки</li>
+<li>[ ] <strong>Контроль над нежитью</strong> — макрос для <strong>Ямы Сарона</strong> / <strong>Пещер Маисара</strong></li>
+<li>[ ] Фарм: <strong>Пещеры Маисара</strong>, <strong>Академия Алгет'ар</strong>, <strong>Шпили Ветрокрылых</strong></li>
+</ul>
+<hr>
+<h1 id="часть-3-кулдауны-утилити-аффиксы">ЧАСТЬ 3. Кулдауны, утилити, аффиксы</h1>
+<h2 id="кулдауны-в-ключах">Кулдауны в ключах</h2>
+<table><tbody>
+<tr><th>КД</th><th>Когда</th></tr>
+<tr><td><strong>Кровь вампира</strong></td><td>С <strong>ТРО</strong> или перед спайком</td></tr>
+<tr><td><strong>Танцующее руническое оружие</strong></td><td>Каждый серьёзный пул (~<strong>90 сек</strong>)</td></tr>
+<tr><td><strong>Антимагический панцирь</strong></td><td>Магический урон; <strong>Devour</strong> — можно снять <strong>УС</strong></td></tr>
+<tr><td><strong>Незыблемость льда</strong></td><td>Физ. спайк</td></tr>
+<tr><td><strong>Перерождение</strong></td><td>«Ошибка прощения»</td></tr>
+<tr><td><strong>Антимагическая зона</strong> (талант)</td><td>Групповой магический пак</td></tr>
+</tbody></table>
+<p><strong>Не складывайте</strong> все КД на один момент без нужды.</p>
+<hr>
+<h2 id="утилити-в-ключах">Утилити в ключах</h2>
+<table><tbody>
+<tr><th>Способность</th><th>Зачем</th></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=47528">Заморозка разума</a></td><td>Прерывание — <strong>макрос на фокус</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=207167">Ослепляющая наледь</a></td><td>AoE-стоп (<strong>Вознесённые</strong>)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=49576">Хватка смерти</a></td><td>Сбор / stop-cast</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=108199">Хватка Горфинда</a></td><td>Массовый сбор (не на себя!)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=111673">Контроль над нежитью</a></td><td><strong>Яма Сарона</strong>, <strong>Пещеры Маисара</strong></td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=61999">Воскрешение союзника</a></td><td>Боевой ресс (мгновенный каст)</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=48265">Поступь смерти</a></td><td><strong>Пульсар</strong>, механики</td></tr>
+<tr><td><a href="https://www.wowhead.com/ru/spell=45524">Ледяные оковы</a></td><td>Замедление для кайта</td></tr>
+</tbody></table>
+<p><strong>Макрос Заморозки разума:</strong></p>
+<pre><code>
+#showtooltip Заморозка разума
+
+/stopcasting
+
+/cast [@focus,exists,nodead][@mouseover,exists,nodead][] Заморозка разума
+
+</pre>
+<p><strong>Макрос Контроля над нежитью:</strong></p>
+<pre><code>
+#showtooltip Контроль над нежитью
+
+/target pet
+
+/run PetDismiss()
+
+/cast Контроль над нежитью
+
+/petassist
+
+</pre>
+<hr>
+<h2 id="аффиксы">Аффиксы</h2>
+<table><tbody>
+<tr><th>Аффикс</th><th>Что делать Blood ДК</th></tr>
+<tr><td><strong>Вознесённые</strong></td><td><a href="https://www.wowhead.com/ru/spell=207167">Ослепляющая наледь</a>, <a href="https://www.wowhead.com/ru/spell=47528">Заморозка разума</a></td></tr>
+<tr><td><strong>Пульсар</strong></td><td>Помогайте собирать орбы; <a href="https://www.wowhead.com/ru/spell=48265">Поступь смерти</a></td></tr>
+<tr><td><strong>Связанные с Пустотой</strong></td><td><a href="https://www.wowhead.com/ru/spell=343294">Жнец душ</a> на эмиссария; бурст <strong>ТРО</strong></td></tr>
+<tr><td><strong>Пожирание (Devour)</strong></td><td>Снимайте <strong>Ударом смерти</strong>; <a href="https://www.wowhead.com/ru/spell=48707">АМП</a> — если совсем надо</td></tr>
+</tbody></table>
+<hr>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-mythic-plus-tips">Icy Veins — Blood DK M+</a></li>
+<li><a href="https://www.icy-veins.com/wow/blood-death-knight-pve-tank-rotation-cooldowns-abilities">Icy Veins — ротация</a></li>
+<li><a href="https://www.wowhead.com/ru/talent-calc/death-knight/blood">Wowhead RU — калькулятор талантов</a></li>
+<li><a href="../../site/blood-dk-mplus-ru.html">HTML с тултипами Wowhead</a> (локально: `python scripts/serve_guides.py --build --open`)</li>
+</ul>
+  </article>
+  <script>
+    (function () {
+      if (typeof window.WH !== "undefined") return;
+      function loadFallback() {
+        if (document.querySelector('script[src="tooltips-fallback.js"]')) return;
+        var s = document.createElement("script");
+        s.src = "tooltips-fallback.js";
+        document.body.appendChild(s);
+      }
+      var power = document.querySelector('script[src*="power.js"]');
+      if (power) power.addEventListener("error", loadFallback);
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          if (typeof window.WH === "undefined") loadFallback();
+        }, 5000);
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -33,6 +33,7 @@ $lines = @(
     "put `"$siteDir\brewmaster-monk-mplus-ru.html`" ${remote}brewmaster-monk-mplus-ru.html",
     "put `"$siteDir\shadow-priest-mplus-ru.html`" ${remote}shadow-priest-mplus-ru.html",
     "put `"$siteDir\discipline-priest-mplus-ru.html`" ${remote}discipline-priest-mplus-ru.html",
+    "put `"$siteDir\blood-dk-mplus-ru.html`" ${remote}blood-dk-mplus-ru.html",
     "put `"$siteDir\unholy-dk-mplus-ru.html`" ${remote}unholy-dk-mplus-ru.html",
     "put `"$siteDir\subtlety-rogue-mplus-ru.html`" ${remote}subtlety-rogue-mplus-ru.html",
     "put `"$siteDir\outlaw-rogue-mplus-ru.html`" ${remote}outlaw-rogue-mplus-ru.html",
